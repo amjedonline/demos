@@ -1,0 +1,28 @@
+INTERFACE
+
+- Formatting numbers
+- Formatting lenses
+- Display of types/items in Explore summary. Wrapping gets garbled
+
+- grabbability of links
+- context sensitive commands (command enabled/disabled based on page grabbable etc)
+- expression add/mod/del
+
+- virtual properties
+
+- Status message. Start/Stop etc.
+
+- page operations (hooking up to server functionality)
+
+
+- Grid Layout. Horizontal scroll bars for the browser window (not grid)
+- pagination bar for grid. replace with simpler version?
+
+- visual design incorporation
+
+
+- breadcrumb navigation. type.instance.predicate.
+- history.
+
+- moving to gwt grid
+- explorer compatibility

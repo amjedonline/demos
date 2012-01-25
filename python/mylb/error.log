@@ -1,0 +1,17 @@
+[15/Jun/2010:10:33:46] ENGINE Listening for SIGHUP.
+[15/Jun/2010:10:33:46] ENGINE Listening for SIGTERM.
+[15/Jun/2010:10:33:46] ENGINE Listening for SIGUSR1.
+[15/Jun/2010:10:33:46] ENGINE Bus STARTING
+[15/Jun/2010:10:33:46] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/Jun/2010:10:33:46] ENGINE Started monitor thread 'Autoreloader'.
+[15/Jun/2010:10:33:46] ENGINE Serving on 127.0.0.1:9000
+[15/Jun/2010:10:33:46] ENGINE Bus STARTED
+[15/Jun/2010:10:55:13] ENGINE Keyboard Interrupt: shutting down bus
+[15/Jun/2010:10:55:13] ENGINE Bus STOPPING
+[15/Jun/2010:10:55:13] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 9000)) shut down
+[15/Jun/2010:10:55:13] ENGINE Stopped thread 'Autoreloader'.
+[15/Jun/2010:10:55:13] ENGINE Stopped thread '_TimeoutMonitor'.
+[15/Jun/2010:10:55:13] ENGINE Bus STOPPED
+[15/Jun/2010:10:55:13] ENGINE Bus EXITING
+[15/Jun/2010:10:55:13] ENGINE Bus EXITED
+[15/Jun/2010:10:55:13] ENGINE Waiting for child threads to terminate...

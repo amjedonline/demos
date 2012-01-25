@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<lib:library owner = "John Q. Reader"
+		xmlns:lib = "http://server.domain.tld/NameSpaces/Library">
+	<lib:book>
+		<lib:title>Sandman Volume 1: Predludes and Nocturnes</lib:title>
+		<lib:author>Neil Gaiman</lib:author>
+	</lib:book>
+	<lib:book>
+		<lib:title>Good Omens</lib:title>
+    		<lib:author>Neil Gamain</lib:author>
+		<lib:author>Terry Pratchett</lib:author>
+	</lib:book>
+	<lib:book>
+		<lib:title>"Repent, Harlequin!" Said the Tick-Tock Man</lib:title>
+		<lib:author>Harlan Ellison</lib:author>
+	</lib:book>
+</lib:library>

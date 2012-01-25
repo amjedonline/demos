@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<library owner = "John Q. Reader">
+	<book>
+		<title>Sandman Volume 1: Predludes and Nocturnes</title>
+		<author>Neil Gaiman</author>
+	</book>
+	<book>
+		<title>Good Omens</title>
+    		<author>Neil Gamain</author>
+		<author>Terry Pratchett</author>
+	</book>
+	<book>
+		<title>"Repent, Harlequin!" Said the Tick-Tock Man</title>
+		<author>Harlan Ellison</author>
+	</book>
+</library>

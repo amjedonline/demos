@@ -1,0 +1,7 @@
+This 
+is a text file
+one
+two
+three
+GetAnswer
+This line also has the word GetAnswer which has to be replaced with GetAnswer

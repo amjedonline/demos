@@ -1,0 +1,51 @@
+<library owner="John Q. Reader">
+	
+	
+	<book>
+		
+		
+		<title>
+			Sandman Volume 1: Predludes and Nocturnes
+		</title>
+		
+		
+		<author>
+			Neil Gaiman
+		</author>
+		
+	
+	</book>
+	
+	
+	<book>
+		
+		
+		<title>
+			Good Omens
+		</title>
+		
+    		
+		<author>
+			Neil Gamain
+		</author>
+		
+		
+		<author>
+			Terry Pratchett
+		</author>
+		
+	
+	</book>
+	
+	
+	
+
+	<book>
+		<title>
+			Beginning Title
+		</title>
+		<author>
+			Peter Norton, et al
+		</author>
+	</book>
+</library>
