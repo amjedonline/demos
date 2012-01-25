@@ -1,0 +1,5 @@
+This is the original file for testing if sed can use the same file as input and output.
+
+Here is the list of facts, which we will try to modify with the help of sed command in linux:
+1. Barack Obama is the president of United States Of America.
+2. Mohd Amjed is the Product Engineer of Semgel technologies.

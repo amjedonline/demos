@@ -1,0 +1,10 @@
+10 Ten
+100 Hundred
+1000 Thousand
+10000 Ten thousand
+100000 Hundred thousand
+1000000 Million
+10000000 Ten million
+100000000 Hundred million
+1000000000 Billion 
+

@@ -1,0 +1,9 @@
+This is a document to exhibit the functionalities of sed
+It is derived from the ed editor of Unix OS
+where option can be any of the below:
+-n do not print the file contents
+-f take the instructions from the file
+address can be specified in one of the two formats:
+2.regular expression to match in the line, ex /pattern/
+There are a rich number of commands, that adds enormous power to this filter, some of them i could recollect are:
+p -print the selected line

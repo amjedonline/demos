@@ -1,0 +1,35 @@
+This is a document to exhibit the functionalities of sed
+sed is a powerful editor that operates on stream
+It is derived from the ed editor of Unix OS
+
+The syntax of sed command is as given below:
+
+sed option 'address command' filename
+where option can be any of the below:
+-n do not print the file contents
+-f take the instructions from the file
+-e mulitple expressions
+
+'address command' tuple is called as an instruction
+address can be specified in one of the two formats:
+1.line numbers ex 1, 1,3, 1,$ 
+2.regular expression to match in the line, ex /pattern/
+
+#Important: Escape $ with \ when using in the addressing, else quote with ' and not with "
+
+There are a rich number of commands, that adds enormous power to this filter, some of them i could recollect are:
+p -print the selected line
+q -quit
+! -negate
+s -substitute
+c -copy
+d -delete
+i -insert
+r -replace
+
+Examples:
+1.sed -n /line/p sample.txt 
+2.sed -n -e "1w oneline.txt"  sample.txt # writes first line to oneline.txt
+3.sed -n "1,/OS/p" sample.txt 		#  Combine both the addressing styles, to print from first line till it encounter the word OS
+
+
