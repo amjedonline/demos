@@ -1,0 +1,59 @@
+To insert | at the beginning of the line, use one of the following method
+:1,8s/^/|
+Edit with VISUAL mode as
+	Press Ctrl-V to enter VISUAL mode
+	Use j key to go down through all the lines
+	Now press I to enter the insert mode
+	Now press |, then press Esc	
+
+Command line arguments:
+$* Complete set of positional parameters as single string ( separated by $IFS) 
+$# Number of arguments specified
+$0 Name of the script invoked
+$1 First Positional parameter
+"$@"  Each quoted string treated as separate argument (Separated by space)
+$? Exit status of last executed command
+$$ PID of the current shell
+$! PID of the last background job
+
+Exit status:
+0 - Everything went fine
+1 - Something went wrong
+127 - Command not found
+
+To do mathematic computation, use let, or (())
+sum = $((10+20))
+echo sum
+Dont forget to have the '$' before ((
+
+Arrays:
+Start from 0
+item[2] -> to access 3rd item
+echo "{item[2]}"
+// Does not conflict with variable of same name
+//Notice the paranthesis arround the array name
+// To initialize
+set -A month_array 0 31 29 31 30 31 30 31 31 30 31 30 31
+month_array=(0 31 29 31 30 31 30 31 30 31 30 31 31 30 31 30 31)
+
+if, while, for uses ; end of the condition if it is not an expression(test)
+ex:1. while true; do
+   2. while [ ! -r invoice.lst ] 
+	do
+
+Use of ; at the end of line
+Can be used,to separate the commands
+#!/bin/sh
+#argshort.sh: Shows how one line if can be converted to a single line statement
+
+[ $# -ne 3 ] && (echo "You have not entered 3 arguments";exit 3;)
+echo " Am still alive"
+
+
+#Export
+export #without any argument, to list all the exported variables
+env # also lists exported variables
+
+# . command
+. command runs a shell script in the current shell, even if the file does not have any execute permissions
+ex: . .profile # no need to logout and login

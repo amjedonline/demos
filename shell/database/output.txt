@@ -1,0 +1,5 @@
+userid	username	password	email	password_reset_token
+1	infospace	info1@#$	infospace@semgel.com	
+2	betauser	semgelprivatebeta	privatebeta@semgel.com	
+3	amjed	64a946e48c63b84af175131790af12e3	amjed@semgel.com	
+4	testuser999	7925eb1ec6678b16938d8a98a7f829e0	testuser@semgel.com	f54e8416-f9a6-4d22-90c3-7850f56943c4

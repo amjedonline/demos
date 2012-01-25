@@ -1,0 +1,8 @@
+To insert | at the beginning of the line, use one of the following method
+:1,8s/^/|
+Edit with VISUAL mode as
+	Press Ctrl-V to enter VISUAL mode
+	Use j key to go down through all the lines
+	Now press I to enter the insert mode
+	Now press |, then press Esc	
+

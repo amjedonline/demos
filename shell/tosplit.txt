@@ -1,0 +1,4 @@
+This file needs to be split.
+*.nix shell has a very strong set of tools in its arsenal to tackle literally any sort of text processing challenges.
+cut, split, sed, grep, awk are few tools which are very handly to a system engineer.
+Mastering these skills is worth.

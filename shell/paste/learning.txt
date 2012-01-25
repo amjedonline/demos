@@ -1,0 +1,4 @@
+TO join the lines in the addressbook.txt, use this command
+paste -s -d "||\n" addressbook.txt
+-s options joins the lines
+multiple delimiter string is used in circular manner
