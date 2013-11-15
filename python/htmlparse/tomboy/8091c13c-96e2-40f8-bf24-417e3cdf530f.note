@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Databases</title>
+  <text xml:space="preserve"><note-content version="0.1">Databases
+
+A structured collection of records or data that is stored in a computer so that a program can consult it to answer queries.
+
+<link:internal>Types</link:internal>:
+Hierarchical
+Network
+Relational
+Object Relational
+
+
+<bold>B-Tree</bold>
+Generalization of a binary search tree in that a node can have more than two children.
+
+Not <link:internal>Self</link:internal>-Balanced
+
+Optimized for systems that read and write large blocks of data.
+
+
+
+<link:internal>Tips</link:internal>:
+Bucket -&gt; Hash table, Index</note-content></text>
+  <last-change-date>2010-10-28T20:33:22.0040700+05:30</last-change-date>
+  <last-metadata-change-date>2010-10-28T20:33:22.0040700+05:30</last-metadata-change-date>
+  <create-date>2010-10-28T10:05:40.7653170+05:30</create-date>
+  <cursor-position>373</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Tech junks</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

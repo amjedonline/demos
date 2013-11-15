@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>to watch - movies</title>
+  <text xml:space="preserve"><note-content version="0.1">to watch - movies
+
+
+ghost in the shell
+apple seed
+
+deus ex maschina
+</note-content></text>
+  <last-change-date>2011-12-26T13:10:52.3565540+01:00</last-change-date>
+  <last-metadata-change-date>2011-12-26T13:10:52.3567930+01:00</last-metadata-change-date>
+  <create-date>2011-12-26T13:10:34.9638040+01:00</create-date>
+  <cursor-position>39</cursor-position>
+  <selection-bound-position>39</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>465</x>
+  <y>378</y>
+  <tags>
+    <tag>system:notebook:Personal</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

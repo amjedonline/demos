@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>August 10th</title>
+  <text xml:space="preserve"><note-content version="0.1"><link:internal>August</link:internal> 10th
+
+
+<bold>To Fix</bold>
+<strikethrough>In review tab, move the delete button to Action commands</strikethrough>
+Operations in Explore list view
+Refresh Highlighting in explore button
+Bookmark button in the Right buttons
+<strikethrough>Help message</strikethrough>
+Never show URI and Urls
+Pagination in Explore list view
+Labels in list view for items (like experience)
+<strikethrough>Drop down list</strikethrough>
+
+<bold>Need Prasad for</bold>
+• The <link:internal>status message</link:internal> should not be on <link:internal>top</link:internal> of the HOME &gt; GATHER etc
+• Help message
+• Browser scroll bar should not appear
+∘ Left panel scroll should appear
+∘ Main panel scroll bar
+• <link:internal>Grid</link:internal> should take full size
+• Item title is pushed to the right in
+• Space name div should be wider</note-content></text>
+  <last-change-date>2010-08-13T10:26:03.4676450+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-13T10:26:03.4676450+05:30</last-metadata-change-date>
+  <create-date>2010-08-10T11:54:40.0362330+05:30</create-date>
+  <cursor-position>222</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Daily</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

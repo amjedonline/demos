@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Meeting with Andrea Schaefar on KM</title>
+  <text xml:space="preserve"><note-content version="0.1">Meeting with Andrea Schaefar on KM 
+
+Number of users: 1000 users.
+
+
+Show power point
+Prototype with Knowledge management
+	search functionality across the content sources
+		wiki	
+		blogs
+		documents
+		articles
+		user
+		groups
+		communities
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<bold><size:large>Action Items:</size:large></bold>
+
+<bold>Andrea schaefar:</bold>
+<list><list-item dir="ltr">Mail the power point presentation to Amjed
+</list-item><list-item dir="ltr">Mail example content to Amjed
+</list-item><list-item dir="ltr">Information about the tools already being used in VW HR wissenmanagement system ex: SAP..</list-item></list>
+
+<bold>Mohd Amjed</bold>
+<list><list-item dir="ltr">Working prototype
+</list-item><list-item dir="ltr">Slides/screenshots 
+</list-item><list-item dir="ltr">Slides on the search functionality
+<list><list-item dir="ltr">What could be searched</list-item></list></list-item></list>
+</note-content></text>
+  <last-change-date>2011-04-06T11:37:34.0340240+02:00</last-change-date>
+  <last-metadata-change-date>2011-04-06T11:37:34.0340240+02:00</last-metadata-change-date>
+  <create-date>2011-04-06T11:06:00.2789630+02:00</create-date>
+  <cursor-position>262</cursor-position>
+  <selection-bound-position>262</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Hexad</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

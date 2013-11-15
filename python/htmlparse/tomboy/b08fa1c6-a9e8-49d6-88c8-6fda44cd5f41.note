@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>host - networking</title>
+  <text xml:space="preserve"><note-content version="0.1">host - networking
+
+<bold>host</bold> 
+Give a host name and the command will return IP address. 
+Unlike nslookup, the host command will use both <link:url>/etc/hosts</link:url> as well as <link:internal>DNS</link:internal>.
+
+Example: <italic>host domain-name-of-server</italic>
+-v --Verbose
+
+helpful in getting the domain, <link:internal>dns</link:internal>, IP Address of the given host</note-content></text>
+  <last-change-date>2010-12-24T08:51:42.9068760+05:30</last-change-date>
+  <last-metadata-change-date>2010-12-24T08:51:42.9068760+05:30</last-metadata-change-date>
+  <create-date>2010-12-24T08:49:51.5348680+05:30</create-date>
+  <cursor-position>194</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

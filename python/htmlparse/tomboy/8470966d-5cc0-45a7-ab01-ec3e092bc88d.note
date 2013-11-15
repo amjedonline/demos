@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Humour</title>
+  <text xml:space="preserve"><note-content version="0.1">Humour
+
+<link:internal>Types</link:internal>:
+<list><list-item dir="ltr">Turn of Phrase
+</list-item><list-item dir="ltr">The Pun
+</list-item><list-item dir="ltr">Exaggeration
+</list-item><list-item dir="ltr">Understatement
+</list-item><list-item dir="ltr">Irony
+</list-item><list-item dir="ltr">Sarcasm
+</list-item><list-item dir="ltr">Satire</list-item></list>
+
+Humour Dies
+Announced and not told in a straight face
+If you laugh before audience does.
+Fumble over words
+Stumble during punch line
+Is not natural
+</note-content></text>
+  <last-change-date>2010-10-30T13:04:50.4278720+05:30</last-change-date>
+  <last-metadata-change-date>2010-10-30T13:04:50.4278720+05:30</last-metadata-change-date>
+  <create-date>2010-10-30T13:00:47.0300960+05:30</create-date>
+  <cursor-position>197</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Personal</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>twitter oauth</title>
+  <text xml:space="preserve"><note-content version="0.1">twitter oauth
+
+<bold>Steps</bold>
+    * Retrieve a request token from <link:internal>twitter</link:internal>
+    * Redirect the user to <link:internal>twitter</link:internal>, where he has to authorize the request token
+    * Exchange the request token for an access token
+    * Use the (protected) API with the access token
+
+<bold><link:internal>twicing</link:internal></bold><bold> keys</bold>
+#  Consumer key
+MgEyBtYCdL4gh3ZVAE1GDg
+# Consumer secret
+bwuxQruW7Dmug9JZPm3OsZY1JBJTGiyUsyHgKgygh9w
+# Request token URL
+<link:url>http://<link:internal>twitter</link:internal></link:url><link:url>.com/oauth/request_token</link:url>
+# Access token URL
+<link:url>http://<link:internal>twitter</link:internal></link:url><link:url>.com/oauth/access_token</link:url>
+# Authorize URL
+<link:url>http://<link:internal>twitter</link:internal></link:url><link:url>.com/oauth/authorize</link:url></note-content></text>
+  <last-change-date>2010-07-28T21:33:45.3938909+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T21:59:47.2664670+05:30</last-metadata-change-date>
+  <create-date>2010-07-28T21:22:12.8254670+05:30</create-date>
+  <cursor-position>399</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:twitter</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

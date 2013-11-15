@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>From gwt 1.7 to gwt 2.0.1</title>
+  <text xml:space="preserve"><note-content version="0.1">From gwt 1.7 to gwt 2.0.1
+
+mvn install:install-file -DgroupId=com.google.<link:internal>gwt</link:internal> -DartifactId=<link:internal>gwt</link:internal>-user -Dversion=2.0.1 -Dfile=<link:internal>gwt</link:internal>-user.jar -DgeneratePom=true -Dpackaging=jar
+mvn install:install-file -DgroupId=com.google.<link:internal>gwt</link:internal> -DartifactId=<link:internal>gwt</link:internal>-servlet -Dversion=2.0.1 -Dfile=<link:internal>gwt</link:internal>-servlet.jar -DgeneratePom=true -Dpackaging=jar
+
+For <link:internal>gxt</link:internal>
+mvn install:install-file -DgroupId=com.extjs -DartifactId=<link:internal>gxt</link:internal> -Dversion=2.1.1 -Dfile=<link:internal>gxt</link:internal>.jar -DgeneratePom=true  -Dpackaging=jar</note-content></text>
+  <last-change-date>2010-02-19T16:18:44.6361670+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.9130180+05:30</last-metadata-change-date>
+  <create-date>2010-02-18T00:23:28.6637130+05:30</create-date>
+  <cursor-position>456</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:maven</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

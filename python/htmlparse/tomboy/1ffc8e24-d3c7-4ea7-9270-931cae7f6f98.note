@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Linux D-Bus</title>
+  <text xml:space="preserve"><note-content version="0.1">Linux D-Bus
+
+A message bus system for applications to talk to one <link:internal>another</link:internal>, IPC
+Supplies
+<bold>System daemon</bold> for events such as "new hardware device added" or "printer queue changed"
+<bold>Per-user-login-session</bold> 
+	For general IPC needs among user application
+
+Developed for applications on one computer.
+Canbe used on <italic>unencrypted</italic> TCPIC, may be behind firewall.
+<bold>libdbus</bold>
+	reference implementation, requires no dependencies, except XML Parser(libxml or expat)
+Particular <link:internal>frameworks</link:internal> have high-level bindings like QT, GLib, Java, C#, Python)
+Reference implementations are not for app authors to user, rather for binding authors and a reference for reimplementations.
+POrtable on Unix/Linux, work for windows is in progress.
+
+</note-content></text>
+  <last-change-date>2011-07-14T11:21:57.7403000+05:30</last-change-date>
+  <last-metadata-change-date>2011-07-14T11:21:57.7403000+05:30</last-metadata-change-date>
+  <create-date>2011-07-14T11:15:11.3397510+05:30</create-date>
+  <cursor-position>443</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

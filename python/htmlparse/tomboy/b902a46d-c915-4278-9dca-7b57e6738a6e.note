@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>logging in Java</title>
+  <text xml:space="preserve"><note-content version="0.1"><link:internal>logging</link:internal> in Java
+
+<bold><link:internal>Log4J</link:internal></bold><bold> </bold>- Apache <link:internal>logging</link:internal> framework, not being actively developed.
+The original author has witched to SLF4J.
+Intended to be succeeded with logback.
+
+
+<bold>SLF4j</bold> - Simple <link:internal>Logging</link:internal> Facade for Java
+A facade for <link:internal>logging</link:internal>.
+Can be used with <link:internal>log4j</link:internal>, java.util.<link:internal>logging</link:internal>, logback
+More of a replacement for commons-<link:internal>logging</link:internal> framework.
+
+Must use any of the bindings for <link:internal>log4j</link:internal>, java.util.<link:internal>logging</link:internal> or logback
+
+If no binding is found in classpath, it defaults to no operation.
+
+
+
+
+
+
+</note-content></text>
+  <last-change-date>2011-12-02T14:00:42.4939450+01:00</last-change-date>
+  <last-metadata-change-date>2011-12-02T14:00:42.4988780+01:00</last-metadata-change-date>
+  <create-date>2011-12-02T13:55:05.4371720+01:00</create-date>
+  <cursor-position>329</cursor-position>
+  <selection-bound-position>329</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Java</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

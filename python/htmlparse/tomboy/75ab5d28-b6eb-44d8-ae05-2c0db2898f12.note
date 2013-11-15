@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>timeline of new UI work  week</title>
+  <text xml:space="preserve"><note-content version="0.1">timeline of new UI work  week
+
+<bold><link:internal>July 21</link:internal></bold>
+
+<bold>Home page:</bold> Estimated 3hr
+<list><list-item dir="ltr">To space information data structure, add on the server and the client - 1hr
+<list><list-item dir="ltr">Number of pages and triples and number of 
+</list-item><list-item dir="ltr">Page titles information 
+</list-item><list-item dir="ltr">Image for the space
+</list-item><list-item dir="ltr">Create the image for the space and save it on the server. - NA
+</list-item></list></list-item><list-item dir="ltr">Modify the parser to parse this information - 
+</list-item><list-item dir="ltr">Create the new Home tab
+</list-item><list-item dir="ltr">Modify the UI binder in the space Widget - 1 hr
+</list-item><list-item dir="ltr">Modify the Page layout - 1 hr</list-item></list>
+<bold><link:internal>Learning</link:internal></bold><bold>
+</bold>Javascript, events in the select
+<bold>Spent Around 3 hrs</bold>
+
+
+<bold>Add the head band - </bold>Not estimated
+<list><list-item><list><list-item dir="ltr">Create UI binder xml
+</list-item><list-item dir="ltr">Create widget class with methods to add the contents in real estates</list-item></list></list-item></list>
+<bold>Learnings</bold>
+<list><list-item dir="ltr">Didnt think about the tab view integration</list-item></list>
+<bold>Spent - 2 hrs</bold>
+
+<bold>Explorer View tabs - </bold>Not estimated
+<list><list-item dir="ltr">Refactor the newtabbar, tabpanel and tab container 1
+</list-item><list-item dir="ltr">Create tabbar for the explorer tabs 1 
+</list-item><list-item dir="ltr">Create the Explorer tab for the main container 1</list-item></list>
+<bold>Spent time</bold> - 3<bold>hrs</bold></note-content></text>
+  <last-change-date>2011-02-02T18:55:57.1708370+05:30</last-change-date>
+  <last-metadata-change-date>2011-02-02T18:55:57.1708370+05:30</last-metadata-change-date>
+  <create-date>2010-07-21T13:05:03.1294890+05:30</create-date>
+  <cursor-position>919</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

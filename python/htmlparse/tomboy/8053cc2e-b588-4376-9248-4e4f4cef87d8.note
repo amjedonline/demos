@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>functions</title>
+  <text xml:space="preserve"><note-content version="0.1">functions
+
+Functions have properties.
+These properties can be listed with dir() function
+
+__doc__ is one such property which is the document string of the function.
+ex: in_fridge.__doc__
+
+
+The function creates a new space in which names can be reused and re-created without affecting the same names if they exist
+in other spaces in your program.
+
+
+Functions can modify the values in the global object, but cannot change the reference to point to something else
+
+<bold>Scopes</bold>
+<bold>Global</bold>: 
+1.Names defined at the <link:internal>top</link:internal> level of the code, they can be accessed from any part of the code.
+2.Any name in the <link:internal>top</link:internal>-level scope can be reused in a lower-level scope without affecting the data referred
+to by the <link:internal>top</link:internal>-level name.
+
+<bold>Local</bold>: 
+1.Are declared and accessible only within the declaring function.
+
+
+On <bold>redefining</bold> the function, the last one simply overrides the older one, just like the variable assignment
+
+<bold>Dynamic type advantage</bold> : You can write a single function that can take
+more than one type as its parameter and then decide how the function should behave based on the type
+it is given. Which approach you take depends on what you need to do in your own program.
+
+
+<bold>type function:</bold>
+type({}) gives dict type as the return, this can be used to compare a value type in the if condition
+
+
+<bold>Default values to the function parameters:</bold>
+def make_omelet2(omelet_type = “cheese”):<bold>
+
+== to compare the string values</bold>
+
+<bold>Raising Errors</bold>
+raise TypeError, "No such omelete type %s" %omelet type
+
+
+<bold>Call Stack</bold>
+Call Stack listing in Python is inverse, it print sequentially ( <link:internal>top</link:internal> most element is the first called function, and the stack goes down)
+
+<bold><italic>while</italic></bold><bold> and <italic>for</italic></bold><bold> loops</bold>	- <bold>repetitions</bold>
+
+
+while condition:
+	print xyz
+
+for x in collection:
+	print x
+
+for x in condn:
+	//do something
+else:
+	// this exec if break was not encountered in for loop
+
+<bold><link:internal>lambda</link:internal></bold>
+The functions that <link:internal>lambda</link:internal> creates are called anonymous functions because of their lack of a name.
+Can’t contain statements, such as creating a name for a variable.
+Can only do test, validation and use variables passed in. 
+Can't do things like if else.
+</note-content></text>
+  <last-change-date>2010-03-30T19:29:27.2809950+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.6807990+05:30</last-metadata-change-date>
+  <create-date>2010-03-26T22:07:25.5015610+05:30</create-date>
+  <cursor-position>2062</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>1</x>
+  <y>48</y>
+  <tags>
+    <tag>system:notebook:python</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

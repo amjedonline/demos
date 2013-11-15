@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>JUnit JavaDoc</title>
+  <text xml:space="preserve"><note-content version="0.1">JUnit JavaDoc
+
+/**
+ * A command line based tool to run tests.
+ * &lt;pre&gt;
+ * java junit.textui.TestRunner [-wait] TestCaseClass
+ * &lt;/pre&gt;
+ * TestRunner expects the name of a TestCase class as argument.
+ * If this class defines a static &lt;code&gt;suite&lt;/code&gt; method it 
+ * will be invoked and the returned test is run. Otherwise all 
+ * the methods starting with "test" having no arguments are run.
+ * &lt;p&gt;
+ * When the wait command line argument is given TestRunner
+ * waits until the users <link:internal>types</link:internal> RETURN.
+ * &lt;p&gt;
+ * TestRunner prints a trace as the tests are executed followed by a
+ * summary at the end. 
+ */
+ </note-content></text>
+  <last-change-date>2010-11-07T12:29:51.3401960+05:30</last-change-date>
+  <last-metadata-change-date>2010-11-07T12:29:51.3401960+05:30</last-metadata-change-date>
+  <create-date>2010-11-07T12:29:44.2368130+05:30</create-date>
+  <cursor-position>15</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Java</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

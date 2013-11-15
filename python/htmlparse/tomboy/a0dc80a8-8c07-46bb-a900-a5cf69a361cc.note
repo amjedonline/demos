@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Todo on June 23</title>
+  <text xml:space="preserve"><note-content version="0.1">Todo on June 23
+
+Book the tickets
+Talk to <link:internal>nasir</link:internal>
+Talk to mom
+Catch up with <link:internal>Anthony</link:internal>
+Book the tickets for Gulbarga visit
+
+<link:internal>Read up on</link:internal> managing time efficiently
+<link:internal>Read up on</link:internal> Word power
+<link:internal>Read up on</link:internal> EC2/python
+<link:internal>Read up on</link:internal> Entrepreneurship
+Offer Namaz at 5PM
+Rent to Landlord</note-content></text>
+  <last-change-date>2010-10-29T22:40:37.0415490+05:30</last-change-date>
+  <last-metadata-change-date>2010-10-29T22:40:37.0415490+05:30</last-metadata-change-date>
+  <create-date>2010-06-23T11:11:05.8438230+05:30</create-date>
+  <cursor-position>123</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Daily todo</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

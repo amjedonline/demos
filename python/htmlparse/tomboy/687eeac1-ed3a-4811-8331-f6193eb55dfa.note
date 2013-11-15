@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Simple past tense - Präteritum</title>
+  <text xml:space="preserve"><note-content version="0.1">Simple past tense - Präteritum
+
+Weak verbs form simple past by adding 
+-(e)te, 
+-(e)test,
+-(e)ten,
+-(e)tet,
+
+to the stemp
+sag 		- sagte
+mach 	- machten
+kauf 	- kauftest
+wohn	- wontet
+arbeit	- arbeiteten
+regen	- regnete
+reden 	- redeten
+
+<bold>Weak verbs</bold>
+Ich sagter das
+wir machten die Tür zu
+<link:internal>Du</link:internal> kauftest zu viel
+Ihr wohntet neben uns
+Sie arbeiteten hart.
+Es regenete stark.
+Sie redeten viel. 
+
+
+<bold>Irregular weak verbs</bold>
+will 		- wollte
+durf 		- drften
+nenn		- nanntest
+weiss	- wusstest
+kan		- konnten
+bringt	- brachte
+brant	- verbrannten
+
+
+Ich wollte das hören
+Wir durften das nicht sagen
+<link:internal>Du</link:internal> nanntest ihn Hans
+Ihr wusstet das schon
+Sie konnten das nicht wissen
+Sie brachte den Wein
+Sie verbrannten die Bücher
+
+<bold>Strong verbs</bold>
+gehen	- ging
+sehen	- sahen
+sprechen	- sprachst
+helf		- halfst
+schafen	- schliefen
+lese		- las
+<link:internal>schrieben</link:internal>	- scheiben
+
+<bold>Strong verbs</bold> usage
+Ich ging nach Hause.
+Wir sahen ihn nicht
+<link:internal>Du</link:internal> sprachst zu schnell
+Ihr halfst uns nicht
+Sie schliefen lang
+Sie las das Buch
+	</note-content></text>
+  <last-change-date>2011-08-23T11:17:24.7341350+02:00</last-change-date>
+  <last-metadata-change-date>2012-04-14T22:04:06.4838240+02:00</last-metadata-change-date>
+  <create-date>2011-08-23T09:50:36.2554700+02:00</create-date>
+  <cursor-position>969</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>152</x>
+  <y>115</y>
+  <tags>
+    <tag>system:notebook:German</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Ubuntu personalization</title>
+  <text xml:space="preserve"><note-content version="0.1">Ubuntu personalization
+
+Create a <link:url>~/.fonts.conf</link:url> file with the below contents
+
+&lt;?xml version="1.0" ?&gt;
+&lt;!DOCTYPE fontconfig SYSTEM "fonts.dtd"&gt;
+&lt;fontconfig&gt;
+&lt;match target="font"&gt;
+&lt;edit name="autohint" mode="assign"&gt;
+&lt;bool&gt;true&lt;/bool&gt;
+&lt;/edit&gt;
+&lt;/match&gt;
+&lt;/fontconfig&gt;
+</note-content></text>
+  <last-change-date>2010-01-06T23:37:35.6289259+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:05.2897520+05:30</last-metadata-change-date>
+  <create-date>2010-01-06T23:35:21.4787610+05:30</create-date>
+  <cursor-position>247</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

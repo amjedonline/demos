@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Meeting with Ralf</title>
+  <text xml:space="preserve"><note-content version="0.1">Meeting with Ralf
+
+<bold>Agenda:</bold>
+Fixed the <link:internal>installation</link:internal> issue.
+Discussed on the UI <link:internal>Issues</link:internal> that needs to be fixed
+
+Security
+<list><list-item dir="ltr">Authentication
+<list><list-item dir="ltr">Yevheni to give solution for Infrastructure
+</list-item></list></list-item><list-item dir="ltr">Authorization
+<list><list-item dir="ltr">Can we map from <link:internal>LDAP</link:internal> Roles to Liferay Roles ?</list-item></list></list-item></list>
+
+<link:internal>Questions</link:internal> needs to be answered:
+<list><list-item dir="ltr">Which directory to connet</list-item></list>
+
+
+
+User roles:
+	General access
+	
+<bold>	Internal </bold>
+	VW IA Users
+		- Technical services
+		- CSP, CCP ...
+
+<bold>	External</bold>
+	Retail User
+	Supplier User
+	Whole sale
+	
+<bold><size:large>Content management</size:large></bold>
+
+<bold>Service respository</bold>:
+<list><list-item dir="ltr">Review, kind of workflow
+<list><list-item dir="ltr">Ensure integrity
+</list-item><list-item dir="ltr">Completion</list-item></list></list-item></list>
+
+<list><list-item dir="ltr">Version-ing for 
+<list><list-item dir="ltr">rollback and restore
+</list-item><list-item dir="ltr">record of the last release</list-item></list></list-item></list>
+
+<list><list-item dir="ltr">Means to pull data into storage
+<list><list-item dir="ltr">Decide on storage - DBFS or Jackrabbit
+</list-item><list-item dir="ltr">Frequency
+</list-item><list-item dir="ltr">Currently <link:internal>ANT</link:internal> Script
+</list-item><list-item dir="ltr">XSLT Transformation from wsdl to <link:internal>HTML</link:internal>. Word to PDF</list-item></list></list-item></list>
+
+<list><list-item dir="ltr">Means to dump existing data	</list-item></list>
+
+
+<bold>Structure of the service in the repository:</bold>
+<bold>Before tX:</bold>
+All in One
+Doc
+V1
+	wsdl
+	doc
+V1
+	wsdl
+	docx
+
+<bold>After tX:</bold>
+All in One
+doc
+v1
+	wsdl
+	<link:internal>html</link:internal>
+	pdf
+
+v2
+	wsdl
+	<link:internal>html</link:internal>
+	pdf
+</note-content></text>
+  <last-change-date>2011-03-30T15:34:21.2706540+02:00</last-change-date>
+  <last-metadata-change-date>2011-03-30T15:34:21.2706540+02:00</last-metadata-change-date>
+  <create-date>2011-03-30T14:32:34.4990660+02:00</create-date>
+  <cursor-position>337</cursor-position>
+  <selection-bound-position>337</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

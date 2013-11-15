@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Sr Software Engineer</title>
+  <text xml:space="preserve"><note-content version="0.1">Sr Software Engineer
+
+To add to our team of experts, we are hiring experienced programmers to work with us on our online and <link:internal>web services</link:internal> platform.
+
+Apply if:
+You believe, making things work the way they are supposed to is integral part of life.
+
+Have the ability to understand the problem with different perspectives and come up with multiple solutions. 
+
+Have the ability to implement business requirements coupled with right communication skills
+
+Possess excellent development and debugging skills.
+
+
+<bold>Skills:</bold>
+
+Java , J2EE  <link:internal>frameworks</link:internal> like Spring, <link:internal>Struts</link:internal>, Hibernate.
+Desirable to have worked on atleast one Portal server like Liferay, IBM Websphere.
+Experience in Liferay will be an added advantage.
+Nice to have understanding of design patterns.
+Must have understanding of <link:internal>JSP</link:internal> and tag libraries.
+Understanding of any DBMS like <link:internal>MySQL</link:internal>, Oracle or SQL Server.
+Javascript, Ajax, UI toolkits like Jquery / YUI / Dojo
+
+
+
+<bold>Responsibilities:</bold>
+
+Develop solutions according to business requirements.
+Code and debug new and existing software. 
+Follow industry standard design and development patterns.
+Participate in the Agile development activities.
+Ensure build integrity by writing and maintaining unit tests.
+Maintain and support code with build tools.
+Ensure on time delivery of the deliverables.
+
+
+
+<bold>Experience</bold>
+3-7 years
+
+
+</note-content></text>
+  <last-change-date>2011-07-07T17:15:54.9564350+05:30</last-change-date>
+  <last-metadata-change-date>2011-07-07T17:15:54.9564350+05:30</last-metadata-change-date>
+  <create-date>2011-03-31T16:34:36.8932640+05:30</create-date>
+  <cursor-position>0</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Interview Questions</title>
+  <text xml:space="preserve"><note-content version="0.1">Interview Questions
+
+session.save() : Save does an insert and will fail if the primary key is already persistent.
+session.saveOrUpdate() : saveOrUpdate does a select first to determine if it needs to do an insert or an update.
+
+17.What is the difference between and merge and update ?
+Use update() if you are sure that the session does not contain an already persistent instance with the same identifier, 
+and merge() if you want to merge your modifications at any time without consideration of the state of the session.
+
+session.save() return Serializable object but session.persist() return void.</note-content></text>
+  <last-change-date>2010-11-07T12:26:28.4342390+05:30</last-change-date>
+  <last-metadata-change-date>2010-11-07T12:26:28.4342390+05:30</last-metadata-change-date>
+  <create-date>2010-11-07T12:26:19.5334700+05:30</create-date>
+  <cursor-position>9</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Hibernate</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

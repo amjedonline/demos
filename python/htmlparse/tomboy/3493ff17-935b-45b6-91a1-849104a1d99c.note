@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Sprint note - 1</title>
+  <text xml:space="preserve"><note-content version="0.1">Sprint note - 1
+
+A key goal of spring is to be as non invasive as possible
+
+
+To use common annotations
+&lt;context:annotation-config/&gt;
+
+Properties loader bean: implementation of BeanFactoryPostProcessor
+&lt;bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"&gt;
+   &lt;property name="location" value="classpath:jdbc.properties"/&gt;
+&lt;/bean&gt; 
+
+To always use JNDI to resolve dependencies
+&lt;bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"&gt;
+   &lt;property name="alwaysUseJndiLookup" value="true"/&gt;
+&lt;/bean&gt;
+
+JNDI lookup of the bean
+&lt;jee:jndi-lookup id="dataSource" jndi-name="java:comp/env/jdbc/petclinic"/&gt;
+
+Fallback to the default type match, to resolve the bean.
+&lt;bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"&gt;
+   &lt;property name="fallbackToDefaultTypeMatch" value="false"/&gt;
+&lt;/bean&gt; 
+
+Addition of context <link:internal>namespace</link:internal> in Spring 2.5
+&lt;context:property-placeholder location="classpath:jdbc.properties"/&gt; 
+
+
+
+
+
+<bold>2.5</bold>
+
+Handler Mappings
+
+* BeanNameURLHandlerMapping
+
+&lt;bean name="/reservationQuery.htm"
+class="com.springframework.web.mvc.controller.BeanNameURLHandler"&gt;
+...
+&lt;/bean&gt;
+
+&lt;bean name="/reservationQuery.htm"
+class="com.apress.springrecipes.court.web.ReservationQueryController"&gt;
+...
+&lt;/bean&gt;
+
+
+*Controller Class Names
+
+&lt;bean class="org.springframework.web.servlet.mvc.support.å
+ControllerClassNameHandlerMapping"&gt;
+&lt;property name="caseSensitive" value="true" /&gt;
+&lt;property name="pathPrefix" value="/reservation" /&gt;
+&lt;/bean&gt;
+&lt;bean class="com.apress.springrecipes.court.web.WelcomeController"&gt;
+...
+&lt;/bean&gt;
+&lt;bean class="com.apress.springrecipes.court.web.ReservationQueryController"&gt;
+...
+&lt;/bean&gt;
+
+WelcomeController Ô <link:url>/reservation/web/welcome</link:url>*
+ReservationQueryController Ô <link:url>/reservation/web/reservationQuery</link:url>*
+
+
+* Custom Mapping definition ( SimpleUrlHandlerMapping
+
+&lt;bean class="org.springframework.web.servlet.handler.å
+SimpleUrlHandlerMapping"&gt;
+&lt;property name="mappings"&gt;
+&lt;props&gt;
+&lt;prop key="/welcome.htm"&gt;welcomeController&lt;/prop&gt;
+&lt;prop key="/reservationQuery.htm"&gt;
+reservationQueryController
+&lt;/prop&gt;
+&lt;/props&gt;
+&lt;/property&gt;
+&lt;propert name="order" value="1"/&gt;
+&lt;/bean&gt;
+&lt;bean id="welcomeController"
+class="com.apress.springrecipes.court.web.WelcomeController"&gt;
+...
+&lt;/bean&gt;
+&lt;bean id="reservationQueryController"
+class="com.apress.springrecipes.court.web.ReservationQueryController"&gt;
+...
+&lt;/bean&gt;
+
+
+When choosing more than one strategy at the same time, its <link:internal>important</link:internal> to specify the
+mapping priority. You can set the order properties of the handler mapping beans.
+
+**	Handler interceptors
+&lt;bean id="measurementInterceptor"
+class="com.apress.springrecipes.court.web.MeasurementInterceptor" /&gt;
+&lt;bean
+class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping"&gt;
+&lt;property name="interceptors"&gt;
+&lt;list&gt;
+&lt;ref bean="measurementInterceptor" /&gt;
+&lt;/list&gt;
+&lt;/property&gt;
+
+Must implement HandlerInterceptor interface
+
+override 
+public boolean preHandle(HttpServletRequest request,
+	HttpServletResponse response, Object handler) throws Exception
+	
+	public boolean postHandle(HttpServletRequest request,
+	HttpServletResponse response, Object handler) throws Exception
+	
+	public boolean afterCompletion(HttpServletRequest request,
+	HttpServletResponse response, Object handler, Exception ex) throws Exception
+	
+ContextLoaderListener loads the specified bean configuration files into the root
+application context, while each DispatcherServlet instance loads its configuration file into its
+own application context and refers to the root application context as its parent.
+
+Properties loader bean: implementation of BeanFactoryPostProcessor
+
+&lt;bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"&gt;
+   &lt;property name="location" value="classpath:jdbc.properties"/&gt;
+&lt;/bean&gt; 
+</note-content></text>
+  <last-change-date>2010-11-07T12:34:53.2210870+05:30</last-change-date>
+  <last-metadata-change-date>2010-11-07T12:34:53.2210870+05:30</last-metadata-change-date>
+  <create-date>2010-11-07T12:34:12.9669250+05:30</create-date>
+  <cursor-position>370</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Spring</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Phone numbers</title>
+  <text xml:space="preserve"><note-content version="0.1">Phone numbers
+
+Caterer Sheela 9845627443
+
+Ajanta Hotel 08025201199</note-content></text>
+  <last-change-date>2010-01-22T10:56:02.4340060+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:04.0883660+05:30</last-metadata-change-date>
+  <create-date>2009-12-08T12:00:41.9189650+05:30</create-date>
+  <cursor-position>40</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:misc</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Liferay - Jackrabbit - repository.xml</title>
+  <text xml:space="preserve"><note-content version="0.1">Liferay - Jackrabbit - repository.xml
+
+Total 2 places <link:internal>mysql</link:internal> credentials are required.
+
+<bold>&lt;filesystem&gt;</bold> - DbFileSystem
+<bold>&lt;Workspace&gt;</bold>:
+	&lt;PersistenceManager&gt; - SimpleDbPersistenceManager
+	&lt;filesystem&gt; - DbFileSystem
+<bold>&lt;/workspace&gt;</bold>
+
+<bold>&lt;Versioning&gt;</bold>
+	Filesystem
+	PersistenceManager
+<bold>&lt;/versioning&gt;</bold>
+
+<bold>&lt;Cluster&gt;</bold> - Journaling
+ </note-content></text>
+  <last-change-date>2011-03-26T09:29:08.2652120+01:00</last-change-date>
+  <last-metadata-change-date>2011-03-26T09:29:08.2652120+01:00</last-metadata-change-date>
+  <create-date>2011-03-26T09:27:26.9257000+01:00</create-date>
+  <cursor-position>39</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Liferay</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

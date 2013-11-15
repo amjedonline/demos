@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>django experience</title>
+  <text xml:space="preserve"><note-content version="0.1">django experience
+
+<link:internal>sudo</link:internal> apt-get install python-django
+
+django-admin startproject mysite # Creates a directory mysite in the current directory
+
+<bold>Starting the server</bold>
+python manage.py runserver # Run the lightweight webserver
+python manage.py runserver 8080
+python manage.py runserver 0.0.0.0:8080 #Listen to all public address
+
+It's a normal Python module with <italic>module-level variables representing Django settings</italic>
+
+<bold>Configuring database:</bold>
+Edit settings.py with the database settings
+<bold>Run syncdb</bold>
+The syncdb command looks at the INSTALLED_APPS  setting and creates any necessary database tables according to the database settings in your settings.py file
+
+<bold>Projects and App</bold>
+An App does something like - A blog, public record .
+A Project contains multiple apps and all the settings for the website.
+
+
+To create an app, run this
+python manage.py startapp polls
+
+Django apps are "pluggable": You can use an app in multiple projects, and you can distribute apps, because they don't have to be tied to a given Django <link:internal>installation</link:internal>.
+
+<bold>Creating models</bold>:
+Edit models.py in application (polls) directory, and add the classes corresponding to the database tables
+
+
+Add the application to the project by including the <italic>project.application</italic>  name in the INSTALLED_APPS section of the settings.py
+
+<bold>Create database tables
+</bold>Corresponding to the <link:internal>model</link:internal> classes defined in the models.py file
+<italic>python manage.py sql appname(poll)</italic> # Shows the sql req to create the database, also commands sqlcustom, validate, sqlall, sqlclear
+ python manage syncdb # Actually create the <link:internal>model</link:internal> tables
+		
+<bold>Django shell</bold>  - Explore the API
+python manage.py shell
+1. Puts the project dir in the sys.path, so that we could refer project.app.models
+2. Set DJANGO_SETTINGS_MODULE which gives the settings.py of the project.
+
+<bold>__unicode__()</bold>:
+Add __unicode__()  to the <link:internal>model</link:internal> classes:
+1. To check sanity in the interactive shell
+2. Django uses object representation of the models thoughout auto generated django admin
+3. Django models have a default __str__()  method that calls __unicode__()  and converts the result to a UTF-8 bytestring
+</note-content></text>
+  <last-change-date>2010-06-26T10:45:55.7728770+02:00</last-change-date>
+  <last-metadata-change-date>2010-08-11T18:29:49.9500520+02:00</last-metadata-change-date>
+  <create-date>2010-04-14T16:32:31.0943880+02:00</create-date>
+  <cursor-position>216</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

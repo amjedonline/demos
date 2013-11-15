@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>DNS</title>
+  <text xml:space="preserve"><note-content version="0.1">DNS
+
+DNS Zone consists of a collection of connected nodes authoritatively server by an authoritative nameserver ( A single NS can host several zones)
+
+Each domain has at least one authoritative DNS server that publishes information about that domain and the name servers of any domains subordinate to it.
+
+A <bold>Resource Record (RR)</bold> is the basic data element in the domain name system.
+
+Resource records of the same type define a <bold>resource record set</bold>. 
+
+RFC 1035 Resource record format for the DNS.
+
+&lt;<bold><italic>NAME&gt; &lt;TYPE&gt; &lt;CLASS&gt; &lt;TTL&gt; &lt;RDLENGTH&gt; &lt;RDATA</italic></bold>&gt;
+
+
+
+<bold>Backup mail servers:</bold>
+Do not perform recipient validation.
+Does not have spam thwarting mechanism and are easy targets.
+
+
+UDP 53 is used to transfer
+
+If data is larger thatn 512 Octets, max possible data is sent, then the server replys with a truncated flag, then TCP couuld be used.
+ </note-content></text>
+  <last-change-date>2011-07-29T18:18:39.6321970+05:30</last-change-date>
+  <last-metadata-change-date>2011-07-29T18:18:39.6321970+05:30</last-metadata-change-date>
+  <create-date>2010-01-24T14:19:00.8006799+05:30</create-date>
+  <cursor-position>727</cursor-position>
+  <width>642</width>
+  <height>334</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

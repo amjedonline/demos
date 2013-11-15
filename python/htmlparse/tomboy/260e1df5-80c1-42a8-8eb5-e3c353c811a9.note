@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>13 Jan 2010</title>
+  <text xml:space="preserve"><note-content version="0.1">13 Jan 2010
+
+<list><list-item dir="ltr">List of task on the Client to be completed by Feb 19
+</list-item><list-item dir="ltr">Clearly identify the motivating scenarios</list-item></list>
+	- Detailed scenarios, info to <link:internal>find</link:internal> out.
+
+<list><list-item dir="ltr">Perfomance tuning
+</list-item><list-item dir="ltr">Prepare to induct murthy
+</list-item><list-item dir="ltr">Get Gautham fully involved</list-item></list>
+
+</note-content></text>
+  <last-change-date>2010-01-13T15:56:37.9480850+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:04.1320200+05:30</last-metadata-change-date>
+  <create-date>2010-01-13T15:48:25.8965260+05:30</create-date>
+  <cursor-position>194</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Review meetings</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

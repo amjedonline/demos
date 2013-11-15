@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>TODO:April 04</title>
+  <text xml:space="preserve"><note-content version="0.1">TODO:April 04
+<bold><size:small>
+<size:large>Repository</size:large></size:small></bold>
+<list><list-item dir="ltr"><size:large><size:small>Install in the dev environment</size:small></size:large>
+</list-item><list-item dir="ltr"><size:large><size:small>Set up all the collaboration tools in IA</size:small></size:large>
+<list><list-item dir="ltr">General acount content
+</list-item><list-item dir="ltr"><size:large><size:small>Announcements</size:small></size:large>
+</list-item><list-item dir="ltr"><size:large><size:small>Document library</size:small></size:large>
+</list-item><list-item dir="ltr"><size:large><size:small>calendar</size:small></size:large>
+</list-item><list-item dir="ltr"><size:large><size:small>Contact page</size:small></size:large>
+</list-item></list></list-item><list-item dir="ltr"><link:internal>SVN</link:internal>
+<list><list-item dir="ltr"><strikethrough>Mail nitharsan to give <link:internal>svn</link:internal></strikethrough><strikethrough> access</strikethrough>
+<list><list-item dir="ltr">Follow up on mail to Nitharsan
+</list-item></list></list-item><list-item dir="ltr">Create a project called IA
+</list-item><list-item dir="ltr">Checking the Portal
+</list-item><list-item dir="ltr">Checking the plugins-sdk
+</list-item></list></list-item><list-item dir="ltr">Understand and tweak source to make the generated <link:internal>html</link:internal> docs independent of theme
+</list-item><list-item dir="ltr">Figure out a way to configure the DB name for jackrabbit</list-item></list>
+<bold><size:large><size:small>
+ITSP</size:small></size:large></bold>
+<list><list-item dir="ltr">on hold</list-item></list><bold><size:large><size:small>
+
+Website</size:small></size:large></bold>
+<list><list-item dir="ltr"><size:large><size:small>Check progress with Nags and Raj</size:small></size:large></list-item></list><bold>
+<size:large><size:small>
+AppFactory</size:small></size:large></bold>
+<list><list-item dir="ltr"><size:large><size:small>Read through the wiki contents</size:small></size:large></list-item></list><bold>
+<size:large><size:small>
+Knowledge management</size:small></size:large></bold>
+<list><list-item dir="ltr"><size:large><size:small>Call Suresh on this</size:small></size:large>
+</list-item><list-item dir="ltr">Mail to Andrea schaefar</list-item></list><bold><size:large><size:small>
+
+Recruitment</size:small></size:large></bold>
+<list><list-item dir="ltr">Prepare myself for the tech interviews
+</list-item><list-item dir="ltr">Check naukri account
+</list-item><list-item dir="ltr">Ask Pragathi to <link:internal>schedule</link:internal> few interviews</list-item></list>
+
+
+<bold>Knowledge management:</bold>
+Go meet Andrea Schaefer 
+
+Call with Suresh
+
+Tell jens and ask him who should sign 
+<list><list-item dir="ltr">remind about Shrinivas Stundenzette</list-item></list>
+
+
+<bold>Recruitment</bold>
+Prepare question paper
+
+Get infonet
+</note-content></text>
+  <last-change-date>2011-04-05T10:50:38.3799730+02:00</last-change-date>
+  <last-metadata-change-date>2011-04-05T10:50:38.3799730+02:00</last-metadata-change-date>
+  <create-date>2011-04-03T20:08:02.0793190+02:00</create-date>
+  <cursor-position>534</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Daily todo</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

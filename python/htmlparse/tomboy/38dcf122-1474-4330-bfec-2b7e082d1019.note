@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Grant, tomcat access</title>
+  <text xml:space="preserve"><note-content version="0.1">Grant, tomcat access
+
+grant {
+   permission <link:internal>Javac</link:internal>.net.SocketPermission "*:80", "accept, connect, listen, resolve";
+   permission <link:internal>Javac</link:internal>.net.SocketPermission "*:8080", "accept, connect, listen, resolve";
+   permission <link:internal>Javac</link:internal>.net.SocketPermission "*:3306", "accept, connect, listen, resolve";
+   permission <link:internal>Javac</link:internal>.io.FilePermission "<link:url>/var/deploy/semgel/</link:url>-", "read,write,delete";
+   permission <link:internal>Javac</link:internal>.lang.reflect.ReflectPermission "suppressAccessChecks";
+};
+</note-content></text>
+  <last-change-date>2010-01-03T12:02:30.4804180+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:05.3019600+05:30</last-metadata-change-date>
+  <create-date>2010-01-03T11:37:52.7396770+05:30</create-date>
+  <cursor-position>450</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

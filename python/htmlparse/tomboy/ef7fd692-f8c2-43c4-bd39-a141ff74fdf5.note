@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>IRC help</title>
+  <text xml:space="preserve"><note-content version="0.1">IRC help
+
+$ irc amjedonline irc.freenode.net
+
+    *      First, /set NOVICE off
+    *      /nick IRC-mini-HOWTO changes your IRCNICK to IRC-mini-HOWTO
+    *      /set realname The Linux IRC mini-HOWTO changes your IRCNAME to The Linux IRC mini-HOWTO (doesn't change on the same connection)
+    *      /j #mini-HOWTO joins channel #mini-HOWTO
+    *      /j #unmaintained-HOWTO joins channel#unmaintained-HOWTO
+    *      /j #mini-HOWTO changes the active current channel to #mini-HOWTO
+    *      /msg nick Hi. sends a private message to nick containing Hi.
+    *      /notice nick (or #mini-HOWTO) Hi. sends a notice to nick (or #mini-HOWTO) containing Hi.
+    *      /query nick starts a private conversation with nick. /query ends the private conversation
+    *      /me uses Linux. sends an action to the current channel or query containing IRC-mini-HOWTO loves Linux.
+    *      /dcc chat nick starts a chat with nick. Use /msg =nick (notice the =) to send messages over the chat
+    *      /dcc send nick <link:url>/etc/HOSTNAME</link:url> sends the given file to nick
+    *      /dcc get nick receives the file offered by nick
+    *      /part leaves the active current channel
+    *      /part #unmaintained-HOWTO leaves channel #unmaintained-HOWTO
+    *      /discon disconnects from current IRCSERVER
+    *      /server irc.oftc.net connects to IRCSERVER irc.oftc.net
+<list><list-item dir="ltr">     /quit Bye. quits your IRC session with a reason Bye.</list-item></list>
+
+
+A channel could be set in
++r mode -&gt; Cannot join until registered and verified with a nick name
++qmode -&gt; Can join but remain silent, cannot speak
+
+
+BYE, EXIT, SIGNOFF
+
+</note-content></text>
+  <last-change-date>2010-09-03T22:24:55.9193260+05:30</last-change-date>
+  <last-metadata-change-date>2010-09-03T22:24:55.9193260+05:30</last-metadata-change-date>
+  <create-date>2010-09-03T22:15:18.8761380+05:30</create-date>
+  <cursor-position>1565</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

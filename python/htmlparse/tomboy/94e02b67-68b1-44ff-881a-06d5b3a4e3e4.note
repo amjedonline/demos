@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Run level</title>
+  <text xml:space="preserve"><note-content version="0.1">Run level
+
+In debian based systems:
+1 	-&gt; Text mode
+2 	-&gt; Graphical mode
+3,4  	-&gt; Not used
+
+Unix systems:
+0 - Shutdown
+1- Single user Admin
+2 - Multiuser
+3 - Full multiuser with graphics
+4 - Not used
+5- Not used
+6 - Restart
+</note-content></text>
+  <last-change-date>2010-04-22T21:04:21.3567370+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.4164730+05:30</last-metadata-change-date>
+  <create-date>2009-12-20T18:34:03.6405659+05:30</create-date>
+  <cursor-position>122</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

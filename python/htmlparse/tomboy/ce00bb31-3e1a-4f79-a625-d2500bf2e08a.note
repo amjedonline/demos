@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Hostso - 2 checkout</title>
+  <text xml:space="preserve"><note-content version="0.1">Hostso - 2 checkout
+
+<bold>Order Complete</bold>: 4289368532
+
+Your order was successfully submitted.
+
+Your order is pending, your card has not yet been charged.
+We will <link:internal>process</link:internal> your order within 24 hours, once it has
+passed a series of fraud checks.
+
+Thank you for shopping with us!
+<bold>Qty 		ID 		Name 				Price $ ( AUD ) 	Subtotal $ ( AUD )</bold>
+1 		238373 		Cart Purchase: 238373 	8.31 				8.31
+<bold>Total: 	8.31</bold>
+
+
+<bold>Billing Information</bold>
+Name: 	Mohd Amjed Ahmed
+Email: 	<link:url>amjedonline@yahoo.com</link:url>
+Phone: 	9986709293 ext.
+Address: 	#1073, 11th main
+Indiranagar
+Bangalore, XX 560008
+IND  </note-content></text>
+  <last-change-date>2011-02-06T19:22:11.9059410+05:30</last-change-date>
+  <last-metadata-change-date>2011-02-06T19:22:11.9059410+05:30</last-metadata-change-date>
+  <create-date>2010-08-15T12:30:11.7618829+05:30</create-date>
+  <cursor-position>19</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Hostso</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

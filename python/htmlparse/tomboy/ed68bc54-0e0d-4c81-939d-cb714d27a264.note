@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>VW HR management</title>
+  <text xml:space="preserve"><note-content version="0.1">VW HR management 
+
+<bold>Search across</bold>
+
+
+<bold>Target</bold> 
+quick search 
+Reduction of complexity
+one portal
+one search funtion
+One information system for VW HR
+
+
+Current situatino
+<list><list-item dir="ltr">Search across
+<list><list-item dir="ltr">Portal
+</list-item><list-item dir="ltr">collective agreements (tarifvertrage) - Terms of agreement
+</list-item><list-item dir="ltr">Intranet
+</list-item><list-item dir="ltr">knowledge portal
+</list-item><list-item dir="ltr">eigene dokumente  - own document</list-item></list></list-item></list>
+
+Presentation prototype:
+<list><list-item dir="ltr">Contains
+<list><list-item dir="ltr">Search 
+</list-item><list-item dir="ltr">Content
+</list-item><list-item dir="ltr">Documents and articles</list-item></list></list-item></list>
+
+
+<bold>Liferay needs extension for:</bold>
+<list><list-item dir="ltr">Search function
+<list><list-item dir="ltr">Integrating external search engine
+</list-item><list-item dir="ltr">Search Engine Integration
+</list-item><list-item dir="ltr">Presentation search results
+</list-item></list></list-item><list-item dir="ltr">Tag cloud
+<list><list-item dir="ltr">Available out of the box</list-item></list></list-item></list>
+
+
+</note-content></text>
+  <last-change-date>2011-04-07T12:26:01.7420790+02:00</last-change-date>
+  <last-metadata-change-date>2011-04-07T12:26:01.7420790+02:00</last-metadata-change-date>
+  <create-date>2011-04-07T11:01:53.8476470+02:00</create-date>
+  <cursor-position>477</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

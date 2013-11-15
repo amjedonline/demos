@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Valuation based on site - Parameters that goes into it</title>
+  <text xml:space="preserve"><note-content version="0.1">Valuation based on site - Parameters that goes into it
+
+* Your site map - how many pages on your site.
+* How many ad units on each page and what type (300x250, 160x600...)
+* How many visitors and average page views they'll generate. (This includes how you'll drive that traffic to the site.)
+* How many page views do you estimate for each of the pages.
+* Total ad impressions then that generates for each size ad.
+* Going CPM rates for each size ad in your industry. If this is Google AdSense then plug in estimated CPM from that.
+* Do the math and you'll come out with a number. And do a "best case", "worst case", "expected case" scenario.
+* Note that other variables will affect these rates. They include whether an ad is above the fold or not, context of the pages, etc. But this will give you a ballpark for business plan.</note-content></text>
+  <last-change-date>2010-09-26T14:58:49.2211480+05:30</last-change-date>
+  <last-metadata-change-date>2010-09-26T14:58:49.2211480+05:30</last-metadata-change-date>
+  <create-date>2010-09-26T14:58:07.1783260+05:30</create-date>
+  <cursor-position>56</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Ideas</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

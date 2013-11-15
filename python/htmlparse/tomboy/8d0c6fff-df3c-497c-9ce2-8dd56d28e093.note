@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Fixing IA - UI Issues</title>
+  <text xml:space="preserve"><note-content version="0.1">Fixing IA - UI Issues
+
+<bold>I realized some <link:internal>issues</link:internal></bold><bold> that need to be fixed for a go live. </bold>
+<list><list-item dir="ltr">- Concerning the page format - Is there any reason for the limited width, as the 'Repository' documents must be heavily scolled 
+<list><list-item dir="ltr">Can fix in theme</list-item></list></list-item></list>
+
+<list><list-item dir="ltr"><strikethrough>- No documents (doc, pdf) can be downloaded. </strikethrough>
+<list><list-item dir="ltr"><strikethrough>fixed</strikethrough></list-item></list></list-item></list>
+
+<list><list-item dir="ltr"><strikethrough>- What is the decission to leave some menu items in the main menu and move other to the quick links? I suggest to have all items in the main menu.</strikethrough>
+<list><list-item dir="ltr"><strikethrough>To avoid cluttering of menu items, however this could be fixed.</strikethrough></list-item></list></list-item></list>
+
+<list><list-item dir="ltr">- Most of the images are distorted.
+<list><list-item dir="ltr">Get images info from Berndt</list-item></list></list-item></list>
+
+<list><list-item dir="ltr">Page 'Formulare': 
+<list><list-item dir="ltr"><strikethrough>-says formulare twice - fixed</strikethrough></list-item></list></list-item></list>
+ 
+<list><list-item dir="ltr">Page 'Richtlinien': 
+</list-item><list-item dir="ltr">- unresolved links to the 'Repository' portlet ---------- Could be fixed 
+</list-item><list-item dir="ltr"><strikethrough>- says Richtlinien twice - fixed</strikethrough> 
+</list-item><list-item dir="ltr">- why subfolders and not just groups of documents? 
+<list><list-item dir="ltr"><link:internal>Another</link:internal> way of categorizing the documents.
+</list-item></list></list-item><list-item dir="ltr">why empty documents section? ---- Needs customization
+<list><list-item dir="ltr">customize <link:internal>jsp</link:internal></list-item></list></list-item></list>
+ 
+
+Page 'Handbuch' 
+<list><list-item dir="ltr">the are broken image links
+</list-item><list-item dir="ltr">Document links does not work (e.g. Master Construction Plan) -- Need clarification
+</list-item><list-item dir="ltr">Service-Specification =&gt; Change-Management-<link:internal>Process</link:internal> has wrong content 
+</list-item><list-item dir="ltr">bad formating of sample code (e.g. Sicherheit =&gt; <link:internal>SAML</link:internal>-Token) 
+</list-item><list-item dir="ltr">Code highlight plugin</list-item></list>
+- missing links (e.g. Entwickluing =&gt; Aufruf von Services, Betrieb =&gt; <link:internal>Logging</link:internal>, Betrieb =&gt; Monitoring) 
+
+There are a few things that have changed compared to the one you aready have: 
+- All pages: Department is now K-SIOC-1 instead of K-SIO/V 
+<list><list-item dir="ltr">Page 'Gateway Übersich't: the picture and the 'Gateway Übersicht' table has changed </list-item></list>
+
+<bold><size:large>Work with Berndt</size:large></bold>
+<list><list-item dir="ltr">Get images</list-item></list>
+
+</note-content></text>
+  <last-change-date>2011-09-07T10:54:43.7203760+02:00</last-change-date>
+  <last-metadata-change-date>2012-04-14T22:03:55.0336390+02:00</last-metadata-change-date>
+  <create-date>2011-04-03T21:46:29.6847160+02:00</create-date>
+  <cursor-position>629</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:IA Portal</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

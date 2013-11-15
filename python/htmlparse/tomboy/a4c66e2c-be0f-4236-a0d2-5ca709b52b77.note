@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Personal Package Archive - PPA</title>
+  <text xml:space="preserve"><note-content version="0.1">Personal Package Archive - PPA
+
+Using a Personal Package Archive (PPA), you can distribute software and updates directly to <link:internal>Ubuntu</link:internal> users. Create your source package, upload it and Launchpad will build binaries and then host them in your own apt repository.
+
+That means <link:internal>Ubuntu</link:internal> users can install your packages in just the same way they install standard <link:internal>Ubuntu</link:internal> packages and they'll automatically receive updates as and when you make them.
+
+Every individual and team in Launchpad can have one or more PPAs, each with its own URL.
+
+Packages you publish in your PPA will remain there until you remove them, they're superseded by <link:internal>another</link:internal> package that you upload or the version of <link:internal>Ubuntu</link:internal> against which they're built becomes obsolete.
+
+
+<bold>How To </bold>
+PPAs work like normal <link:internal>Ubuntu</link:internal> archives. You can install software in the usual way -- for example, through apt-get or synaptic -- and whenever there's an update <link:internal>Ubuntu</link:internal> will prompt you to install it.
+
+To start installing software from a PPA, you need to tell <link:internal>Ubuntu</link:internal> where to <link:internal>find</link:internal> it and how to verify the integrity of the packages.
+
+
+<bold><size:large>Installing for a PPA</size:large></bold>
+
+If you're using the most recent version of <link:internal>Ubuntu</link:internal>, or any that has been released since <link:internal>Ubuntu</link:internal> 9.10, adding a PPA is really simple.
+
+<bold>Step 1:</bold> Visit the PPA's <link:internal>overview</link:internal> page in Launchpad and look for the heading that reads Adding this PPA to your system. Make a note of the PPA's location, which looks like:
+
+<italic>ppa:gwibber-daily/ppa</italic>
+
+
+
+<bold>Step 2: </bold>Open a terminal and enter:
+
+<italic><link:internal>sudo</link:internal></italic><italic> add-apt-repository ppa:user/ppa-name</italic>
+
+
+
+<bold>Step 3: </bold>Now, as a one-off, you should tell your system to pull down the latest list of software from each archive it knows about, including the PPA you just added:
+
+<italic><link:internal>sudo</link:internal></italic><italic> apt-get update</italic>
+	
+
+Now you're ready to start installing software from the PPA! If you already have the software installed and you're adding the PPA to get a more recent/different version, you may just need to run:
+
+
+<link:internal>sudo</link:internal> apt-get dist-upgrade</note-content></text>
+  <last-change-date>2011-06-27T11:01:47.0898400+05:30</last-change-date>
+  <last-metadata-change-date>2011-06-27T11:01:47.0898400+05:30</last-metadata-change-date>
+  <create-date>2011-06-27T10:54:33.5684300+05:30</create-date>
+  <cursor-position>1686</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

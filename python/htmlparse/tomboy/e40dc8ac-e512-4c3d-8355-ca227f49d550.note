@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Iportal URL configurations</title>
+  <text xml:space="preserve"><note-content version="0.1">Iportal URL configurations
+
+<bold>Newada    :---------</bold>
+Application URL
+<link:url>http://inawast524.wob.vw.vwg/newadaJ/SamLogin</link:url>
+TFIM
+<link:url>https://10.186.112.99:9443/sps/iportal/saml20/logininitial?RequestBinding=HTTPPost&amp;PartnerId=https://iportal-newada-test.wob.vw.vwg/saml20</link:url>
+
+Http Proxy - No
+Username
+Password
+<link:internal>Saml</link:internal>     - Yes/no
+
+<bold>DCC    :---------</bold>
+<link:internal>Saml</link:internal> - No
+
+Application URL
+<link:url>http://dcc.audi.de/entry?mandant=dcc-de-audi-isa&amp;VERSION=1.1&amp;BRAND=V</link:url>
+
+TFIM
+NA
+
+HTTP Proxy
+<link:url>http://10.252.76.110:8080</link:url>
+
+Username
+FOX023C
+
+Password
+
+
+
+<bold>ISA.GW    :---------------</bold>
+<link:internal>Saml</link:internal>
+No
+
+Application URL
+<link:url>http://circle2000.de/cpn/externalentry?SOURCEPROC=ISA&amp;ACTION=GetVehicle&amp;LANG_UI=de-DE&amp;LANG_CONTENT=de-DE&amp;COUNTRY=DE&amp;BRAND=S&amp;SECTOKEN=39$1\DE28100\DE28100.001&amp;ID=1000&amp;STYLE=I&amp;AppID=39</link:url>
+
+TFIM
+NA
+
+HTTP Proxy
+<link:url>http://10.252.76.110:8080</link:url>
+
+Username
+FOX023C
+ 
+Password</note-content></text>
+  <last-change-date>2011-11-30T10:04:32.1641670+01:00</last-change-date>
+  <last-metadata-change-date>2011-11-30T10:04:32.1652670+01:00</last-metadata-change-date>
+  <create-date>2011-11-23T15:10:50.8418710+01:00</create-date>
+  <cursor-position>431</cursor-position>
+  <selection-bound-position>431</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>66</x>
+  <y>24</y>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>SSH Access</title>
+  <text xml:space="preserve"><note-content version="0.1">SSH Access
+
+To allow a group ssh access, create a group, add it to AllowGroups variable 
+
+In <link:url>/etc/ssh/sshd_config</link:url>:
+<italic>AllowGroups sshlogin</italic>
+
+Then, add user
+<link:internal>sudo</link:internal> useradd username sshlogin
+<link:internal>sudo</link:internal> <link:url>/etc/init.d/ssh</link:url> restart
+
+
+<bold><size:large>Openssh</size:large></bold>
+Can use any of these <bold>authentication methods </bold>: password, public key, and Kerberos tickets.
+<link:internal>sudo</link:internal> apt-get install openssh-client , openssh-server
+
+<bold>Configuration:</bold>
+
+<link:url>/etc/ssh/sshd_config</link:url>
+
+man sshd_config
+
+
+
+<bold>#</bold> If your only method of access to a server is ssh, and you make a mistake in configuring sshd via the 
+<link:url>/etc/ssh/sshd_config</link:url> file, you may <link:internal>find</link:internal> you are locked out of the server upon restarting it.
+
+
+<bold><size:large>ssh client - key management</size:large></bold>
+
+<bold>Configuration file:</bold> <link:url>/home/amjed/.ssh/config</link:url>  
+
+
+Host myshortname realname.example.com
+<link:internal>Hostname</link:internal> realname.example.com
+IdentityFile <link:url>~/.ssh/realname_rsa</link:url> # private key for realname
+
+Host myother realname2.example.org
+<link:internal>Hostname</link:internal> realname2.example.org
+IdentityFile <link:url>~/.ssh/realname2_rsa</link:url>
+</note-content></text>
+  <last-change-date>2012-01-25T12:15:08.2006040+01:00</last-change-date>
+  <last-metadata-change-date>2012-01-25T12:15:08.2010310+01:00</last-metadata-change-date>
+  <create-date>2010-10-01T19:48:30.9209900+02:00</create-date>
+  <cursor-position>928</cursor-position>
+  <selection-bound-position>928</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

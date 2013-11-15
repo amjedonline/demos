@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Semantic web</title>
+  <text xml:space="preserve"><note-content version="0.1">Semantic web
+
+development of the <bold>World Wide Web</bold> in which the meaning<bold> (semantics) of information and services on the web is defined</bold>, making it possible for the web to "understand" and satisfy the requests of people and machines to use the web content.</note-content></text>
+  <last-change-date>2010-01-20T10:51:36.3162160+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:04.0949680+05:30</last-metadata-change-date>
+  <create-date>2010-01-20T10:50:53.8597710+05:30</create-date>
+  <cursor-position>211</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Semantic tools</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

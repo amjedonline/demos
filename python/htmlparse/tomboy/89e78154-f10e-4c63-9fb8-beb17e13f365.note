@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>concerns with Hexad</title>
+  <text xml:space="preserve"><note-content version="0.1"><link:internal>concerns</link:internal> with Hexad
+
+#hexad
+#work
+#suresh
+
+
+<list><list-item dir="ltr">Recruiting candidates at developer level vs tech lead level
+</list-item><list-item dir="ltr">Small time projects cannot be put on a onsite/offshore <link:internal>model</link:internal> of dev
+</list-item><list-item dir="ltr">Suresh need to give time
+</list-item><list-item dir="ltr">Contact person from client
+</list-item><list-item dir="ltr"><link:internal>Model</link:internal> of engagement, billing type to judge on the estimates, time sheets and amount of work
+</list-item><list-item dir="ltr">Comprehensive information on the project or source of information
+<list><list-item dir="ltr">Either know or know a way to know
+</list-item></list></list-item><list-item dir="ltr">Payments on 1st of every month</list-item></list>
+</note-content></text>
+  <last-change-date>2011-04-12T11:30:06.7622750+02:00</last-change-date>
+  <last-metadata-change-date>2011-04-12T11:30:06.7622750+02:00</last-metadata-change-date>
+  <create-date>2011-04-12T11:22:32.3574580+02:00</create-date>
+  <cursor-position>429</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Hexad</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

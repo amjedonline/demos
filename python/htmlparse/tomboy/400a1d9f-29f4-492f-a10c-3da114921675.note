@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>GIMP</title>
+  <text xml:space="preserve"><note-content version="0.1">GIMP
+
+DIgital Images cmoprise of a <link:internal>grid</link:internal> of square elements of varying colors, called pixels.
+
+Image has a pixel size such as 900 wide by 600 pixels wide.
+Pixels <bold>dont</bold> have a set size in<bold> physical space</bold>
+
+For printing, we use value called resolution.
+Defined as ratio between an image's size in pixels and its physical size(inches) when it is printed on paper.
+
+Value defined as pixels per inc<bold>(PPI)</bold> - most files <link:internal>types</link:internal> save this information.
+
+Resolution determines the size the image will have on paper hence physical size.
+
+Images from <bold>camera and mobile devices</bold> usually have<bold> 72 or 96 PPI</bold>
+
+
+<bold>Non-print use, resolution value is meaningless and is ignored</bold>.
+Usually displayed with each image pixel conforming to one <link:internal>screen</link:internal> pixel.
+
+
+<bold><size:large>Channel</size:large></bold>
+Single component of a pixel's color.
+
+<bold>Channels in different images:</bold>
+<bold>Colored </bold>pixel in GIMP, they are Red, Green, Blue and transparency(ALPHA).
+
+<bold>GrayScale</bold> - Gray, Alpha
+
+<bold>Indexed </bold>color - Indexed and Alpha
+
+The entire rectangular array of any one of the <bold>color components for all of the pixels</bold> in an image is also referred to as a Channel.
+
+To remove "red eye" , work on Red channel.
+
+<bold>marching ants</bold> - selection highlighter
+
+</note-content></text>
+  <last-change-date>2011-08-01T18:05:11.3562190+05:30</last-change-date>
+  <last-metadata-change-date>2011-08-01T18:05:11.3562190+05:30</last-metadata-change-date>
+  <create-date>2011-08-01T17:52:09.5460010+05:30</create-date>
+  <cursor-position>741</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>VIM</title>
+  <text xml:space="preserve"><note-content version="0.1">VIM
+
+I 	Insert at the beginning of the line
+i	Start insert mode at cursor
+A 	 append to end of current line 
+j	Moves one line down
+4j	Moves 4 lines down
+G	Go to end of file 
+:0	Beginning of the file
+:$ 	End of file
+J	join line below to the current one 
+cc 	Change/replace an entire line
+cw 	Change/replace till end of the word
+
+
+
+<link:internal>Cut</link:internal> copy paste
+yy	Yank an entire line
+2yy 	Yank two lines
+yw 	Yank a word
+y$ 	Yank to end of the line
+p	Put after cursor   (to see the diff, try pasting as first character)
+P	Put before the cursor
+
+
+/pattern 	search forward
+?pattern	search backward
+
+ZZ 	 save and quit 
+
+
+<bold>Source Code Formatting: C++/Java</bold>/<bold>PHP</bold>
+
+        * Use vim visual text selection to mark the lines to format (beautify):
+              o eg. Whole file:
+                    + Go to first line in file: shift-v
+                    + Go to last line in file: shift-g
+                    + Select the key equals: =
+          This will align all braces and indentations. 
+
+<bold>Selecting Text (Visual Mode)</bold>
+
+To select text, enter visual mode with one of the commands below, and use motion commands to highlight the text you are interested in. Then, use some command on the text.
+
+The operators that can be used are:
+ ~ switch case
+ d delete
+ c change
+ y yank
+ &gt; shift right 
+ &lt; shift left 
+ ! filter through external command 
+ = filter through 'equalprg' option command 
+ gq format lines to 'textwidth' length 
+
+v 	start Visual mode per character.
+V 	start Visual mode linewise.
+&lt;Esc&gt; 	exit Visual mode without making any changes
+
+<bold>To insert at the beginning</bold>
+
+To insert | at the beginning of the line, use one of the following method
+:1,8s/^/|
+
+<bold>Vertical edit, visual mode</bold>
+Edit with VISUAL mode as
+        Press Ctrl-V to enter VISUAL mode
+        Use j key to go down through all the lines
+        Now press I to enter the insert mode
+        Now press |, then press Esc     
+
+<bold>Visual modes:</bold>
+CTRL+V	- Visual block mode - for vertical editing
+V		- Visual Line mode - For selecting lines
+v		- Visual mode - For selecting individual characters
+
+
+<bold>Number of matches of a pattern</bold>
+:%s/pattern//n	- Display number of matches of the pattern in the current file
+:%s/suck\|buck/loopy/gc  - ORing
+
+<bold>
+To Search pattern under the cursor</bold>
+#
+
+<bold>To change the present directory </bold>
+:cd ..
+
+
+:help holy-grail
+
+<bold>Search and replace</bold>
+If you only have a few occurrences to change, you might prefer a manual technique which does not require a mapping.
+
+    * Put the cursor on foo.
+    * Press * to search for the next occurrence.
+    * Type cw (change word) then bar then press Escape.
+    * Press n (move to next occurrence) then . (repeat change).
+<list><list-item dir="ltr">Repeat last step. </list-item></list>
+
+<bold>Deletion</bold>
+dw	- Delete word
+d^  	- Delete back to start of line
+dn	- Delete till new pattern
+
+
+<bold>Navigation:</bold>
++ or RETURN - First character of the next line
+-			  First character of the previous line
+
+<bold>Copy:</bold>
+ye	- Copy till end of the line
+
+
+
+<bold>Macro</bold>
+qq - Start
+q - End
+
+@q execute
+
+<bold>To read </bold>
+Introduction to window, buffer and viewport, file and tab page
+
+<bold>Newline</bold>
+\r - Enter and Return key - works on all platform
+
+
+Writing selected lines to a different file
+: 10,25 w temp
+
+write lines 10 through 25 into file named temp. Of course, other line</note-content></text>
+  <last-change-date>2011-07-06T19:16:04.6821150+02:00</last-change-date>
+  <last-metadata-change-date>2012-01-25T11:50:43.5960590+01:00</last-metadata-change-date>
+  <create-date>2010-03-10T14:52:55.0047570+01:00</create-date>
+  <cursor-position>152</cursor-position>
+  <selection-bound-position>152</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>1</y>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Liferay 6.1 Evaluation notes</title>
+  <text xml:space="preserve"><note-content version="0.1">Liferay 6.1 Evaluation notes
+
+Addition of marketplace
+Configuration wizard
+configuration saved in <link:url>/home/amjed/hex/61/portal/portal-setup-wizard.properties.</link:url>
+
+</note-content></text>
+  <last-change-date>2012-02-05T14:26:30.9551240+01:00</last-change-date>
+  <last-metadata-change-date>2012-02-05T14:26:30.9590500+01:00</last-metadata-change-date>
+  <create-date>2012-02-05T14:25:55.8809390+01:00</create-date>
+  <cursor-position>59</cursor-position>
+  <selection-bound-position>16</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>ITSP Todo</title>
+  <text xml:space="preserve"><note-content version="0.1">ITSP Todo
+
+<bold>Dev environment setup:</bold>
+<list><list-item dir="ltr">Setup liferay out of the box
+</list-item><list-item dir="ltr"><link:internal>MySQL</link:internal> setup
+</list-item><list-item dir="ltr"><link:internal>Eclipse</link:internal> setup
+</list-item><list-item dir="ltr">Plugins SDK setup
+</list-item><list-item dir="ltr"><link:internal>SVN</link:internal> branch for the project</list-item></list>
+
+<bold>Theme development</bold>
+<list><list-item dir="ltr">Templates
+</list-item><list-item dir="ltr">Themes</list-item></list>
+
+<bold>New portlets development:</bold>
+<list><list-item dir="ltr">Security program/communities listing portlet
+<list><list-item dir="ltr">Title
+</list-item><list-item dir="ltr">Description
+</list-item><list-item dir="ltr">Navigation link
+</list-item><list-item dir="ltr">Manager name
+</list-item></list></list-item><list-item dir="ltr">User communities/Security program listing portlet
+<list><list-item dir="ltr">Title
+</list-item><list-item dir="ltr">Navigation capabilities</list-item></list></list-item></list>
+
+<bold>General pages and contents :</bold>
+<list><list-item dir="ltr">Note: Pages should be like the GiTEB Prototype
+</list-item><list-item dir="ltr">Home page
+<list><list-item dir="ltr"><bold>Content: </bold>General description of overarching program
+</list-item><list-item dir="ltr"><bold>Announcements:</bold> Ex : New best practices or updated number of findings resolved.
+</list-item><list-item dir="ltr"><bold>Document library</bold>: 
+<list><list-item dir="ltr">FAQ
+</list-item><list-item dir="ltr">Reporting cycle
+</list-item><list-item dir="ltr">Templates
+</list-item><list-item dir="ltr">Presentations
+</list-item></list></list-item><list-item dir="ltr"><size:small>Group calendar (Low priority)</size:small>
+</list-item><list-item dir="ltr"><highlight>User communities portlet with navigation capability</highlight> 
+</list-item></list></list-item><list-item dir="ltr">Programs page
+<list><list-item dir="ltr">Security program listing portlet listing 12 programs
+</list-item><list-item dir="ltr">For each program, show;
+<list><list-item dir="ltr">Title
+</list-item><list-item dir="ltr">Description
+</list-item><list-item dir="ltr">Link to the private space of the programs
+</list-item></list></list-item></list></list-item><list-item dir="ltr">Contact tab
+<list><list-item dir="ltr">Basic contact information
+</list-item><list-item dir="ltr">About Program Management Office</list-item></list></list-item></list>
+
+<bold>Create security groups</bold>
+<list><list-item dir="ltr">create 12 communities<bold> </bold>
+</list-item><list-item dir="ltr">For each communities do the steps below:
+</list-item><list-item dir="ltr">Home page, with information on program
+</list-item><list-item dir="ltr">Group calendar
+</list-item><list-item dir="ltr">Message board page
+</list-item><list-item dir="ltr">Document library
+<list><list-item dir="ltr">on home page
+</list-item><list-item dir="ltr">2 groups of directories
+<list><list-item dir="ltr">Groups folder
+</list-item><list-item dir="ltr">Company/Organization/Region specific
+</list-item></list></list-item><list-item dir="ltr">Max 100 MB
+</list-item><list-item dir="ltr">Support all document <link:internal>types</link:internal>
+</list-item><list-item dir="ltr">Notification to PMO when a new document is uploaded
+</list-item></list></list-item><list-item dir="ltr">Message board 
+<list><list-item dir="ltr">create folder structure for group specific and project specific</list-item></list></list-item></list>
+
+
+<bold>Create security roles</bold>
+<list><list-item dir="ltr">Super user
+<list><list-item dir="ltr">Complete rights
+</list-item></list></list-item><list-item dir="ltr">Account manager
+<list><list-item dir="ltr">admin for <link:internal>user management</link:internal> and nothing else
+</list-item><list-item dir="ltr">no access to site contents/structure or anything
+</list-item></list></list-item><list-item dir="ltr">Content editor
+<list><list-item dir="ltr">Create and edit contents for all areas of the site
+</list-item></list></list-item><list-item dir="ltr">Elite member
+<list><list-item dir="ltr">Assign program manager role for all groups
+</list-item><list-item dir="ltr">permissions on message boards
+</list-item><list-item dir="ltr">assign on read access document library
+</list-item><list-item dir="ltr">revoke access to any other content editing 
+</list-item></list></list-item><list-item dir="ltr">Program manager role
+<list><list-item dir="ltr">Admin of a community
+</list-item><list-item dir="ltr">Access to memebers allowing to join community
+</list-item><list-item dir="ltr">No content editing permissions</list-item></list></list-item></list>
+
+
+
+<bold>Production enviroment setup:</bold>
+Enable HTTPS
+<link:internal>LDAP</link:internal> Integration
+Verify JCR store docs into Jackrabbit/ coz the documents are huge
+Set limits for document <link:internal>types</link:internal>, size, bulk
+
+
+
+</note-content></text>
+  <last-change-date>2011-04-01T10:29:57.2887600+02:00</last-change-date>
+  <last-metadata-change-date>2011-04-01T10:29:57.2887600+02:00</last-metadata-change-date>
+  <create-date>2011-03-29T11:55:29.5820450+02:00</create-date>
+  <cursor-position>787</cursor-position>
+  <width>454</width>
+  <height>685</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Hexad</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

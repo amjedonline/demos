@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>EJB 3.0 notes</title>
+  <text xml:space="preserve"><note-content version="0.1">EJB 3.0 notes
+
+In EJB3, Entity beans are managed by persistence provider and not Container
+
+J2EE containers provide:
+Container transaction,
+security services, 
+Pooling and 
+caching of resources, 
+component life cycle services, 
+concurrency support, and more.
+
+
+resource pooling to maximize object result.
+persistence cache to avoid repeated querying. 
+
+
+Trnsactionability - JTA
+
+Method level access security, declaratively
+
+either through annotations or XML
+
+
+portability
+
+Reausablity of components
+
+Persistence of POJO
+
+
+
+• Stateless: This type of bean does not maintain any conversational state on behalf of
+  a client application.
+• Stateful: This type of bean maintains state, and a particular instance of the bean is
+  associated with a specific client request. Stateful beans can be seen as extensions
+  to client programs that are running on the server.
+
+
+@Stateless
+javax.ejb.session
+
+
+
+Business interface
+Every sessin bean must have a business interface.
+@Remote - for remote interface
+@Local - for remote interface
+
+@Stateless(name="")
+
+
+
+Dependency Injection:
+    The resources that the stateless session bean is trying to use can be injected using
+annotations or deployment descriptors. Resources can be acquired by annotation of
+instance variables or annotation of the setter methods.
+
+
+@Resource - Either on variable or on the setter.
+
+Callbacks for stateless session bean:
+PostConstruct
+PreDestroy
+
+
+Interceptor:
+Two ways:
+1.	@AroundInvoke annotation on the method:
+
+public Object someMethod(InvocationContext context) throws Exception
+IC { getBean(), getMethod(), getParameters, setParameters(), getEJBContext(), getContextData()}
+
+
+2.	Define an interceptor class whose method is invoked when bean method is invoked:
+An interceptor class is denoted by the @Interceptor annotation
+on the bean class with which it is associated.
+
+
+***************************************
+Stateful session bean
+
+@Stateful(name="")
+@Local({ShoppingCartLocal.class})
+@Remote({ShoppingCart.class})
+
+TO tell the bean class, which local and remote interface it belongs to.
+
+Three transaction notifications
+
+afterBegin
+beforeCompletion
+afterCompletion
+
+
+Callbacks:
+
+PostConstruct:
+PreDestroy: 
+PreActivate:
+PrePassivate:
+@Remove - When the bean is removed from the container.
+
+
+<link:internal>Exception Handling</link:internal>:
+Application: - Need to handle
+System - JNDI, Remote system fail.. need not handle.
+
+
+
+JPA - Entity beans
+
+@Entity
+@Id
+  @Column(name, table, unique, nullable, insertable, updatable)
+@Table
+@Basic, String, int
+@Transient
+@SequenceGenerator(name, sequenceName, initialValue, AllocationSize)
+@IdClass	-	@EmbeddedId ( @Embeddable)
+
+FetchType.Eager, FetchType.Lazy
+
+
+persistence.xml
+&lt;persistence&gt;
+	&lt;persistence-unit name=""&gt;
+		&lt;provider&gt;oracle.toplink,EntityManagerFactoryProvider
+		&lt;jta-data-source&gt;
+		&lt;class&gt;
+		
+
+
+Memeber of type EntityManagerClass, can be injected with @PersistenceContext (name="") annotation.</note-content></text>
+  <last-change-date>2010-12-17T23:34:02.8445560+05:30</last-change-date>
+  <last-metadata-change-date>2010-12-17T23:34:02.8445560+05:30</last-metadata-change-date>
+  <create-date>2010-12-17T23:33:53.2624400+05:30</create-date>
+  <cursor-position>15</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Interview</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

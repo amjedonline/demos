@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>wieder forms</title>
+  <text xml:space="preserve"><note-content version="0.1">wieder forms
+
+<bold>wieder mal</bold> - again once
+Wir sollten wieder mal zusammen ausgehen
+
+
+<bold>immer wieder - </bold>again and again
+Ich muss ihn immer wieder daran erinnern
+
+
+<bold>schon wieder</bold> - again
+Sie ist schon wieder zu spät gekommen
+
+
+
+</note-content></text>
+  <last-change-date>2012-01-02T16:46:23.1095720+01:00</last-change-date>
+  <last-metadata-change-date>2012-01-02T16:46:23.1108530+01:00</last-metadata-change-date>
+  <create-date>2012-01-02T11:31:30.5373140+01:00</create-date>
+  <cursor-position>15</cursor-position>
+  <selection-bound-position>15</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:German</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

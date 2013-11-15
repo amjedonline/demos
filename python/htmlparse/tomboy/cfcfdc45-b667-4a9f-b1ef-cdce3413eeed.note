@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Proxy portlet documentation</title>
+  <text xml:space="preserve"><note-content version="0.1"><link:internal>Proxy portlet</link:internal> documentation
+
+<bold><size:large>Configurations:</size:large></bold><bold>
+
+Application Url -</bold>
+Initial Url to the target Application.
+This Url is not the url to which the <link:internal>Saml</link:internal> token is submitted.
+The Url to post the <link:internal>Saml</link:internal> token on is retrieved from the Form action in the page returned from TFIM.
+
+<bold>TFIM Url</bold>
+Url at which the TFIM is available.
+Used to send the IV_CREDS and get back the <link:internal>SAML</link:internal> Token.
+Expects a Application specific URL, that appears in the below form:
+
+<italic>absolute_tfim</italic>_path?RequestBinding=HTTPPost&amp;PartnerId=<italic>target_application_urn</italic>
+ 
+
+If the TFIM is accessed over SSL, then the corresponding Client Certificate should be installed in the JKS format.
+Look for SSL configuration for TFIM for further info.
+ 
+<bold>HTTP Proxy</bold>
+If the target application is reachable over an HTTP Proxy, these configuration helps you configure the same.
+
+Proxy Url
+Http Proxy Url
+
+Proxy Port:
+By default this is 8080
+
+
+Username:
+If left empty, no authentication is assumed.
+
+Password:
+Only if the username is not empty.
+
+<bold>Authentication Type:</bold>
+One of the - None, <link:internal>Saml</link:internal>, Basic, NTLM.
+
+For <link:internal>Saml</link:internal>, DefaultAuthenticationModule of <link:internal>SAML</link:internal> is used if redirect url is empty.
+
+
+<bold>TTL</bold>
+Time to live,which is not yet implemented, tell how frequently a Keep-Alive request needs to be sent to the Server to keep the session alive
+
+
+Keep-Alive
+Expects a Url on which the keep-alive request for the user session should be sent.
+
+
+
+<bold>Parser class</bold>
+Present in web.xml for IP Servlet and in portlet.xml for <link:broken>Proxy portlet</link:broken>.
+Gives the class name which should be used for parsing the contents of target application.
+Current class is com.vw.integratinportlet.parser.SaxParser which itself is the extension of nekohtml parser library.
+
+<bold>XSLT Stylesheets - </bold>
+
+Integration Portlet uses the XSLT style sheets to transform the target application <link:internal>HTML</link:internal>/XHTML to the <link:internal>HTML</link:internal> snippet which is portable in the Portal environment.
+
+</note-content></text>
+  <last-change-date>2011-11-24T09:37:58.1130850+01:00</last-change-date>
+  <last-metadata-change-date>2012-04-14T22:03:53.7812930+02:00</last-metadata-change-date>
+  <create-date>2011-11-24T09:01:39.0472880+01:00</create-date>
+  <cursor-position>1831</cursor-position>
+  <selection-bound-position>1831</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>66</x>
+  <y>24</y>
+  <tags>
+    <tag>system:notebook:Hexad</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

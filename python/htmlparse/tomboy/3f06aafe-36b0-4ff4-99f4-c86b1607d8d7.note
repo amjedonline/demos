@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>wechsel/tauschen/austauschen/umtauschen</title>
+  <text xml:space="preserve"><note-content version="0.1">wechsel/tauschen/austauschen/umtauschen
+
+<bold>"wechseln" : </bold>when there is reference made to money and currencies
+
+<bold>Some examples:</bold>
+Die Hose wechseln. Den Verein wechseln. Geld wechseln. Motoröl wechseln. 
+(Means something like to leave a state of being and get to a new)
+
+Karten tauschen. Das Auto tauschen. Rollen tauschen. (Has a notion of "trade" in it. You give something away and get something from the person you gave it to. So both of the 2 persons get what the other person had before)
+
+Informationen <bold>austauschen</bold>. 
+Erfahrungen austauschen. (Here both people get something they haven't had before without loosing something.)
+More like - Exchange of information or some intellectual thing
+
+
+Note: Strangely enough, in English we say only change and exchange.
+When I say Change Pants - It raises the question, change the pant itself or take off this pant and put on <link:internal>another</link:internal> ?
+
+</note-content></text>
+  <last-change-date>2012-01-02T17:00:49.5024720+01:00</last-change-date>
+  <last-metadata-change-date>2012-01-02T17:00:49.5074590+01:00</last-metadata-change-date>
+  <create-date>2012-01-02T16:57:26.8926150+01:00</create-date>
+  <cursor-position>681</cursor-position>
+  <selection-bound-position>624</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:German</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Render parameter passing method</title>
+  <text xml:space="preserve"><note-content version="0.1">Render parameter passing method
+
+There are two methods to pass parameters from Action phase to the Render phase:
+1. Render Parameters:
+In processAction() -
+actionResponse.setRenderParameter("param-name", "value");
+
+In render()/<link:internal>jsp</link:internal> -
+renderRenderRequest.getParameter("param-name");
+
+When invoking an actionURL, the parameters specified in the URL can only be read from the action phase (processAction() method)
+To pass parameter values to the render phase you must read them from the actionRequest and then invoke the setRenderParameter method for each parameter needed.
+
+* Liferay-extension to copy all action parameters as render parameters:
+&lt;init-param&gt;
+&lt;name&gt;copy-request-parameters&lt;/name&gt;
+&lt;value&gt;true&lt;/name&gt;
+&lt;/init-param&gt;
+
+
+* Render parameters are set till the they are set the next time, ie, they will be used each time the portlet is reloaded. 
+
+
+2. Session:
+Liferay provides a helper class and taglib to do this operation easily.
+In processAction you need to use SessionMessages class.
+</note-content></text>
+  <last-change-date>2011-03-13T17:44:51.9846910+01:00</last-change-date>
+  <last-metadata-change-date>2011-03-13T17:44:51.9846910+01:00</last-metadata-change-date>
+  <create-date>2011-03-13T17:44:32.4566700+01:00</create-date>
+  <cursor-position>655</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Portlets</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Deploying without SVN update</title>
+  <text xml:space="preserve"><note-content version="0.1">Deploying without SVN update
+
+made working-files dir
+copied mappings and opejgate to working filedir
+:&gt; to openjgate and mappings
+
+manually copied new contents into respective files
+
+<bold>repeated this with</bold>
+TypeSummaryWidget.ui.xml
+TypeSummaryWidget.java
+<link:broken>semgel</link:broken>-application.css
+GridExportCSVAction.java
+
+daily_build_without_<link:internal>svn</link:internal>
+rm <link:internal>log4j</link:internal>.properties
+</note-content></text>
+  <last-change-date>2010-10-22T15:05:28.8021330+05:30</last-change-date>
+  <last-metadata-change-date>2010-10-22T15:05:28.8021330+05:30</last-metadata-change-date>
+  <create-date>2010-05-17T13:33:46.1530040+05:30</create-date>
+  <cursor-position>343</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

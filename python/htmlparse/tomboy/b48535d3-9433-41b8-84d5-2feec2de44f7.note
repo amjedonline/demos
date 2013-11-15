@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Jackbe</title>
+  <text xml:space="preserve"><note-content version="0.1">Jackbe
+
+JackBe® delivers trusted enterprise mashup software that empowers organizations to 
+
+create, customize, and collaborate through enterprise <link:internal>mashups</link:internal> for faster decisions and better business results. 
+
+Our innovative enterprise mashup software, 
+
+Presto®, 
+
+provides dynamic enterprise <link:internal>mashups</link:internal> that leverage internal and external data while meeting the toughest enterprise security and governance requirements.
+
+Enterprise Mashup server
+Mashup Composer
+        Wiring for Non tech users
+        <link:internal>Javac</link:internal> for programmers
+        Mashlets can be distributed in Blog, micro app, desktop or portals.
+Mashup Connector
+        For excel, Portals like BEA and Oracle, HP SOA Systinet, Oracle, Sharepoint.
+        Connect APIs to Javal, JS, C#.
+        Can subscribe to JMS Queue
+</note-content></text>
+  <last-change-date>2010-01-03T12:02:30.4879740+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:05.2978430+05:30</last-metadata-change-date>
+  <create-date>2010-01-03T11:42:30.8388790+05:30</create-date>
+  <cursor-position>8</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Competitors</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

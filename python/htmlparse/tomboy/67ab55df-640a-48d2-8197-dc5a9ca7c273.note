@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Configurations in IA-Portal</title>
+  <text xml:space="preserve"><note-content version="0.1">Configurations in IA-Portal
+
+portal-ext.properties
+build.properties in the plugins directory
+tomcat/conf/server.xml for https, redirection and ports
+data/jackrabbit/repository.xml for jackrabbit database configuration
+
+
+For fresh plugin dev and deployment
+clear
+plugins/dist
+lportal/deploy
+
+tomcat/work
+tomcat/temp
+
+tomcat/web-apps/<italic>plugin</italic>
+
+</note-content></text>
+  <last-change-date>2011-04-13T09:01:06.9236290+02:00</last-change-date>
+  <last-metadata-change-date>2011-04-13T09:01:06.9236290+02:00</last-metadata-change-date>
+  <create-date>2011-04-13T08:58:40.7581650+02:00</create-date>
+  <cursor-position>338</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:IA Portal</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

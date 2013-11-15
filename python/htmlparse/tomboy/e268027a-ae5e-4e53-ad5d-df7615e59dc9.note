@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>4th June 2010</title>
+  <text xml:space="preserve"><note-content version="0.1">4th June 2010
+
+<bold>Topics discussed:</bold>
+Issue:<bold> Ambiguous, not clear, blur, Requirements </bold>
+Resolution:  
+Beginning of the iteration, on <link:internal>monday</link:internal> and tuesday, think through the task
+Amjed, to note down the bullet points of the understandings.
+
+Issue: <bold>Public launch on June 31st</bold>
+Resolution:
+Interim target is <link:internal>July 31st</link:internal>, reason being Gautham was ill for 2 days, and Amjed took off on <link:internal>monday</link:internal>, altogether not a very productive week
+Iteration 19B will be discussions and thought <link:internal>process</link:internal> on various aspects of 3 areas PD, Market, Engineering.
+End of the week, should be able to decide on the time lines and other things
+
+Issue: <bold>New UI - end to end, thing, in the release</bold> ? 
+End of the next week - 19B
+See how we can utilize Prasad
+Expectations from Shami raj 
+
+Brainstorming/thought <link:internal>process</link:internal> exercise
+Understand the technical problems, and we are trying to solve
+On 3 areas PD, Market, Engineering.
+
+<bold><size:large>Action items</size:large></bold><size:large>:</size:large>
+In the weekend, think about what I can do in the next week - 19B
+<list><list-item dir="ltr">Want <link:internal>to learn</link:internal>
+</list-item><list-item dir="ltr">Understand
+</list-item><list-item dir="ltr">Improve</list-item></list>
+
+Time estimate, break down and plan for <link:internal>GXT</link:internal> to <link:internal>GWT</link:internal> <link:internal>Grid</link:internal>, tree migration.
+
+Get the Client side documentation right
+
+<link:internal>GWT</link:internal> Unit test cases, to ensure build integrity before it goes to the production
+
+Client side <link:internal>Logging</link:internal>
+
+Take 25% of the tasks to be of the server side from Iteration 20
+
+Stress on Knowledge transfer of the Client code
+
+Contribute in the thought <link:internal>process</link:internal> during 19B
+
+Set standards and <link:internal>coding guidelines</link:internal>
+
+Practice documenting the steps, <link:internal>process</link:internal> for replication -Infrastructure, set ups
+
+</note-content></text>
+  <last-change-date>2010-12-17T23:34:38.1304340+05:30</last-change-date>
+  <last-metadata-change-date>2010-12-17T23:34:38.1304340+05:30</last-metadata-change-date>
+  <create-date>2010-06-05T09:35:50.1402970+05:30</create-date>
+  <cursor-position>7</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Gautham</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

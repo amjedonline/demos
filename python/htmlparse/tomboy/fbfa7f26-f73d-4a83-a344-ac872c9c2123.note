@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Proxyportlet Design thoughts</title>
+  <text xml:space="preserve"><note-content version="0.1">Proxyportlet Design thoughts
+
+Target application specific elements
+<bold>CSS</bold> 
+<list><list-item dir="ltr">overriding styling
+</list-item><list-item dir="ltr">url references
+</list-item><list-item dir="ltr">body, td, font and so common element styling</list-item></list>
+
+<bold>Javascript</bold>
+<list><list-item dir="ltr">URLs as the values
+</list-item><list-item dir="ltr">Dynamic URL construction
+</list-item><list-item dir="ltr">Ajax calls to serve pages with/without layouts
+</list-item><list-item dir="ltr">Versioning problem of JQuery, AUI, Yahoo UI
+</list-item><list-item dir="ltr">Onload methods
+</list-item><list-item dir="ltr">passing of parameters between documents/windows through URL (which is overridden and not available in subsequent documents)</list-item></list>
+
+
+<link:internal>HTML</link:internal> 
+<list><list-item dir="ltr">malformed <link:internal>HTML</link:internal>
+</list-item><list-item dir="ltr">non compliant XHTML
+</list-item><list-item dir="ltr">empty element tags not ignored.
+</list-item><list-item dir="ltr">Empty script tag not supported
+</list-item><list-item dir="ltr">Taking care of onclick, onhover and other javascript commands passing/constructing urls.
+</list-item><list-item dir="ltr">Control over sizing of the popup window (with layout, and end app specified size, the UI would mess up)</list-item></list>
+
+<bold>
+Other problems</bold>
+Compression
+Caching
+Headers
+Charset
+HTTP-Proxy
+accessing over SSL
+Proxy authentication
+
+Host authentication (<link:internal>SAML</link:internal>)
+
+
+
+<bold>Configurable Aspect of the Application</bold>
+<list><list-item dir="ltr">Session management
+</list-item><list-item dir="ltr">Authentication of <link:internal>SAML</link:internal>
+</list-item><list-item dir="ltr">Authentication of HTTP-Proxy
+</list-item><list-item dir="ltr">Caching
+</list-item><list-item dir="ltr">ID
+</list-item><list-item dir="ltr">div id
+</list-item><list-item dir="ltr">logout URL
+</list-item><list-item dir="ltr">Without/With layout page render URL
+</list-item><list-item dir="ltr">JS Regex
+</list-item><list-item dir="ltr">CSS Regex
+</list-item><list-item dir="ltr">XSLT Template
+</list-item><list-item dir="ltr">Transform or Regex option
+</list-item><list-item dir="ltr">Mutliple Proxy configuration
+</list-item><list-item dir="ltr">Custom match/substitute for each text content-type </list-item></list>
+</note-content></text>
+  <last-change-date>2012-02-03T15:56:17.1034310+01:00</last-change-date>
+  <last-metadata-change-date>2012-02-03T15:56:17.1079390+01:00</last-metadata-change-date>
+  <create-date>2012-02-03T15:20:04.3468410+01:00</create-date>
+  <cursor-position>899</cursor-position>
+  <selection-bound-position>899</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

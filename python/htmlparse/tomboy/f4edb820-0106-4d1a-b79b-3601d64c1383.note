@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Daily status Notebook Template</title>
+  <text xml:space="preserve"><note-content version="0.1">Daily status Notebook Template
+
+Describe your <link:broken>new</link:broken> note here.</note-content></text>
+  <last-change-date>2010-01-10T08:04:54.5573350+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:05.2056740+05:30</last-metadata-change-date>
+  <create-date>2009-12-22T16:52:40.3377750+05:30</create-date>
+  <cursor-position>0</cursor-position>
+  <width>0</width>
+  <height>0</height>
+  <x>-1</x>
+  <y>-1</y>
+  <tags>
+    <tag>system:template</tag>
+    <tag>system:notebook:Daily status</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

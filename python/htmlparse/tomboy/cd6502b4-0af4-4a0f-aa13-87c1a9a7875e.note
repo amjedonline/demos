@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Quartz</title>
+  <text xml:space="preserve"><note-content version="0.1">Quartz 
+
+#quartz
+#java
+#scheduler
+
+The key interfaces of the Quartz API are:
+<list><list-item dir="ltr"><bold>Scheduler</bold> - the main API for interacting with the scheduler.
+</list-item><list-item dir="ltr"><bold><link:internal>Job</link:internal></bold> - an interface to be implemented by components that you wish to have executed by the scheduler.
+</list-item><list-item dir="ltr"><bold>JobDetail</bold> - used to define instances of Jobs.
+</list-item><list-item dir="ltr"><bold>Trigger</bold> - a component that defines the <link:internal>schedule</link:internal> upon which a given <link:internal>Job</link:internal> will be executed.
+</list-item><list-item dir="ltr"><bold>JobBuilder</bold> - used to define/build JobDetail instances, which define instances of Jobs.
+</list-item><list-item dir="ltr"><bold>TriggerBuilder</bold> - used to define/build Trigger instances.</list-item></list>
+
+
+</note-content></text>
+  <last-change-date>2011-06-24T14:09:27.4226260+05:30</last-change-date>
+  <last-metadata-change-date>2011-06-24T14:09:27.4226260+05:30</last-metadata-change-date>
+  <create-date>2011-06-24T14:08:20.8789400+05:30</create-date>
+  <cursor-position>148</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Java</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

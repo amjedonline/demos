@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>grammar</title>
+  <text xml:space="preserve"><note-content version="0.1">grammar
+
+<bold><size:large><link:internal>Preposition</link:internal></size:large></bold><bold><size:large>:</size:large></bold>
+Usually indicates the temporal, spatial or logical relationship of its object to the rest of the sentence as in the following examples:
+<italic>
+The book is on the table.
+The book is beneath the table.
+The book is leaning against the table.
+The book is beside the table.
+over, during</italic>
+
+
+</note-content></text>
+  <last-change-date>2011-03-30T18:25:39.9607280+02:00</last-change-date>
+  <last-metadata-change-date>2011-11-22T20:39:27.6888670+01:00</last-metadata-change-date>
+  <create-date>2011-03-30T18:24:11.8667020+02:00</create-date>
+  <cursor-position>299</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Talks</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

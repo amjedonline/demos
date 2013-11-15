@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Investment dynamics</title>
+  <text xml:space="preserve"><note-content version="0.1">Investment dynamics
+
+Let's go in order. It can get more complicated, but I'll simplify for you. First of all, any company when incorporated has a certain number of shares. The number of shares is fixed. 
+
+Over time, the company can increase the number of shares, but that usually does not happen frequently. A publicly traded company can get its board to approve an increase in the number of shares, then offer a portion of these shares to the public in order to raise money. The shares have a value and own a % of the company. If you issue more shares, everyone who owns shares gets diluted (each share owns <link:internal>less</link:internal> of the company).
+
+In your example of buying Wal-Mart of AT&amp;T, you don't actually buy shares from the company, but you buy shares from people who are selling them. yes, you can buy forever as long as there are people selling. There are no new shares issued by the company so the number of shares are constant.
+
+In teh case of an LLC, it works in a similar fashion. Except in an LLC, since it's a pass-through vehicle, when you own a piece of the company you own a % of profit and loss. When you are allocated shares, you might be getting shares that already exist and are kept in the company's treasury (in which case there is no dilution), or you may be getting new shares (in which case the board needs to approve the creation of new shares which will dilute everyone else.) 
+
+My guess is that in your case the shares exist and are unallocated. For example: when the LLC was created, 10,000 shares were established. 5,100 went to the founder, 1,900 to other employees, and 3,000 were kept in treasury and unallocated. Now those 3,000 shares are trickling out to the various people who are part of the co-op. Assume you are given 100 shares. You own 1% of the company and as such you are entitled to 1% of profits and losses of the company. So one year the company loses $50,000 and you can deduct $500 from your other income for tax purposes. Then the company earns $100,000 and you now own taxes on $10,000.
+
+Every LLC can work in different ways, and the only way to really understand what's going on is to read the documents and understand your rights and liabilities. Keep in mind that your tax liabilities are independent of any distribution you may get. In the example above, when the company has a profit you are liable for taxes on $10,000. That does not mean that the company has distributed you $10,000. The company does not have to unless there are provisions for tax distributions. I imagine the appointment of someone to oversee distributions is just for that reason.
+
+I would advise you to consult with an attorney or an accountant and have them explain what provisions are in the document that you will be affected by. Also remember that if there is a board, the board has a fiduciary obligation to represent all shareholders. Try to speak to the board representative to explain to you the dynamics of this deal.</note-content></text>
+  <last-change-date>2010-11-20T23:28:18.5287480+05:30</last-change-date>
+  <last-metadata-change-date>2010-11-20T23:28:18.5287480+05:30</last-metadata-change-date>
+  <create-date>2010-11-20T23:28:08.9665930+05:30</create-date>
+  <cursor-position>21</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Entrepreneurship</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Scaling/engineering tips from FB</title>
+  <text xml:space="preserve"><note-content version="0.1">Scaling/engineering tips from FB
+
+<bold>Move fast</bold>
+<bold>change incrementally</bold>
+	not batch changes but incremental, small changes pushed to the production
+
+<bold>measure everything</bold>
+	- watch everything that can be measured in the production
+	- averages and distributions
+	- tools for collecting and analyzing data released - hive and scribe
+
+<bold>Small, Independent teams</bold>
+	Experts in respective domain, make decisions themselves, no dependencies
+
+<bold>Control and responsibility</bold>
+	Person responsible for something must have control over it.
+	Ex:Code and deployment 
+
+</note-content></text>
+  <last-change-date>2010-08-18T18:05:41.1326790+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-18T18:05:41.1326790+05:30</last-metadata-change-date>
+  <create-date>2010-08-18T18:04:24.1539220+05:30</create-date>
+  <cursor-position>218</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Software Development</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

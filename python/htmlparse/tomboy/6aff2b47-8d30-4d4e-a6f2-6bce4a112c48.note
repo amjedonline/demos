@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Theme deployment</title>
+  <text xml:space="preserve"><note-content version="0.1">Theme deployment
+
+When a new theme is built and deployed, the <link:internal>ant</link:internal> compile task copies all the files from the 
+Liferay's ${PORTAL_ROOT_HOME}/<link:internal>html</link:internal>/themes/_unstyled/ folder to the theme's docroot folder first. 
+
+
+It then copies all the files from Liferay's ${PORTAL_ROOT_HOME}/<link:internal>html</link:internal>/themes/_styled/ to the same docroot folder. 
+Later, it copies all the files from the theme's <link:url>/docroot/_diffs</link:url> folder to the same docroot folder. 
+This means any existing CSS, images, JavaScript, and template files copied directly from 
+Liferay's _unstyled or _styled folders will be overwritten by your
+versions of files from the corresponding subfolders in the <link:url>/docroot/_diffs</link:url> folder.
+
+
+Now the css, images, js, and templates subfolders under the theme's docroot folder contain all the merged files from 
+Liferay's /_unstyled and /_styled folders and then from your own files in the theme's <link:url>/docroot/_diffs</link:url> folder, in the order
+specified. This is how Liferay Plugins SDK makes sure that your own customization in _diff folder will always have the 
+highest priority to overwrite Liferay's default files, and thus achieve your own design's look and feel.
+
+
+</note-content></text>
+  <last-change-date>2011-07-02T15:28:24.9977170+02:00</last-change-date>
+  <last-metadata-change-date>2011-07-02T15:28:24.9977170+02:00</last-metadata-change-date>
+  <create-date>2011-07-02T15:26:22.5030170+02:00</create-date>
+  <cursor-position>664</cursor-position>
+  <selection-bound-position>664</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Liferay</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

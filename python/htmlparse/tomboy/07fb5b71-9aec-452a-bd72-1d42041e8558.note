@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>UI Design review with Harish - 30th Dec 09</title>
+  <text xml:space="preserve"><note-content version="0.1">UI Design review with Harish - 30th Dec 09
+
+<bold>UI Design guidelines/concepts:</bold>
+<bold>1.Navigation</bold>
+	a. Landmark based navigation
+	b. Route  base navigation
+	c. Network
+	d. Survey ?? ( same as network ??)
+<bold>2.</bold> <bold>Focus context</bold> - (Show the radius in NFS2 ??)
+
+<bold>3. <link:internal>Overview</link:internal></bold><bold>-Zoom-Filter on demand</bold>
+
+
+<bold>Actions items:</bold>
+What it is ?
+What it is going to be ?
+Tasks list ?
+Base <link:internal>Classes that could have JSON replacement impact</link:internal> ?
+<link:internal>GXT</link:internal> Class hierarchy needs to be burnt into the head ?</note-content></text>
+  <last-change-date>2010-12-27T13:18:58.5266350+05:30</last-change-date>
+  <last-metadata-change-date>2010-12-27T13:18:58.5266350+05:30</last-metadata-change-date>
+  <create-date>2009-12-30T18:10:48.6740129+05:30</create-date>
+  <cursor-position>43</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>2</x>
+  <y>68</y>
+  <tags>
+    <tag>system:notebook:Moms</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

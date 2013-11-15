@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>types</title>
+  <text xml:space="preserve"><note-content version="0.1">types
+
+[{
+"hasChildren":true,"isType":true,"label":"Position",
+"url":"<link:url>http://www.onebigweb.com/2008/ont/linkedin/type/Experience"},{"hasChildren":true,"isType":true,"label":"Person","url":"http://www.onebigweb.com/2008/ont/linkedin/type/Person"},{"hasChildren":true,"isType":true,"label":"Investment","url":"http://www.onebigweb.com/2008/ont/crunchbase/type/Investment"},{"hasChildren":true,"isType":true,"label":"Company","url":"http://www.onebigweb.com/2008/ont/crunchbase/type/Company"},{"hasChildren":true,"isType":true,"label":"Acquisition","url":"http://www.onebigweb.com/2008/ont/crunchbase/type/Acquisition"},{"hasChildren":true,"isType":true,"label":"Financial</link:url> Organization","url":"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/type/Financial-organization"},{"hasChildren":true,"isType":true,"label":"Location","url":"http://www.onebigweb.com/2008/ont/crunchbase/type/Location"},{"hasChildren":true,"isType":true,"label":"MileStone","url":"http://www.onebigweb.com/2008/ont/crunchbase/type/Milestone"},{"hasChildren":true,"isType":true,"label":"Organization","url":"http://www.onebigweb.com/2008/ont/crunchbase/type/Organization"}]"],0,5</link:url>]</note-content></text>
+  <last-change-date>2010-03-15T12:55:10.6228160+01:00</last-change-date>
+  <last-metadata-change-date>2010-08-11T18:30:03.7935560+02:00</last-metadata-change-date>
+  <create-date>2010-01-30T11:19:26.7057550+01:00</create-date>
+  <cursor-position>62</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:JSON schema</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

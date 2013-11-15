@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Stanford Programming lessons</title>
+  <text xml:space="preserve"><note-content version="0.1">Stanford Programming lessons
+
+
+Professor Jerry Cain:
+C++ -&gt;Object Oriented, Noun names, ObjectFIrst-&gt;Procedure
+C-&gt; Prodcedure Oriented, Verb name, doThis(hereIsMyData), doTha(data).
+
+
+
+
+Python Garbage collection
+Mark and sweep
+Reference Count
+
+
+Multi-Paradigm
+No declaration
+Just statements
+Strong but dynamic typing. Strong: Cannot cast one type to <link:internal>another</link:internal>
+No paranthesis around the condition in if,while block
+
+
+Procedural:
+	Call a block of code and not worry about its return value.
+	Sythesize in one large result.
+
+Fcuntional:
+	Oriented towards a return value.
+	Scheme
+	Give paramter to a master function.
+
+
+
+
+Everythin is first class object:
+Class
+Methods
+Modules
+Packages
+Object
+Just about everything
+
+
+First time compiled, creates foo.pyc
+
+
+del x 	-&gt;	x becomes undefined
+print x	-&gt; 	is an error
+</note-content></text>
+  <last-change-date>2010-10-11T12:28:22.4658020+05:30</last-change-date>
+  <last-metadata-change-date>2010-10-11T12:28:22.4658020+05:30</last-metadata-change-date>
+  <create-date>2010-10-11T12:25:54.2370010+05:30</create-date>
+  <cursor-position>611</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

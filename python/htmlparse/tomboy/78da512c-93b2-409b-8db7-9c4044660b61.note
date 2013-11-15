@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Being productive</title>
+  <text xml:space="preserve"><note-content version="0.1">Being productive
+
+Keeping away distractions and being productive at work:
+
+<bold>11:00 AM and 3:00 PM</bold>
+SMS, 
+mail, 
+<link:internal>facebook</link:internal>, 
+<link:internal>twitter</link:internal>, 
+ticket bookings, 
+fund transfers, 
+mobile recharge, 
+
+<bold>3:00 PM</bold>
+news, 
+rss reading, 
+status update
+
+<bold>Never</bold>
+video watching, , 
+
+
+<bold>Dos and Donts</bold>
+Use mouse
+Use multiple desktops
+Stay buzy status  in chat
+Dont get into unsolicited conversations
+Do put mobile in silent mode when required
+Wash face when feeling dizzy
+Eat light
+Dont read newspapers very often
+no naukri.com during work hours(eats up time, demotivates)
+Develop and use <link:internal>twitter</link:internal>, mail on Desktop script
+Restrain from Naasir to 1ce in a week or 2
+Restrain from Nizam 
+
+
+<bold>Estimates</bold>
+Measure tasks
+Improve estimation
+<link:internal>Schedule</link:internal> tasks
+Use reminders
+Use todos
+Prioritise tasks and todos
+Be ruthless to yourself
+Try to focus
+
+
+Context switching is not just about time
+But also switching mental focus, which could have easily taken few mintues to hours to be built up.
+
+So dont switch too often between work nd reading/chat/<link:internal>misc</link:internal>
+
+
+
+<bold>Optimize the frequent operations in work</bold>
+<list><list-item dir="ltr">Fix the <link:internal>JSP</link:internal> error page issue.
+</list-item><list-item dir="ltr">Short circuit the steps (default logged in implementation)
+</list-item><list-item dir="ltr">Default space selection</list-item></list></note-content></text>
+  <last-change-date>2011-07-11T10:08:22.4239170+05:30</last-change-date>
+  <last-metadata-change-date>2011-07-11T10:08:22.4239170+05:30</last-metadata-change-date>
+  <create-date>2010-12-17T23:47:59.1662820+05:30</create-date>
+  <cursor-position>1165</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Entrepreneurship</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

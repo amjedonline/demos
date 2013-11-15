@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Making Semgel app better</title>
+  <text xml:space="preserve"><note-content version="0.1">Making <link:broken>Semgel</link:broken> app better
+
+<list><list-item dir="ltr">Item summary, rather than URI
+</list-item><list-item dir="ltr"><link:internal>Lenses</link:internal>
+</list-item><list-item dir="ltr">Wrapping up 
+</list-item><list-item dir="ltr">Reorder the toolbar buttons
+</list-item><list-item dir="ltr">Indication of the grab progress.</list-item></list>
+
+
+Tree scrolling issue-Implement alternative
+<link:internal>Grid</link:internal> - Horizontal scroll, vertical scroll
+Search box and button - sizing
+</note-content></text>
+  <last-change-date>2010-07-21T12:54:50.4949410+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T21:59:49.5068930+05:30</last-metadata-change-date>
+  <create-date>2010-02-06T18:37:57.7542299+05:30</create-date>
+  <cursor-position>4</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

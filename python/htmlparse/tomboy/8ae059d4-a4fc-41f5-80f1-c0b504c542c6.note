@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>DOS type partition</title>
+  <text xml:space="preserve"><note-content version="0.1">DOS type partition
+
+A  DOS  type  partition table can describe an unlimited number of partitions. In sector 0 there is room for the
+description of <bold>4</bold> partitions (called `<bold>primary</bold>'). One of these may be an <bold>extended partition</bold>; 
+
+Extended partition is a box  holding  logical  partitions,  with descriptors found in a linked list of sectors, each preceding the corresponding
+logical partitions.  
+The four primary partitions, present or not, get numbers 1-4.   
+Logical  partitions  start numbering from 5.
+</note-content></text>
+  <last-change-date>2010-09-29T17:10:05.4294450+05:30</last-change-date>
+  <last-metadata-change-date>2010-09-29T17:10:05.4294450+05:30</last-metadata-change-date>
+  <create-date>2010-09-29T17:09:11.1154100+05:30</create-date>
+  <cursor-position>501</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

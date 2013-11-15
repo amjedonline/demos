@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>byethost</title>
+  <text xml:space="preserve"><note-content version="0.1">byethost
+
+<bold>Control Panel </bold>
+Control panel user name
+	b6_5971867
+Control panel password 	badcoffe
+Control panel URL 	<link:url>http://panel.byethost.com</link:url>
+
+<bold>Files and <link:internal>FTP</link:internal></bold><bold> Settings</bold>
+<link:internal>FTP</link:internal> user name 	b6_5971867
+<link:internal>FTP</link:internal> password 	badcoffe
+<link:internal>FTP</link:internal> host name 	<link:url>ftp.byethost6.com</link:url>
+
+<bold><link:internal>MySQL</link:internal></bold><bold> Settings</bold>
+<link:internal>MySQL</link:internal> user 	b6_5971867
+<link:internal>MySQL</link:internal> password 	badcoffe
+<link:internal>MySQL</link:internal> host 	sql201.byethost6.com
+<link:internal>MySQL</link:internal> port 	3306
+
+<bold>Domain name</bold>
+Your domain name	
+<link:url>http://amjedonline.byethost6.com</link:url>
+or
+<link:url>http://www.amjedonline.byethost6.com</link:url></note-content></text>
+  <last-change-date>2010-12-13T17:51:34.0595840+05:30</last-change-date>
+  <last-metadata-change-date>2010-12-13T17:51:34.0595840+05:30</last-metadata-change-date>
+  <create-date>2010-07-19T20:20:08.1154090+05:30</create-date>
+  <cursor-position>389</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:cred</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

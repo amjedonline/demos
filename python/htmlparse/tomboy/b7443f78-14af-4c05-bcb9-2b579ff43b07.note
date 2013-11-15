@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>May 10</title>
+  <text xml:space="preserve"><note-content version="0.1">May 10
+
+<bold>Wed 5</bold> 
+Iteration planning
+Design discussions with Gautham and Sandeep
+Meeting with Shamiraj on UI
+
+<bold>Thu 6</bold>
+Pagination support in Gather
+Auto refresh for Gather and <link:internal>Types</link:internal> View
+Discussion with Harish
+Fixed few UI <link:internal>issues</link:internal> identified with Harish.
+Started working on the Facet dialog
+Home/start button
+
+<bold>Fri 7</bold>
+Worked on the Facet dialog
+in weekend - Grab All and some UI isseus
+
+
+<bold>Mon 10</bold>
+Worked on facet lense <link:internal>issues</link:internal>
+Layout <link:internal>issues</link:internal>
+Discussions with Harish on the UI and identified <link:internal>issues</link:internal>
+
+<bold>Tue 11</bold>
+Fixed layout
+Progress message
+Bread crumb
+
+<bold>Wed</bold> <bold>12</bold>
+Fixing the <link:internal>issues</link:internal> form the list of <link:internal>issues</link:internal> identified
+Tab container full height
+Navigation widget
+
+<bold>Thu</bold> <bold>13</bold>
+<link:internal>Types</link:internal> tree non functional when empty space is opened
+To name a few: 
+Help content in synch, closable
+
+<bold>Fri 14</bold>
+Import of RDF - File upload
+Uris not appearing when label is empty in tree and the <link:internal>Grid</link:internal>
+UI <link:internal>issues</link:internal> like anchor images not aligned, spacing
+
+<bold>Sat 15</bold>
+Fixing high priority UI <link:internal>issues</link:internal> and getting ready for demo
+
+<bold>Mon 17</bold>
+Getting ready for demo - UI fixes
+<link:internal>Types</link:internal> tree horizontal scrollable
+Expression dialog
+
+<bold>Tue 18</bold>
+Iteration planning including:
+Listing of <link:internal>bugs</link:internal>, cleaning up, removing duplicates and estimation.
+<link:internal>Types</link:internal> tree hangs
+Labels in tree
+On clearg go to view <link:internal>types</link:internal> pane
+
+
+<bold>Wed 19</bold>
+Pagination widget
+Pagination indication in Gather view
+
+
+<bold>Thu 20</bold>
+Importing of RDF via UI confirmation 
+Cancel button for page grab operation
+
+<bold>Fri 21</bold>
+<link:internal>Status message</link:internal> and refresh button issue
+Space command integration
+
+<bold>Mon 24</bold>
+#199 - Stop button while grabbing pages			
+#202 - <link:internal>Status message</link:internal> disappears briefly between consecutive messages	
+#171 - Hide, delete and refresh of pages		
+
+<bold>Tue 25</bold>
+#207 - Site for the sample page should have an anchor	
+#209 - Facet styling <link:internal>issues</link:internal>				
+#210 - Discard the space when switched.	
+#117 - Achieving view separation			
+
+<bold>Wed 26</bold>
+#211 - Facet element count should be shown in the <link:internal>facets</link:internal>
+#217 - Clicking on a type in explore does not show type's items
+#220 - Empty Tree and <link:internal>Grid</link:internal> when an empty space is opened.
+<link:internal>Grid</link:internal> layout <link:internal>issues</link:internal>.
+
+<bold>Thu 27</bold><strikethrough>
+</strikethrough><link:internal>Grid</link:internal> layout <link:internal>issues</link:internal>.
+Tree issue
+
+</note-content></text>
+  <last-change-date>2010-06-05T09:54:04.5066580+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:02.7249760+05:30</last-metadata-change-date>
+  <create-date>2010-05-07T10:00:31.6492230+05:30</create-date>
+  <cursor-position>1990</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Daily status</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

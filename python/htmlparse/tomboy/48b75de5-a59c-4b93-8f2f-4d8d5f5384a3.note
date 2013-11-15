@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Exercise Chart - By Bala</title>
+  <text xml:space="preserve"><note-content version="0.1">Exercise Chart - By Bala
+
+<link:internal>Monday</link:internal>
+<list><list-item dir="ltr">Lats + Back + ABS</list-item></list>
+
+Tuesday
+<list><list-item dir="ltr">Shoulders + Lower Back</list-item></list>
+
+Wednesday
+<list><list-item dir="ltr">Chest + ABS</list-item></list>
+
+Thursday
+<list><list-item dir="ltr">Biceps + ABS</list-item></list>
+
+Friday
+	Triceps + Lower Back
+
+Sat
+	Thighs + ABS
+
+
+Lats:
+	Back cable Pull
+	Front Cable Pull
+	Cable Pull
+	Bent Side Dumble lift
+
+
+ABS:
+	Crunches
+	Lunges
+	Cycling
+	Single Leg lift
+	Both leg lifts
+	Side bend
+
+Shoulders</note-content></text>
+  <last-change-date>2010-12-11T15:24:23.7954989+05:30</last-change-date>
+  <last-metadata-change-date>2010-12-11T15:24:23.7954989+05:30</last-metadata-change-date>
+  <create-date>2010-12-11T15:20:29.4055400+05:30</create-date>
+  <cursor-position>137</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Exercise</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

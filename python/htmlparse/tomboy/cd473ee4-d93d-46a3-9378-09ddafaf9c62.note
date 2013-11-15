@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>IPTables</title>
+  <text xml:space="preserve"><note-content version="0.1">IPTables
+
+Three chains
+INPUT
+OUTPUT
+FORWARD
+other chans are:
+PREROUTING  (can be either local or passing traffic)
+POSTROUTING  (can be either local or passing traffic)
+
+Rules can be added, removed and appended to each chain.
+
+
+Netfilter organization came up with IPTables to rectify porblems with IPChains
+
+<bold>New features in IPTables:</bold>
+Rate limiting feature that helps IPTables block some DOS.
+
+All packets inspected by iptables pass through a <link:internal>sequence</link:internal> of built-in tables (queues) for processing.
+
+<bold>Three tables in total</bold>:
+<bold>1. Mangle table</bold>
+<list><list-item dir="ltr">Alteration of QOS bits in TCP header.</list-item></list>
+
+<bold>2. Filter queue</bold> - Packet filtering.
+<list><list-item dir="ltr">3 built-in chains
+<list><list-item dir="ltr"><bold>Forward chain</bold> : Filters packets to server protected by the firewall
+</list-item><list-item dir="ltr"><bold>Input chain</bold> : Filters packets destined for the firewall
+</list-item><list-item dir="ltr"><bold>Output chain</bold>: Filters packets originating from the firewall</list-item></list></list-item></list>
+<bold>3. NAT queue</bold>
+<list><list-item dir="ltr">Responsible for NAT
+</list-item><list-item dir="ltr">2 chains:
+<list><list-item dir="ltr">Pre-routing chain
+</list-item><list-item dir="ltr">Post routing</list-item></list></list-item></list>
+
+
+<bold>Target</bold> - There is generally a target set for each rule in a ruleset. 
+If the rule has matched fully, the target specification tells us what to do with the packet. 
+For example, if we should drop or accept it, or NAT it, etc. 
+There might not be a target or jump for each rule, but there may be. 
+
+<bold>Jump </bold>- The jump instruction is closely related to a target. 
+<list><list-item dir="ltr"><italic>A jump instruction is written exactly the same as a target in iptables, with the exception that instead of writing a target name, you write the name of <link:internal>another</link:internal></italic><italic> chain.</italic> 
+</list-item><list-item dir="ltr">If the rule matches, the packet will hence be sent to this second chain and be processed as usual in that chain. </list-item></list>
+
+
+</note-content></text>
+  <last-change-date>2010-12-25T18:41:21.7728190+05:30</last-change-date>
+  <last-metadata-change-date>2010-12-25T18:41:21.7728190+05:30</last-metadata-change-date>
+  <create-date>2010-05-18T11:21:31.7596550+05:30</create-date>
+  <cursor-position>1209</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

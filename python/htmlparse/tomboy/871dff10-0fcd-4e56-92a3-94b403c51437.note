@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>TODO on 29 March</title>
+  <text xml:space="preserve"><note-content version="0.1">TODO on 29 March
+
+
+<bold>Knowledge management:</bold>
+Waiting on Marcus call
+
+<bold><link:internal>IA Portal</link:internal></bold><bold>:</bold>
+Meeting tomorrow with Ralf, Berndt and yevheni
+
+<bold>App factory</bold>
+Not yet started
+
+
+
+<bold>TODO:</bold>
+Prepare a Java Objective question paper and talk to Pragathi
+<strikethrough>Call with India team</strikethrough>
+<bold>Hexad website:</bold> 
+Meeting at  12:00 
+Rajeeva to complete IPGeo , start on blog (refer the requirements doc)
+Nags to start working on the UI revamp (refere the UI <link:internal>issues</link:internal> document)
+
+<bold>ITSP</bold>:
+Waiting on Suresh's SOW
+Started on the setting up a portal and start working on the same.
+
+Plan and get started on the ITSP
+<link:internal>Read up on</link:internal> bringing the IA repository <link:internal>SVN</link:internal> documents into liferay platform
+</note-content></text>
+  <last-change-date>2011-04-04T12:56:45.5468080+02:00</last-change-date>
+  <last-metadata-change-date>2011-12-22T11:50:46.8044690+01:00</last-metadata-change-date>
+  <create-date>2011-03-29T11:17:50.4301430+02:00</create-date>
+  <cursor-position>353</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>381</width>
+  <height>479</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

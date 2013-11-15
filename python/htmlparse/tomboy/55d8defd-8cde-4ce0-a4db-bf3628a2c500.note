@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Namespace</title>
+  <text xml:space="preserve"><note-content version="0.1">Namespace
+A namespace is used to provide a <bold>frame of reference for tags</bold> and is given a unique ID in the form of a URL, 
+plus a prefix to apply to tags from that namespace. For example, you might create a library namespace, 
+with an identi-fier of <link:url>http://server.domain.tld/NameSpaces/Library</link:url> and with a prefix of lib: and use that to
+provide a frame of reference for the tags.
+
+
+A namespace declaration <bold>can be added to any node</bold> in a document, and that namespace will be available
+to every descendant node of that node. In most documents, all namespace declarations are applied to the
+root element of the document
+
+
+Certain <bold>namespace prefixes are reserved</bold> for use by XML and its associated languages, such as <bold>xml:, xsl:, and xmlns</bold>:.
+
+Document might contain <bold>CDATA</bold> sections for storing unprocessed data, comments, and processing instructions 
+for storing information specific to a single XML processor.
+
+XML’s big strength lies in its extensibility, and its companion standards, XSLT, XPath, Schema, and DTD languages, and a host of
+other standards for querying, linking, describing, displaying, and manipulating data.
+
+
+</note-content></text>
+  <last-change-date>2010-04-17T10:02:47.5621270+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.4534330+05:30</last-metadata-change-date>
+  <create-date>2010-04-17T09:56:59.8504210+05:30</create-date>
+  <cursor-position>1116</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:xml</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

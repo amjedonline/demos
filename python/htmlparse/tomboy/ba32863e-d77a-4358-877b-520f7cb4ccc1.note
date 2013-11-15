@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Facets</title>
+  <text xml:space="preserve"><note-content version="0.1">Facets
+
+{"facets":{
+	"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/raised_amount</link:url>":{
+		"label":"ofAmount",
+		"elements":[
+			{"label":"2.5<link:internal>Schema and data</link:internal>7"},
+			{"label":"100000.0"}
+		]
+	},
+	"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/hasInvestor</link:url>":{
+		"label":"hasInvestor",
+		"elements":[
+			{"label":"Kleiner Perkins Caufield &amp; Byers",
+			"uri":"<link:url>http://www.crunchbase.com/financial-organization/kleiner-perkins-caufield-byers</link:url>"
+			},
+		{"label":"Sequoia Capital","uri":"<link:url>http://www.crunchbase.com/financial-organization/sequoia-capital"},{"label":"Andy</link:url> Bechtolsheim","uri":"<link:url>http://www.crunchbase.com/person/andy-bechtolsheim"}]},"http://www.onebigweb.com/2008/ont/crunchbase/pred/round_code":{"label":"inRound","elements":[{"label":"a"},{"label":"angel"}]},"http://www.onebigweb.com/2008/ont/crunchbase/pred/hasInvestee":{"label":"hasInvestee","elements":[{"label":"Google","uri":"http://www.crunchbase.com/company/google"}]}},"label":"Investment</link:url>"}
+(02:57:58  IST) <link:url>buzypi@gmail.com</link:url>: {"facets":{"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/raised_amount":{"label":"ofAmount","elements":[{"label":"2.5E7"},{"label":"100000.0"}]},"http://www.onebigweb.com/2008/ont/crunchbase/pred/hasInvestor":{"label":"hasInvestor","elements":[{"label":"Kleiner</link:url> Perkins Caufield &amp; Byers","uri":"<link:url>http://www.crunchbase.com/financial-organization/kleiner-perkins-caufield-byers"},{"label":"Sequoia</link:url> Capital","uri":"<link:url>http://www.crunchbase.com/financial-organization/sequoia-capital"},{"label":"Andy</link:url> Bechtolsheim","uri":"<link:url>http://www.crunchbase.com/person/andy-bechtolsheim"}]},"http://www.onebigweb.com/2008/ont/crunchbase/pred/round_code":{"label":"inRound","elements":[{"label":"a"},{"label":"angel"}]},"http://www.onebigweb.com/2008/ont/crunchbase/pred/hasInvestee":{"label":"hasInvestee","elements":[{"label":"Google","uri":"http://www.crunchbase.com/company/google"}]}},"label":"Investment</link:url>"}
+</note-content></text>
+  <last-change-date>2010-04-01T18:45:30.2552090+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.5599530+05:30</last-metadata-change-date>
+  <create-date>2010-01-06T16:16:51.6293490+05:30</create-date>
+  <cursor-position>445</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:JSON schema</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

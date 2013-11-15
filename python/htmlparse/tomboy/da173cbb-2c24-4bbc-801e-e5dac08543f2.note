@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>ssh tunnell</title>
+  <text xml:space="preserve"><note-content version="0.1">ssh tunnell
+
+ssh -L 18888:10.186.110.33:18888 <link:url>fox0wen@10.186.110.33</link:url>
+
+</note-content></text>
+  <last-change-date>2011-12-16T19:09:22.8768790+01:00</last-change-date>
+  <last-metadata-change-date>2011-12-16T19:09:22.8784640+01:00</last-metadata-change-date>
+  <create-date>2011-12-16T19:06:18.6690860+01:00</create-date>
+  <cursor-position>13</cursor-position>
+  <selection-bound-position>13</selection-bound-position>
+  <width>450</width>
+  <height>320</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

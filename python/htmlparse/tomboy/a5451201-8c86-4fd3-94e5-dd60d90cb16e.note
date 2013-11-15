@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Role Base Access Control - RBAC</title>
+  <text xml:space="preserve"><note-content version="0.1">Role Base Access Control - RBAC
+
+<bold>Permissions are always assigned through roles.</bold>
+
+
+Alternative to ACL, Mandatory AC and Discretionary AC
+
+NSIT RBAC is the standard, unified and copywrited <link:internal>model</link:internal> published in 2000
+
+
+<bold>RBAC</bold>
+Within an organization, roles are created for various <link:internal>job</link:internal> <link:internal>functions</link:internal>. The permissions to perform certain operations are assigned to specific roles. Members of staff (or other system users) are assigned particular roles, and through those role <link:internal>assignments</link:internal> acquire the permissions to perform particular system <link:internal>functions</link:internal>. Since users are not assigned permissions directly, but only acquire them through their role (or roles), management of individual user rights becomes a matter of simply assigning appropriate roles to the user; this simplifies common operations, such as adding a user, or changing a user's department.
+Three primary rules are defined for RBAC:
+1. Role assignment: A subject can execute a transaction only if the subject has selected or been assigned a role.
+2. Role authorization: A subject's active role must be authorized for the subject. With rule 1 above, this rule ensures that users can take on only roles for which they are authorized.
+3. Transaction authorization: A subject can execute a transaction only if the transaction is authorized for the subject's active role. With rules 1 and 2, this rule ensures that users can execute only transactions for which they are authorized.
+Additional constraints may be applied as well, and roles can be combined in a hierarchy where higher-level roles subsume permissions owned by sub-roles.
+
+
+
+RBAC has several advantages over ACLs
+Even a very simple RBAC <link:internal>model</link:internal> affords an administrator the opportunity to express an access control policy in terms of the way that the organization is view, ie.e in terms of the roles that individuals play within the organization.
+
+With RBAC, it is not necessary to translate a natural organicational view into <link:internal>another</link:internal> view in order to accommodate an access control mechanism.
+
+Most RBAC has features which most ACLs do not.
+
+
+Access control mechanism:
+
+Access control mechanism require that seccurity attributes be kept about users and about objects.
+Use security attributes consist of things like the groups to which the user belongs and the roles authorized for the user.
+
+Object security attributes generally consist of the permissions required to perform operations on te object.
+
+Access conrol mechanisms compare user security attributes and object security attributes in order to determine access.
+
+
+<bold>Authentication and Authorization:</bold>
+
+Authentication is a <link:internal>process</link:internal> of determining whether someone or something is,
+in fact, who or what it is declared to be.
+
+Authorization is a <link:internal>process</link:internal> of finding out if the person, once identified, is
+permitted to have access to a resource.
+
+
+</note-content></text>
+  <last-change-date>2011-03-11T18:34:05.6400050+01:00</last-change-date>
+  <last-metadata-change-date>2012-01-02T16:24:06.5074570+01:00</last-metadata-change-date>
+  <create-date>2010-08-19T09:25:51.5024240+02:00</create-date>
+  <cursor-position>155</cursor-position>
+  <selection-bound-position>155</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Tech junks</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

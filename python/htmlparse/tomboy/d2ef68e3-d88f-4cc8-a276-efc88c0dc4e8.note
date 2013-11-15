@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>July 11</title>
+  <text xml:space="preserve"><note-content version="0.1">July 11
+
+
+<bold>4th Mon</bold>
+MailerService for Newsletter
+
+<bold>5 Tue</bold>
+Understanding and estimation for the go-maut locale specific search
+
+
+<bold>6 Wed </bold>
+Worked on the Newsletter <link:internal>issues</link:internal> - <link:internal>HTML</link:internal> Mail sending, Images in Email not having absolute URL
+
+<bold>7 Thur </bold>
+<link:internal>Read up on</link:internal> the Naveen's Car parking project
+
+<bold>8 Thur </bold>
+Understanding the Car parking project
+
+</note-content></text>
+  <last-change-date>2011-07-08T11:00:19.0212190+05:30</last-change-date>
+  <last-metadata-change-date>2011-07-08T11:00:19.0212190+05:30</last-metadata-change-date>
+  <create-date>2011-07-08T10:57:12.9755160+05:30</create-date>
+  <cursor-position>285</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Hexad</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

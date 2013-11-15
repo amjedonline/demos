@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Java, MySQL, Date and time</title>
+  <text xml:space="preserve"><note-content version="0.1">Java, MySQL, Date and time
+
+<link:internal>MySQL</link:internal> assumes timestamp as the row updation<link:url>/creation/modification</link:url> time.
+<link:internal>MySQL</link:internal> updates the timestamp value to the current time, if the column is not specified in the update query !!
+<link:internal>MySQL</link:internal> TIMESTAMP is for fields that get automaticly updated with the
+time of last change to the row (without the app doing anything).
+This behaviour is only in <link:internal>MySQL</link:internal>.
+It makes sense not to have two such fields.
+
+
+Use datetime, <link:internal>MySQL</link:internal> leaves datetime column alone
+
+SQL is a very loose standard
+
+Always, store as datetime <link:internal>mysql</link:internal> type, and java.sql.timestamp java type.
+While retrieving retrieve as java.sql.timestamp, then use SimpleDateFormatter with pattern yyyy-MM-dd HH:MM:ss to format the timestamp.time() back to the readable format	
+
+<link:internal>SimpleDateFormat</link:internal> can be used to format milliseconds into readable string , as well as parse the <link:internal>date</link:internal> from the string</note-content></text>
+  <last-change-date>2010-12-11T18:37:12.0228530+05:30</last-change-date>
+  <last-metadata-change-date>2010-12-11T18:37:12.0228530+05:30</last-metadata-change-date>
+  <create-date>2010-01-21T10:20:46.4946410+05:30</create-date>
+  <cursor-position>768</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

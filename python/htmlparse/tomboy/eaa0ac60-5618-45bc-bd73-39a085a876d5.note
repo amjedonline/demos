@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>July 28</title>
+  <text xml:space="preserve"><note-content version="0.1"><link:internal>July</link:internal> 28
+
+Fix the literal facet
+Fix the continue to semgel.com instead of gwtapp.<link:internal>jsp</link:internal> after request
+<link:internal>Nagios</link:internal>
+
+
+<bold>Today's task</bold>
+
+<bold>Command buttons </bold>for
+Home page	-
+Review page
+Explore list view
+Explore table view - 2 hrs
+
+<bold>Selection <link:internal>model</link:internal></bold><bold> (Checkboxes) :</bold>
+Review page
+Home page
+Explore list view
+
+<bold>Facet Widgets</bold>
+Widget creation - 1 hrs
+Event plumbing
+
+
+Update <bold>Data structure </bold>
+Dependency on server for:
+<bold>1.list view</bold>
+	Show predicate values for items that belong to <link:internal>types</link:internal>
+	getTypesList call  TypeSummary -&gt;ItemSummary-&gt;to contain predictes.
+<bold>2.Review tab</bold>
+getPagesList() method
+Returns PagesObject-&gt;page-&gt;
+
+3. Space data - pages, triples
+</note-content></text>
+  <last-change-date>2010-11-25T15:34:00.4046300+05:30</last-change-date>
+  <last-metadata-change-date>2010-11-25T15:34:00.4046300+05:30</last-metadata-change-date>
+  <create-date>2010-07-28T11:17:45.4682540+05:30</create-date>
+  <cursor-position>617</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>1</y>
+  <tags>
+    <tag>system:notebook:Daily</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>import/export</title>
+  <text xml:space="preserve"><note-content version="0.1">import/export
+
+
+<bold><size:large>Exporting</size:large></bold>
+
+<bold>Database:</bold>
+mysqldump -uusername -ppassword database_name &gt;  file.sql
+
+<bold>Table:</bold>
+mysqldump guestdb guestTbl &gt; guestdb.txt
+
+<bold>Include drop command for existing table</bold>
+The <italic>--add-drop-table</italic> option adds code to drop a table if it exists in the new database when the file is imported. 
+
+mysqldump --add-drop-table guestdb guestTbl &gt; guestdb.txt
+
+<bold>--add-locks</bold>	- Adds Write lock statements while importing the database
+
+<bold>--opt </bold>
+turns on --add-drop-table,  --add-locks
+
+<bold>--create-options</bold>
+Include all table creation options in the statement
+
+<bold>--complete-insert</bold>
+Include column name in the insert statements
+
+<bold><size:large>Importing</size:large></bold>
+<link:internal>mysql</link:internal> -uusername -ppassword database_name &lt;  file.sql</note-content></text>
+  <last-change-date>2010-03-20T10:11:01.7681869+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.7649680+05:30</last-metadata-change-date>
+  <create-date>2010-03-20T09:58:38.3672440+05:30</create-date>
+  <cursor-position>25</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:mysql</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

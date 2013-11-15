@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>August 9th</title>
+  <text xml:space="preserve"><note-content version="0.1"><link:internal>August</link:internal> 9th 
+
+Tasks in the UI
+
+<bold>For prasad</bold>
+<list><list-item dir="ltr">The <link:internal>status message</link:internal> should not be on <link:internal>top</link:internal> of the HOME &gt; GATHER etc
+</list-item><list-item dir="ltr">Help message
+</list-item><list-item dir="ltr">Browser scroll bar should not appear
+<list><list-item dir="ltr">Left panel scroll should appear
+</list-item><list-item dir="ltr">Main panel scroll bar
+</list-item></list></list-item><list-item dir="ltr"><link:internal>Grid</link:internal> should take full size
+</list-item><list-item dir="ltr">Item title is pushed to the right in 
+</list-item><list-item dir="ltr">Space name div should be wider</list-item></list>
+
+
+<bold>Other UI</bold>
+Operations in Explore list view
+<strikethrough>Logo is not linked to the website</strikethrough>
+<strikethrough>Image not checked in for drop down</strikethrough>
+<strikethrough>Eliding in list view</strikethrough>
+<strikethrough>Show multiple predicate values in separate lines</strikethrough>
+Help message
+<strikethrough>Search boxes in all the views (Home, Gather, Review etc)</strikethrough>
+Pagination in Explore list view
+Labels in list view for items (like experience)
+Explore summary
+<strikethrough>Duplicate action commands when switching the tabs</strikethrough>
+Never show URI and Urls
+<strikethrough>Do not show non-root nodes in review tab</strikethrough>
+<strikethrough>Dont show hasEntity, display and name</strikethrough>
+<strikethrough>In home view, only new and Bookmarklet command should be in the Right, rest in drop down</strikethrough>
+<strikethrough>In review tab, items should not have check boxes.</strikethrough>
+Refresh Highlighting in explore button
+<strikethrough>Radio button for Root only - Primary nodes and all nodes ( in side panel )</strikethrough></note-content></text>
+  <last-change-date>2010-08-13T10:26:03.4813390+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-13T10:26:03.4813390+05:30</last-metadata-change-date>
+  <create-date>2010-08-07T12:21:42.7884100+05:30</create-date>
+  <cursor-position>0</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Daily</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

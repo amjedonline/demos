@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Excercise and health</title>
+  <text xml:space="preserve"><note-content version="0.1">Excercise and health
+
+
+Never skip exercise two days in a row.
+
+Ultimate one:
+<link:url>http://www.exrx.net/Lists/ExList/BackWt.html</link:url>
+</note-content></text>
+  <last-change-date>2010-10-27T14:51:10.1533220+02:00</last-change-date>
+  <last-metadata-change-date>2010-10-27T14:51:10.1533220+02:00</last-metadata-change-date>
+  <create-date>2010-10-22T14:28:18.1176810+02:00</create-date>
+  <cursor-position>122</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Personal</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

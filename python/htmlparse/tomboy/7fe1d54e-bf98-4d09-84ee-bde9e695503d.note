@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>velocity template variables</title>
+  <text xml:space="preserve"><note-content version="0.1">velocity template variables
+
+
+## ———- Common variables ———- ##
+$theme_display
+$portlet_display
+$theme_timestamp
+$theme_settings
+$css_class
+$layout
+$page_group
+$liferay_toggle_controls
+$liferay_dockbar_pinned
+$css_folder
+$images_folder
+$javascript_folder
+$templates_folder
+$full_css_path
+$full_templates_path
+$css_main_file
+$js_main_file
+$company_id
+$company_name
+$company_logo
+$company_logo_height
+$company_logo_width
+$company_url
+$user_id
+$is_default_user
+$user_first_name
+$user_middle_name
+$user_last_name
+$user_name
+$is_male
+$is_female
+$user_birthday
+$user_email_address
+$language_id
+$w3c_language_id
+$time_zone
+$user_greeting
+$user_comments
+$user_login_ip
+$user_last_login_ip
+$is_signed_in
+$group_id
+## ———- URLs ———- ##
+$show_add_content
+$add_content_text
+$add_content_url
+$layout_text
+$layout_url
+$show_control_panel
+$control_panel_text
+$control_panel_url
+$show_home
+$home_text
+$home_url
+$show_my_account
+$my_account_text
+$my_account_url
+$show_page_settings
+$page_settings_text
+$page_settings_url
+$show_sign_in
+$sign_in_text
+$sign_in_url
+$show_sign_out
+$sign_out_text
+$sign_out_url
+$show_toggle_controls
+$toggle_controls_text
+$toggle_controls_url
+$update_available_url
+## ———- Page ———- ##
+$the_title
+$selectable
+$is_maximized
+$is_freeform
+$page_javascript_1
+$page_javascript_2
+$page_javascript_3
+$layout
+$page = $layout
+$is_first_child
+$is_first_parent
+$the_title
+$is_portlet_page
+$all_portlets
+$column_1_portlets
+$column_2_portlets
+$column_3_portlets
+$column_4_portlets
+$column_5_portlets
+$maximized_portlet_id
+$typeSettingsProperties
+$page_javascript_1
+$page_javascript_2
+$page_javascript_3
+$community_name
+$css_class
+$my_places_portlet_url
+$community_default_public_url
+$community_default_private_url
+$community_default_url
+$the_title
+$layouts
+$pages
+## ———- Navigation ———- ##
+$nav_items
+$has_navigation
+## ———- Staging ———- ##
+$show_staging
+$staging_text
+## ———- My places ———- ##
+$show_my_places
+$my_places_text
+## ———- Includes ———- ##
+$dir_include
+$bottom_include
+$bottom_ext_include
+$content_include
+$<link:internal>top</link:internal>_head_include
+$<link:internal>top</link:internal>_messages_include
+## ———- <link:internal>Date</link:internal> ———- ##
+$<link:internal>date</link:internal>
+$current_time
+$the_year</note-content></text>
+  <last-change-date>2011-08-16T12:54:48.6451790+02:00</last-change-date>
+  <last-metadata-change-date>2012-04-14T22:04:14.5003410+02:00</last-metadata-change-date>
+  <create-date>2011-08-16T12:54:34.5833350+02:00</create-date>
+  <cursor-position>0</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>0</width>
+  <height>0</height>
+  <x>-1</x>
+  <y>-1</y>
+  <tags>
+    <tag>system:notebook:Liferay</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

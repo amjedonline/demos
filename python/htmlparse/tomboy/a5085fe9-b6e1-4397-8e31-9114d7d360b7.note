@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Competitors</title>
+  <text xml:space="preserve"><note-content version="0.1">Competitors
+
+dabbledb
+sig.ma
+factual
+project oxygen
+CCAIL
+exhibit
+haystack
+piggybank
+freebase
+socrata
+Editgrid
+gridworks
+<link:internal>topbraid</link:internal>
+</note-content></text>
+  <last-change-date>2010-06-11T11:09:32.1941569+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:02.4640880+05:30</last-metadata-change-date>
+  <create-date>2010-06-11T11:08:50.9027500+05:30</create-date>
+  <cursor-position>130</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Semgel Product Development</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

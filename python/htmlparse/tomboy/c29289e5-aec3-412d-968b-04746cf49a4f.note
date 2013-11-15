@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Creating swap space</title>
+  <text xml:space="preserve"><note-content version="0.1">Creating swap space
+
+First, create a large empty file:
+Code:
+<link:internal>sudo</link:internal> dd if=/dev/zero of=/swap_file bs=1M count=1000
+Replace 1000 with the size of the swap file desired, in MB. You can also put the swap_file in a different location if desired.
+
+Next, we'll secure the swapspace, so ordinary users cannot read the contents (potential security breach):
+Code:
+<link:internal>sudo</link:internal> chown root:root /swap_file
+<link:internal>sudo</link:internal> chmod 600 /swap_file
+Then, turn it into swap space:
+
+Code:
+<link:internal>sudo</link:internal> mkswap /swap_file
+
+
+Next, turn it on:
+Code:
+<link:internal>sudo</link:internal> swapon /swap_file
+
+
+To make it turn on at every bootup, open up <link:url>/etc/fstab</link:url>:
+Code:
+<link:internal>sudo</link:internal> gedit <link:url>/etc/fstab</link:url>
+
+
+Add this line to the end of the file:
+Code:
+/swap_file       none            swap    sw              0       0</note-content></text>
+  <last-change-date>2011-04-27T16:36:57.3987970+02:00</last-change-date>
+  <last-metadata-change-date>2011-04-27T16:36:57.3987970+02:00</last-metadata-change-date>
+  <create-date>2011-04-27T16:36:31.7506060+02:00</create-date>
+  <cursor-position>647</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

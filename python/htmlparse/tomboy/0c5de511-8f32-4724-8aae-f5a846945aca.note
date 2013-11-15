@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>pushmail on samsung wave 525</title>
+  <text xml:space="preserve"><note-content version="0.1">pushmail on samsung wave 525
+
+
+1. Delete the previously not working Gmail account in your phone
+2. Press Menu
+3. Select My Accounts
+4. Choose the proper type of email account: Do NOT select "Google", but Exchange ActiveSync!
+5. On the next screen fill out the Email address:
+do not write <link:url>yourusername@gmail.com</link:url>, instead use <link:url>yourusername@googlemail.com</link:url>!
+6. The username will be typed in automatically
+7. Type in the password
+8. Press Next
+9. Press OK for the activation
+10. On the next screen type in the server URL: m.google.com
+11. Set Use SSL to ON (button turns green)
+12. Press Set (left below)
+13. On the next screen set the options you need: Email sync, Calendar sync, Contact sync, Task sync (below is <link:internal>another</link:internal> option in case of conflicts between data on the phone and the server)
+14. There are further more options if you press the gear icon (sync: push/manual, push days/hours)
+15. Press Done (left below)
+16. Wait and see: voilá, push work like charm.
+</note-content></text>
+  <last-change-date>2011-06-24T14:40:11.4837580+05:30</last-change-date>
+  <last-metadata-change-date>2011-06-24T14:40:11.4837580+05:30</last-metadata-change-date>
+  <create-date>2011-06-24T14:39:56.6711850+05:30</create-date>
+  <cursor-position>32</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Mobile</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

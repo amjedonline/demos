@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>IPortal mavenizing</title>
+  <text xml:space="preserve"><note-content version="0.1">IPortal mavenizing
+
+
+<bold>Requirements:</bold>
+<list><list-item dir="ltr">Ability to build all <link:internal>types</link:internal> of liferay projects
+<list><list-item dir="ltr">portlet
+</list-item><list-item dir="ltr">hook
+</list-item><list-item dir="ltr">ext
+</list-item><list-item dir="ltr">theme</list-item></list></list-item></list>
+with all dependencies like 
+<list><list-item><list><list-item dir="ltr">external jars, getting from vw artifactory
+</list-item><list-item dir="ltr">internal projects, 
+</list-item><list-item dir="ltr">versioning of builds
+</list-item><list-item dir="ltr">build integrity. 
+<list><list-item dir="ltr">unit test cases, sure fire
+</list-item><list-item dir="ltr">integration testing using selenium
+</list-item></list></list-item></list></list-item><list-item dir="ltr">Ability to deploy
+<list><list-item dir="ltr">locally
+</list-item><list-item dir="ltr">test, dev and prod
+</list-item></list></list-item><list-item dir="ltr">configuration management
+<list><list-item dir="ltr">stage specific
+</list-item><list-item dir="ltr">platform specific win, linux
+</list-item></list></list-item><list-item dir="ltr">Development environment support
+<list><list-item dir="ltr">Building in <link:internal>eclipse</link:internal>
+</list-item><list-item dir="ltr">deploying from <link:internal>eclipse</link:internal>
+</list-item><list-item dir="ltr">debugging from <link:internal>eclipse</link:internal></list-item></list></list-item></list>
+
+
+Building
+<list><list-item dir="ltr">war - all project <link:internal>types</link:internal></list-item></list>
+
+<bold>Deployment</bold>
+<list><list-item dir="ltr">Portlet
+</list-item><list-item dir="ltr">Ext
+</list-item><list-item dir="ltr">Theme
+</list-item><list-item dir="ltr">Hook</list-item></list><bold>
+
+Debugging in <link:internal>eclipse</link:internal></bold><bold>
+</bold>
+<list><list-item dir="ltr">Using JPDA 
+</list-item><list-item dir="ltr">Launch from <link:internal>eclipse</link:internal>
+</list-item><list-item dir="ltr">Ideally, one click should trigger
+<list><list-item dir="ltr">Compilation
+</list-item><list-item dir="ltr">deployment
+</list-item><list-item dir="ltr">launching of the debug config/ server in debug mode
+</list-item><list-item dir="ltr">Hot code replacement <italic>*</italic></list-item></list></list-item></list>
+
+<link:internal>Next steps</link:internal>:
+<bold>Moving the <link:internal>SVN</link:internal></bold><bold> base</bold>
+from <link:internal>ant</link:internal> sdk to <link:internal>maven</link:internal> structure
+
+
+
+
+<list><list-item dir="ltr">Built and deployed using <link:internal>Maven</link:internal> build
+</list-item><list-item dir="ltr"> Start the tomcat in debug</list-item></list>
+
+
+</note-content></text>
+  <last-change-date>2011-11-30T16:27:14.3688100+01:00</last-change-date>
+  <last-metadata-change-date>2011-11-30T16:27:14.3723700+01:00</last-metadata-change-date>
+  <create-date>2011-11-23T09:05:55.7639850+01:00</create-date>
+  <cursor-position>106</cursor-position>
+  <selection-bound-position>106</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Hexad</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

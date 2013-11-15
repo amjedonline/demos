@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Types of Roles in liferay</title>
+  <text xml:space="preserve"><note-content version="0.1">Types of Roles in liferay
+
+<bold>3 <link:internal>Types</link:internal></bold><bold> of roles categorized according to scope: </bold>
+Regular		- Entire Portal
+Community	- To the community
+Organization	- Organization or Location.
+
+
+<bold>Kinds of Roles</bold>
+<list><list-item dir="ltr">System roles
+</list-item><list-item dir="ltr">System community roles
+</list-item><list-item dir="ltr">System organization roles
+</list-item><list-item dir="ltr">Customized roles</list-item></list>
+
+<bold>System roles:</bold>
+There roles cannot be removed or renamed.
+<list><list-item dir="ltr">Administrator
+</list-item><list-item dir="ltr">Guest
+</list-item><list-item dir="ltr">Power user
+</list-item><list-item dir="ltr">User</list-item></list>
+
+<bold>Community roles:</bold>
+These roles cannot be removed or renamed
+Community Administrator
+Community Member
+Community Owner
+
+
+<bold>Organization roles</bold>
+Standard roles, which cannot be removed or renamed:
+Organization Administrator
+Organization Member
+Organization Owner
+
+<bold>Customized roles</bold>
+Built by users, can be edited and modified.
+
+
+<bold>In define permissions:</bold>
+Portal - Portal level permissions
+Content - <link:internal>Model</link:internal> resource permissions
+Application - Portlet level permissions
+
+</note-content></text>
+  <last-change-date>2012-02-23T17:03:02.7928840+01:00</last-change-date>
+  <last-metadata-change-date>2012-02-23T17:03:02.7965720+01:00</last-metadata-change-date>
+  <create-date>2011-03-11T17:16:10.1895310+01:00</create-date>
+  <cursor-position>694</cursor-position>
+  <selection-bound-position>694</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Liferay</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

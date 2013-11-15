@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Schema and data</title>
+  <text xml:space="preserve"><note-content version="0.1">Schema and data
+
+<link:url>http://www.onebigweb.com/2008/ont/crunchbase/type/Location</link:url>
+
+{
+"schema":[
+	{"uri":"<link:url>http://www.onebigweb.com/2008/ont/onebigweb/pred/longitude</link:url>"},
+	{"display":"atLatitude","uri":"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/latitude</link:url>"},
+	{"display":"inState","uri":"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/state_code</link:url>"},
+	{"uri":"<link:url>http://www.onebigweb.com/2008/ont/onebigweb/pred/latitude</link:url>"},
+	{"display":"hasAddress","uri":"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/address1</link:url>"},
+	{"display":"atLongitude","uri":"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/longitude</link:url>"},
+	{"display":"hasOrganization","uri":"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/hasOrganization</link:url>"},
+	{"display":"inCity","uri":"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/city</link:url>"},
+	{"display":"inZipcode","uri":"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/zip_code</link:url>"},
+	{"display":"hasDescription","uri":"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/description</link:url>"},
+	{"display":"address2","uri":"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/address2</link:url>"},
+	{"display":"inCountry","uri":"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/country_code</link:url>"}
+	],<strikethrough>
+</strikethrough>
+"data":[
+{
+"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/country_code":{"value":"GBR</link:url>"},
+"<link:url>http://www.onebigweb.com/2008/ont/onebigweb/pred/longitude":{"value":"-4.0397147</link:url>"},
+"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/zip_code":{"value":"ML4</link:url> 3LU"},
+"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/description":{"value</link:url>":""},
+"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/city":{"value":"Bellshill</link:url>"},
+"uri":"<link:url>http://www.crunchbase.com/company/adventi/office/4</link:url>",
+
+
+"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/hasOrganization</link:url>":{
+	"display":"Adventi",
+	"uri":"<link:url>http://www.crunchbase.com/company/adventi</link:url>"
+},
+
+
+"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/longitude":{"value":"-4.0397147</link:url>"},
+"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/state_code":{"value":"null</link:url>"},
+"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/latitude":{"value":"55.8258935</link:url>"},
+"<link:url>http://www.onebigweb.com/2008/ont/onebigweb/pred/latitude":{"value":"55.8258935</link:url>"},
+"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/address1":{"value":"10</link:url> James Street  Righead Industrial Park"},
+"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/address2":{"value</link:url>":""},
+"url":"<link:url>http://url</link:url>",
+"display":"Some label"
+},
+{"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/country_code":{"value":"GBR</link:url>"},
+"<link:url>http://www.onebigweb.com/2008/ont/onebigweb/pred/longitude":{"value":"-4.0397147</link:url>"},
+"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/zip_code":{"value":"ML4</link:url> 3LU"},
+"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/description":{"value</link:url>":""},
+"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/city":{"value":"Bellshill</link:url>"},
+"uri":"<link:url>http://www.crunchbase.com/company/adventi/office/2</link:url>",
+"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/hasOrganization":{"display":"Adventi","uri":"http://www.crunchbase.com/company/adventi</link:url>"},
+"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/longitude":{"value":"-4.0397147</link:url>"},
+"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/state_code":{"value":"null</link:url>"},
+"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/latitude":{"value":"55.8258935</link:url>"},
+"<link:url>http://www.onebigweb.com/2008/ont/onebigweb/pred/latitude":{"value":"55.8258935</link:url>"},
+"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/address1":{"value":"10</link:url> James Street  Righead Industrial Park"},
+"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/address2":{"value</link:url>":""}
+}
+]}</note-content></text>
+  <last-change-date>2010-04-07T11:56:25.3758550+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.5169160+05:30</last-metadata-change-date>
+  <create-date>2010-01-03T11:19:24.0294680+05:30</create-date>
+  <cursor-position>0</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>24</y>
+  <tags>
+    <tag>system:notebook:JSON schema</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

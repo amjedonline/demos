@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>refactoring</title>
+  <text xml:space="preserve"><note-content version="0.1">refactoring
+
+Refactoring : 	A change made to the internal structure of software to make it
+				easier to understand and cheaper to modify without changing its observable behavior.
+				It is no silver bullet
+				
+
+
+1. Replace temp with query
+2. If you must use a switch statement, it should be on your own data, not on someone else's.
+
+switch (getMovie().getPriceCode()) {
+	case Movie.REGULAR:
+		result += 2;
+		if (getDaysRented() &gt; 2)
+			result += (getDaysRented() - 2) * 1.5;
+		break;
+
+3. Replace Type Code with State/Strategy.
+	priceCode.
+	define subclasses of priceCode to calculate price.
+	
+4. Replace Conditional with Polymorphism to eliminate the switch statement.
+
+5. Rhythm of refactoring: test, small change, test, small change, test, small change. 
+   It is that rhythm that allows refactoring to move quickly and safely.
+	
+semicolon at the end of the method is allowed ?
+
+Refactoring hat and adding functionality hat.
+
+
+*****Extract Class :
+If you have duplicated code in two unrelated classes, consider using Extract Class in one class
+and then use the new component in the other.
+
+*****Substitute Algorithm:
+If the methods do the same thing with a different algorithm, you can choose the clearer
+of the two algorithms and use Substitute Algorithm.
+
+*****Extract Method:
+when you have the same expression in two sibling subclasses. 
+You can eliminate this duplication by using Extract Method in both classes then Pull Up Field
+
+*****Replace temp with query method:
+
+A test fixture is essentially the objects that act as samples for testing
+
+Junit Hierarchy - Composite, a TestSuite Contains TestSuite or TestCase.
+
+				Test
+TestSuite						TestCase
+*Test
+
+Using final and capital cases generously.
+
+Expressions can become very complex and hard to read, introduce EXPLAINING VARIABLES
+
+***Remove <link:internal>Assignments</link:internal> to Parameters***
+int discount (int inputVal, int quantity, int yearToDate) {
+if (inputVal &gt; 50) inputVal -= 2;
+
+***Split temporary variable***
+You have a temporary variable assigned to more than once, but is not a loop variable nor a
+collecting temporary variable.
+Make a separate temporary variable for each assignment.
+
+
+*****Remove Middle Man
+
+*****Hiding the delegate
+
+***** Introdce foreign methods
+
+***** Add a local extensin to the server class, complementing the missing service methods.</note-content></text>
+  <last-change-date>2010-11-07T08:03:05.0931250+01:00</last-change-date>
+  <last-metadata-change-date>2010-11-07T08:03:05.0931250+01:00</last-metadata-change-date>
+  <create-date>2010-11-07T08:02:59.4740210+01:00</create-date>
+  <cursor-position>1998</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Java</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

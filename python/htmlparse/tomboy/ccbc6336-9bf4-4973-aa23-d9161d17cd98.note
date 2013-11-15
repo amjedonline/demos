@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Lucene/Solr/RDBMS</title>
+  <text xml:space="preserve"><note-content version="0.1">Lucene/Solr/RDBMS
+
+
+   <bold> * Lucene</bold> was written to do full-text indexing and searching. The most known example of full-text searching is Google. You throw words at it and it returns a ranked set of documents that match those words.
+      In terms of data structures, Lucene at its core implements an inverted index, while relational <link:internal>databases</link:internal> use B-tree variants. Fundamentally different beasts.
+      Lucene is a Java library, this means that it's not a stand-alone application but instead embedded in your program.
+
+<list><list-item dir="ltr">Full-text <link:internal>functions</link:internal> in relational <link:internal>databases</link:internal>: nowadays almost all major RDBMS offer some full-text capabilities: <link:internal>MySQL</link:internal>, SQL Server, Oracle, etc. As far as I know, they are all behind Lucene in terms of <link:internal>performance</link:internal> and features. They can be easier to use at first, but they're proprietary. If you ever need some advanced feature, switching to Lucene could be a PITA.</list-item></list>
+
+I
+<list><list-item dir="ltr"><bold>Lucene.Net</bold> is a port of Java Lucene to the .Net platform. Nothing more, nothing <link:internal>less</link:internal>. It aims to be fully API compatible so all docs on Java Lucene can be applied to Lucene.Net with minimal translation effort. Index format is also the same, so indices created with Java Lucene can be used by Lucene.Net and vice versa.</list-item></list>
+
+
+<list><list-item dir="ltr"><bold>NHibernate</bold> is a port of Java Hibernate to the .Net platform. It's an ORM (object-relational mapper), which basically means that it <link:broken>talks</link:broken> to relational <link:internal>databases</link:internal> and maps your query results as objects for easier consumption in object-oriented languages.</list-item></list>
+
+
+<bold>    * NHibernate.Search</bold> is a NHibernate contrib project that integrates NHibernate with Lucene.Net. It's a port of the Java Hibernate Search project. It keeps a Lucene index in sync with a relational database and hides some of the complexity of raw Lucene, making it easier to index and query.
+      This article explains its basic usage.
+
+
+<bold>    * Solr</bold> is a search server. It's a stand-alone Java application that uses Lucene to provide full-text indexing and searching through a XML/HTTP interface. This means that it can be used from any platform/language. It can be embedded in your own Java programs, but it's not its primary design purpose.
+      While very flexible, it's easier to use than raw Lucene and provides features commonly used in search applications, like faceted search and hit highlighting. It also handles caching, replication, sharding, and has a nice web admin interface.
+      This article is a very good tour of Solr's basic features.
+
+
+   <bold> *</bold> <bold>SolrNet</bold> is a library to talk to a Solr instance from a .Net application. It provides an object-oriented interface to Solr's operations. It also acts as an object-Solr mapper: query results are mapped to POCOs.
+      The latest version also includes Solr-NHibernate integration. This is similar to NHibernate.Search: it keeps a Solr index in sync with a relational database and lets you query Solr from the NHibernate interface.
+      Unlike NHibernate and NHibernate.Search, which can respectively create a DB schema and a Lucene index, SolrNet can't automatically create the Solr schema. Solr does not have this capability yet. You have to manually configure Solr and set up its schema.
+
+
+<bold>SOLR:</bold>
+Faceted search
+Sharding
+XML/HTTP APIs
+Administration
+Web interface
+Caching
+index replication
+spell checking
+Hit highlighting
+DB Integraion
+Rich document handling(word, pdf)
+distributed search
+
+
+</note-content></text>
+  <last-change-date>2011-04-11T00:35:18.9269650+02:00</last-change-date>
+  <last-metadata-change-date>2012-04-14T22:04:04.4414970+02:00</last-metadata-change-date>
+  <create-date>2011-04-11T00:30:34.7967140+02:00</create-date>
+  <cursor-position>3319</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

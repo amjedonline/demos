@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Negotiation</title>
+  <text xml:space="preserve"><note-content version="0.1">Negotiation
+
+#salary
+#negotiation
+#package
+#compensation
+#hike
+#stocks
+#payment
+
+
+Salary ?
+Contract ?
+Hike
+PF
+Gratuity
+Leaves
+No of working days 
+Travel Allowance to India
+HRA
+Over time
+Paid Leave
+Health Insurance
+
+% equity
+Vesting period
+Minimum Vesting period to qualify for the equity
+
+
+Save at least 1.2 lakhs per annum
+Monetize on the experiences earned by trading the money in past, going extra mile and gaining knowledge
+Entrepreneurial dream
+Work/Value worth the deal
+Company plans to venture into products market
+
+</note-content></text>
+  <last-change-date>2011-04-12T11:29:52.4783410+02:00</last-change-date>
+  <last-metadata-change-date>2011-04-12T11:29:52.4783410+02:00</last-metadata-change-date>
+  <create-date>2011-03-21T15:20:10.8194580+01:00</create-date>
+  <cursor-position>523</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Hexad</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

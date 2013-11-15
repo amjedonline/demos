@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>javahl issue</title>
+  <text xml:space="preserve"><note-content version="0.1">javahl issue
+
+<link:internal>sudo</link:internal> apt-get install libsvn-java
+
+If this doesnt solve the issue, do:
+
+dpkg -L libsvn-java
+
+Note the path where the javahl-1.so is installed, usually in <link:url>/usr/lib/jni</link:url>
+
+add this location to <link:internal>eclipse</link:internal> startup classpath argument
+in <link:internal>eclipse</link:internal>.ini
+-Djava.library.path=/usr/lib/jni
+
+</note-content></text>
+  <last-change-date>2011-03-17T12:31:50.8928130+01:00</last-change-date>
+  <last-metadata-change-date>2011-03-17T12:31:50.8928130+01:00</last-metadata-change-date>
+  <create-date>2011-03-17T12:30:25.3016500+01:00</create-date>
+  <cursor-position>259</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:misc</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

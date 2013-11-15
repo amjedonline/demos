@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Spring-struts integration</title>
+  <text xml:space="preserve"><note-content version="0.1">Spring-struts integration
+
+&lt;listener&gt;
+    &lt;listener-class&gt;org.springframework.web.context.ContextLoaderListener&lt;/listener-class&gt;
+&lt;/listener&gt;
+
+
+&lt;context-param&gt;
+    &lt;param-name&gt;contextConfigLocation&lt;/param-name&gt;
+    &lt;param-value&gt;/WEB-INF/applicationContext*.xml&lt;/param-value&gt;
+&lt;/context-param&gt;
+
+
+
+
+<link:internal>Struts</link:internal> integration:
+
+To integrate your <link:internal>Struts</link:internal> application with Spring, you have two options:
+* Configure Spring to manage your Actions as beans, using the ContextLoaderPlugin, and set their dependencies in a Spring context file.
+* Subclass Spring's ActionSupport classes and grab your Spring-managed beans explicitly using a getWebApplicationContext() method. 
+
+ContextLoaderPlugin:
+The ContextLoaderPlugin  is a <link:internal>Struts</link:internal> 1.1+ plug-in that loads a Spring context file for the <link:internal>Struts</link:internal> ActionServlet.
+name of the context file is the name of the mapped servlet, plus -servlet.xml. If ActionServlet is defined in web.xml as &lt;servlet-name&gt;action&lt;/servlet-name&gt;, the default is <link:url>/WEB-INF/action-servlet.xml</link:url>. 
+
+
+&lt;plug-in className="org.springframework.web.<link:internal>struts</link:internal>.ContextLoaderPlugIn"&gt;
+  &lt;set-property property="contextConfigLocation"
+      value="/WEB-INF/action-servlet.xml,/WEB-INF/applicationContext.xml"/&gt;
+&lt;/plug-in&gt;
+
+
+ After configuring this plug-in in <link:internal>struts</link:internal>-config.xml, you can configure your Action to be managed by Spring. Spring (1.1.3+) provides two ways to do this:
+
+    *Override <link:internal>Struts</link:internal>' default RequestProcessor with Spring's DelegatingRequestProcessor.
+    *Use the DelegatingActionProxy class in the type attribute of your &lt;action-mapping&gt;. </note-content></text>
+  <last-change-date>2010-12-17T23:49:41.4233080+05:30</last-change-date>
+  <last-metadata-change-date>2010-12-17T23:49:41.4233080+05:30</last-metadata-change-date>
+  <create-date>2010-12-17T23:49:33.3191140+05:30</create-date>
+  <cursor-position>27</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Java</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

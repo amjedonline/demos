@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Interview questions template</title>
+  <text xml:space="preserve"><note-content version="0.1">Interview questions template
+
+<bold>Java</bold>
+	OOP
+		interface? class? abstract? final?  static initializers? init sequence? 
+	collections
+		Different data structures
+		Set or List
+		equals and hashcode
+		sorting tech
+			hash ?
+		how to choose which datastructure to use ?
+		Dictionary ?
+		ArrayList and Vector ?
+
+	<link:internal>Exception handling</link:internal> - layers
+	statics, overloading, construtors, constructor chaining.
+	IO
+	<link:internal>Generics</link:internal>
+	<link:internal>Memory</link:internal> management
+
+
+<bold><link:internal>JSP</link:internal></bold>
+	implicit objects
+	custom tags
+	fwd and redirect
+	error page
+	<link:internal>exception handling</link:internal>
+	<link:internal>jsp</link:internal> include and standard include
+
+
+<bold><link:internal>Servlets</link:internal></bold>
+	lifecycle
+	diff between fw and redirect
+	how to forward
+	session tracking
+	encodeURL
+	cookies
+
+
+<bold><link:internal>Struts</link:internal></bold>
+	action classes
+	validation
+	package/<link:internal>namespace</link:internal>
+	multiple action methods in a class
+	
+<bold>Spring</bold>
+	DI
+	injection methods
+	factory method
+	dependdency resolving in <link:internal>types</link:internal>
+
+
+<bold>Design patterns</bold>
+	singleton
+	singleton with pool
+	template
+	factory and builder
+	command
+	decorator
+	state pattern
+
+
+<bold>Hibernate</bold>
+	Hierarchy mapping
+	 <link:internal>types</link:internal>
+	Interface mapping
+	
+	Collection mapping
+		map, set, sortedset - treeset
+		bag
+
+	Lazy-init
+	
+	
+<bold><link:internal>MySQL</link:internal></bold>
+	diff between having and group by
+	alter table
+	primary key, candidate, foreign key
+
+
+
+
+</note-content></text>
+  <last-change-date>2011-08-25T14:34:51.5608550+02:00</last-change-date>
+  <last-metadata-change-date>2012-04-14T22:04:06.4773830+02:00</last-metadata-change-date>
+  <create-date>2011-06-13T19:35:45.0585110+02:00</create-date>
+  <cursor-position>240</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Interview</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>GWT</title>
+  <text xml:space="preserve"><note-content version="0.1">GWT
+
+com.<link:internal>Google Apps Premier Edition</link:internal>.gwt.json.client.JSONParser is a wrapper class for eval() function
+Has 1 static function parse() that interprets JSON DS passed as a string, and returns JSONValue
+
+JSONValue is the abstract parent of all these <link:internal>Classes that could have JSON replacement impact</link:internal>:
+JSONBoolean
+JSONString
+JSONNumber
+JSONNull
+JSONArray
+JSONObject
+
+JSONValue contains test methods for each possible type, returning type specific values or null.
+</note-content></text>
+  <last-change-date>2010-01-23T12:46:09.5914270+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:04.0751280+05:30</last-metadata-change-date>
+  <create-date>2009-12-15T17:56:32.6487010+05:30</create-date>
+  <cursor-position>299</cursor-position>
+  <width>475</width>
+  <height>459</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Learnings</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

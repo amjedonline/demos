@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Email Server</title>
+  <text xml:space="preserve"><note-content version="0.1">Email Server
+
+Private <bold>RFC1918</bold> addresses (192.168.x.y)
+If NAT,  can use <link:internal>Port fowarding</link:internal>.
+
+  25	<link:internal>SMTP</link:internal>
+110	POP
+143	IMAP
+993	IMAP over TLS
+
+One user - 50 messages
+One mail - 6 seconds to be processed
+
+back-of-the-envelope exercise 
+
+Content scanning - Virses, spam 
+
+I/O <link:internal>performance</link:internal> not CPU <link:internal>performance</link:internal>
+	- Seek time of HD
+	- Quality and Config of I/O controller
+
+1 GHZ PC - 20,000 messages every hour with no content scanning
+	
+
+<link:internal>SMTP</link:internal> - transfer between 2 machines. One could be mail client.
+
+POP/IMAP to retrieve the mails.
+
+
+<bold>POP</bold>:
+Older, widely used .
+Gives access to Inbox for the user to download messages and delete them form the server.
+<bold>Not for permanent storage of messages, its just temporary.</bold>
+POP service may prohibit users from leaving messages on the server after they have downloaded one.
+No multiple folders, only inbox for every user.
+
+
+<bold>IMAP </bold>:
+Permanent storage on the server
+TLS - secure.
+Clients support caching
+Multiple folders, message state information (read, unread, replied, deleted)
+Server-side searching.
+
+
+<bold><link:internal>SMTP</link:internal></bold>:
+Line oriented, text protocol over TCP.
+Client must respond with HELO or EHLO(ESMTP) followed by client's <link:internal>hostname</link:internal>,
+MAIL FROM, RCPT TO, DATA, QUIT
+
+Envelope : MAIL FROM, RCPT TO
+
+RFC - 821	<link:internal>SMTP</link:internal>
+RFC - 822	ARPA Internet text messages
+
+</note-content></text>
+  <last-change-date>2011-02-10T23:12:42.7613760+05:30</last-change-date>
+  <last-metadata-change-date>2011-02-10T23:12:42.7613760+05:30</last-metadata-change-date>
+  <create-date>2010-01-24T09:10:28.0283560+05:30</create-date>
+  <cursor-position>1260</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

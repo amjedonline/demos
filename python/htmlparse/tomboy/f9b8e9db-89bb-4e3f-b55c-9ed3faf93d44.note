@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Issues with hexad website</title>
+  <text xml:space="preserve"><note-content version="0.1">Issues with hexad website
+
+1. Click here to join us button is wobbling in the Current openings
+
+2. Side menu is not appearing nested
+It should appear as:
+
+* Life at Hexad
+	Drive to excel
+	Continous <link:internal>learning</link:internal>
+	Fun at work
+
+* Work at hexad
+
+* Rewards and recognition
+
+* Current openings
+
+Remove the social bar from <link:internal>top</link:internal>
+
+Remove the breadcrumb
+
+Remove the flash contents
+
+
+
+Main navigation bar 
+<list><list-item dir="ltr">should be clear and styled differently/distictively
+</list-item><list-item dir="ltr">Remove borders and images around it
+</list-item><list-item dir="ltr">Background gradient image
+</list-item><list-item dir="ltr">Search box should be on the RHS od the menu at the same level</list-item></list>
+
+Remove spacing (earlier used by flash)
+
+Backgrounds should be white
+
+Left menu, style the submenu
+
+
+
+Remove the social tools bar - FB, <link:internal>twitter</link:internal>
+
+
+
+</note-content></text>
+  <last-change-date>2011-04-11T10:42:06.4160650+02:00</last-change-date>
+  <last-metadata-change-date>2011-04-11T10:42:06.4160650+02:00</last-metadata-change-date>
+  <create-date>2011-04-08T12:50:09.2322070+02:00</create-date>
+  <cursor-position>399</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>914</x>
+  <y>24</y>
+  <tags>
+    <tag>system:notebook:hexad website</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

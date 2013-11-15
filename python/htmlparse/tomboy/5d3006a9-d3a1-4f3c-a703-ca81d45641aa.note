@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Aspects to monitor</title>
+  <text xml:space="preserve"><note-content version="0.1">Aspects to monitor
+
+Disk
+<link:internal>Memory</link:internal>
+Network
+Processor
+
+<bold>What to monitor</bold>
+Overall <link:internal>performance</link:internal>
+Active processes
+<link:internal>Memory</link:internal> Usage
+Disk Usage &amp; <link:internal>performance</link:internal>
+CPU Utilization
+Network Usage
+
+<bold>How to diagnose problem</bold>?
+<list><list-item dir="ltr">What is the overall system status"
+</list-item><list-item dir="ltr">Then narrow down to the aspect, Ehat subsystem is responsible for poor <link:internal>performance</link:internal>?
+</list-item><list-item dir="ltr">Is poor <link:internal>performance</link:internal> affecting functionality?</list-item></list>
+
+
+<bold>Uptime command</bold>
+<list><list-item dir="ltr">uptime 
+</list-item><list-item dir="ltr">Load average 
+</list-item><list-item dir="ltr">3.20, 3.08, 2.55 ( Increasing, 
+</list-item><list-item dir="ltr">Last 1 minute, 5 minute and 15 minute windows.
+</list-item><list-item dir="ltr">Is it increasing, decreasing or stable ? </list-item></list>
+
+Some system handle 3.0 load average, others do 5.0.
+ 
+<bold><link:internal>Top</link:internal></bold><bold> command</bold>
+</note-content></text>
+  <last-change-date>2010-12-20T22:49:42.9236320+05:30</last-change-date>
+  <last-metadata-change-date>2010-12-21T11:15:56.6220730+05:30</last-metadata-change-date>
+  <create-date>2010-12-20T22:37:57.2496500+05:30</create-date>
+  <cursor-position>409</cursor-position>
+  <width>560</width>
+  <height>362</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Maintenance &amp; Monitoring</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

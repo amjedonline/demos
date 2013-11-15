@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Tips</title>
+  <text xml:space="preserve"><note-content version="0.1">Tips
+
+Web browsers don’t encode unchecked checkboxes into the form submission, and hence not available in request parameters.
+, 
+WikiNameAreOftenLikeThis
+WIkiPageNamesAsWell
+
+Sidebar should anchor the user’s exploration of the site
+
+Attempting to Repair, Then Failing Noisily
+
+When in doubt, opt for simplicity
+
+</note-content></text>
+  <last-change-date>2010-07-01T11:45:45.6853670+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T21:59:49.8659180+05:30</last-metadata-change-date>
+  <create-date>2010-04-09T08:07:35.8374548+05:30</create-date>
+  <cursor-position>277</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Web page development</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Home Network settings</title>
+  <text xml:space="preserve"><note-content version="0.1">Home Network settings
+
+Wifi Pin : 		98403134
+
+Security Mode: 	WPA
+Cipher Type: 		AES
+PSK/EAP: 		PSK
+
+Network key:		Hibernate
+
+Internet setup:
+PPPOE
+username: 		sushil
+serviceprovide:	anandcable</note-content></text>
+  <last-change-date>2010-04-11T12:40:59.8427400+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.4949940+05:30</last-metadata-change-date>
+  <create-date>2010-04-11T11:19:52.0783289+05:30</create-date>
+  <cursor-position>66</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Personal</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

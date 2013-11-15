@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>IPortal Public website</title>
+  <text xml:space="preserve"><note-content version="0.1">IPortal Public website
+
+<bold>About IPortal</bold>
+<list><list-item dir="ltr">What is IPortal ?
+</list-item><list-item dir="ltr">What do I have in it ?
+</list-item><list-item dir="ltr">Team - people behind	
+</list-item><list-item dir="ltr">Features
+<list><list-item dir="ltr">SSO
+</list-item><list-item dir="ltr">Context change
+</list-item><list-item dir="ltr">Session management
+</list-item><list-item dir="ltr">Caching
+</list-item><list-item dir="ltr">Security
+</list-item><list-item dir="ltr">User on and off boarding
+</list-item><list-item dir="ltr">Ease of administration
+</list-item><list-item dir="ltr">Front end integration</list-item></list></list-item></list>
+
+<bold>Architecture</bold>
+<list><list-item dir="ltr">SSO
+</list-item><list-item dir="ltr">IDM
+</list-item><list-item dir="ltr">Portal
+</list-item><list-item dir="ltr">Application integration</list-item></list>
+
+<bold>Development</bold>
+<list><list-item dir="ltr">Technolgies
+</list-item><list-item dir="ltr">Development <link:internal>process</link:internal>
+</list-item><list-item dir="ltr">Project management methodologies
+</list-item><list-item dir="ltr">Quality </list-item></list>
+
+<bold>FAQ</bold>
+<list><list-item dir="ltr">Over</list-item></list>
+
+<bold>Release plan</bold>
+<list><list-item dir="ltr">Release notes
+</list-item><list-item dir="ltr">Release plans
+</list-item><list-item dir="ltr">Time lines</list-item></list>
+
+<bold>Community</bold>
+<list><list-item dir="ltr">Blogs
+</list-item><list-item dir="ltr">Message boards</list-item></list>
+
+
+</note-content></text>
+  <last-change-date>2012-03-13T11:44:11.9351630+01:00</last-change-date>
+  <last-metadata-change-date>2012-03-13T11:44:11.9391330+01:00</last-metadata-change-date>
+  <create-date>2012-03-13T11:26:15.2084900+01:00</create-date>
+  <cursor-position>0</cursor-position>
+  <selection-bound-position>0</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

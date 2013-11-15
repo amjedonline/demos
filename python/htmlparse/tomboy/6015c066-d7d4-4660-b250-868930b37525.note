@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>hsqldb</title>
+  <text xml:space="preserve"><note-content version="0.1">hsqldb
+
+java -cp hsqldb.jar org.hsqldb.util.DatabaseManager
+
+<bold>squirrel client</bold>
+Liferay database is present under localhost/public/tables
+
+<bold>DB Connection URL</bold>
+jdbc:hsqldb:file:/mnt/lage/hex/liferay-605/data/hsql-bak/lportal</note-content></text>
+  <last-change-date>2012-02-29T15:37:42.4005760+01:00</last-change-date>
+  <last-metadata-change-date>2012-02-29T15:37:42.4005760+01:00</last-metadata-change-date>
+  <create-date>2012-02-28T14:27:35.7978660+01:00</create-date>
+  <cursor-position>7</cursor-position>
+  <selection-bound-position>7</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

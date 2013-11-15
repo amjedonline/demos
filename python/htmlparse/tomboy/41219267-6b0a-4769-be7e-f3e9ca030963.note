@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Deutsch Pronunciation</title>
+  <text xml:space="preserve"><note-content version="0.1">Deutsch Pronunciation
+
+
+<bold><size:large>ch</size:large></bold> <bold>- </bold>
+
+After a, o, u and au, pronounced like the <bold>guttural</bold> ch in Scottish "loch" - das Buch (book), auch (also). 
+
+Otherwise it is a<bold> palatal</bold> <link:internal>sound</link:internal> as in: mich (me), welche (which), wirklich (really). 
+
+TIP: If no air is passing over your tongue when you say a ch-<link:internal>sound</link:internal>, you aren't saying it correctly. No true equivalent in English. - Although ch doesn't usually have a hard k <link:internal>sound</link:internal>, there are exceptions: Chor, Christoph, Chaos, Orchester, Wachs (wax)
+
+
+
+vertrieb - soft <bold>t</bold> and long <bold>ie</bold>
+
+statt - hard t at <bold>tt</bold> and short <bold>a</bold>
+
+stadt - long <bold>a </bold>and strong <bold>dt</bold></note-content></text>
+  <last-change-date>2012-01-10T10:16:22.5257610+01:00</last-change-date>
+  <last-metadata-change-date>2012-02-02T10:45:00.5286500+01:00</last-metadata-change-date>
+  <create-date>2011-12-23T10:53:29.0926460+01:00</create-date>
+  <cursor-position>509</cursor-position>
+  <selection-bound-position>509</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:German</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

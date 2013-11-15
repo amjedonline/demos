@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Another set of interview questions</title>
+  <text xml:space="preserve"><note-content version="0.1"><link:internal>Another</link:internal> set of interview questions
+
+You can't call a method on null: x.m() is an error when x is null and m is a non-static method. 
+(When m is a static method it is fine, because it is the class of x that matters; the value is ignored.) 
+
+set.add(element) returns false if duplicate element is inserted.
+iterator.remove() removes the last element in the iterator from the uderlying collection.
+for(String s:strings) form can be used on iterable interface, known Sub interfaces are Array, Set, Collection, Queue, SortedSet; No map is implemented.
+
+leave the old method to delegate to the new method. This is useful if it is a public
+method and I don't want to change the interface of the other class.
+
+for(String c :cc) does not check for Null pointer on cc. It simple throws NullPointerException
+
+For serialization to work a Class must have a no-arg constructor.
+
+Xmx512M Xss64m //this give 512MB to heap and 64MB to stack</note-content></text>
+  <last-change-date>2010-11-07T07:59:26.3161210+01:00</last-change-date>
+  <last-metadata-change-date>2012-01-02T16:24:06.6587700+01:00</last-metadata-change-date>
+  <create-date>2010-11-07T07:59:17.1646410+01:00</create-date>
+  <cursor-position>36</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Java</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

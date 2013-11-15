@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Ubuntu shell</title>
+  <text xml:space="preserve"><note-content version="0.1"><link:internal>Ubuntu</link:internal> shell
+Existing in <link:internal>Ubuntu</link:internal>
+<link:url>/bin/sh</link:url> -&gt; dash
+
+Change it to bash with:
+ln -sf bash <link:url>/bin/sh</link:url></note-content></text>
+  <last-change-date>2011-07-11T10:13:35.5970590+05:30</last-change-date>
+  <last-metadata-change-date>2011-07-11T10:13:35.5970590+05:30</last-metadata-change-date>
+  <create-date>2011-07-11T10:13:27.7872340+05:30</create-date>
+  <cursor-position>43</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

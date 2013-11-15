@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>German Grammar</title>
+  <text xml:space="preserve"><note-content version="0.1">German Grammar
+
+<bold>ch</bold>
+ach-laut -&gt; Hard <link:internal>sound</link:internal>, like acht, auch, euch, 
+ich -laut -&gt; Soft <link:internal>sound</link:internal>, like ich, mich, BUcher
+
+Can alternate within variations of the same word when it is inflected, 
+e.g.Buch and BUcher
+
+
+<bold>r</bold>
+After a vowel an r is vocalized, i.e. it is pronounced as a vowel,
+e.g. in er, mir and Uhr you pronounce the vowel as you
+
+<bold>s</bold>
+at the beginning and in the middle of a word is pronounced ‘z’,
+e.g. sollen, lesen, Gänse. 
+S at the end of a word is pronounced ‘s’, 
+e.g. es, Gans, Glas. 
+
+The spelling ss is always pronounced ‘s’ too, e.g. Flüsse, Guss, schoss.
+
+Letters of the alphabets and neuter, eg
+Das I im voigtlander wird nich ausgesprochen
+
+
+<bold>Vowel length</bold>
+h is used after a vowel to indicate that the vowel is long, although the indication is superfluous.
+This is called Dehnungs - h (derived from or &lt; dehnen 'to lengthen, stretch') 
+eg. 
+mahlen - grind
+malen - paint
+sieh - look
+sie - she/they
+dehnen - to lengthen, stretch
+
+
+<bold>Umlaut</bold>
+German uses only one diacritic, the Umlaut
+a
+o 
+u
+au
+
+Bach - BAche
+Loch - LOcher
+Buch - BUcher
+Bauch - BAuche
+
+In these examples, change in vowel also causes a change in pronunciation of the ch from the hard to soft variant.
+
+<bold><size:large>Scharfers s or ess tset</size:large></bold>
+scharfes s or ess tset (i.e. German for ‘sz’, as the symbol
+is derived from a long s and a z in old German printing and handwriting).
+
+
+Under the new rules ß is only used after long vowels and diphthongs, 
+e.g.schießen, Spaß, stoßen, draußen, fleißig, scheußlich. Thus the spellings
+
+<bold>Indicating to the reader that there is a difference in vowel length:</bold>
+Schoß and schoss, 
+Fuß and Fluss 
+
+
+
+<bold><size:large>Use of capital letters</size:large></bold>
+Any word that can possibly be <bold>perceived as a noun should be capitalized</bold>, 
+something which had previously been somewhat inconsistent, 
+<bold>e.g.</bold> 
+auf deutsch <bold>&gt;</bold> auf Deutsch, 
+heute abend <bold>&gt;</bold> heute Abend.
+
+
+<bold><size:large>spelling out a word with an Umlaut in it</size:large></bold>
+Read the letters as follows:
+kämpft – kah, air, em, peh, ef, teh. 
+This is more usual than 
+<bold>kah, ah-Umlaut,</bold>
+em, peh, ef, teh, which is however also possible.
+
+
+<bold><size:huge>Case</size:huge></bold>
+Case is the distinction between the
+subject - nominative
+direct - accusative
+indirect - dative case i.e, to
+
+<bold>Der Vater hat seiner Tochter eine Email geschickt.</bold>
+The father (nom.) sent an email (acc.) to his daughter (dat.).
+
+This sentence shows case being applied to nouns, der, seiner and eine being
+the indicators not only of the gender of their respective nouns, but also of
+their case, something which English can only indicate with word order. 
+
+But look at this variant:
+<bold>Seiner Tochter hat der Vater eine Email geschickt.</bold>
+
+
+This sentence means the <bold>same </bold>as the former although the connotation
+is different, i.e. it was his daughter he sent an email to and not anyone
+else. 
+
+The forms <bold>seiner and der</bold> clearly indicate who is doing the sending
+(the subject or nominative) and who the email is being sent to (the
+indirect object or dative).
+
+
+<bold>Case ending application</bold>
+
+Who lives here?
+Wer wohnt hier?
+Who(m) did you visit in Berlin?
+Wen hast <link:internal>du</link:internal> in Berlin besucht?
+Who did you give the cheque to?/To whom did you give the cheque?
+Wem hast <link:internal>du</link:internal> den Scheck gegeben?
+
+The difference between ‘who’ and ‘whom’, which is now waning in English,
+is also an example of case, i.e. nominative versus accusative/dative, e.g.
+
+<bold><link:internal>Adjectives</link:internal></bold><bold> take case endings, and verbs and prepositions </bold>can require that the <bold>pronouns
+and nouns</bold> that follow them take either the accusative, dative or <link:internal>genitive</link:internal>
+case, e.g.
+
+
+
+<bold><size:large>copula</size:large></bold>
+The English word "is" which is referred to as a “copula” in <link:internal>grammar</link:internal>.
+in german it is <bold>ist</bold>
+
+
+</note-content></text>
+  <last-change-date>2011-06-24T08:00:49.5174070+02:00</last-change-date>
+  <last-metadata-change-date>2012-02-03T09:42:48.0778150+01:00</last-metadata-change-date>
+  <create-date>2011-06-21T19:28:38.4867080+02:00</create-date>
+  <cursor-position>3406</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:German</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

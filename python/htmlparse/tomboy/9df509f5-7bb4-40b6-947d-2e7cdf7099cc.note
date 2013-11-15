@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Networking</title>
+  <text xml:space="preserve"><note-content version="0.1">Networking
+
+
+<link:url>/etc/network/interfaces</link:url> - 
+All network interfaces listed along with there settings
+
+    # The primary network interface
+// For static IP
+    auto eth0
+    iface eth0 inet static
+    address 192.168.3.90
+    gateway 192.168.3.1
+    netmask 255.255.255.0
+    network 192.168.3.0
+    broadcast 192.168.3.255
+
+
+# The primary network interface - use DHCP to <link:internal>find</link:internal> our address
+auto eth0
+iface eth0 inet dhcp
+
+<bold><size:large>Format of interfaces file</size:large></bold><size:large>:</size:large>
+<bold>Auto stanza</bold>
+auto eth0 - To automatically initialize eth0 on startup
+
+<bold>iface stanza</bold>
+iface logical_name protocol dhcp|static
+
+<list><list-item dir="ltr">logical_name could be eth0|eth1|eth2...
+</list-item><list-item dir="ltr">protocol - 
+<list><list-item dir="ltr">inet - Regular TCP/IP
+</list-item><list-item dir="ltr">inet - IPv6
+</list-item><list-item dir="ltr">loopback - For loopback
+</list-item><list-item dir="ltr">ipx - Novell</list-item></list></list-item></list>
+
+with static IP define default gateway
+
+
+<link:url>/etc/init.d/networking</link:url> restart
+
+U can use ifup and ifdown only if the configuration is stored in the <link:url>/etc/network/interfaces</link:url> file
+
+<link:url>/etc/default/dhcp3</link:url> -&gt; DHCP configuration file
+<link:url>/etc/default/</link:url>  contains default configuration files for utilities
+
+
+
+<link:broken>netstat</link:broken> -a to <link:internal>find</link:internal> the open ports
+tracerout <link:url>www.google.com</link:url> to trace the route
+iwconfig - Wireless configuration
+</note-content></text>
+  <last-change-date>2010-11-22T07:06:31.5818600+01:00</last-change-date>
+  <last-metadata-change-date>2012-04-14T22:04:14.7882840+02:00</last-metadata-change-date>
+  <create-date>2010-01-07T06:15:32.3666769+01:00</create-date>
+  <cursor-position>1019</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

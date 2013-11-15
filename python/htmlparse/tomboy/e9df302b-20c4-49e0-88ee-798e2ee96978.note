@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>GTD Note bookmarks</title>
+  <text xml:space="preserve"><note-content version="0.1">GTD Note bookmarks
+
+Read through, GTD, chapter 1, page 12 - 
+Basic requirements for managing commitments
+
+Chapter 2, page 25 - 
+How 5 stages are generically used in any Information-&gt;Action stages.
+Taking the example of after a meeting.
+
+
+Chapter2, Page 31
+You can't organize what's incoming—you can
+only collect it and <link:internal>process</link:internal> it. Instead, you organize the actions
+you'll need to take based on the decisions you've made about
+what needs to be done. 
+</note-content></text>
+  <last-change-date>2011-01-17T23:28:14.6866940+05:30</last-change-date>
+  <last-metadata-change-date>2011-01-17T23:28:14.6866940+05:30</last-metadata-change-date>
+  <create-date>2011-01-17T23:28:05.2618020+05:30</create-date>
+  <cursor-position>20</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Productivity</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

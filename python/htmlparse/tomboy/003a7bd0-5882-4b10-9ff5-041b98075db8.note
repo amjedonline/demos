@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>maven quick commands</title>
+  <text xml:space="preserve"><note-content version="0.1">maven quick commands
+
+For web project:
+mvn archetype:create -DgroupId=com.am.jackrabbit -DartifactId=simple-cms -DpackageName=com.am.jackrabbit -DarchetypeArtifactId=<link:internal>maven</link:internal>-archetype-webapp
+
+For java project:
+mvn archetype:create -DgroupId=com.am.jackrabbit -DartifactId=simple-cms -DpackageName=com.am.jackrabbit -DarchetypeArtifactId=<link:internal>maven</link:internal>-archetype-quickstart
+
+mvn <link:internal>eclipse</link:internal>:clean
+mvn <link:internal>eclipse</link:internal>:<link:internal>eclipse</link:internal> -Declipse.downloadSources=true -DdowloadJavadocs=true
+
+For installing <link:internal>eclipse</link:internal> plugin for maven 2.0
+<link:url>http://m2<link:internal>eclipse</link:internal></link:url><link:url>.sonatype.org/update/</link:url>
+
+	
+<bold><link:internal>Struts</link:internal></bold><bold> 2</bold>
+mvn archetype:generate -B \
+                       -DgroupId=tutorial \
+                       -DartifactId=tutorial \
+                       -DarchetypeGroupId=org.apache.<link:internal>struts</link:internal> \
+                       -DarchetypeArtifactId=<link:internal>struts</link:internal>2-archetype-starter \
+                       -DarchetypeVersion=2.2.1
+
+<bold><link:internal>Struts</link:internal></bold><bold>2 - portlet</bold>
+mvn archetype:generate -B \
+                       -DgroupId=tutorial \
+                       -DartifactId=tutorial \
+                       -DarchetypeGroupId=org.apache.<link:internal>struts</link:internal> \
+                       -DarchetypeArtifactId=<link:internal>struts</link:internal>2-archetype-portlet \
+                       -DarchetypeVersion=2.2.1
+
+<bold>Install</bold>
+mvn install:install-file -Dfile=/path/to/file/<link:internal>maven</link:internal>-replacer-plugin-(version).jar -DgroupId=com.google.code.<link:internal>maven</link:internal>-replacer-plugin \ 
+-DartifactId=<link:internal>maven</link:internal>-replacer-plugin -Dversion=(version) -Dpackaging=jar -DpomFile=<link:internal>maven</link:internal>-replacer-plugin-(version).pom
+
+
+mvn install:install-file -Dfile=/home/amjed/temp/<link:internal>maven</link:internal>-<link:internal>eclipse</link:internal>-plugin-1.12-SNAPSHOT.jar -DgroupId=<link:internal>maven</link:internal> \ 
+-DartifactId=<link:internal>maven</link:internal>-<link:internal>eclipse</link:internal>-plugin -Dversion=1.12-SNAPSHOT -Dpackaging=jar
+</note-content></text>
+  <last-change-date>2011-12-01T10:37:35.1897950+01:00</last-change-date>
+  <last-metadata-change-date>2011-12-01T10:37:35.1966930+01:00</last-metadata-change-date>
+  <create-date>2010-11-07T08:00:55.3129110+01:00</create-date>
+  <cursor-position>212</cursor-position>
+  <selection-bound-position>212</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:maven</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

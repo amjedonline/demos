@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>hexad credentials (alt)</title>
+  <text xml:space="preserve"><note-content version="0.1"><link:internal>hexad credentials</link:internal> (alt)
+
+Naukri account:
+hexadinfosoft
+IloveGod
+
+<size:large><link:internal>svn</link:internal></size:large><size:large>:</size:large>
+<link:url>http://115.109.176.141/</link:url>
+
+server: <link:url>https://hexadinfosoft.com/svn/src</link:url>
+user:  amjed
+pass:  vDZd2ec9G1OCdqBEatuH
+
+
+Naukri account
+username: hexadinfosoft
+password: IloveGod
+
+
+<bold>live site</bold>
+<link:url>http://hexadinfosoft.com/web/guest/login-for-admin</link:url>
+<link:url>admin@hexadinfosoft.com</link:url>
+3aIX:;@&amp;&amp;E7p*B^kaf@K/z6PuJ0@Rs
+
+
+<bold>Test machine at VW:</bold>
+<link:url>fox0wen@10.186.110.33</link:url>
+
+
+<bold>Http Proxy</bold>
+Mathias
+FOX023C - J5491799
+<link:url>http://pacproxy.vw.vwg/pac/vw-intproxy.pac</link:url>
+
+
+<bold><link:broken>ECHAND5</link:broken></bold>
+C7541218
+
+<bold>CRM</bold>
+dp0vojm
+qwertzui
+
+
+<bold>Prod</bold>
+<link:url>https://iportal-de.cpn.vwg</link:url>
+dp0vojm
+kastn07
+
+
+<bold>on QA:</bold>
+foxgemo
+foxgemo
+
+<bold>Jenkins:</bold>
+<link:url>https://vwagwos00242.wob.vw.vwg:9443/</link:url>
+<link:broken>echand5</link:broken>
+<link:broken>echand5</link:broken></note-content></text>
+  <last-change-date>2012-01-11T12:52:49.6983550+01:00</last-change-date>
+  <last-metadata-change-date>2012-04-14T22:03:29.6129140+02:00</last-metadata-change-date>
+  <create-date>2011-04-01T11:38:02.8866090+02:00</create-date>
+  <cursor-position>0</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>0</width>
+  <height>0</height>
+  <x>-1</x>
+  <y>-1</y>
+  <tags>
+    <tag>system:notebook:Hexad</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

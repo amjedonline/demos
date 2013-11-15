@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>new shell learning</title>
+  <text xml:space="preserve"><note-content version="0.1">new shell <link:internal>learning</link:internal>
+
+Thumb rule never try to reach for an arrow key
+
+Ctrl+P	- Recalls last command from the history.
+
+Ctrl+A	- To the beginning of the command
+Ctrl+E	- To the end of the command
+
+
+
+<bold>Naked variable</bold>
+Only time a variable appears "naked" -- without the $ prefix -- is when declared or assigned, when unset, 
+when exported, or in the 
+special case of a variable representing a signal
+a=10
+unset(a)
+export a
+for a in 7 8 9 11
+
+
+
+hello="A B  C   D"
+echo $hello # A B C D
+echo "$hello" #A B  C   D
+quoting a variable preserves white space
+so quotes are necessary when there is a white space embedded in the value
+
+
+Child processes cannot export variables back to the parent processes that spawned
+them.
+</note-content></text>
+  <last-change-date>2011-02-02T18:55:57.0443580+05:30</last-change-date>
+  <last-metadata-change-date>2011-02-02T18:55:57.0443580+05:30</last-metadata-change-date>
+  <create-date>2010-07-19T20:00:56.4690550+05:30</create-date>
+  <cursor-position>0</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Shell notes</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

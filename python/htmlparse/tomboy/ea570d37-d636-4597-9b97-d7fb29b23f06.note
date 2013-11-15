@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Public speaking Notebook Template</title>
+  <text xml:space="preserve"><note-content version="0.1">Public speaking Notebook Template
+
+Describe your new note here.</note-content></text>
+  <last-change-date>2010-06-25T10:46:39.4077260+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T21:59:49.9673780+05:30</last-metadata-change-date>
+  <create-date>2010-06-25T10:46:38.7479170+05:30</create-date>
+  <cursor-position>63</cursor-position>
+  <width>0</width>
+  <height>0</height>
+  <x>-1</x>
+  <y>-1</y>
+  <tags>
+    <tag>system:template</tag>
+    <tag>system:notebook:Public speaking</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

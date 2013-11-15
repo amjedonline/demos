@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Cred (alt)</title>
+  <text xml:space="preserve"><note-content version="0.1">Cred (alt)
+<link:internal>SVN</link:internal>: <link:url>http://192.168.1.10/svn/semgel/trunk/Semgel</link:url>
+username:amjed
+password:<link:broken>semgel</link:broken>1@#$
+
+<link:internal>Trac</link:internal>: <link:url>http://192.168.1.10/trac</link:url>
+username:amjed
+password:<link:broken>semgel</link:broken>1@#$
+
+<link:internal>mysql</link:internal>:
+username:root
+password:rootd
+
+system:
+username:amjed
+password:amjedonline
+
+<link:internal>smtp</link:internal>:
+<link:url>username:amjed@semgel.com</link:url>
+password:<link:broken>semgel</link:broken>1@#$
+
+
+Bugzilla:
+<link:url>username:amjed@semgel.com</link:url>
+password:bugpassword
+
+Amazon <link:internal>web services</link:internal> access key : AKIAILFPZYJSOEY4CS6Q
+
+"<link:url>http://xml.amazon.com/onca/xml3?f=xml&amp;t=webservices-20&amp;dev-t=%s&amp;type=lite&amp;mode=books&amp;AuthorSearch=%s"</link:url> % (subscriptionID, urllib.quote(author))
+
+
+<bold>Production server:</bold>
+<link:url>https://184.73.219.158:8443</link:url>
+username: betauser
+password: semgelprivatebeta
+
+home network - badcoffee
+
+fluidinfo - simplysign
+
+
+acm:
+simplyregister
+socrata:
+simplyregister
+
+
+shaadi.com
+shahinshah_amjed
+SH87556367
+
+openhackbangalore.pbworks.com
+simplyregister
+
+<bold>Router Configuration</bold>
+security - WPA &amp; WPA2 Personal
+
+
+<link:url>mailer@semgel.com</link:url>
+infospace
+
+<bold>home suse linux -</bold>
+username - root
+password- password
+
+<bold>codespaces</bold>
+amjedonline
+amjedtwicing
+<link:internal>twicing</link:internal>
+
+
+
+<bold>limedomains</bold>
+Database Details
+  	 
+Database : 	amjedonline_<link:internal>wordpress</link:internal>_248
+Database User : 	amjedo790
+Password : 	amjedonline9841
+Database Host : 	hostingdb.limedomains.com
+  	 
+Administrator's preferences
+  	 
+Administrator's login : 	admin
+Password : 	amjedonline9841
+Administrator's email : 	<link:url>amjedonline@gmail.com</link:url>
+
+
+<bold>shellmix</bold>
+login amjedonline
+pass - paranoid
+
+<link:internal>mysql</link:internal>_username amjedonline_sql
+<link:internal>mysql</link:internal>_passwd badcoffee
+
+shell - null
+editor <link:url>/usr/local/bin/vi</link:url>
+terminal null
+backspace n
+Interrupt - Ctrl c
+<link:internal>Kill</link:internal> Ctrl U
+
+
+<bold>Yahoo application Id</bold>
+Congratulations, amjedonline, your application is now registered! Yeah!
+Your application id is oPTwoz7V34G6gp04Z.79LIZxoz5LJxk5bFNcZauGLzU9U74GfHLhMOqgwOZwPwIYBLk-
+For application entrypoint -&gt; amjedonline.shellmix.com
+
+taj-openhack-wifi
+@zT&amp;!b149*ju$$p
+
+<bold><link:internal>twitter</link:internal></bold>
+amjedonline
+prvmgtwitter
+
+
+<link:url>chirpshire.chirp@gmail.com</link:url>	
+chirpshirechirp - <link:internal>twitter</link:internal>
+Both passwords - amjedonline123
+
+<bold>Godaddy</bold>
+amjedonline
+sameold
+1986
+Customer Number is: 37715084
+Order Number: 257561873
+
+
+<bold>ICICI secure 3D</bold>
+606891
+
+rbdc9paypalregister
+
+<bold>Assembla</bold>
+amjedonline
+amjedonline
+
+
+<link:internal>Paypal integration</link:internal><bold> - developer</bold>
+<link:url>amjedonline@gmail.com</link:url>
+simplyregister
+
+<link:url>semgel_xxxxxxxx_biz@gmail.com</link:url>
+semgelsandbox
+
+
+<bold>Google Open Id</bold>
+<link:url>https://www.google.com/accounts/o8/id?id=aitoawls6dlodnaaqyy-5fdthjnne6hezmgqzti</link:url>
+
+gmail
+rbdc9gmailprvmg
+
+<bold>PF Account No</bold>
+KN/18433/1902
+
+<bold>Citi Bank Account No</bold>
+5660 825 802
+No.102-104, Prestige Meridian II,
+No.30, M G Road, Bangalore - 560001
+
+
+drumaroo
+amjedonline
+rbdc9prvmg
+
+
+muslimlife.eu
+amjed
+same old
+
+
+
+oracle:
+amjedonline
+6ZcRMQmU
+
+
+<bold><link:internal>svn</link:internal></bold><bold> hexad:</bold>
+amjed
+vDZd2ec9G1OCdqBEatuH
+
+<bold>skype</bold>
+amjedonline123
+same old
+
+
+<bold>HDFC Mom</bold>
+07681070014563
+
+
+
+<bold>Hdfc</bold>
+39807051
+03541140074062
+sameold, in between 
+
+<bold><link:internal>Azam</link:internal></bold><bold> laptop</bold>
+username:shaikazam
+pwd:blank
+
+
+<bold><link:internal>LDAP</link:internal></bold>
+
+<link:internal>LDAP</link:internal> directory admin
+slapdadmin
+
+systemuser: user
+password: <bold>godisgreat</bold>
+
+273275947
+
+
+<bold>Suresh Volkswagon</bold>
+eshaman
+ilovesohaan
+
+
+<bold>Post:</bold>977820604
+<bold>BZL:</bold>500-100-60
+
+<bold>ICICI: </bold>D3Y7G
+
+
+
+<bold><link:internal>git</link:internal></bold><bold>-hub</bold>
+<link:url>amjedonline@git.com</link:url>
+password:sameold-r-p
+
+
+<bold>Seema</bold>
+Account no: 62129389501
+Branch : Hussaini Garden
+
+
+</note-content></text>
+  <last-change-date>2012-04-04T13:47:24.9631850+02:00</last-change-date>
+  <last-metadata-change-date>2012-04-14T22:05:17.6559570+02:00</last-metadata-change-date>
+  <create-date>2010-01-03T06:56:42.0594250+01:00</create-date>
+  <cursor-position>1223</cursor-position>
+  <selection-bound-position>1223</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Personal</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>log4j</title>
+  <text xml:space="preserve"><note-content version="0.1">log4j
+"-Dlog4j.configuration=file:/foobar.txt"
+
+
+<bold>Tomcat <link:internal>logging</link:internal></bold>
+A limitation of JDK <link:internal>Logging</link:internal> appears to be the inability to have per-web application logging, as the configuration is per-VM. As a result, Tomcat will, in the default configuration, replace the default LogManager implementation with a container friendly implementation called JULI
+
+Configuring tomcat -Dlog4j.configuration=file:/var/deploy/<link:broken>semgel</link:broken>/log4j.properties<strikethrough>
+
+</strikethrough><bold>Appenders</bold><strikethrough>
+</strikethrough>RollingFileAppender
+DailyRollingFileAppender
+
+
+<bold>FATAL</bold> 	Severe errors that cause premature termination. Expect these to be immediately visible on a status console.
+<bold>ERROR</bold> 	Other runtime errors or unexpected conditions. Expect these to be immediately visible on a status console.
+<bold>WARN </bold>	Use of deprecated APIs, poor use of API, 'almost' errors, other runtime situations that are undesirable or unexpected, but not necessarily "wrong". Expect these to be immediately visible on a status console.
+<bold>INFO </bold>	Interesting runtime events (startup/shutdown). Expect these to be immediately visible on a console, so be conservative and keep to a minimum.
+<bold>DEBUG</bold> 	Detailed information on the flow through the system. Expect these to be written to logs only.
+<bold>TRACE </bold>	More detailed information. Expect these to be written to logs only. Was only added in version 1.2.12.
+
+</note-content></text>
+  <last-change-date>2010-07-21T09:24:50.4643900+02:00</last-change-date>
+  <last-metadata-change-date>2010-08-11T18:29:49.6274770+02:00</last-metadata-change-date>
+  <create-date>2010-06-15T09:10:42.6222160+02:00</create-date>
+  <cursor-position>48</cursor-position>
+  <selection-bound-position>48</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Java</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

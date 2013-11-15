@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>ant</title>
+  <text xml:space="preserve"><note-content version="0.1">ant
+<link:internal>Performance</link:internal> as of 13 May
+250k triples it takes 4 minutes
+400k	it takes 40-43 minutes
+</note-content></text>
+  <last-change-date>2010-05-12T10:46:32.7269660+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.1407290+05:30</last-metadata-change-date>
+  <create-date>2010-05-12T10:45:11.3730960+05:30</create-date>
+  <cursor-position>15</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Team</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

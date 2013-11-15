@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Sprint planning meeting 07.Sep</title>
+  <text xml:space="preserve"><note-content version="0.1">Sprint planning meeting 07.Sep
+
+<bold><size:large>As a product owner I expect a preparation plan to support integration test on 26.09</size:large></bold>
+
+<list><list-item dir="ltr">Test the connectivities between environment
+</list-item><list-item dir="ltr">Lifery must be available as a windows service - Das liferaz muss al s windows service verfugbar sein
+</list-item><list-item dir="ltr"> </list-item></list>
+
+
+<bold>As a product owner, I expect to have a Portlet  connection from ISA - Intergrated Sales Application</bold>
+<list><list-item dir="ltr">Proxyportlet versender Test- <link:internal>SAML</link:internal> an Ziel-Applikation
+</list-item><list-item dir="ltr">tracker der verfügbarkeit einer Testumgebung für ISA</list-item></list>
+
+TFIM . Tivoli Identity manager
+
+RST -  Request
+
+
+
+UMS ?
+TFIM ?
+
+Extending user attributes ?
+<list><list-item dir="ltr">compare  If thez exist
+</list-item><list-item dir="ltr">GAP Analisys ?
+</list-item><list-item dir="ltr"></list-item></list>
+
+
+
+
+<bold>Unterstützung - </bold>support
+
+<bold>Konnectivität - </bold>Connectivity
+
+<bold>Qualität - </bold>Quality
+
+<bold>Anwendungen -</bold> Applications
+
+<bold>Bereistellung - </bold>
+
+<bold> - </bold>Component
+
+<bold>erweitern ß </bold>
+
+<bold>fehlende -</bold> um fehlende attribute
+
+Liferay user Service erweiteren  um fehlende attribute
+
+</note-content></text>
+  <last-change-date>2011-09-07T10:54:43.9824810+02:00</last-change-date>
+  <last-metadata-change-date>2012-04-14T22:03:55.0278180+02:00</last-metadata-change-date>
+  <create-date>2011-09-07T06:31:00.1295910+02:00</create-date>
+  <cursor-position>864</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:IPortal</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

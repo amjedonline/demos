@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>GNU Network Object Model</title>
+  <text xml:space="preserve"><note-content version="0.1">GNU Network Object Model
+
+Founded upon X Windows system. (referred to as X)
+Started in 1997
+
+X - A client server system
+
+Originally implemented as XFree86.
+
+After a row broke out, X.org forked the code from XFree86 and continued development efforts with the same old license, and is adopted by linux.
+
+Kubuntu - KDE
+XUbuntu - XFce
+
+
+Install window manager by installing *-desktop meta-packages Ex: kubuntu-desktop installs all software needed for kubuntu
+
+GNOME provides a set of libraries and clients.
+Depends on a window manager that is GNOME-aware.
+Ex: Compiz( default WM in <link:internal>Ubuntu</link:internal>), Enlightment, Metacity, WIndow Maker, IceWM, beryl.
+
+GNOME clients in/usr/bin dir and config in <link:url>/etc/gnome</link:url> and <link:url>/usr/share/gnome</link:url> directories with user settings in .gnome and .gnome2
+
+
+X.Org 7.4 contains 30 packages.
+Majority of X.Org is in /usr
+
+<link:url>/usr/bin</link:url> has X Server and various X clients.
+Not all X clients require active X sessions.
+
+<link:url>/usr/include</link:url> Files necessary for developing X clients and graphics such as icons
+
+<link:url>/usr/lib</link:url> Reqd s/w lib to support the X server and clients
+
+<link:url>/usr/lib/X11</link:url> - Fonts, default client resources, system resources, doc and other use during X sessions and for various C clients
+
+<link:url>/usr/lib/modules</link:url> - Drives for various graphics cards
+
+
+<link:url>/etc/X11/default-display-manager</link:url> contains the default display manager program - <link:url>/usr/sbin/gdm</link:url>
+
+
+gdmsetup - To set up configure the gdmlogin
+<link:url>/etc/gdm/gdm.conf</link:url>
+
+Press F10 when you login to select a different window manager
+
+
+GNOME 3- Mutter window manager
+
+Unity keeps Compiz
+
+</note-content></text>
+  <last-change-date>2011-07-13T16:14:26.0650300+05:30</last-change-date>
+  <last-metadata-change-date>2011-07-13T16:14:26.0650300+05:30</last-metadata-change-date>
+  <create-date>2010-04-22T21:27:55.2826170+05:30</create-date>
+  <cursor-position>1467</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

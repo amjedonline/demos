@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Spring-ORM integration</title>
+  <text xml:space="preserve"><note-content version="0.1">Spring-ORM integration
+
+Ease of testing.
+
+Common Data access exceptions.
+
+General resource management.
+Spring application contexts can handle the location and configuration of Hibernate SessionFactory instances, JDBC DataSource instances, iBATIS SQL Maps configuration objects, and other related resources.
+
+
+Integrated transaction management.
+Spring allows you to wrap your O/R mapping code with either a declarative, AOP style method interceptor, or an explicit 'template' wrapper class at the Java code level.
+
+
+Offers
+JdbcTemplate 
+Conversion of SQLException to DataAccessException hierarchy
+SQL Error codes to meaningful Exception classes.
+Supports JTA and JDBC transactions via respective transaction managers
+
+
+No more business service dependencies on the data access or transaction strategy, 
+no more hard-coded resource lookups, 
+no more hard-to-replace singletons, 
+no more custom service registries. 
+
+
+ &lt;bean id="myDataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close"&gt;
+    &lt;property name="driverClassName" value="org.<link:internal>hsqldb</link:internal>.jdbcDriver"/&gt;
+    &lt;property name="url" value="jdbc:<link:internal>hsqldb</link:internal>:hsql://localhost:9001"/&gt;
+    &lt;property name="username" value="sa"/&gt;
+    &lt;property name="password" value=""/&gt;
+  &lt;/bean&gt;
+
+  &lt;bean id="mySessionFactory" class="org.springframework.orm.hibernate3.LocalSessionFactoryBean"&gt;
+    &lt;property name="dataSource" ref="myDataSource"/&gt;
+    &lt;property name="mappingResources"&gt;
+      &lt;list&gt;
+        &lt;value&gt;product.hbm.xml&lt;/value&gt;
+      &lt;/list&gt;
+    &lt;/property&gt;
+    &lt;property name="hibernateProperties"&gt;
+      &lt;value&gt;
+        hibernate.dialect=org.hibernate.dialect.HSQLDialect
+      &lt;/value&gt;
+    &lt;/property&gt;
+  &lt;/bean&gt;
+
+
+JNDI Configuration in DBCP bean :
+ &lt;property name="jndiName" value="java:comp/env/jdbc/myds"/&gt;
+
+
+
+
+***************************** org.springframework.orm.hibernate3.LocalSessionFactoryBean ************8
+DataSource
+MappingResources
+HibernateProperties.
+
+
+******************** HibernateTemplate **************************
+public class ProductDaoImpl implements ProductDao {
+
+    private HibernateTemplate hibernateTemplate;
+
+    public void setSessionFactory(SessionFactory sessionFactory) {
+        this.hibernateTemplate = new HibernateTemplate(sessionFactory);
+    }
+
+    public Collection loadProductsByCategory(String category) throws DataAccessException {
+    	return this.hibernateTemplate.<link:internal>find</link:internal>("from test.Product product where product.category=?", category);
+    }
+}
+
+
+
+Callback in HibernateTemplate:
+To access the session, in methods not supported by HibernateTemplate interface.
+HIbernateTemplate.execute(HibernateCallback());
+HibernateCallback{
+	public Object doInHibernate(Session session){}
+}
+
+ public Collection loadProductsByCategory(final String category) throws DataAccessException {
+        return this.hibernateTemplate.execute(new HibernateCallback() {
+            public Object doInHibernate(Session session) {
+                Criteria criteria = session.createCriteria(Product.class);
+                criteria.add(Expression.eq("category", category));
+                criteria.setMaxResults(6);
+                return criteria.list();
+            }
+        };
+    }
+
+HibernateTemplate will ensure that Session instances are properly opened and closed, and automatically participate in transactions. 
+The template instances are thread-safe and reusable, they can thus be kept as instance variables of the surrounding class. 
+
+***************** HibernateDaoSupport ************************************
+
+public class ProductDaoImpl extends HibernateDaoSupport implements ProductDao {
+
+    public Collection loadProductsByCategory(String category) throws DataAccessException {
+        return this.getHibernateTemplate().<link:internal>find</link:internal>(
+            "from test.Product product where product.category=?", category);
+    }
+}
+
+
+******************** Transaction **************************
+Create bean HibernateTransactionManager
+Inject into field, PlateFormTransactionManager in DAO
+create TransactionTemplate(txManager);
+
+
+TransactionAttributes:
+PROPAGATION_REQUIRED
+PROPAGATION_REQUIRES_NEW
+PROPAGATION_SUPPORTS
+readOnly
+
+
+&lt;prop key="increasePrice*"&gt;PROPAGATION_REQUIRED&lt;/prop&gt;
+        &lt;prop key="someOtherBusinessMethod"&gt;PROPAGATION_REQUIRES_NEW&lt;/prop&gt;
+	&lt;prop key="*"&gt;PROPAGATION_SUPPORTS,readOnly&lt;/prop&gt;
+&lt;/props&gt;
+
+
+
+&lt;bean class="BasicDataSoure"&gt;
+	&lt;property name="driverClassName"&gt;
+	&lt;property url=""&gt;
+	&lt;property user=""&gt;
+	&lt;property password=""&gt;
+&lt;/bean&gt;
+
+&lt;bean "sessionFactory" class="LocalSessionFactoryBean"&gt;
+	&lt;property datasource="ds"&gt;
+	&lt;property name="mappingResource"&gt;
+	
+&lt;/bean&gt;</note-content></text>
+  <last-change-date>2010-12-17T19:11:03.9938040+01:00</last-change-date>
+  <last-metadata-change-date>2012-02-28T14:27:40.8910750+01:00</last-metadata-change-date>
+  <create-date>2010-12-17T19:10:39.5100030+01:00</create-date>
+  <cursor-position>4294</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Java</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

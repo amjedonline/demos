@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Another</title>
+  <text xml:space="preserve"><note-content version="0.1">Another
+
+Hierarchy of events and event handlers, with local event bus concept.
+
+Research on Themes support.
+
+Research on I18N support.
+
+Make use of the datatype of the data (primitive type like int, real, <link:internal>date</link:internal>)
+
+Error<link:url>/Success/Progress</link:url> message place in every page.
+
+Figure out how Template method pattern can be employed in all the innerclasses being used for event handling.
+
+FacetPanel should call getCurrentSelection only from the changed FacetView.
+
+<link:internal>Sequence</link:internal>(delay and catch) the multiple selection of facetview.
+
+SemgelClient.getSpace(), SemgelClient.getUser() to get the current space object and User object respectively.
+
+Space buttons just fires the events (delete, copy, rename), operations are done by SpaceGrid.
+
+To highlight the buttons, <link:internal>GRID</link:internal> fires the events, buttons listen to them and highlight/disable accordingly.</note-content></text>
+  <last-change-date>2010-03-01T00:29:48.8159720+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.8726880+05:30</last-metadata-change-date>
+  <create-date>2010-01-02T23:41:29.9371730+05:30</create-date>
+  <cursor-position>135</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Code review notes</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

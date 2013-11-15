@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Major activities with IA Portal</title>
+  <text xml:space="preserve"><note-content version="0.1">Major activities with IA Portal
+
+Checking into the <link:internal>SVN</link:internal>
+Removing the unused plugins, themes and layouts
+Fixing the server deadlock and crash issue
+Making 100% width
+Recreating images.
+Javascript issue
+<list><list-item dir="ltr"><link:internal>Date</link:internal> picker broken
+</list-item><list-item dir="ltr">Left navigation doesnt work
+</list-item><list-item dir="ltr">Accordian doest work</list-item></list>
+
+Recreating private pages.
+
+Trying to understand the code
+Trying to fix the issue of code being dumped on the log
+</note-content></text>
+  <last-change-date>2011-04-12T22:42:11.1615220+02:00</last-change-date>
+  <last-metadata-change-date>2011-04-12T22:42:11.1615220+02:00</last-metadata-change-date>
+  <create-date>2011-04-12T22:12:32.4363220+02:00</create-date>
+  <cursor-position>301</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

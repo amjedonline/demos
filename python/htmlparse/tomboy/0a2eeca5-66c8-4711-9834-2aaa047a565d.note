@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Literals Nominal/Ordinals</title>
+  <text xml:space="preserve"><note-content version="0.1">Literals Nominal/Ordinals
+
+There are Nominals and Ordinals
+
+<bold>Nominals - </bold>
+Does not have implicit/conceptual values among themselves:
+Tag, Name
+
+<bold>Ordinals</bold>
+Which have relation/order within them:
+Time
+<link:internal>Date</link:internal>
+Round of funding
+</note-content></text>
+  <last-change-date>2010-09-24T12:47:36.3483930+02:00</last-change-date>
+  <last-metadata-change-date>2010-09-24T12:47:36.3483930+02:00</last-metadata-change-date>
+  <create-date>2010-09-24T12:45:58.4424130+02:00</create-date>
+  <cursor-position>94</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:misc</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

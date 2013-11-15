@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Quick info</title>
+  <text xml:space="preserve"><note-content version="0.1">Quick info
+
+Public IP: 122.166.105.204
+sedftghuj</note-content></text>
+  <last-change-date>2010-01-03T11:31:07.2830140+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:05.3410490+05:30</last-metadata-change-date>
+  <create-date>2010-01-03T11:30:27.5439760+05:30</create-date>
+  <cursor-position>12</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Product Document</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Aug 6th</title>
+  <text xml:space="preserve"><note-content version="0.1">Aug 6th
+
+<bold>Worked on </bold>
+
+Item navigation between review, list view and table view
+Bread crumb
+Integration of new css
+
+<bold>Need to take care of</bold>
+Border between the header and sub-header in the Filter
+Extra left padding in the Item widget title
+Space name space should be increased to contain longer names
+Browser scroll bars should not appear
+Check boxes
+Operations in Explore list view
+
+
+
+
+<bold>Modified these</bold>
+PageHeader.ui.xml
+NewPageWidget.ui.xml
+NewTypeSummaryWidget.ui.xml
+Sidenavsection.ui.xml - Need to delete
+</note-content></text>
+  <last-change-date>2010-08-07T07:57:20.5339699+02:00</last-change-date>
+  <last-metadata-change-date>2012-01-02T16:24:06.7076490+01:00</last-metadata-change-date>
+  <create-date>2010-08-06T16:21:11.4381160+02:00</create-date>
+  <cursor-position>20</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Daily</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Logging in Tomcat and java</title>
+  <text xml:space="preserve"><note-content version="0.1">Logging in Tomcat and java
+
+
+<bold>Apache <link:internal>commons logging</link:internal></bold>
+Thin wrapper above different <link:internal>logging</link:internal> <link:internal>frameworks</link:internal>.
+ability to log ierarchically across various log levels without need to rely on particular <link:internal>logging</link:internal> implementation
+
+In Apache Tomcat, implemented with Apache <link:internal>Commons Logging</link:internal> library.
+
+<bold>Since Tomcat 6.0
+</bold>Uses private package-renamed implementation of Apache <link:internal>commons logging</link:internal> to allow web apps to use their own independent copies of original apache-commons-<link:internal>logging</link:internal>-
+In default implementation this private copy is simplified and hardcoded to use the java.util.<link:internal>logging</link:internal> framework.
+
+
+<bold>JULI</bold>
+Apache tomcat has own implementation of several key elements of java.util.<link:internal>logging</link:internal> API.
+Key component:
+<list><list-item dir="ltr">Custom LogManager implementation
+<list><list-item dir="ltr">Aware of different web applications running on Tomcat (and different class loaders)
+</list-item><list-item dir="ltr">Supports private per-application <link:internal>logging</link:internal> configuration.
+</list-item><list-item dir="ltr">Notified be Tomcat when a web app is unloaded from <link:internal>memory</link:internal>, so that references to its classes can be cleared, preventing <link:internal>memory</link:internal> leaks.</list-item></list></list-item></list>
+Enalbed by giving certain system properties when starting Java.
+startup scripts do this for us.
+When using different to tools to run Tomcat, namely jsvc, IDE. this needs to be taken care of.
+</note-content></text>
+  <last-change-date>2011-11-28T09:54:58.5994590+01:00</last-change-date>
+  <last-metadata-change-date>2011-12-06T13:13:27.1608240+01:00</last-metadata-change-date>
+  <create-date>2011-11-28T09:45:07.2536000+01:00</create-date>
+  <cursor-position>680</cursor-position>
+  <selection-bound-position>680</selection-bound-position>
+  <width>1364</width>
+  <height>342</height>
+  <x>66</x>
+  <y>24</y>
+  <tags>
+    <tag>system:notebook:Java</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

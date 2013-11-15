@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>getChildren response schema</title>
+  <text xml:space="preserve"><note-content version="0.1">getChildren response schema
+
+{
+"predicates":[
+{"hasChildren":false,"isType":false,"label":"hasFirstName","url":"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/first_name"},{"hasChildren":false,"isType":false,"label":"hasLastName","url":"http://www.onebigweb.com/2008/ont/crunchbase/pred/last_name"},{"hasChildren":false,"isType":false,"label":"name","url":"http://www.onebigweb.com/2008/ont/crunchbase/pred/name"},{"hasChildren":false,"isType":false,"label":"hasCbPermalink","url":"http://www.onebigweb.com/2008/ont/crunchbase/pred/permalink"},{"hasChildren":false,"isType":false,"label":"hasInvestment","url":"http://www.onebigweb.com/2008/ont/crunchbase/pred/hasInvestment"},{"hasChildren":false,"isType":false,"label":"hasPosition","url":"http://www.onebigweb.com/2008/ont/linkedin/pred/personHasExperience</link:url>"}
+],
+
+"<link:internal>types</link:internal>":[
+{"hasChildren":false,"isType":false,"label":"Person","url":"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/type/Person"},{"hasChildren":false,"isType":false,"url":"http://www.onebigweb.com/2008/ont/techmeme/type/Author</link:url>"}
+]
+
+}
+</note-content></text>
+  <last-change-date>2010-03-03T15:05:33.3634980+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.8631070+05:30</last-metadata-change-date>
+  <create-date>2010-02-05T15:02:57.1275550+05:30</create-date>
+  <cursor-position>61</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>2</x>
+  <y>68</y>
+  <tags>
+    <tag>system:notebook:JSON schema</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

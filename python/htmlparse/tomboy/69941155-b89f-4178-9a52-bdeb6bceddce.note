@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Outsourcing : Power Distance Index</title>
+  <text xml:space="preserve"><note-content version="0.1">Outsourcing : Power Distance Index
+
+High
+Fixed price per developer
+Buyer, provider
+Certain Key <link:internal>Performance</link:internal> Indicators (KPI) of the developer are agreed upon by both partiesm and the game is afoot
+
+Buyer typically reduce the daily oversight on the project to something more reasonable, like weekly updates.
+
+Software appears to be behind <link:internal>schedule</link:internal> ( and not ahead)
+
+India would be considered moderately high PDI at 77 (in the 61-80 range).</note-content></text>
+  <last-change-date>2010-06-26T20:11:57.5600100+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T21:59:49.9222500+05:30</last-metadata-change-date>
+  <create-date>2010-01-22T10:15:21.6884190+05:30</create-date>
+  <cursor-position>12</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Learnings</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

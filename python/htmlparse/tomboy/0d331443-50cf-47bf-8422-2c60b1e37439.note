@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Irfan's chat</title>
+  <text xml:space="preserve"><note-content version="0.1">Irfan's chat
+
+ Irfan: wo nov ka bank statement chk karo
+12:10 AM me: inshallah kal pakka
+12:13 AM check kiya
+  kya wrong hai usme ?
+ Irfan: payment kitna hai?
+12:14 AM me: 30k
+ Irfan: prev balance?
+ me: 20k ka laptop bill
+ Irfan: payment 30k nai hai o
+ me: 17k payment
+ Irfan: 17k hai
+  payment karne ke baad bhi amount deduct nai hua na
+12:15 AM 30k-17k karna na
+ me: <link:internal>26 Feb 2009</link:internal>k previous balance that
+  tha
+  20k ka purhase hua
+  17k payment kiya
+12:16 AM <link:internal>26 Feb 2009</link:internal>+3 = 30k balance amt .
+ Irfan: u mean 46k-17k?
+ me: yeah
+12:17 AM Irfan: toh phir <link:internal>azhar</link:internal> ke 20k?
+  wo month mei <link:internal>azhar</link:internal> bhi 20k diya tha
+12:18 AM me: ek min dekhtu
+ Irfan: sure..
+	10 minutes
+12:29 AM me: suno
+ Irfan: hmm
+ me: 9th may 8k ???
+ Irfan: shayad
+  yaad nai
+  par nov 20k
+12:30 AM book mei <link:internal>date</link:internal> hai likh ke rakha so
+  dekh ke bolun kya?
+ me: dekho
+12:35 AM Irfan: suno
+ me: bolo
+ Irfan: 9th may 8k
+  nov 20k
+12:36 AM 2 june 5k
+  30 june 7k
+  18th feb 2k
+ me: hmm
+ Irfan: total 42k
+ me: ha
+ Irfan: tumhara lafda samjha shayad main
+ me: bolo
+12:37 AM Irfan: tum laptop ko paise aur <link:internal>azhar</link:internal> ke paise mei conf karliye?
+ me: nahi
+ Irfan: phr?
+ me: laptop tho main
+12:38 AM woh 48k mein se liya
+  matlab
+  thoda jama the mere
+  aur thode usme se
+12:39 AM main woh <link:internal>26 Feb 2009</link:internal>k ka hisaab kaha se laya tha
+  yaad nahi aara mujhe</note-content></text>
+  <last-change-date>2010-02-26T14:25:26.8878650+01:00</last-change-date>
+  <last-metadata-change-date>2012-02-02T10:45:00.8986290+01:00</last-metadata-change-date>
+  <create-date>2010-01-23T10:41:58.9566850+01:00</create-date>
+  <cursor-position>1294</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Azhar</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Ubuntu unassorted</title>
+  <text xml:space="preserve"><note-content version="0.1">Ubuntu unassorted
+
+apt-get install pkg_name
+apt-get update pkg-na
+Two categories of packages:
+1. Universe - Basic<link:url>/typical/widely</link:url> used set of packages
+2. Multiverse- All the know packages
+
+command apt-get update the local definition of package with this multiverse list form the server
+
+apt-get install -f <bold># <italic>Fix the broken packages. package dependencies</italic></bold>
+
+
+<link:internal>scp</link:internal> source destination
+
+<link:internal>svn</link:internal> commit . 
+<link:internal>svn</link:internal> checkout <link:url>http://svnserver/svn/trunk/parent</link:url> .
+; creates all the child folders in the local dir
+
+<link:internal>svn</link:internal> checkout <link:url>http://svnserver/svn/trunk/parent/child</link:url>
+; creates the child in the local path
+
+<link:internal>svn</link:internal> diff -r r1:r2 file
+; to see the difference between these two revisions
+
+<link:internal>svn</link:internal> blame file
+; to see the log , same as appraise
+
+
+nautilus dir_path
+;Opens up the directory in the explorer
+
+
+mount -t type device dir
+
+mount [-l] [-t type] //list
+
+---- fstab ----
+fs_spec fs_file fs_vfstype fs_mntops[csv]
+fs_spec - block special device like <link:url>/dev/hda1</link:url>
+fs_file - file system dir
+fs_vfstype - file system type
+fs-mntops - 
+noauto-Do not mount with mount -a , at boot time
+user,owneer - allow a user,owner to mount
+
+<link:url>/proc/filesystems</link:url> ;list of all the <link:internal>filesystems</link:internal> supported by the current kernel
+
+
+----------- NFS -------------
+NFS 2,3
+server:<link:url>/usr/local/pub</link:url> /pub nfs rsize=32768,wsize=32768,timeo=14,intr 
+
+NFS ver 4 
+server:<link:url>/usr/local/pub</link:url> /pub nfs4 proto=tcp,sec=krb5,hard,intr 
+
+
+macn -n cmd
+where n is the psec number
+
+man -k ; one line descrption, same with apropos, whatis
+
+To restart the kernel
+Alt+PrntScreen+RSEIUB
+
+To change the alternatives in the /etc/ for instance <link:url>/etc/java</link:url>, this is interactive
+<link:internal>sudo</link:internal> update-alternatives --config <link:internal>Javac</link:internal>
+
+For non-interactive settings use
+<link:internal>sudo</link:internal> update-alternatives -set path name
+
+<link:internal>Javac</link:internal>-package configuration of supported packages, that can be compiled into debian package with
+fakeroot make-jpkg
+edit <link:url>/usr/share/java-package/xyz.sh</link:url>
+
+
+<italic>wget</italic> to download something</note-content></text>
+  <last-change-date>2010-12-20T09:54:08.1628190+01:00</last-change-date>
+  <last-metadata-change-date>2010-12-20T09:54:08.1628190+01:00</last-metadata-change-date>
+  <create-date>2010-01-03T07:29:30.9536100+01:00</create-date>
+  <cursor-position>1356</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

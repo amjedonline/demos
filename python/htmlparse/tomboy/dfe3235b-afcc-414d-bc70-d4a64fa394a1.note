@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Card layout</title>
+  <text xml:space="preserve"><note-content version="0.1">Card layout
+
+CardLayout, which is a FitLayout, works by sizing the child component to be the same size as the parent container. Any sizes given to the child component are ignored (except for auto height and width). 
+
+By setting the size of the child component in pixels, the child component is notified when it is resized. Many components, need to be sized in pixels to render properly, such as <link:internal>Grid</link:internal> and TabPanel, as they must "adjust" to their new size.
+
+</note-content></text>
+  <last-change-date>2010-02-18T00:24:15.6168639+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.9161510+05:30</last-metadata-change-date>
+  <create-date>2010-02-18T00:24:09.3550110+05:30</create-date>
+  <cursor-position>13</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

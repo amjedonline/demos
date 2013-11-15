@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>USB Hard disk drives</title>
+  <text xml:space="preserve"><note-content version="0.1">USB Hard disk drives
+
+
+<bold>Comes in </bold>
+2.5 Inch
+3.5 Inch
+
+<bold>Power</bold> - Yes and other No
+
+<bold>Form factor:</bold>
+Portable 
+Desktop
+
+USB 2.0 and USB 3.0
+
+<bold>USB 2.0 has 3 bands of speed</bold>
+Full speed	- 1.5mbps
+High Speed - 6.0 mbps
+
+
+<bold>USB 3.0</bold>
+Super speed - 400 mbps
+
+<bold>Drop guard </bold>
+Iomega comes with Drop guard
+</note-content></text>
+  <last-change-date>2011-07-08T08:19:08.6078390+02:00</last-change-date>
+  <last-metadata-change-date>2011-07-08T08:19:08.6078390+02:00</last-metadata-change-date>
+  <create-date>2011-07-08T08:16:50.6435060+02:00</create-date>
+  <cursor-position>278</cursor-position>
+  <selection-bound-position>278</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Hardware</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

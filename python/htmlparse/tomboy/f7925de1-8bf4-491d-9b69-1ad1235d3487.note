@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Google analytics code for amjedonline.com</title>
+  <text xml:space="preserve"><note-content version="0.1">Google analytics code for amjedonline.com
+
+&lt;script type="text/javascript"&gt;
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20221662-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? '<link:url>https://ssl</link:url>' : '<link:url>http://www</link:url>') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+&lt;/script&gt;</note-content></text>
+  <last-change-date>2010-12-13T20:38:39.6753950+05:30</last-change-date>
+  <last-metadata-change-date>2010-12-13T20:38:39.6753950+05:30</last-metadata-change-date>
+  <create-date>2010-12-13T20:38:29.3818100+05:30</create-date>
+  <cursor-position>72</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Analytics</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

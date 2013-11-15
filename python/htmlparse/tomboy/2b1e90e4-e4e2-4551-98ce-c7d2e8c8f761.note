@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>OpenHack11 - GEO</title>
+  <text xml:space="preserve"><note-content version="0.1">OpenHack11 - GEO
+
+<bold>Products</bold>
+loopt
+fire eagle
+Rummble
+Bright Kite
+
+
+<bold>Looking for</bold>
+Navigation
+Surverying
+Business <link:internal>process</link:internal>
+Warehouse and routing
+Consumer
+
+
+
+
+WOEID - Unique ID for each location
+
+<bold>Yahooo Offers</bold>
+Placefinder
+YQL Geo and WOEIDS
+Placemaker
+
+<bold>Other location centric</bold>
+Locals, Traffic, Maps
+
+
+
+What is <bold>WOEID</bold> ?
+Lat, Long - Rudimentary
+
+<bold>Contexts</bold>
+<link:internal>Job</link:internal> opportunities
+Deals
+News portal
+Matrimonial Advertisements
+
+
+<bold>Requirements</bold>
+<list><list-item dir="ltr">Finding current location
+</list-item><list-item dir="ltr">Turning a location into a place
+</list-item><list-item dir="ltr">Finding geo hierarchy
+</list-item><list-item dir="ltr">Geo tagging
+</list-item><list-item dir="ltr">Displaying Geo Information</list-item></list>
+
+<bold><size:large>Finding current location</size:large></bold>
+1. IP Sniffing
+With an IP get lat, long
+Proxies
+Inaccurate
+
+2. W3C geo location API
+Non creepy and more accurate
+Browser supports , Granular
+
+3. Social presence
+Get from users social presence
+Fireeagle, <link:internal>Twitter</link:internal>, Yahoo, Gowalla, Brightkite
+
+<bold>Location brokerage - Fireeagle</bold>
+protected with OAuth
+Locations are updated in all the apps in yahoo
+Need to authorize the application
+
+
+<bold><size:large>Turning a location into a place</size:large></bold>
+<bold>Geo coding</bold> and <bold>Reverse GEO Coding</bold>
+Converting street addresses or place names into geographical co-ordinates(and vice versa)
+Reverse - When you have lat long
+Geo Coding - When you have place name
+
+
+select * from geol.phaces where woeid in (select woeid from places where lat long is )
+
+<bold><size:huge>Geo hierarchy</size:huge></bold>
+
+geo.places.ancestors
+geo.places.neighbors
+
+select placeTypeName, name from geo.places.neighbors where neighbor_woeid="55924791"
+
+
+
+<bold><size:large>Placemakeer</size:large></bold>
+
+Takes text/web URL and extracts the greographical infromation from it
+
+Select (* from greo.placemaker where documentURL="http:"
+ and documentType="text/<link:internal>html</link:internal>"
+
+
+
+isithackday.com/hacks/geo
+isithackday.com/geoplanet-explorer
+isithackday.com/hacks/geo/yql-geo-library
+
+
+PRAJWAL BS
+
+slidhostip.info
+
+slideshare.net/prajwalbs
+
+</note-content></text>
+  <last-change-date>2011-07-30T10:57:02.8907330+05:30</last-change-date>
+  <last-metadata-change-date>2011-07-30T10:57:02.8907330+05:30</last-metadata-change-date>
+  <create-date>2011-07-30T10:34:08.3905850+05:30</create-date>
+  <cursor-position>1721</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>24</y>
+  <open-on-startup>False</open-on-startup>
+</note>

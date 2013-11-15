@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Mashups</title>
+  <text xml:space="preserve"><note-content version="0.1">Mashups
+
+Mashup:
+        A mashup is a web page or application that combines data or functionality from two or more external sources to create a <link:broken>new</link:broken> service. The term mashup implies easy, fast integration, frequently using open APIs and data sources to produce results that were not the original reason for producing the raw source data. 
+Content aggregation can take place either on server side or client side
+
+1.Consumer mashups
+2.Data mashups
+3.Enterprise mashups
+
+Data mashups:
+AlertMap
+chicago.everyblock.com
+
+Enterprise mashups:
+Focus data into a single presentation and allow for collaborative action among businesses and developers. 
+Enterprise Mashups are secure, visually rich web applications that expose actionable information from diverse internal and external information sources.
+
+
+Portlet Governed by JSR 168,268 and WSRP standards.
+</note-content></text>
+  <last-change-date>2010-01-10T08:04:54.5320690+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:05.2685970+05:30</last-metadata-change-date>
+  <create-date>2010-01-03T12:01:47.4488010+05:30</create-date>
+  <cursor-position>9</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Learnings</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

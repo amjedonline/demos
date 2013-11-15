@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>issues with IA UI</title>
+  <text xml:space="preserve"><note-content version="0.1">issues with IA UI
+
+<bold>I realized some <link:internal>issues</link:internal></bold><bold> that need to be fixed for a go live. </bold>
+<list><list-item dir="ltr">- Concerning the page format - Is there any reason for the limited width, as the 'Repository' documents must be heavily scolled 
+<list><list-item dir="ltr">Can fix in theme</list-item></list></list-item></list>
+
+<list><list-item dir="ltr">- No documents (doc, pdf) can be downloaded. 
+<list><list-item dir="ltr">fixed</list-item></list></list-item></list>
+
+<list><list-item dir="ltr">- What is the decission to leave some menu items in the main menu and move other to the quick links? I suggest to have all items in the main menu.
+<list><list-item dir="ltr">To avoid cluttering of menu items, however this could be fixed.</list-item></list></list-item></list>
+
+<list><list-item dir="ltr">- Most of the images are distorted.
+<list><list-item dir="ltr">New images should be created</list-item></list></list-item></list>
+
+<list><list-item dir="ltr">Page 'Formulare': 
+<list><list-item dir="ltr">-says formulare twice
+<list><list-item dir="ltr">   Can do this.</list-item></list></list-item></list></list-item></list>
+ 
+<list><list-item dir="ltr">Page 'Richtlinien': 
+</list-item><list-item dir="ltr">- unresolved links to the 'Repository' portlet ---------- Could be fixed 
+</list-item><list-item dir="ltr">- says Richtlinien twice 
+</list-item><list-item dir="ltr">- why subforlders and not just groups of documents? 
+<list><list-item dir="ltr"><link:internal>Another</link:internal> way of categorizing the documents.
+</list-item></list></list-item><list-item dir="ltr">- why empty documents section? ---- Needs customization</list-item></list>
+ 
+
+Page 'Handbuch' 
+- the are broken image links
+- document links does not work (e.g. Master Construction Plan) -- Need clarification
+- Service-Specification =&gt; Change-Management-<link:internal>Process</link:internal> has wrong content 
+- bad formating of sample code (e.g. Sicherheit =&gt; <link:internal>SAML</link:internal>-Token) 
+- missing links (e.g. Entwickluing =&gt; Aufruf von Services, Betrieb =&gt; <link:internal>Logging</link:internal>, Betrieb =&gt; Monitoring) 
+
+Could you please fix that. 
+
+There are a few things that have changed compared to the one you aready have: 
+- All pages: Department is now K-SIOC-1 instead of K-SIO/V 
+- Page 'Gateway Übersich't: the picture and the 'Gateway Übersicht' table has changed 
+
+
+Could you also please adapt this as well. 
+</note-content></text>
+  <last-change-date>2011-09-07T10:54:43.7270640+02:00</last-change-date>
+  <last-metadata-change-date>2012-04-14T22:03:55.0300320+02:00</last-metadata-change-date>
+  <create-date>2011-03-28T15:41:43.7564380+02:00</create-date>
+  <cursor-position>18</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:IA Portal</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

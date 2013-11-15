@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Useful SED cmds ripped</title>
+  <text xml:space="preserve"><note-content version="0.1">Useful SED cmds ripped
+
+-------------------------------------------------------------------------
+USEFUL ONE-LINE SCRIPTS FOR <link:internal>SED</link:internal> (Unix stream editor)        Dec. 29, 2005
+Compiled by Eric Pement - pemente[at]northpark[dot]edu        version 5.5
+
+Latest version of this file (in English) is usually at:
+   <link:url>http://<link:internal>sed</link:internal></link:url><link:url>.sourceforge.net/<link:internal>sed</link:internal></link:url><link:url>1line.txt</link:url>
+   <link:url>http://www.pement.org/<link:internal>sed</link:internal></link:url><link:url>/<link:internal>sed</link:internal></link:url><link:url>1line.txt</link:url>
+
+This file will also available in other languages:
+  Chinese     - <link:url>http://<link:internal>sed</link:internal></link:url><link:url>.sourceforge.net/<link:internal>sed</link:internal></link:url><link:url>1line_zh-CN.<link:internal>html</link:internal></link:url>
+  Czech       - <link:url>http://<link:internal>sed</link:internal></link:url><link:url>.sourceforge.net/<link:internal>sed</link:internal></link:url><link:url>1line_cz.<link:internal>html</link:internal></link:url>
+  Dutch       - <link:url>http://<link:internal>sed</link:internal></link:url><link:url>.sourceforge.net/<link:internal>sed</link:internal></link:url><link:url>1line_nl.<link:internal>html</link:internal></link:url>
+  French      - <link:url>http://<link:internal>sed</link:internal></link:url><link:url>.sourceforge.net/<link:internal>sed</link:internal></link:url><link:url>1line_fr.<link:internal>html</link:internal></link:url>
+  German      - <link:url>http://<link:internal>sed</link:internal></link:url><link:url>.sourceforge.net/<link:internal>sed</link:internal></link:url><link:url>1line_de.<link:internal>html</link:internal></link:url>
+  Italian     - (pending)
+  Portuguese  - <link:url>http://<link:internal>sed</link:internal></link:url><link:url>.sourceforge.net/<link:internal>sed</link:internal></link:url><link:url>1line_pt-BR.<link:internal>html</link:internal></link:url>
+  <link:internal>Spanish</link:internal>     - (pending)
+
+
+FILE SPACING:
+
+ # double space a file
+ <link:internal>sed</link:internal> G
+
+ # double space a file which already has blank lines in it. Output file
+ # should contain no more than one blank line between lines of text.
+ <link:internal>sed</link:internal> '/^$/d;G'
+
+ # triple space a file
+ <link:internal>sed</link:internal> 'G;G'
+
+ # undo double-spacing (assumes even-numbered lines are always blank)
+ <link:internal>sed</link:internal> 'n;d'
+
+ # insert a blank line above every line which matches "regex"
+ <link:internal>sed</link:internal> '/regex/{x;p;x;}'
+
+ # insert a blank line below every line which matches "regex"
+ <link:internal>sed</link:internal> '/regex/G'
+
+ # insert a blank line above and below every line which matches "regex"
+ <link:internal>sed</link:internal> '/regex/{x;p;x;G;}'
+
+NUMBERING:
+
+ # number each line of a file (simple left alignment). Using a tab (see
+ # note on '\t' at end of file) instead of space will preserve margins.
+ <link:internal>sed</link:internal> = filename | <link:internal>sed</link:internal> 'N;s/\n/\t/'
+
+ # number each line of a file (number on left, right-aligned)
+ <link:internal>sed</link:internal> = filename | <link:internal>sed</link:internal> 'N; s/^/     /; s/ *\(.\{6,\}\)\n/\1  /'
+
+ # number each line of file, but only print numbers if line is not blank
+ <link:internal>sed</link:internal> '/./=' filename | <link:internal>sed</link:internal> '/./N; s/\n/ /'
+
+ # count lines (emulates "wc -l")
+ <link:internal>sed</link:internal> -n '$='
+
+TEXT CONVERSION AND SUBSTITUTION:
+
+ # IN UNIX ENVIRONMENT: convert DOS newlines (CR/LF) to Unix format.
+ <link:internal>sed</link:internal> 's/.$//'               # assumes that all lines end with CR/LF
+ <link:internal>sed</link:internal> 's/^M$//'              # in bash/tcsh, press Ctrl-V then Ctrl-M
+ <link:internal>sed</link:internal> 's/\x0D$//'            # works on ssed, gsed 3.02.80 or higher
+
+ # IN UNIX ENVIRONMENT: convert Unix newlines (LF) to DOS format.
+ <link:internal>sed</link:internal> "s/$/`echo -e \\\r`/"            # command line under ksh
+ <link:internal>sed</link:internal> 's/$'"/`echo \\\r`/"             # command line under bash
+ <link:internal>sed</link:internal> "s/$/`echo \\\r`/"               # command line under zsh
+ <link:internal>sed</link:internal> 's/$/\r/'                        # gsed 3.02.80 or higher
+
+ # IN DOS ENVIRONMENT: convert Unix newlines (LF) to DOS format.
+ <link:internal>sed</link:internal> "s/$//"                          # method 1
+ <link:internal>sed</link:internal> -n p                             # method 2
+
+ # IN DOS ENVIRONMENT: convert DOS newlines (CR/LF) to Unix format.
+ # Can only be done with UnxUtils <link:internal>sed</link:internal>, version 4.0.7 or higher. The
+ # UnxUtils version can be identified by the custom "--text" switch
+ # which appears when you use the "--help" switch. Otherwise, changing
+ # DOS newlines to Unix newlines cannot be done with <link:internal>sed</link:internal> in a DOS
+ # environment. Use "tr" instead.
+ <link:internal>sed</link:internal> "s/\r//" infile &gt;outfile         # UnxUtils <link:internal>sed</link:internal> v4.0.7 or higher
+ tr -d \r &lt;infile &gt;outfile            # GNU tr version 1.22 or higher
+
+ # delete leading whitespace (spaces, tabs) from front of each line
+ # aligns all text flush left
+ <link:internal>sed</link:internal> 's/^[ \t]*//'                    # see note on '\t' at end of file
+
+ # delete trailing whitespace (spaces, tabs) from end of each line
+ <link:internal>sed</link:internal> 's/[ \t]*$//'                    # see note on '\t' at end of file
+
+ # delete BOTH leading and trailing whitespace from each line
+ <link:internal>sed</link:internal> 's/^[ \t]*//;s/[ \t]*$//'
+
+ # insert 5 blank spaces at beginning of each line (make page offset)
+ <link:internal>sed</link:internal> 's/^/     /'
+
+ # align all text flush right on a 79-column width
+ <link:internal>sed</link:internal> -e :a -e 's/^.\{1,78\}$/ &amp;/;ta'  # set at 78 plus 1 space
+
+ # center all text in the middle of 79-column width. In method 1,
+ # spaces at the beginning of the line are significant, and trailing
+ # spaces are appended at the end of the line. In method 2, spaces at
+ # the beginning of the line are discarded in centering the line, and
+ # no trailing spaces appear at the end of lines.
+ <link:internal>sed</link:internal>  -e :a -e 's/^.\{1,77\}$/ &amp; /;ta'                     # method 1
+ <link:internal>sed</link:internal>  -e :a -e 's/^.\{1,77\}$/ &amp;/;ta' -e 's/\( *\)\1/\1/'  # method 2
+
+ # substitute (<link:internal>find</link:internal> and replace) "foo" with "bar" on each line
+ <link:internal>sed</link:internal> 's/foo/bar/'             # replaces only 1st instance in a line
+ <link:internal>sed</link:internal> 's/foo/bar/4'            # replaces only 4th instance in a line
+ <link:internal>sed</link:internal> 's/foo/bar/g'            # replaces ALL instances in a line
+ <link:internal>sed</link:internal> 's/\(.*\)foo\(.*foo\)/\1bar\2/' # replace the next-to-last case
+ <link:internal>sed</link:internal> 's/\(.*\)foo/\1bar/'            # replace only the last case
+
+ # substitute "foo" with "bar" ONLY for lines which contain "baz"
+ <link:internal>sed</link:internal> '/baz/s/foo/bar/g'
+
+ # substitute "foo" with "bar" EXCEPT for lines which contain "baz"
+ <link:internal>sed</link:internal> '/baz/!s/foo/bar/g'
+
+ # change "scarlet" or "ruby" or "puce" to "red"
+ <link:internal>sed</link:internal> 's/scarlet/red/g;s/ruby/red/g;s/puce/red/g'   # most seds
+ gsed 's/scarlet\|ruby\|puce/red/g'                # GNU <link:internal>sed</link:internal> only
+
+ # reverse order of lines (emulates "tac")
+ # bug/feature in HHsed v1.5 causes blank lines to be deleted
+ <link:internal>sed</link:internal> '1!G;h;$!d'               # method 1
+ <link:internal>sed</link:internal> -n '1!G;h;$p'             # method 2
+
+ # reverse each character on the line (emulates "rev")
+ <link:internal>sed</link:internal> '/\n/!G;s/\(.\)\(.*\n\)/&amp;\2\1/;//D;s/.//'
+
+ # join pairs of lines side-by-side (like "paste")
+ <link:internal>sed</link:internal> '$!N;s/\n/ /'
+
+ # if a line ends with a backslash, append the next line to it
+ <link:internal>sed</link:internal> -e :a -e '/\\$/N; s/\\\n//; ta'
+
+ # if a line begins with an equal sign, append it to the previous line
+ # and replace the "=" with a single space
+ <link:internal>sed</link:internal> -e :a -e '$!N;s/\n=/ /;ta' -e 'P;D'
+
+ # add commas to numeric strings, changing "1234567" to "1,234,567"
+ gsed ':a;s/\B[0-9]\{3\}\&gt;/,&amp;/;ta'                     # GNU <link:internal>sed</link:internal>
+ <link:internal>sed</link:internal> -e :a -e 's/\(.*[0-9]\)\([0-9]\{3\}\)/\1,\2/;ta'  # other seds
+
+ # add commas to numbers with decimal points and minus signs (GNU <link:internal>sed</link:internal>)
+ gsed -r ':a;s/(^|[^0-9.])([0-9]+)([0-9]{3})/\1\2,\3/g;ta'
+
+ # add a blank line every 5 lines (after lines 5, 10, 15, 20, etc.)
+ gsed '0~5G'                  # GNU <link:internal>sed</link:internal> only
+ <link:internal>sed</link:internal> 'n;n;n;n;G;'             # other seds
+
+SELECTIVE PRINTING OF CERTAIN LINES:
+
+ # print first 10 lines of file (emulates behavior of "head")
+ <link:internal>sed</link:internal> 10q
+
+ # print first line of file (emulates "head -1")
+ <link:internal>sed</link:internal> q
+
+ # print the last 10 lines of a file (emulates "tail")
+ <link:internal>sed</link:internal> -e :a -e '$q;N;11,$D;ba'
+
+ # print the last 2 lines of a file (emulates "tail -2")
+ <link:internal>sed</link:internal> '$!N;$!D'
+
+ # print the last line of a file (emulates "tail -1")
+ <link:internal>sed</link:internal> '$!d'                    # method 1
+ <link:internal>sed</link:internal> -n '$p'                  # method 2
+
+ # print the next-to-the-last line of a file
+ <link:internal>sed</link:internal> -e '$!{h;d;}' -e x              # for 1-line files, print blank line
+ <link:internal>sed</link:internal> -e '1{$q;}' -e '$!{h;d;}' -e x  # for 1-line files, print the line
+ <link:internal>sed</link:internal> -e '1{$d;}' -e '$!{h;d;}' -e x  # for 1-line files, print nothing
+
+ # print only lines which match regular expression (emulates "<link:internal>grep</link:internal>")
+ <link:internal>sed</link:internal> -n '/regexp/p'           # method 1
+ <link:internal>sed</link:internal> '/regexp/!d'             # method 2
+
+ # print only lines which do NOT match regexp (emulates "<link:internal>grep</link:internal> -v")
+ <link:internal>sed</link:internal> -n '/regexp/!p'          # method 1, corresponds to above
+ <link:internal>sed</link:internal> '/regexp/d'              # method 2, simpler syntax
+
+ # print the line immediately before a regexp, but not the line
+ # containing the regexp
+ <link:internal>sed</link:internal> -n '/regexp/{g;1!p;};h'
+
+ # print the line immediately after a regexp, but not the line
+ # containing the regexp
+ <link:internal>sed</link:internal> -n '/regexp/{n;p;}'
+
+ # print 1 line of context before and after regexp, with line number
+ # indicating where the regexp occurred (similar to "<link:internal>grep</link:internal> -A1 -B1")
+ <link:internal>sed</link:internal> -n -e '/regexp/{=;x;1!p;g;$!N;p;D;}' -e h
+
+ # <link:internal>grep</link:internal> for AAA and BBB and CCC (in any order)
+ <link:internal>sed</link:internal> '/AAA/!d; <link:url>/BBB/!d</link:url>; <link:url>/CCC/!d</link:url>'
+
+ # <link:internal>grep</link:internal> for AAA and BBB and CCC (in that order)
+ <link:internal>sed</link:internal> '/AAA.*BBB.*CCC/!d'
+
+ # <link:internal>grep</link:internal> for AAA or BBB or CCC (emulates "egrep")
+ <link:internal>sed</link:internal> -e '/AAA/b' -e '/BBB/b' -e '/CCC/b' -e d    # most seds
+ gsed '/AAA\|BBB\|CCC/!d'                        # GNU <link:internal>sed</link:internal> only
+
+ # print paragraph if it contains AAA (blank lines separate paragraphs)
+ # HHsed v1.5 must insert a 'G;' after 'x;' in the next 3 scripts below
+ <link:internal>sed</link:internal> -e '/./{H;$!d;}' -e 'x;/AAA/!d;'
+
+ # print paragraph if it contains AAA and BBB and CCC (in any order)
+ <link:internal>sed</link:internal> -e '/./{H;$!d;}' -e 'x;/AAA/!d;/BBB/!d;/CCC/!d'
+
+ # print paragraph if it contains AAA or BBB or CCC
+ <link:internal>sed</link:internal> -e '/./{H;$!d;}' -e 'x;/AAA/b' -e '/BBB/b' -e '/CCC/b' -e d
+ gsed '/./{H;$!d;};x;/AAA\|BBB\|CCC/b;d'         # GNU <link:internal>sed</link:internal> only
+
+ # print only lines of 65 characters or longer
+ <link:internal>sed</link:internal> -n '/^.\{65\}/p'
+
+ # print only lines of <link:internal>less</link:internal> than 65 characters
+ <link:internal>sed</link:internal> -n '/^.\{65\}/!p'        # method 1, corresponds to above
+ <link:internal>sed</link:internal> '/^.\{65\}/d'            # method 2, simpler syntax
+
+ # print section of file from regular expression to end of file
+ <link:internal>sed</link:internal> -n '/regexp/,$p'
+
+ # print section of file based on line numbers (lines 8-12, inclusive)
+ <link:internal>sed</link:internal> -n '8,12p'               # method 1
+ <link:internal>sed</link:internal> '8,12!d'                 # method 2
+
+ # print line number 52
+ <link:internal>sed</link:internal> -n '52p'                 # method 1
+ <link:internal>sed</link:internal> '52!d'                   # method 2
+ <link:internal>sed</link:internal> '52q;d'                  # method 3, efficient on large files
+
+ # beginning at line 3, print every 7th line
+ gsed -n '3~7p'               # GNU <link:internal>sed</link:internal> only
+ <link:internal>sed</link:internal> -n '3,${p;n;n;n;n;n;n;}' # other seds
+
+ # print section of file between two <link:internal>regular expressions</link:internal> (inclusive)
+ <link:internal>sed</link:internal> -n '/Iowa/,/Montana/p'             # case sensitive
+
+SELECTIVE DELETION OF CERTAIN LINES:
+
+ # print all of file EXCEPT section between 2 <link:internal>regular expressions</link:internal>
+ <link:internal>sed</link:internal> '/Iowa/,/Montana/d'
+
+ # delete duplicate, consecutive lines from a file (emulates "uniq").
+ # First line in a set of duplicate lines is kept, rest are deleted.
+ <link:internal>sed</link:internal> '$!N; <link:url>/^\(.*\)\n\1$/!P</link:url>; D'
+
+ # delete duplicate, nonconsecutive lines from a file. Beware not to
+ # overflow the buffer size of the hold space, or else use GNU <link:internal>sed</link:internal>.
+ <link:internal>sed</link:internal> -n 'G; s/\n/&amp;&amp;/; /^\([ -~]*\n\).*\n\1/d; s/\n//; h; P'
+
+ # delete all lines except duplicate lines (emulates "uniq -d").
+ <link:internal>sed</link:internal> '$!N; s/^\(.*\)\n\1$/\1/; t; D'
+
+ # delete the first 10 lines of a file
+ <link:internal>sed</link:internal> '1,10d'
+
+ # delete the last line of a file
+ <link:internal>sed</link:internal> '$d'
+
+ # delete the last 2 lines of a file
+ <link:internal>sed</link:internal> 'N;$!P;$!D;$d'
+
+ # delete the last 10 lines of a file
+ <link:internal>sed</link:internal> -e :a -e '$d;N;2,10ba' -e 'P;D'   # method 1
+ <link:internal>sed</link:internal> -n -e :a -e '1,10!{P;N;D;};N;ba'  # method 2
+
+ # delete every 8th line
+ gsed '0~8d'                           # GNU <link:internal>sed</link:internal> only
+ <link:internal>sed</link:internal> 'n;n;n;n;n;n;n;d;'                # other seds
+
+ # delete lines matching pattern
+ <link:internal>sed</link:internal> '/pattern/d'
+
+ # delete ALL blank lines from a file (same as "<link:internal>grep</link:internal> '.' ")
+ <link:internal>sed</link:internal> '/^$/d'                           # method 1
+ <link:internal>sed</link:internal> '/./!d'                           # method 2
+
+ # delete all CONSECUTIVE blank lines from file except the first; also
+ # deletes all blank lines from <link:internal>top</link:internal> and end of file (emulates "cat -s")
+ <link:internal>sed</link:internal> '/./,/^$/!d'          # method 1, allows 0 blanks at <link:internal>top</link:internal>, 1 at EOF
+ <link:internal>sed</link:internal> '/^$/N;/\n$/D'        # method 2, allows 1 blank at <link:internal>top</link:internal>, 0 at EOF
+
+ # delete all CONSECUTIVE blank lines from file except the first 2:
+ <link:internal>sed</link:internal> '/^$/N;/\n$/N;//D'
+
+ # delete all leading blank lines at <link:internal>top</link:internal> of file
+ <link:internal>sed</link:internal> '/./,$!d'
+
+ # delete all trailing blank lines at end of file
+ <link:internal>sed</link:internal> -e :a -e '/^\n*$/{$d;N;ba' -e '}'  # works on all seds
+ <link:internal>sed</link:internal> -e :a -e '/^\n*$/N;/\n$/ba'        # ditto, except for gsed 3.02.*
+
+ # delete the last line of each paragraph
+ <link:internal>sed</link:internal> -n '/^$/{p;h;};/./{x;/./p;}'
+
+SPECIAL APPLICATIONS:
+
+ # remove nroff overstrikes (char, backspace) from man pages. The 'echo'
+ # command may need an -e switch if you use Unix System V or bash shell.
+ <link:internal>sed</link:internal> "s/.`echo \\\b`//g"    # double quotes required for Unix environment
+ <link:internal>sed</link:internal> 's/.^H//g'             # in bash/tcsh, press Ctrl-V and then Ctrl-H
+ <link:internal>sed</link:internal> 's/.\x08//g'           # hex expression for <link:internal>sed</link:internal> 1.5, GNU <link:internal>sed</link:internal>, ssed
+
+ # get Usenet/e-mail message header
+ <link:internal>sed</link:internal> '/^$/q'                # deletes everything after first blank line
+
+ # get Usenet/e-mail message body
+ <link:internal>sed</link:internal> '1,/^$/d'              # deletes everything up to first blank line
+
+ # get Subject header, but remove initial "Subject: " portion
+ <link:internal>sed</link:internal> '/^Subject: */!d; s///;q'
+
+ # get return address header
+ <link:internal>sed</link:internal> '/^Reply-To:/q; <link:url>/^From:/h</link:url>; <link:url>/./d;g;q</link:url>'
+
+ # parse out the address proper. Pulls out the e-mail address by itself
+ # from the 1-line return address header (see preceding script)
+ <link:internal>sed</link:internal> 's/ *(.*)//; s/&gt;.*//; s/.*[:&lt;] *//'
+
+ # add a leading angle bracket and space to each line (quote a message)
+ <link:internal>sed</link:internal> 's/^/&gt; /'
+
+ # delete leading angle bracket &amp; space from each line (unquote a message)
+ <link:internal>sed</link:internal> 's/^&gt; //'
+
+ # remove most <link:internal>HTML</link:internal> tags (accommodates multiple-line tags)
+ <link:internal>sed</link:internal> -e :a -e 's/&lt;[^&gt;]*&gt;//g;/&lt;/N;//ba'
+
+ # extract multi-part uuencoded binaries, removing extraneous header
+ # info, so that only the uuencoded portion remains. Files passed to
+ # <link:internal>sed</link:internal> must be passed in the proper order. Version 1 can be entered
+ # from the command line; version 2 can be made into an executable
+ # Unix <link:internal>shell script</link:internal>. (Modified from a script by Rahul Dhesi.)
+ <link:internal>sed</link:internal> '/^end/,/^begin/d' file1 file2 ... fileX | uudecode   # vers. 1
+ <link:internal>sed</link:internal> '/^end/,/^begin/d' "$@" | uudecode                    # vers. 2
+
+ # sort paragraphs of file alphabetically. Paragraphs are separated by blank
+ # lines. GNU <link:internal>sed</link:internal> uses \v for vertical tab, or any unique char will do.
+ <link:internal>sed</link:internal> '/./{H;d;};x;s/\n/={NL}=/g' file | sort | <link:internal>sed</link:internal> '1s/={NL}=//;s/={NL}=/\n/g'
+ gsed '/./{H;d};x;y/\n/\v/' file | sort | <link:internal>sed</link:internal> '1s/\v//;y/\v/\n/'
+
+ # zip up each .TXT file individually, deleting the source file and
+ # setting the name of each .ZIP file to the basename of the .TXT file
+ # (under DOS: the "dir /b" switch returns bare filenames in all caps).
+ echo @echo off &gt;zipup.bat
+ dir /b *.txt | <link:internal>sed</link:internal> "s/^\(.*\)\.TXT/pkzip -mo \1 \1.TXT/" &gt;&gt;zipup.bat
+
+TYPICAL USE: <link:internal>Sed</link:internal> takes one or more editing commands and applies all of
+them, in <link:internal>sequence</link:internal>, to each line of input. After all the commands have
+been applied to the first input line, that line is output and a second
+input line is taken for processing, and the cycle repeats. The
+preceding examples assume that input comes from the standard input
+device (i.e, the console, normally this will be piped input). One or
+more filenames can be appended to the command line if the input does
+not come from stdin. Output is sent to stdout (the <link:internal>screen</link:internal>). Thus:
+
+ cat filename | <link:internal>sed</link:internal> '10q'        # uses piped input
+ <link:internal>sed</link:internal> '10q' filename              # same effect, avoids a useless "cat"
+ <link:internal>sed</link:internal> '10q' filename &gt; newfile    # redirects output to disk
+
+For additional syntax instructions, including the way to apply editing
+commands from a disk file instead of the command line, consult "<link:internal>sed</link:internal> &amp;
+awk, 2nd Edition," by Dale Dougherty and Arnold Robbins (O'Reilly,
+1997; <link:url>http://www.ora.com</link:url>), "UNIX Text Processing," by Dale Dougherty
+and Tim O'Reilly (Hayden Books, 1987) or the tutorials by Mike Arst
+distributed in U-SEDIT2.ZIP (many sites). To fully exploit the power
+of <link:internal>sed</link:internal>, one must understand "<link:internal>regular expressions</link:internal>." For this, see
+"Mastering <link:internal>Regular Expressions</link:internal>" by Jeffrey Friedl (O'Reilly, 1997).
+The manual ("man") pages on Unix systems may be helpful (try "man
+<link:internal>sed</link:internal>", "man regexp", or the subsection on <link:internal>regular expressions</link:internal> in "man
+ed"), but man pages are notoriously difficult. They are not written to
+teach <link:internal>sed</link:internal> use or regexps to first-time users, but as a reference text
+for those already acquainted with these tools.
+
+QUOTING SYNTAX: The preceding examples use single quotes ('...')
+instead of double quotes ("...") to enclose editing commands, since
+<link:internal>sed</link:internal> is typically used on a Unix platform. Single quotes prevent the
+Unix shell from intrepreting the dollar sign ($) and backquotes
+(`...`), which are expanded by the shell if they are enclosed in
+double quotes. Users of the "csh" shell and derivatives will also need
+to quote the exclamation mark (!) with the backslash (i.e., \!) to
+properly run the examples listed above, even within single quotes.
+Versions of <link:internal>sed</link:internal> written for DOS invariably require double quotes
+("...") instead of single quotes to enclose editing commands.
+
+USE OF '\t' IN <link:internal>SED</link:internal> SCRIPTS: For clarity in documentation, we have used
+the expression '\t' to indicate a tab character (0x09) in the scripts.
+However, most versions of <link:internal>sed</link:internal> do not recognize the '\t' abbreviation,
+so when typing these scripts from the command line, you should press
+the TAB key instead. '\t' is supported as a regular expression
+metacharacter in awk, perl, and HHsed, sedmod, and GNU <link:internal>sed</link:internal> v3.02.80.
+
+VERSIONS OF <link:internal>SED</link:internal>: Versions of <link:internal>sed</link:internal> do differ, and some slight syntax
+variation is to be expected. In particular, most do not support the
+use of labels (:name) or branch instructions (b,t) within editing
+commands, except at the end of those commands. We have used the syntax
+which will be portable to most users of <link:internal>sed</link:internal>, even though the popular
+GNU versions of <link:internal>sed</link:internal> allow a more succinct syntax. When the reader sees
+a fairly long command such as this:
+
+   <link:internal>sed</link:internal> -e '/AAA/b' -e '/BBB/b' -e '/CCC/b' -e d
+
+it is heartening to know that GNU <link:internal>sed</link:internal> will let you reduce it to:
+
+   <link:internal>sed</link:internal> '/AAA/b;/BBB/b;/CCC/b;d'      # or even
+   <link:internal>sed</link:internal> '/AAA\|BBB\|CCC/b;d'
+
+In addition, remember that while many versions of <link:internal>sed</link:internal> accept a command
+like "/one/ s/RE1/RE2/", some do NOT allow "/one/! s/RE1/RE2/", which
+contains space before the 's'. Omit the space when typing the command.
+
+OPTIMIZING FOR SPEED: If execution speed needs to be increased (due to
+large input files or slow processors or hard disks), substitution will
+be executed more quickly if the "<link:internal>find</link:internal>" expression is specified before
+giving the "s/.../.../" instruction. Thus:
+
+   <link:internal>sed</link:internal> 's/foo/bar/g' filename         # standard replace command
+   <link:internal>sed</link:internal> '/foo/ s/foo/bar/g' filename   # executes more quickly
+   <link:internal>sed</link:internal> '/foo/ s//bar/g' filename      # shorthand <link:internal>sed</link:internal> syntax
+
+On line selection or deletion in which you only need to output lines
+from the first part of the file, a "quit" command (q) in the script
+will drastically reduce processing time for large files. Thus:
+
+   <link:internal>sed</link:internal> -n '45,50p' filename           # print line nos. 45-50 of a file
+   <link:internal>sed</link:internal> -n '51q;45,50p' filename       # same, but executes much faster
+
+If you have any additional scripts to contribute or if you <link:internal>find</link:internal> errors
+in this document, please send e-mail to the compiler. Indicate the
+version of <link:internal>sed</link:internal> you used, the operating system it was compiled for, and
+the nature of the problem. To qualify as a one-liner, the command line
+must be 65 characters or <link:internal>less</link:internal>. Various scripts in this file have been
+written or contributed by:
+
+ Al Aab                   # founder of "seders" list
+ Edgar Allen              # various
+ Yiorgos Adamopoulos      # various
+ Dale Dougherty           # author of "<link:internal>sed</link:internal> &amp; awk"
+ Carlos Duarte            # author of "do it with <link:internal>sed</link:internal>"
+ Eric Pement              # author of this document
+ Ken Pizzini              # author of GNU <link:internal>sed</link:internal> v3.02
+ S.G. Ravenhall           # great de-html script
+ Greg Ubben               # many contributions &amp; much help
+-------------------------------------------------------------------------</note-content></text>
+  <last-change-date>2010-12-17T19:11:51.5637660+01:00</last-change-date>
+  <last-metadata-change-date>2012-02-03T09:42:48.1965320+01:00</last-metadata-change-date>
+  <create-date>2010-12-17T19:11:22.4882090+01:00</create-date>
+  <cursor-position>18871</cursor-position>
+  <selection-bound-position>18871</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

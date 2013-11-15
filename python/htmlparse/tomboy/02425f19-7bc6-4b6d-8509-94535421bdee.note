@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Test results</title>
+  <text xml:space="preserve"><note-content version="0.1">Test results
+
+A load of 100,000 triples took 13s
+SDB ¶
+
+A load of 100,000 triples took on an average:
+47s using LayoutTripleNodesHash?
+60s using LayoutTripleNodesIndex?
+4Store ¶
+
+A load of 100,000 triples took 6s! However this was not tested via Jena.
+Simple file persist ¶
+
+The file is persisted as RDF. The most efficient one is perhaps TURTLE, unfortunately the format has <link:internal>issues</link:internal> with certain nodes that I didn't get a chance to understand yet. Inspite of that, a load of 100,000 triples took 9.6s - so is the most efficient when compared to the others as far as load is concerned via Jena. 
+</note-content></text>
+  <last-change-date>2010-02-05T22:06:16.0655720+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.9938120+05:30</last-metadata-change-date>
+  <create-date>2010-01-03T11:20:43.9684320+05:30</create-date>
+  <cursor-position>14</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Product Document</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

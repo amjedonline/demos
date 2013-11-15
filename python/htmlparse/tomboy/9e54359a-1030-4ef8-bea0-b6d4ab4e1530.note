@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>PHP and Java</title>
+  <text xml:space="preserve"><note-content version="0.1">PHP and Java
+
+Reason PHP cant be used in serious business/enterprise app
+
+PHP is not multithreaded
+Code is open
+Interpreted, hence slow
+<link:internal>Exception handling</link:internal> is not powerful
+Compile time/ static type checking absent hence bug prone
+Not so good unit testing and build integrity
+</note-content></text>
+  <last-change-date>2010-06-29T22:51:34.7429030+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T21:59:49.8922070+05:30</last-metadata-change-date>
+  <create-date>2010-03-28T10:06:09.9170870+05:30</create-date>
+  <cursor-position>3</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Tech junks</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

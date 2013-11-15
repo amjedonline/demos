@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>netstat</title>
+  <text xml:space="preserve"><note-content version="0.1">netstat
+Display connections, routing tables, stats etc
+
+ -a: Show both <link:internal>listening</link:internal> and non-<link:internal>listening</link:internal> sockets.
+ -p: Show PID of <link:internal>process</link:internal> owning socket
+ -u: Show UDP
+ -t: Show TCP
+ -n: Show IP addresses only. Don't resolve host names
+ -g: Show multi-cast group membership info
+ -c: Continuous mode - update info every second
+ -v: Verbose
+ -e: Extended information
+<list><list-item dir="ltr">o: Show network timer information</list-item></list>
+
+
+<bold><size:large>Helper Commands:</size:large></bold>
+
+<bold>List all connected <link:internal>process</link:internal></bold>
+netstat -nap
+
+<bold>Show network statistics </bold>
+netstat -s
+
+<bold>Display routing table</bold>
+netstat -rn
+
+<bold>Interface statistics</bold>
+netstat -i
+
+Where:
+
+    * RX-OK/TX-OK: number of packets transmitted/received error free
+    * RX-ERR/TX-ERR: number of damaged/error packets transmitted/received
+    * RX-DRP/TX-DRP: number of dropped packets
+    * RX-OVR/TX-OVR: number of packets dropped because of a buffer overrun
+
+Flags:
+
+    * B: A broadcast address has been set
+    * L: This interface is a loopback device
+    * M: All packets are received (promiscuous mode)
+    * N: Trailers are avoided
+    * O: ARP is turned off for this interface
+    * P: Point-to-point connection
+    * R: Interface is running
+    * U: Interface is up
+
+
+<bold><size:large>Parameters about connections:</size:large></bold>
+Socket - <link:internal>Listening</link:internal>/Non-<link:internal>Listening</link:internal>
+<link:internal>Process</link:internal> - Who owns the socket
+Protocol UDP/TCP ? or UNIX Stream
+IP address or resolved hostnames ?
+Routing Information ?
+
+
+to <link:internal>kill</link:internal> a <link:internal>process</link:internal> owning the not released port.
+<link:internal>Find</link:internal> out program
+
+-t - tcp
+-l - Listeing
+--program programs owning the sockets
+
+<link:internal>kill</link:internal> -9 
+
+
+<bold><size:large>Show all ports and programs using them</size:large></bold>
+netstat -nap
+</note-content></text>
+  <last-change-date>2011-08-13T12:11:29.5013220+02:00</last-change-date>
+  <last-metadata-change-date>2012-04-14T22:04:16.4438840+02:00</last-metadata-change-date>
+  <create-date>2010-06-17T20:15:16.9746570+02:00</create-date>
+  <cursor-position>0</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>0</width>
+  <height>0</height>
+  <x>-1</x>
+  <y>-1</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>April 11</title>
+  <text xml:space="preserve"><note-content version="0.1">April 11
+
+<bold>01 Fre</bold>
+
+Call with India team
+Prepare a Java Objective question paper and talk to Pragathi
+Work on creating communities and other stuff in TODO
+Read up and write portlet
+<link:internal>Read up on</link:internal> the wiki for more Info
+Fixed UI <link:internal>issues</link:internal> mentioned by Berndt
+
+
+<bold>04 Mon</bold>
+Worked on structuring <link:internal>SVN</link:internal>
+Checked the <link:internal>ia portal</link:internal> into <link:internal>svn</link:internal>
+images to nags for creation
+call with suresh
+12 hrs
+
+
+<bold>05 Die</bold>
+<link:internal>SVN</link:internal> work
+Discussion with India team on IA Images
+Deployed infonet for Andreas schaefer
+Discussion with Pragathi on hiring
+
+<bold>06 Mitt</bold>
+Set up the dev environment in <link:internal>eclipse</link:internal>
+Fixed the dead lock issue
+Meeting with Andrea schaefar
+
+<bold>07 Donn</bold>
+<link:internal>Meeting with Ralf</link:internal> and Berdnt
+<link:internal>Read up on</link:internal> the plan and service repo lifecycle 
+Work on logo
+Uploaded the image
+<link:internal>issues</link:internal> with server crashing
+
+
+<bold>08 Frei</bold>
+Working on the search
+Creating private pages
+
+
+<bold>11 Mon</bold>
+<link:internal>Meeting with Ralf</link:internal>
+Fixing issues with JS
+Creating private pages pages
+
+
+<bold>12 Tue</bold>
+First half worked on ppt for knowledge mgmt portal
+Updated contents for 100 width of accordion
+broken links
+code highlighting and other formatting
+<link:internal>Issues</link:internal> mentioned by Brend and Ralf
+
+
+</note-content></text>
+  <last-change-date>2011-04-12T22:07:04.1002530+02:00</last-change-date>
+  <last-metadata-change-date>2011-04-12T22:07:04.1002530+02:00</last-metadata-change-date>
+  <create-date>2011-04-03T22:18:43.5767280+02:00</create-date>
+  <cursor-position>449</cursor-position>
+  <width>454</width>
+  <height>410</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Hexad</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

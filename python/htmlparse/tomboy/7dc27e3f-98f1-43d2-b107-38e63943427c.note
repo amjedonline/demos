@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>March 10</title>
+  <text xml:space="preserve"><note-content version="0.1">March 10
+
+<bold>Mon 22</bold>
+1.Resource summary
+2.Right align of year, month and day
+3.Click blocking
+4.multiple row grab and merge
+5.Pages tree
+
+<bold>Tue 23</bold>
+1. Bookmark title showing space name as null
+2. Space name in the edit view
+
+
+<bold>Wed 24</bold>
+1. <link:internal>Grid</link:internal> containing list of spaces flushed to bottom
+2. Clean the code from sysouts and all
+3. Lens updation for column width change and hide
+
+<bold>Thur 25</bold>
+<link:internal>Types</link:internal> tree
+Estimates
+
+
+<bold>Fri 26</bold>
+Sort based on Item
+<link:internal>Types</link:internal> tree, predicates highlighting on <link:internal>Grid</link:internal>
+FacetPanel not showing <link:internal>facets</link:internal> 
+
+
+<bold>Mon 29</bold>
+Updating lens - Make the item column modifiable
+Help sandeep with the synch tree thing
+Update the DefaultViewManager and DataTransformer to apply lens to schema
+Links should appear in the same line
+
+<bold>Tue 30</bold>
+Links should appear in the same line, cleaned up list eliding
+Pages tree
+Cleaning up of the code<strikethrough>
+
+</strikethrough><bold>Wed 31</bold>
+Adding expression bar functionality to the Details panel
+Provinance/pages
+Cleaning up the code, removing RawData
+Spent time with nishant over lens
+Breaking down monolithic Details Panel
+
+</note-content></text>
+  <last-change-date>2010-04-01T06:55:35.8147140+02:00</last-change-date>
+  <last-metadata-change-date>2010-08-11T18:30:03.6636420+02:00</last-metadata-change-date>
+  <create-date>2010-03-24T08:32:40.1397020+01:00</create-date>
+  <cursor-position>932</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Daily status</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

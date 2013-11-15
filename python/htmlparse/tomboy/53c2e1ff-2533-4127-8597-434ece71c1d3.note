@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>32 bit Java on 64 bit machine</title>
+  <text xml:space="preserve"><note-content version="0.1">32 bit Java on 64 bit machine
+
+apt-get install pkg_name
+apt-get update pkg-name
+
+Two categories of packages:
+1. Universe - Basic<link:url>/typical/widely</link:url> used set of packages
+2. Multiverse- All the know packages
+
+command apt-get update the local definition of package with this multiverse list form the server
+
+
+<link:internal>Gwt</link:internal> cannot run the hosted mode browser on a 64 bit java.
+This is not going to be fix as they say, the current SWT base hosted mode is neat to end of life, and they 
+are not in a moood to spend time in fixing this.
+Here is the link to satisfy your inquisitive quotient <link:url>http://code.google.com/p/google-web-toolkit/wiki/DesignOOPHM</link:url>
+
+Here is a simple solution for linux users:
+
+install ia32-sun-java6 fixed cause 
+Create a <link:broken>new</link:broken> JRE in the <link:internal>eclipse</link:internal> with <link:url>/usr/lib/jvm/ia32-java-6-sun</link:url>
+Remove the 64bit jvm library, and add the newly created 32 bit jre in the project classpath.
+
+And voila, you are done.
+</note-content></text>
+  <last-change-date>2010-11-09T12:00:10.9760280+05:30</last-change-date>
+  <last-metadata-change-date>2010-11-09T12:00:10.9760280+05:30</last-metadata-change-date>
+  <create-date>2010-01-03T12:03:27.5091970+05:30</create-date>
+  <cursor-position>631</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:GXT</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

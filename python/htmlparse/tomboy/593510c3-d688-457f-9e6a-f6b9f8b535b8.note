@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>hammers</title>
+  <text xml:space="preserve"><note-content version="0.1">hammers
+
+sledge hammer
+ball peen hammer
+claw hammer
+
+
+Ice pick - Used to break the ice
+</note-content></text>
+  <last-change-date>2011-07-21T12:31:11.6990850+05:30</last-change-date>
+  <last-metadata-change-date>2011-07-21T12:31:11.6990850+05:30</last-metadata-change-date>
+  <create-date>2011-07-21T12:28:01.6344080+05:30</create-date>
+  <cursor-position>39</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:misc</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

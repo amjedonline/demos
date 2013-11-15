@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>ndiswrapper</title>
+  <text xml:space="preserve"><note-content version="0.1">ndiswrapper
+
+Not all wireless cards work with ( 54mbps 802.11g/n Cards <link:internal>model</link:internal>.
+
+
+Network Driver Interface Specification is a standardized method for OS to communicate with NINC drive software from various manufacturers. Used by windows.
+
+Linux ndiswrapper.sourceforge.net  software suite allows you to run Windows NIC cards drivers under Linux by createing a s/w wrapper around windowx driver.
+
+
+Works only on H/W arch supported by windows.
+
+<bold>DriverLoader</bold> by Linuxant Corporation, commercial competitor.
+
+Doesnt support iwspy</note-content></text>
+  <last-change-date>2010-10-10T21:51:52.5466480+02:00</last-change-date>
+  <last-metadata-change-date>2012-02-03T09:42:48.2394420+01:00</last-metadata-change-date>
+  <create-date>2010-10-10T10:28:55.6862830+02:00</create-date>
+  <cursor-position>514</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>java in ubuntu</title>
+  <text xml:space="preserve"><note-content version="0.1">java in ubuntu
+
+<link:url>http://archive.canonical.com/ubuntu</link:url> maverick partner
+
+uncomment the above line.
+Sun-java6 is the most stable java implementation from sun
+But only openjdk (GPL imp) is available on the <link:internal>ubuntu</link:internal> official library.
+
+<link:internal>sudo</link:internal> apt-get install sun-javaj6</note-content></text>
+  <last-change-date>2011-07-24T18:00:03.5279610+05:30</last-change-date>
+  <last-metadata-change-date>2011-07-24T18:00:03.5279610+05:30</last-metadata-change-date>
+  <create-date>2011-07-24T17:58:53.3090550+05:30</create-date>
+  <cursor-position>227</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

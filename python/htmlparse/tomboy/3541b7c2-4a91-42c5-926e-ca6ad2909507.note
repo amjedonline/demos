@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>TODO: April 05</title>
+  <text xml:space="preserve"><note-content version="0.1">TODO: April 05
+
+<link:internal>TODO:April 04</link:internal>
+<bold><size:small>
+<size:large>Repository</size:large></size:small></bold>
+<list><list-item dir="ltr"><size:large><size:small>Install in the dev environment</size:small></size:large>
+</list-item><list-item dir="ltr"><size:large><size:small>Set up all the collaboration tools in IA</size:small></size:large>
+<list><list-item dir="ltr">General account content
+</list-item><list-item dir="ltr"><size:large><size:small>Announcements</size:small></size:large>
+</list-item><list-item dir="ltr"><size:large><size:small>Document library</size:small></size:large>
+</list-item><list-item dir="ltr"><size:large><size:small>Contact page</size:small></size:large>
+</list-item></list></list-item><list-item dir="ltr"><link:internal>SVN</link:internal>
+<list><list-item dir="ltr">verify the <link:internal>ia portal</link:internal> integrity in <link:internal>svn</link:internal>
+</list-item><list-item dir="ltr">Tag the release
+</list-item></list></list-item><list-item dir="ltr">Understand and tweak source to make the generated <link:internal>html</link:internal> docs independent of theme
+</list-item><list-item dir="ltr">Figure out a way to configure the DB name for jackrabbit</list-item></list>
+<bold><size:large><size:small>
+ITSP</size:small></size:large></bold>
+<list><list-item dir="ltr">on hold</list-item></list><bold><size:large><size:small>
+
+Website</size:small></size:large></bold>
+<list><list-item dir="ltr"><size:large><size:small>Check progress with Nags</size:small></size:large>
+</list-item><list-item dir="ltr"><size:large><size:small>Give nags theme to make it full width</size:small></size:large></list-item></list><bold>
+<size:large><size:small>
+AppFactory</size:small></size:large></bold>
+<list><list-item dir="ltr"><size:large><size:small>Read through the wiki contents</size:small></size:large></list-item></list><bold>
+<size:large><size:small>
+Knowledge management</size:small></size:large></bold>
+<list><list-item dir="ltr">Call Andrea schaefar and <link:internal>schedule</link:internal> a meeting on wed
+</list-item><list-item dir="ltr">Deploy the infonet on public server and andrea schaefar know
+</list-item><list-item dir="ltr"><link:internal>Read up on</link:internal> liferay search, aggregated search, solr and GSA</list-item></list><bold><size:large><size:small>
+
+Recruitment</size:small></size:large></bold>
+<list><list-item dir="ltr">Prepare myself for the tech interviews
+</list-item><list-item dir="ltr">Check naukri account
+</list-item><list-item dir="ltr">Ask Pragathi to <link:internal>schedule</link:internal> few interviews
+</list-item><list-item dir="ltr">Prepage question paper</list-item></list></note-content></text>
+  <last-change-date>2011-04-05T10:54:17.6299200+02:00</last-change-date>
+  <last-metadata-change-date>2011-04-05T10:54:17.6299200+02:00</last-metadata-change-date>
+  <create-date>2011-04-05T10:47:17.5894010+02:00</create-date>
+  <cursor-position>879</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>821</x>
+  <y>24</y>
+  <tags>
+    <tag>system:notebook:Hexad</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Semantic Frameworks</title>
+  <text xml:space="preserve"><note-content version="0.1">Semantic Frameworks
+
+<list><list-item dir="ltr">Load time - time to add a triple to the store
+</list-item><list-item dir="ltr">Query time 
+</list-item><list-item dir="ltr">Metrics include
+</list-item><list-item dir="ltr">supported level of reasoning
+</list-item><list-item dir="ltr">reasoning correctness (soundness and completeness), 
+</list-item><list-item dir="ltr"><link:internal>Memory</link:internal> footprint, 
+</list-item><list-item dir="ltr">Disk space requirements, and 
+</list-item><list-item dir="ltr">Deletion duration.</list-item></list>
+
+<link:internal>Performance</link:internal> and scalability are the areas of concern
+</note-content></text>
+  <last-change-date>2010-05-20T21:00:47.6531380+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.1196770+05:30</last-metadata-change-date>
+  <create-date>2010-05-06T20:47:50.5556600+05:30</create-date>
+  <cursor-position>261</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Integration Portlet - Sprint 6 (alt)</title>
+  <text xml:space="preserve"><note-content version="0.1"><link:internal>Integration Portlet - Sprint 6</link:internal> (alt)
+
+<link:broken>Proxy Portlet</link:broken>:
+<list><list-item dir="ltr">Newada
+<list><list-item dir="ltr">Javascript <link:internal>issues</link:internal> handling
+<list><list-item dir="ltr">Hardcoded URLs
+</list-item><list-item dir="ltr">url rewriting
+</list-item></list></list-item><list-item dir="ltr">CSS overriding
+<list><list-item dir="ltr">absolute positioning
+</list-item><list-item dir="ltr">background images
+</list-item><list-item dir="ltr">
+</list-item></list></list-item></list></list-item><list-item dir="ltr">ISA.GW
+</list-item><list-item dir="ltr">DCC</list-item></list>
+
+</note-content></text>
+  <last-change-date>2011-10-18T13:52:34.7721900+02:00</last-change-date>
+  <last-metadata-change-date>2012-04-14T22:03:49.5380440+02:00</last-metadata-change-date>
+  <create-date>2011-10-18T13:49:57.6009160+02:00</create-date>
+  <cursor-position>0</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>0</width>
+  <height>0</height>
+  <x>-1</x>
+  <y>-1</y>
+  <tags>
+    <tag>system:notebook:Hexad</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>30 April</title>
+  <text xml:space="preserve"><note-content version="0.1">30 April
+
+
+<bold>4. Product Strategy</bold>
+
+<bold>DataSets - </bold>
+Raw Data
+
+DB FrontEnds
+
+Embedded Data
+
+<bold>Data store</bold> <bold>- </bold>
+
+Relational
+
+Sparql
+
+WS, Apps
+
+
+<bold>Features</bold>
+Applications  - rulers cloning
+Editing - create, connect, merge
+<link:internal>Dashboards</link:internal> - feeds, transforms
+
+--------------------------------------------------------------
+</note-content></text>
+  <last-change-date>2010-06-05T06:00:33.8600890+02:00</last-change-date>
+  <last-metadata-change-date>2010-08-11T18:30:02.9602050+02:00</last-metadata-change-date>
+  <create-date>2010-04-30T08:35:14.1730120+02:00</create-date>
+  <cursor-position>8</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Demonstrations</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>lambda</title>
+  <text xml:space="preserve"><note-content version="0.1">lambda
+
+This is a lambda function that accomplishes the same thing as the normal function above it. Note the abbreviated syntax here: there are no parentheses around the argument list, and the return keyword is missing (it is implied, since the entire function can only be one expression). Also, the function has no name, but it can be called through the variable it is assigned to.
+2 	You can use a lambda function without even assigning it to a variable. This may not be the most useful thing in the world, but it just goes to show that a lambda is just an in-line function. </note-content></text>
+  <last-change-date>2010-03-23T01:28:40.8666270+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.7077610+05:30</last-metadata-change-date>
+  <create-date>2010-03-23T01:28:34.2840009+05:30</create-date>
+  <cursor-position>205</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

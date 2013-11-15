@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>POSTFIX</title>
+  <text xml:space="preserve"><note-content version="0.1">POSTFIX
+POSTFIX is a Mail Transfer Agent (MTA)
+POSTFIX is a pure MTA not providing any service for users to collect their mail via POP and IMAP.
+Courier IMAP does it.
+
+
+SendMail -&gt; PostDrop -&gt; pickup
+SMTPD, QMPQD and pickup submits to cleanup
+
+<bold>Cleanup:</bold>
+1)Enforces restrictions on Size, content restrictions config by user, rewrites senders/recip address as config, adds req headers and other things.
+
+2) trivial-rewrite daemon for address rewriting operations.
+
+3)Puts the queue file in the incoming queue and notified the queue manager.
+
+<bold>Queue manager ( qmgr)</bold>:
+1.Schedules the delivery of messages.
+2.Requests delivery afent processed from the master daemon and collects the results of the deliveries.
+3. Removes from Q and gives t bounce daemon if the delivery fails.
+
+<bold>Queues</bold>:
+1. Incoming queue
+2. Active Queue
+3. Deferred queue
+4. Hold - by sys admin using <italic>postsuper </italic>cmd.
+
+<bold>Delivery Agents </bold>
+Used to send the mail message out of the queue to the client/server
+<link:internal>smtp</link:internal>
+ltmp
+qmqp
+virtual
+local
+pipe
+spawn
+
+<bold>Local Mail Transport Protocol</bold>,
+<list><list-item dir="ltr">Unlike <link:internal>SMTP</link:internal> transfer between MTA.
+</list-item><list-item dir="ltr">Used for the final delivery of messages to the mail store, from which users can access the messages.</list-item></list>
+
+You should have <link:internal>MySQL</link:internal> header files and shared libraries.
+
+Version 2.6
+inet_interfacesinet_interfaces
+Groups to add postfix, postdrop
+
+User - postfix, group postfix, /tmp homedir, <link:url>/bin/false</link:url> is the shell.
+master.cf main.cf are the two config files stored in <link:url>/etc/postfix</link:url>
+
+<bold>main.cf :</bold>
+Most <link:internal>important</link:internal> file.
+User postconf to configure and read the parameter values.
+
+<bold><italic>postconf</italic></bold> - man page for the format of the main.cf file.
+postconf config_name -&gt; Current value
+postconf -d config_name -&gt; Default value
+postconf –<link:internal>Schema and data</link:internal> relay_domains=example.com # To automate the editing of the parameter
+
+
+<bold>master.cf</bold>:
+Configures the master daemon.
+
+<bold>chroot</bold> is a UNIX feature that changes the root of the file
+system, making it impossible to access a file outside the new root directory even if a running <link:internal>process</link:internal> is compromised by an evildoer with root privileges. 
+
+<italic>master</italic> man page contains the format of the master.cf configuration file.
+
+<bold>Lookup table</bold>
+To Postfix, a lookup table is an abstract entity that maps one string, the lookup key, to <link:internal>another</link:internal> string, the lookup result.
+cdb, cidr, dbm, hash, <link:internal>mysql</link:internal>, <link:internal>ldap</link:internal>, static, proxy, regexp
+
+<italic>postconf -m</italic> # List of supported lookup table <link:internal>types</link:internal>, can install lookups like <link:internal>mysql</link:internal> and <link:internal>LDAP</link:internal>
+
+<bold><italic>Indexed</italic></bold> - postmap command is used to compile the input file written by user to a binary format the Postfix reads.
+Run<italic> postmap</italic> each time, you edit the file.
+
+
+
+<bold>main.cf configurations</bold>
+mydomain = example.com # Unqualified hostnames will be given this name, can turn off this behavior 
+myhostname
+myorigin - Uses to qualify a email address with no domain part, default us mydomain ( $mydomain)
+mydestination - Domains that are considered local, which domains should be delivered to UNIX accounts on this machine.Multiple value separated by space, commas
+
+
+The address root@localhost will be rewritten to
+<link:url>root@localhost.example.com</link:url>, so <italic>localhost.$mydomain</italic> is what we want to
+list in mydestination.
+
+<bold>Relay server</bold>
+Some ISP do not allow their customers to directly access remote mail servers via the standard <link:internal>SMTP</link:internal> port (25). Instead they provide a <bold>relay server</bold> that all outbound messages must go through.
+
+<bold>inet_interfaces</bold> paramenter decides the network interfaces that postfix will use for <link:internal>listening</link:internal> to new connections and sending out messages.
+	In main.cf, <bold><italic>inet_interfaces</italic></bold><italic> </italic>to <italic>localhost</italic> by default, which
+means that Postfix will listen only on the loopback interface.
+delte localhost, and postfix will use <italic>all</italic>, to use all interfaces. #restart is req, not reload.
+
+
+
+
+
+</note-content></text>
+  <last-change-date>2011-08-13T12:11:29.5287410+02:00</last-change-date>
+  <last-metadata-change-date>2012-04-14T22:04:14.5164710+02:00</last-metadata-change-date>
+  <create-date>2010-01-25T17:04:26.4869650+01:00</create-date>
+  <cursor-position>600</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>751</width>
+  <height>385</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

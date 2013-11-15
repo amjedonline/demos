@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Java objective notes</title>
+  <text xml:space="preserve"><note-content version="0.1">Java objective notes
+
+Class cannot be private, it can be only public or default access
+
+4 access controls and 3 access modifiers.
+
+Non-Access modifiers:
+abstract
+final 
+strictfp
+
+A class can not be <bold>final</bold> <bold>and abstract</bold> both.
+
+final examples: String
+
+If any method is abstract, then the class must be marked as abstract
+
+Interface: What a class can do ?
+
+By default, interfaces and methods in it are <bold>public and abstract</bold>
+
+interface vs abstract class:
+<list><list-item dir="ltr">interface can have only abstract methods
+</list-item><list-item dir="ltr">public by default
+</list-item><list-item dir="ltr">All interface methods are public and abstract
+</list-item><list-item dir="ltr">Interface variables must be public static final
+</list-item><list-item dir="ltr">Hence, interface can only declare constants
+</list-item><list-item dir="ltr">Interface methods cannot be static (caused static methods cannot be implemented)
+</list-item><list-item dir="ltr">Because interface methods are abstract  cannot be marked final, strictfp or native.
+</list-item><list-item dir="ltr">Interface can extend one or more interface</list-item></list>
+
+Method named as class name is legal but treated as a normal method if it violates any of constructor rules
+
+Constructors can take var-args.
+
+Constructors can not be 
+<list><list-item dir="ltr">abstract
+</list-item><list-item dir="ltr">final
+</list-item><list-item dir="ltr">static
+</list-item><list-item dir="ltr">overridden</list-item></list>
+
+6 number <link:internal>types</link:internal>
+byte - 1
+short - 2
+int	- 4
+long - 8
+float - 4
+double - 8
+
+Char - 16 bit Unicode character
+
+reference variables cannot be transient
+
+Instance variables can be transient and volatile
+
+Final variable/reference needs to be initialized with an <bold>Explicit Value</bold>, no default value works.
+
+Polymorphic -&gt; Refer an object with a general reference variable type, but ONLY things that are dynamically selected base on the actual object(rather that the reference type) are instance methods.
+
+
+<bold>Polymorphic</bold> method invocations apply only to <bold>instance methods</bold>. Not Static methods, not variables.
+
+In case of overloaded methods, the method that takes the reference type variable is called.
+
+Which method should be called is decided at the compile and NOT dynamically at compile time.
+
+If you type in a constructor with arguments, you wont have a no-argument constructor unless you type in explicitly.
+
+Cannot make a call or access instance variable unless super constructor is called.
+
+Only static variables and static methods can be called as part of the super constructor invocation.
+Ex: super(ANIMAL.HORSE) //is OK, but super(ANIMAL.halter) is not.
+
+Array elements are given their defaults, regardless of whether the array is instant var or local
+
+Order in which init blocks run:
+1. Static init block
+2. Super constructors
+3. instance init blocks, in the order or appearance
+4. Constructor code
+
+Instance init blocks are used as the place to share the code which all constructors should share.
+
+
+<bold>Wrapper class method:</bold>
+<list><list-item dir="ltr">parseXXX() 	- returns primitive
+</list-item><list-item dir="ltr">valueOf() 	- returns the Wrapper object
+</list-item><list-item dir="ltr">XXXValue() - returns primitive</list-item></list>
+
+
+In order to save <link:internal>memory</link:internal>, two instances of the following objects will always be == when their primitive values are the same:
+<list><list-item dir="ltr">Boolean
+</list-item><list-item dir="ltr">Byte
+</list-item><list-item dir="ltr">Character from \u0000 to \uoo7f ( 127 in dec)
+</list-item><list-item dir="ltr">Short and Integer from -128 to 127</list-item></list>
+
+<bold>Method Matching</bold>
+<list><list-item dir="ltr">JVM uses the method with the smallest argument that is wider that the paramter.</list-item></list>
+for instance byte-&gt;short-&gt;integer-&gt;long . 
+float-&gt;double
+
+<list><list-item dir="ltr">Compiler chooses widening over boxing</list-item></list>
+between print(long) and print(Integer), and 
+int i = 10; print(i); print(long) is selected.
+
+<list><list-item dir="ltr">Widening beats var-args
+</list-item><list-item dir="ltr">Boxing beats var-args
+</list-item><list-item dir="ltr">So in case of confusion, precedence goes as
+<list><list-item dir="ltr">If exact not available, smallest argument wider than the actual parameter
+</list-item><list-item dir="ltr">Widening
+</list-item><list-item dir="ltr">Boxing
+</list-item><list-item dir="ltr">Var-Args
+</list-item></list></list-item><list-item dir="ltr">Compiler performs boxing operation and then widening operation to match</list-item></list>
+	Ex: go(Object); byte b="5"; go(b); //OK
+<list><list-item dir="ltr">Cannot widen and box, but other way is possible.</list-item></list>
+
+Cannot use instanceof test across two diff class hierarchies.
+
+No way to expand enum constants at runtime.
+Enum can be compared either with == or .equals()
+
+
+
+<size:large>Exceptions:</size:large>
+<list><list-item dir="ltr">Throwable
+<list><list-item dir="ltr">Exception
+<list><list-item dir="ltr">RuntimeException - All unchecked exceptions
+</list-item><list-item dir="ltr">Other checked exceptions
+</list-item></list></list-item><list-item dir="ltr">Error
+<list><list-item dir="ltr">OutOfMemoryError
+</list-item><list-item dir="ltr">StackeOverflow
+</list-item><list-item dir="ltr">VirtualMachineError</list-item></list></list-item></list></list-item></list>
+
+<bold>Checked:</bold>
+	Non- RuntimeException
+	Need catch or throws
+
+<bold>Unchecked:</bold>
+	Need not have catch or throws surrounded
+	Subclasses of RuntimeException
+
+<bold>Errors</bold>:
+Can be thrown explicitly
+Usually not caught, because cannot recover from it.
+
+
+<bold>Collections</bold>
+Trying to duplicate to set, returns false, without adding.
+
+Map:
+	key should have hascode and equals implemented.
+</note-content></text>
+  <last-change-date>2010-11-07T19:14:47.0777780+01:00</last-change-date>
+  <last-metadata-change-date>2012-02-02T10:45:00.7789550+01:00</last-metadata-change-date>
+  <create-date>2010-10-31T06:01:29.5468840+01:00</create-date>
+  <cursor-position>2659</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Java</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

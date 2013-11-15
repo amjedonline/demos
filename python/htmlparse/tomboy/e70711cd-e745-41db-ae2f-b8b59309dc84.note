@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>keyring</title>
+  <text xml:space="preserve"><note-content version="0.1">keyring
+
+Stores all the passwords in the gnome session, which can be used later.
+Saves from user being prompted again and again.
+Keyring password is more or <link:internal>less</link:internal> like Master password.
+
+Little documentation available.
+
+To reset it, just delete the keyring file
+rm <link:url>~/.gnome2/keyrings/login.keyring</link:url>
+or
+rm <link:url>~/.gnom2/keyrings/default.keyring</link:url>
+
+
+<bold>From UI</bold> - Reset keyring password
+   1. Navigate to Applications &gt; Accessories &gt; Passwords and Encryption Keys
+   2. Select the far-right tab “Passwords”
+   3. Select your keyring
+   4. Right-click and attempt “Change Password” or, if that doesn’t work, select “Delete”</note-content></text>
+  <last-change-date>2010-12-25T20:05:49.1870900+05:30</last-change-date>
+  <last-metadata-change-date>2010-12-25T20:05:49.1870900+05:30</last-metadata-change-date>
+  <create-date>2010-12-25T19:59:14.6470570+05:30</create-date>
+  <cursor-position>527</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

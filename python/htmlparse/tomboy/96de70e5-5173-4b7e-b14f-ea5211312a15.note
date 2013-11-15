@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Public-Private Key, Certificate</title>
+  <text xml:space="preserve"><note-content version="0.1">Public-Private Key, Certificate
+
+<bold>Certificate</bold>
+A Certificate is a method used to distribute a public key and other information about a server and the org who is responsible for it.
+
+<bold>CA</bold>
+Certificates can be digitally signed by a Certification Authority or CA.
+A <bold>CA</bold> is a trusted third party that has confirmed that the information contained in the certificate is accurate.
+
+<bold>Signing the Certificate</bold>
+A certificate can be either signed by <link:internal>self</link:internal> ( <link:internal>Self</link:internal>-signed) or by a well known certificate authority.
+
+Most web browsers and computers that support SSL have a list of CAs whose certificate the automatically accept.
+
+<bold>Certificate Signing Request (CSR)</bold>
+
+Either getting a certificate from a CA or own <link:internal>self</link:internal>-signed certificate we need to generate the key.
+
+Key can be generated :
+1. With a passphrase 
+	- Manual intervention
+	- Not very convenient if the key is used by service like Apache, DoveCat
+
+2. Without a passphrase
+	- Used is service, 
+	- Services can be started without manual intervention, usual way to start a daemon.
+	- Insecure, if key is compromised, key means a compromise of server.
+
+To generate keys of CSR:
+
+openssl genrsa -des3 -out server.key 1024
+
+
+<bold><size:large>openssl</size:large></bold>
+All key, request generation tool
+
+<bold>Sub commands:</bold>
+genrsa	-des3			-out	server.key			1024
+rsa		-in secure.key	-out secure.key.insecure
+req		-new			-key server.key		-out server.csr
+
+x509 -req -days 365 -in server.csr -signkey server.key -out server.crt
+
+
+
+
+</note-content></text>
+  <last-change-date>2010-10-02T20:58:58.1432560+02:00</last-change-date>
+  <last-metadata-change-date>2012-01-02T16:24:06.6790900+01:00</last-metadata-change-date>
+  <create-date>2010-10-02T19:56:23.4122860+02:00</create-date>
+  <cursor-position>1412</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>586</width>
+  <height>273</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

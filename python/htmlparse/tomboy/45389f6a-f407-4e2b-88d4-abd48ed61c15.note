@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Steps to deploy the portal</title>
+  <text xml:space="preserve"><note-content version="0.1">Steps to deploy the portal
+
+Checkout the project at head revision
+
+<bold>Database</bold>
+create database jcr and lportal
+
+Restore the <link:internal>databases</link:internal> from sql/jcr.sql and sql/portal.sql
+
+
+<bold>Plugins</bold>
+Update the XXX-plugins.xml/properties file if the location of tomcat is changed
+
+Run <link:internal>ant</link:internal> in the plugins folder
+
+<bold>Tomcat:</bold>
+Make sure nothing is running on 8080
+Update the tomcat/WEB-INF/classes/portal-ext.properties if required
+
+<bold>Logs</bold>
+Clear logs. work, temp if not empty
+
+Run the tomcat/bin/startup.sh script
+
+
+
+</note-content></text>
+  <last-change-date>2011-04-11T12:02:23.3454240+02:00</last-change-date>
+  <last-metadata-change-date>2011-04-11T12:02:23.3454240+02:00</last-metadata-change-date>
+  <create-date>2011-04-11T11:51:52.0913060+02:00</create-date>
+  <cursor-position>407</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:IA Portal</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

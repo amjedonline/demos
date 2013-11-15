@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Setting up the micro instance</title>
+  <text xml:space="preserve"><note-content version="0.1">Setting up the micro instance
+
+
+<bold>Create and launch the instance with the free usage eligible AMI</bold>
+Download key.pem
+Edit default Security group and open http
+
+<bold>Login using key file</bold>
+
+ssh -i key1.pen <link:url>ubuntu@instance_public_name.amazon.com</link:url>
+
+<bold>Install required lamp stack</bold>
+<link:internal>sudo</link:internal> apt-get install apache2
+<link:internal>sudo</link:internal> apt-get install <link:internal>mysql</link:internal>-server
+<link:internal>sudo</link:internal> apt-get install php5
+<link:internal>sudo</link:internal> apt-get install php5-<link:internal>mysql</link:internal>
+
+<bold>Enable <link:internal>ubuntu</link:internal></bold><bold> partner repository</bold>
+Edit <link:url>/etc/apt/sources.list</link:url> and uncomment the partnet repositories
+<link:internal>sudo</link:internal> apt-get update
+<link:internal>sudo</link:internal> apt-get install sun-java6-jdk
+
+<bold>Download</bold>
+<link:internal>sudo</link:internal> wget <link:url>http://apache.mirrors.tds.net/tomcat/tomcat-6/v6.0.32/bin/apache-tomcat-6.0.32.tar.gz</link:url>
+
+<bold>Untar</bold>
+tar xvzf apache-tomcat-6.0.32.tar.gz
+
+<bold>Move to <link:url>/usr/lib/tomcat</link:url></bold>
+<link:internal>sudo</link:internal> mv apache-tomcat-6.0.32.tar.gz <link:url>/usr/local/tomcat</link:url>
+
+<bold>set JAVA_HOME</bold>
+put export JAVA_HOME=/usr/lib/jvm/java-6-sun in .bashrc
+
+
+<bold>Create the <link:url>/etc/init.d/tomcat</link:url></bold>
+<link:internal>sudo</link:internal> vi <link:url>/etc/init.d/tomcat</link:url>
+
+# Tomcat auto-start
+#
+# description: Auto-starts tomcat
+# processname: tomcat
+# pidfile: <link:url>/var/run/tomcat.pid</link:url>
+
+export JAVA_HOME=/usr/lib/jvm/java-6-sun
+case $1 in
+start)
+        sh <link:url>/usr/local/tomcat/bin/startup.sh</link:url>
+        ;; 
+stop)   
+        sh <link:url>/usr/local/tomcat/bin/shutdown.sh</link:url>
+        ;; 
+restart)
+        sh <link:url>/usr/local/tomcat/bin/shutdown.sh</link:url>
+        sh <link:url>/usr/local/tomcat/bin/startup.sh</link:url>
+        ;; 
+esac    
+exit 0
+
+<bold>Make the tomcat start at the time of startup</bold>
+<link:internal>sudo</link:internal> ln -s <link:url>/etc/init.d/tomcat</link:url> <link:url>/etc/rc1.d/K99tomcat</link:url>
+<link:internal>sudo</link:internal> ln -s <link:url>/etc/init.d/tomcat</link:url> <link:url>/etc/rc2.d/S99tomcat</link:url></note-content></text>
+  <last-change-date>2011-07-24T14:46:21.8042430+02:00</last-change-date>
+  <last-metadata-change-date>2011-10-26T14:35:39.2985930+02:00</last-metadata-change-date>
+  <create-date>2011-07-24T14:13:06.0071650+02:00</create-date>
+  <cursor-position>155</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Amazon</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

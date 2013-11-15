@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>samba</title>
+  <text xml:space="preserve"><note-content version="0.1">samba
+
+Samba is the standard <bold>Windows interoperability </bold>suite of programs for Linux and Unix.
+
+<link:internal>sudo</link:internal> apt-get install samba
+
+smbclient -L <italic>machine</italic> -U <italic>user</italic>
+
+<link:url>/etc/sbm.cnf</link:url>
+
+<bold>swat</bold> - utility to edit the samba configuration file
+<link:url>http://localhost:901</link:url>
+
+
+testparm to check the basic syntactic mistakes
+
+Best practice
+testparm -s smb.conf.master &gt; smb.conf
+<link:internal>sudo</link:internal>
+
+<bold>gufw </bold>
+GUI for uncomplicated firewall
+
+
+cifs and smbfs = view shares on windows computers from <link:internal>ubuntu</link:internal>.
+configuring samba.conf = allowing windows to see shares on <link:internal>ubuntu</link:internal>.
+
+
+Checking if smbfs is enabled
+cat <link:url>/proc/filesystems</link:url>
+
+If smbfs is not found, then 
+<link:internal>sudo</link:internal> modprobe smbfs # to enable smbfs in the kernel
+
+Lookup the netbios name of the machine
+nmblookup -A<italic> ipaddress</italic>
+
+my samba password amjedonline, username amjed
+
+
+Mounting the shared folder
+mount –t cifs –o username=geek,password=thepass <link:url>//geekmini/root</link:url> <link:url>/media/Video</link:url></note-content></text>
+  <last-change-date>2010-12-20T11:37:22.4272000+01:00</last-change-date>
+  <last-metadata-change-date>2012-02-02T10:45:00.7423490+01:00</last-metadata-change-date>
+  <create-date>2010-02-15T18:17:48.5119829+01:00</create-date>
+  <cursor-position>0</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

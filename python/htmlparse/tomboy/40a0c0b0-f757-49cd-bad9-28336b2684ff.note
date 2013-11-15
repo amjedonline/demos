@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Financial Planning</title>
+  <text xml:space="preserve"><note-content version="0.1">Financial Planning 
+
+<bold> Assets:</bold>
+ EPF - 	100
+ <link:internal>Nasir</link:internal> - 	  45
+ Chits -	  25
+ <link:internal>Nizam</link:internal>- 	  25
+--------------------
+Total        195
+
+
+
+1 month to quit from Semgel.
+1 month Notice period
+------------------------------------------
+<bold>2 months - 
+
+Jan 2011</bold> - 		Relieve from Semgel
+<bold>Feb 2011</bold> - 		Loan of 400K
+<bold><link:internal>March 2011</link:internal></bold><bold> -</bold>		Sister Wedding	
+<bold>June 2011-</bold>		Stabilize, Brother gets a better <link:internal>job</link:internal>
+
+
+<bold>Total 5 months to stabilize</bold>
+
+5* 40 K saving	- 200k
+
+200k + 200k = 400K Cash in hand
+
+
+<bold>EMI </bold>- 			10K
+<bold>Personal Exp</bold> - 	20K
+
+
+25*12 = 300K</note-content></text>
+  <last-change-date>2011-03-07T18:20:24.2443090+01:00</last-change-date>
+  <last-metadata-change-date>2011-03-07T18:20:24.2443090+01:00</last-metadata-change-date>
+  <create-date>2010-11-21T07:05:04.0438060+01:00</create-date>
+  <cursor-position>504</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Personal</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

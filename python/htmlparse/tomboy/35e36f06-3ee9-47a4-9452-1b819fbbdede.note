@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Trac</title>
+  <text xml:space="preserve"><note-content version="0.1">Trac
+
+install using <link:internal>easy install</link:internal>, python setuptools
+
+tracAdmin - command line tool
+tracd - standalone server
+
+easy_install --help
+
+
+easy_install --prefix=/path/to/installdir
+
+
+A Trac environment is the backend storage where Trac stores information like wiki pages, tickets, reports, settings, etc. An environment is basically a directory that contains a human-readable configuration file and various other files and directories.
+
+A new environment is created using trac-admin:
+
+$ trac-admin <link:url>/path/to/myproject</link:url> initenv
+
+Tracini configuration file</note-content></text>
+  <last-change-date>2010-03-09T18:38:10.2851989+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.8401620+05:30</last-metadata-change-date>
+  <create-date>2010-03-09T18:34:16.3592090+05:30</create-date>
+  <cursor-position>518</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>First scenario - Base grabbing</title>
+  <text xml:space="preserve"><note-content version="0.1">First scenario - Base grabbing
+
+Toolbar ordering
+Indication of the Grab progress
+Data displayed in the table</note-content></text>
+  <last-change-date>2010-02-06T20:06:21.1472270+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.9772430+05:30</last-metadata-change-date>
+  <create-date>2010-02-06T20:05:35.7522580+05:30</create-date>
+  <cursor-position>103</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

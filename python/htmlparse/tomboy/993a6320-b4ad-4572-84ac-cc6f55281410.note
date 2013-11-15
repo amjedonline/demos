@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>top</title>
+  <text xml:space="preserve"><note-content version="0.1">top
+
+top [-p <italic>pid</italic>, <italic>pid2</italic>|-u username ]
+
+Commands
+<list><list-item dir="ltr">O - order by fields
+</list-item><list-item dir="ltr">M - order by <link:internal>memory</link:internal> consumption
+</list-item><list-item dir="ltr">p - By CPU usage
+</list-item><list-item dir="ltr">k - <link:internal>Kill</link:internal> a tak by PID
+</list-item><list-item dir="ltr">d - to change the refresh interval
+</list-item><list-item dir="ltr">c - Show absolute paths of the command running the <link:internal>process</link:internal>
+</list-item><list-item dir="ltr">z b - to highlight the running processes
+</list-item><list-item dir="ltr">A - Split into multiple windows, a to switch between the windows
+</list-item><list-item dir="ltr">n - Limit the number of processes shown</list-item></list>
+
+top -b # to run in batch  mode
+top -b -n 1 # display one iteration/snapshot and quit
+
+By default output refreshes every 3.0 seconds, press <italic>space</italic> to refresh the output on demand.
+
+Toggle hide/show on the headers to display more processes
+l - load average ( 1st line)
+t - CPU states ( 2nd and 3rd lines)
+m -<link:internal>Memory</link:internal> Information ( 4th and 5th lines)
+
+
+
+npviewer.bin - Flash plugin
+Hogs CPU
+pkill npviewer.bin</note-content></text>
+  <last-change-date>2011-07-13T13:58:57.1827040+02:00</last-change-date>
+  <last-metadata-change-date>2012-02-02T10:45:00.6207330+01:00</last-metadata-change-date>
+  <create-date>2010-01-15T06:59:26.1679130+01:00</create-date>
+  <cursor-position>741</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

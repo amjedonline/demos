@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>subprocess</title>
+  <text xml:space="preserve"><note-content version="0.1">subprocess
+
+This module allows you to spawn processes, connect to their
+input/output/error pipes, and obtain their return codes.  This module
+intends to replace several other, older modules and <link:internal>functions</link:internal>, like:
+
+os.system
+os.spawn*
+os.popen*
+popen2.*
+commands.*
+
+<bold>Example:</bold>
+import subprocess
+subprocess.Popen(['uname','-sv'],stdout=subprocess.PIPE)
+</note-content></text>
+  <last-change-date>2010-06-30T22:09:44.4050980+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T21:59:49.8766090+05:30</last-metadata-change-date>
+  <create-date>2010-06-30T22:06:47.4135100+05:30</create-date>
+  <cursor-position>347</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:python</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

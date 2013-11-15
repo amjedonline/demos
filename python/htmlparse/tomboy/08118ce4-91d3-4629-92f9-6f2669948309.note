@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>April 10</title>
+  <text xml:space="preserve"><note-content version="0.1">April 10
+
+<bold>Thur 01</bold>
+Fixed the lens (same as type) issue with nishant
+Details panel <link:internal>refactoring</link:internal>, discussion with Gautham
+Take care of request to non existent space
+Pagination problem - P1
+Nishant's same as issue
+Facetview showing - as values
+
+<bold>Fri 02</bold>
+
+Details panel <link:internal>refactoring</link:internal>
+Page summary in the <link:internal>grid</link:internal>
+
+<bold>Mon 05</bold>
+Review meeting with Gautham
+Discussions on Roadmap and planning for the month of April
+
+<bold>Tue 06</bold>
+Showing pages summary in the <link:internal>Grid</link:internal>
+
+<bold>Wed</bold> <bold>07</bold>
+<link:internal>Refactoring</link:internal> DetailsPanel
+Moving the column order lens application to the server
+
+<bold>Thu 08</bold>
+<link:internal>Ubuntu</link:internal> and developer environment restoration on my laptop
+
+<bold>Fri 09</bold>
+User interaction design discussion
+<link:internal>GWT</link:internal> Data structure cleanup
+
+<bold>Mon 12</bold>
+Discussions on the road map and the new UI design
+
+<bold>Tue 13</bold>
+Working on the new Layout
+
+<bold>Wed 14</bold>
+Spent time understanding the UIBinder concept and how it can be used in the design
+
+<bold>Thu 15
+</bold>Create the TypeSummary Widget<bold>
+
+Fri 16</bold>
+Parser for ItemSUmmaru, <link:internal>Types</link:internal> 
+Display real data in Gather view
+
+<bold>Mon 19</bold>
+Worked on the Edit View, Home
+Work on to ensure the complete flow from login , grab and view the data and then logout.
+
+<bold>Tue 20</bold>
+UI Discussions with Gautham and planning
+
+<bold>Wed 22</bold>
+UI Discussions with Gautham 
+Worked on the styling of the new UI
+
+<bold>Thu 23</bold>
+UI Discussions with Gautham 
+Started working on the task of moving the core widgets to new UI
+
+<bold>Fri 24</bold>
+Worked on moving the <link:internal>Types</link:internal> tree, <link:internal>Grid</link:internal> and Facet panel to new <link:internal>GWT</link:internal> layout.
+
+<bold>Mon 26
+</bold>Worked on the Stying and UI <link:internal>issues</link:internal>  in the new UI.
+Fixed the exceptio on <link:internal>Types</link:internal> expansion.
+Facet panel refactored to use <link:internal>GWT</link:internal> panels.
+<bold>
+
+Tue 27
+</bold>Fixed <link:internal>issues</link:internal> like Paginationbar, refresh button (toolbar).
+Space name to appear on header.<bold>
+
+Wed 28</bold>
+Worked on Styling.
+Gather tab highlighting
+Unfinished task and pages grabbed poller
+Help content sync with the views
+
+</note-content></text>
+  <last-change-date>2010-11-07T08:03:03.9461940+01:00</last-change-date>
+  <last-metadata-change-date>2010-11-07T08:03:03.9461940+01:00</last-metadata-change-date>
+  <create-date>2010-04-01T07:03:36.8355080+02:00</create-date>
+  <cursor-position>239</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Daily status</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

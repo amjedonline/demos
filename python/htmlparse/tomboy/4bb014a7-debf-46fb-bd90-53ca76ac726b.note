@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Important Spring notes - 1</title>
+  <text xml:space="preserve"><note-content version="0.1">Important Spring notes - 1
+
+<bold>Core</bold>
+org.springframework.beans
+org.springframework.context
+contains basis for springframework.
+<list><list-item dir="ltr">BeansFactory  
+<list><list-item dir="ltr">mechanism for managing objects of any nature.
+</list-item></list></list-item><list-item dir="ltr">ApplicationContext
+<list><list-item dir="ltr">Interface extends BeansFactory to provide:
+</list-item><list-item dir="ltr">Easy integration with AOP
+</list-item><list-item dir="ltr">Message resource handling ( i18n)
+</list-item><list-item dir="ltr">Event propagation
+</list-item><list-item dir="ltr">Application layer specific contexts (WebApplicationContext)</list-item></list></list-item></list>
+
+
+Bean management
+<list><list-item dir="ltr">Dependencies (AKA Collaborators)
+</list-item><list-item dir="ltr">Construction
+</list-item><list-item dir="ltr">Referencing
+</list-item><list-item dir="ltr">Initialization
+</list-item><list-item dir="ltr">IOC
+</list-item><list-item dir="ltr">Aspects
+</list-item><list-item dir="ltr">Builder/Factory
+</list-item><list-item dir="ltr">Integration at different layers
+</list-item><list-item dir="ltr">Declarative way of defining beans
+</list-item><list-item dir="ltr"><link:internal>Less</link:internal> error prone
+</list-item><list-item dir="ltr">Centralized management.
+</list-item><list-item dir="ltr">Message resources, i18n
+</list-item><list-item dir="ltr">Event propagation</list-item></list>
+
+
+The Spring IoC container itself is totally decoupled from the format in which this configuration metadata is actually written.
+
+Instantiating a bean container:
+<list><list-item dir="ltr">XMLBeanFactory
+<list><list-item dir="ltr">FileSystemReource
+</list-item><list-item dir="ltr">ClassPathResource</list-item></list></list-item></list>
+
+<list><list-item dir="ltr">ClassPathXMLApplicatinoContext , cast it to bean factory</list-item></list>
+
+
+Bean Configuration
+<list><list-item dir="ltr">id -&gt; XML Constraints apply
+</list-item><list-item dir="ltr">name -&gt; CSV of names, no constraints, considered alias id
+</list-item><list-item dir="ltr">scope
+</list-item><list-item dir="ltr">constructor arguments
+</list-item><list-item dir="ltr">properties
+</list-item><list-item dir="ltr">auto-wiring mode
+</list-item><list-item dir="ltr">dependency checking mode
+</list-item><list-item dir="ltr">lazy-initialization mode
+</list-item><list-item dir="ltr">initialization method
+</list-item><list-item dir="ltr">destruction method</list-item></list>
+
+
+
+Instantiating beans
+<list><list-item dir="ltr">Using constructors
+<list><list-item dir="ltr">Class should implement default constructors.
+</list-item><list-item dir="ltr">Have setters and getters
+</list-item></list></list-item><list-item dir="ltr">static factory method
+<list><list-item dir="ltr">factory-method=""
+</list-item></list></list-item><list-item dir="ltr">Instance factory method
+<list><list-item dir="ltr">no class="" attr
+</list-item><list-item dir="ltr">factory-bean
+</list-item><list-item dir="ltr">factory-method</list-item></list></list-item></list>
+
+<bold>Dependency Injection</bold>
+<list><list-item dir="ltr">Setter Injection
+</list-item><list-item dir="ltr">Constructor injection</list-item></list>
+
+It is <link:internal>important</link:internal> to realize that Spring validates the configuration of each bean in a container as the container is created, including the validation that properties which are bean references are actually referring to valid beans
+
+&lt;bean id="" name=""&gt;
+	&lt;constructor-arg ref="" value=""/&gt;
+	&lt;constructor-arg ref="" &gt;&lt;bean class=""/&gt;&lt;/constructor-arg&gt;
+	&lt;property name="" ref="" value=""&gt;&lt;ref bean="<link:internal>another</link:internal>"/&gt;&lt;/property&gt;
+	&lt;property name=""&gt;&lt;value&gt;123&lt;/value&gt;&lt;/property&gt;
+&lt;/bean&gt;
+
+
+<bold>Note:</bold>
+
+Arguments to static factory-method is called in the same way as passed to the constructor, using the &lt;constructor-arg/&gt;
+
+
+For resolving constructors:
+<list><list-item dir="ltr">can use type="int"
+</list-item><list-item dir="ltr">index="2"</list-item></list>
+
+&lt;<bold>idref</bold> bean | local | parent=""/&gt;
+-Validated at deploy time whether the named bean actually exist.
+-local can be used if the bean is defined in the same XML unit.
+parent: if the bean is defined in the parent container, in case of hierarchy of containers.
+
+
+
+
+Beans can have same name at different level of hierarchy.
+
+<bold>inner beans</bold> 
+id and names will be ignored by the container.
+always prototype
+no way to inject into other collaborator beans
+
+
+<bold><size:large>Collections</size:large></bold>
+Value of a map key or value, or a set value can be in any of the following elements:
+bean | ref | idref | list | set | map | props | value | null 
+
+<bold>Properties</bold>:
+&lt;props&gt;
+	&lt;prop&gt;Salman&lt;/prop&gt;
+	&lt;prop&gt;Shahrukh&lt;/prop&gt;
+	&lt;prop&gt;Aamir&lt;/prop&gt;
+&lt;/props&gt;
+
+<bold>List:</bold>
+	&lt;list&gt;
+		&lt;value&gt;	&lt;/value&gt;
+		&lt;ref bean=""/&gt;
+	&lt;/list&gt;
+
+<bold>Map:</bold>
+	&lt;map&gt;
+		&lt;entry&gt;
+			&lt;key&gt;&lt;value&gt;&lt;/value&gt;&lt;/key&gt;
+			&lt;value&gt;&lt;/value&gt; | &lt;ref bean=""/&gt;
+		&lt;/entry&gt;
+	&lt;/map&gt;
+
+
+<bold>set:</bold>				
+	&lt;value&gt;&lt;/value&gt;
+	&lt;ref  bean=""/&gt;
+
+
+<bold>Collection merging</bold>
+Child can inherit the &lt;collection/&gt; from the parent.
+
+&lt;props merge="true"&gt;
+	&lt;prop key = "<link:url>sales"&gt;sales@company.com&lt;/prop</link:url>&gt;
+	&lt;prop <link:url>key="support"&gt;support@company.com&lt;/prop</link:url>&gt;
+&lt;/props&gt;
+
+
+<bold>Strongly-typed collection</bold>
+While using <link:internal>generics</link:internal> for strongly typed collections, spring infrastructure does the type casting to support the strongly typed collection.
+
+<bold>null or empty string</bold>:
+empty string like &lt;value&gt;&lt;/value&gt; is considered as an empty string value.
+&lt;null/&gt; can be used to handle null values.
+
+<bold>depends-on</bold>
+To declare bean dependency on <link:internal>another</link:internal> bean.
+
+<bold>lazy-instantiating </bold>
+Default - load eagerly
+Pre-instantiate all singleton beans at startup
+For a singleton bean to load lazily 
+&lt;bean lazy-init="true"&gt;&lt;/bean&gt;
+
+For all singleton beans to init lazily
+&lt;beans default-lazy-init="true"&gt;
+
+
+<bold><size:large>Autowiring modes</size:large></bold>
+
+<bold>no</bold>
+Bean references must be defined via a ref element.
+
+<bold>byName</bold>
+Look for a bean named exactly the same as the property which needs to be wired.
+
+<bold>byType</bold>
+<list><list-item dir="ltr">If there is exactly one bean of the property type in the container.
+</list-item><list-item dir="ltr">If more than one, a fatal exception is thrown 
+</list-item><list-item dir="ltr"><italic>dependency-check="object"</italic> to to avoid error.</list-item></list>
+
+<bold>constructor</bold>
+<list><list-item dir="ltr">Anologous to byType but applies to constructor arguments.</list-item></list>
+
+<bold>autodetect</bold>
+<list><list-item dir="ltr">chooses constructor or byType through introspection of the bean class.
+</list-item><list-item dir="ltr">If a default constructor is found, byType mode will be applied.</list-item></list>
+
+Explicit dependency in <italic>property</italic>  element overrrides autowire.
+
+Not possible to autowire simple properties suach as primitive Strings and arrays of simple properties.
+
+
+<bold>Dependency checking</bold>
+<list><list-item dir="ltr">none
+</list-item><list-item dir="ltr">simple - perform for primitive <link:internal>types</link:internal> and collections.
+</list-item><list-item dir="ltr">Object - performed for collaborators only
+</list-item><list-item dir="ltr">all </list-item></list>
+
+<bold>BeanFactoryAware</bold>
+
+setBeanFactory(BeanFactory beanFactory){
+
+public void Command createCommand(){ return this.beanFactory.getBean("command");}
+
+
+<bold>Method-injection</bold>
+class CommandManager{
+<link:internal>process</link:internal>(){
+	Command cmd = createCommand();
+}
+protected abstract Command createCommand();
+}
+
+&lt;bean id="command"  class="com.am.AsyncCommand" scope="prototype"/&gt;
+
+&lt;bean id="CommandManager" class="com.am.CommandManager"&gt;
+&lt;lookup-method name="createCommand" bean= "command"/&gt;
+&lt;/bean&gt;
+
+
+<list><list-item dir="ltr">Method or class cannot be final.
+</list-item><list-item dir="ltr">Class will be extended and method overridden.
+</list-item><list-item dir="ltr">CGLIB jar in the lib path.
+</list-item><list-item dir="ltr">Beans that have been the target of method injection cannot be serialized.</list-item></list>
+
+<bold>ServiceLocatorFactoryBean</bold>
+<list><list-item dir="ltr">org.springframework.beans.factory.config package.
+</list-item><list-item dir="ltr">Allows to specify your own lookup interface as opposed to Spring specific ObjectFactory.
+</list-item><list-item dir="ltr">Similar is ObjectFactoryCreatingFactoryBean </list-item></list>
+
+<bold>Arbitrary - method replacement </bold>
+&lt;bean id="myValueCalculator" class=""&gt;
+	&lt;replace-method method="computeValue" replacer="replacementComputeValue"&gt;
+	&lt;/replace-method&gt;
+&lt;/bean&gt;
+
+&lt;bean id="replacementComputeValue" class=""/&gt;
+
+<bold><size:large>Bean scope</size:large></bold>
+<bold>singleton</bold>
+<list><list-item dir="ltr">Scopes a single object</list-item></list>
+
+<bold>prototype</bold>
+
+request
+<list><list-item dir="ltr">Web-aware spring ApplicationContext</list-item></list>
+
+session
+<list><list-item dir="ltr">Web-aware Spring ApplicationContext</list-item></list>
+
+global-session 
+<list><list-item dir="ltr">Portlet Context
+</list-item><list-item dir="ltr">Web-aware Spring ApplicationContext</list-item></list>
+
+<bold><size:large>Initial Web configuration</size:large></bold>
+
+For containers with <bold>Servlet 2.4 + :</bold>
+&lt;listener&gt;
+	&lt;listener-class&gt;	org.springframework.web.context.request.RequestContextListener
+	&lt;/listener-class&gt;
+&lt;/listener&gt;
+
+for containers <bold>before Servlet 2.4:</bold>
+&lt;filter&gt;
+	&lt;filter-name&gt;requestContextFilter&lt;/filter-name&gt;
+	&lt;filter-class&gt;org.springframework.web.filter.RequestContextFilter&lt;/filter-class&gt;
+&lt;/filter&gt;
+&lt;url-pattern&gt;/*&lt;/url-pattern&gt;
+
+
+<bold>RequestContextListener </bold>and <bold>RequestContextFilter</bold> bind the HTTP request object to the Thread that is servicing that request.
+
+
+<bold>Global session scope</bold>
+In portlet based apps
+In web apps, acts like session.
+
+
+<bold>Scoped beans as dependency</bold>
+When a request/session/global session scoped bean needs to be injected into a singleton bean.
+We want a new scoped bean reference in onetime initialized singleton bean, so we need some proxy through which singleton can access the scoped bean
+with a session specific copy of bean. This is how we do:
+
+&lt;bean id="userPreferences" class="UserPreferences" scope="session"&gt;
+<bold>	&lt;aop:scoped-proxy&gt;</bold>
+&lt;/bean&gt;
+
+&lt;bean id="userManager" class="UserManager"&gt;
+	&lt;property name="userPreferences" ref="userPreferences"/&gt;
+&lt;/bean&gt;
+
+
+
+<bold>Custom scope</bold>
+Implement the interface org.springframework.beans.factory.config.Scope.
+
+
+<bold>Customizing nature of bean</bold>
+<bold>Initializing bean</bold>
+<list><list-item dir="ltr">org.springframework.beans.factory.InitializingBean
+</list-item><list-item dir="ltr">void afterPropertiesSet() throws Exception;</list-item></list>
+
+Other way is to specify the initializing method as init-method="" parameter.
+
+
+<bold>Disposable Bean</bold>
+<list><list-item dir="ltr">org.springframework.beans.factory.DisposableBean
+</list-item><list-item dir="ltr">void destroy() throws Exception;</list-item></list>
+
+Other way is to use destroy-method="" paramter.
+
+Default initialization and destroy methods using the 
+&lt;beans default-init-method="" default-destroy-method=""/&gt;
+
+AbstractApplicationContext.registerShutdownHook();
+
+
+
+implements BeanFactoryAware{
+	void setBeanFactory(BeanFactory beanFactory) throws BeansException;
+}
+
+
+implements BeanNameAware{
+// after beans init but before afterPropertiesSet()
+}
+
+</note-content></text>
+  <last-change-date>2010-11-18T15:41:05.0078220+05:30</last-change-date>
+  <last-metadata-change-date>2010-11-18T15:41:05.0078220+05:30</last-metadata-change-date>
+  <create-date>2010-11-09T15:02:43.3507950+05:30</create-date>
+  <cursor-position>1131</cursor-position>
+  <width>472</width>
+  <height>360</height>
+  <x>0</x>
+  <y>1</y>
+  <tags>
+    <tag>system:notebook:Spring</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

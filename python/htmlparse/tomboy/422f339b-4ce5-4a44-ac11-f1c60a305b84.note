@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>With Gautham - Dec 09</title>
+  <text xml:space="preserve"><note-content version="0.1">With Gautham - Dec 09
+
+Hierarchy of events and event handlers
+Local event bus
+Have the hierarchy of all the UI elements in <link:internal>GXT</link:internal>, <link:internal>GWT</link:internal>, <link:broken>Semgel</link:broken> mapped and documented
+
+Themes support
+I18N support
+Make use of the datatype of the data
+
+Move the TypeChangedHandler from the showGrid() to the initializer/Constructor
+- Done
+
+Error<link:url>/Success/Progress</link:url> message div
+
+EventHandler registration from showGrid() to move to constructor in TypeTreePanel constructor
+- Partially
+
+Figure out how Template method pattern can be employed in all the innerclasses being used for event handling
+
+FacetPanel should call getCurrentSelection only from the changed FacetView
+
+<link:internal>Sequence</link:internal> the multiple selection of facetview
+
+SemgelClient.getSpace() to get the current space object
+
+Space buttons just fires the events (delete, copy, rename)
+
+<link:internal>Grid</link:internal> listens to the space events and takes apt actions
+
+To highlight the buttons, <link:internal>GRID</link:internal> fires the events, buttons listen to them and highlight/disable accordingly.</note-content></text>
+  <last-change-date>2010-07-21T12:54:50.5260530+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T21:59:49.4746630+05:30</last-metadata-change-date>
+  <create-date>2010-01-02T23:40:38.9635920+05:30</create-date>
+  <cursor-position>0</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Code review notes</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

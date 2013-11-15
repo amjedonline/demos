@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>[abcd]</title>
+  <text xml:space="preserve"><note-content version="0.1">[abcd]
+[a-d]
+[!x-z]
+{pat1,pat2}
+
+
+* cannot match
+1. Filename beginning with a dot(.)
+2. / in a pathnamelemeb
+
+Two ways to prevent the shell from interpreting the special characters:
+1. Escaping using \
+2. Quoting
+
+<link:internal>find</link:internal> . -name "rc.conf" -print 
+
+<link:internal>find</link:internal> . -name "rc.conf" -exec chmod o+r '{}' \; 
+
+<link:internal>find</link:internal> <link:url>/usr/src</link:url> -not \( -name "*,v" -o -name ".*,v" \) '{}' \; -print
+
+-o --&gt; Logical OR
+
+ ---- <link:internal>Job</link:internal> Control---------------
+
+fg n # to bring a <link:internal>job</link:internal> to foreground, where n is the <link:internal>job</link:internal> id and not pid
+jobs # to list all the jobs
+ps ua
+
+CTRL+z to suspend a <link:internal>job</link:internal>, and send it to the background
+
+To run a task in background, prepend the command with a &amp;
+
+nohup to keep a command running even after u logout of the system
+
+
+Move a suspended <link:internal>job</link:internal> to the foreground 	fg
+Continue a suspended <link:internal>job</link:internal> in the background 	bg
+List all jobs 	jobs
+<link:internal>Kill</link:internal> a <link:internal>job</link:internal> (%N where N is the <link:internal>job</link:internal> number) 	<link:internal>kill</link:internal> %N &amp;&amp; fg
+Start a <link:internal>job</link:internal> directly in the background 	command &amp;
+
+---------- Basic commands ----
+
+mkdir -p output/<link:internal>Classes that could have JSON replacement impact</link:internal> # makes parent if needed, no error if existing</note-content></text>
+  <last-change-date>2011-09-08T15:04:26.2805620+02:00</last-change-date>
+  <last-metadata-change-date>2012-04-14T22:03:55.0169710+02:00</last-metadata-change-date>
+  <create-date>2010-01-03T07:23:07.6928850+01:00</create-date>
+  <cursor-position>245</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Shell notes</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

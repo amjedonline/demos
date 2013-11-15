@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>date, time, timestamp, timezone</title>
+  <text xml:space="preserve"><note-content version="0.1">date, time, timestamp, timezone
+
+To persist a string containing time with<bold> time zone</bold>:
+
+
+String paymentTime = "23:01:48 Aug 26, 2010 PDT";
+
+java.util.<link:internal>Date</link:internal> dateTime = new java.util.<link:internal>Date</link:internal>(paymentTime);
+
+Timestamp payment_time = new Timestamp(dateTime.getTime());
+
+<bold>Without time zone</bold> till milli, user the
+Timestamp.valueOf(datetime_without_tz);
+
+
+<bold>Timestamp</bold>
+There can be only one timestamp column with default current_timestamp 
+First timestamp column in the table is considered to have default value of current_timestamp or now()
+
+
+
+<bold>Simple data construction:</bold>
+String dateString = year + "/" + month + "/" + <link:internal>date</link:internal>;
+
+<link:internal>SimpleDateFormat</link:internal> dateFormat = new SimpleDateFormat("yyyy/MM/dd");
+<link:internal>Date</link:internal> convertedDate = null;
+try {
+	convertedDate = dateFormat.parse(dateString);
+} catch (ParseException ex) {
+	ex.printStackTrace();
+}</note-content></text>
+  <last-change-date>2011-02-21T12:16:52.3716890+05:30</last-change-date>
+  <last-metadata-change-date>2011-02-21T12:16:52.3716890+05:30</last-metadata-change-date>
+  <create-date>2010-08-27T11:56:31.0710800+05:30</create-date>
+  <cursor-position>609</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Java</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>January 2010</title>
+  <text xml:space="preserve"><note-content version="0.1"><link:internal>January</link:internal> 2010
+
+<bold>01</bold> Fri
+Paginaiton and sorting
+Code merging and wrap up for the Demo
+UI design session <link:broken>with Harish</link:broken>
+
+<bold>04 </bold>- Mon
+Task breakdown
+Estimation and planning
+Design discussion with Harish and Gautham
+
+
+<bold>05 </bold>- Tue
+Started with <link:internal>Refactoring</link:internal>
+Branching out, and all prelim work
+High level  breakdown and creation of skeleton <link:internal>classes that could have JSON replacement impact</link:internal>
+Design session with Harish
+
+
+<bold>06 </bold>- Wed
+Created the layouts for the application
+Identify and create frames, panels.
+header layout
+Design discussion with Harish
+
+<bold>07 </bold>- Thu
+Spaces <link:internal>Grid</link:internal>
+
+<bold>08 </bold>- Fri
+Toolbar
+Footer
+Status bar
+Navigation
+
+<bold>11</bold>- Mon
+Multiple grab
+Column selection
+
+<bold>12</bold>- Tue
+Wrapping up
+Merging and checking into <link:internal>SVN</link:internal>
+
+<bold>13</bold> - Wed
+Demo
+Chat with prasad
+Continued work on spilled over items
+
+<bold>14</bold> - Thur
+Discussion with Harish on Product Design
+Came up with feature list for the feb 20th release
+
+<bold>15</bold> - Fri
+Design discussion with Harish
+Estimation and planning for the features to be released as part of Feb 20th release
+
+<bold>16</bold> -Sat
+Worked on the Planned <link:internal>Refactoring</link:internal> task item
+covering toolbar,  wrapper over the server calls.
+
+<bold>17</bold> - Sun
+Worked on the Quick toolbar username display.
+User starting with a default space.
+
+
+
+<bold>18</bold> - Mon
+Worked on the Main Menu feature
+
+<bold>19</bold> - Tue
+Worked on the Shell features like Error/Failure messages, progress bar, Unfinished item displaying
+Low-level design discussion with Harish
+
+<bold>20</bold> - Wed
+Worked on the Space features, tasks including CRUD on space
+Inducing Murthy, design discussion, product demo and <link:internal>overview</link:internal>
+
+<bold>21</bold> - Thur
+Space created, modified display, adding fields and <link:internal>date</link:internal> formattings
+
+
+<bold>22</bold></note-content></text>
+  <last-change-date>2011-01-08T11:54:51.8458520+05:30</last-change-date>
+  <last-metadata-change-date>2011-01-08T11:54:51.8458520+05:30</last-metadata-change-date>
+  <create-date>2010-01-02T16:15:47.6511329+05:30</create-date>
+  <cursor-position>368</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Daily status</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

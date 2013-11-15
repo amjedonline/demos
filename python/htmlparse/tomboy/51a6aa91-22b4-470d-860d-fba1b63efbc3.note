@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Hostso Account Info</title>
+  <text xml:space="preserve"><note-content version="0.1">Hostso Account Info
+
+
+<bold>1. Nameserver Settings:</bold>
+_____________________________________________
+ 
+If you have purchased your domain from us you can ignore
+this section, we will set the nameservers automatically.
+
+Once you have uploaded your website to our server you need
+to contact your domain registrar and set the nameservers
+of your domain to ours:
+
+1.nsEasy.com
+2.nsEasy.com
+
+Some registrars require the IP address of our nameservers, they are:
+
+The IP address for 1.nsEasy.com is 67.18.247.2
+The IP address for 2.nsEasy.com is 67.18.248.82
+
+Please note it can still take 24-48 hours after you set the
+nameservers for your domain name to 'propagate' (register
+around the Internet) and become fully active, there is nothing
+we can do about this, it's just the way the Internet works.
+
+
+<bold>2. Master Account information:</bold>
+_____________________________________________
+
+Domain Name: amjedonline.com
+IP Address: 67.23.226.7
+Username: amjedonl
+Password: YHEYUYLWzJ
+
+-This username and password is used for both <link:internal>FTP</link:internal> and Control Panel Login.
+
+
+<bold>3. <link:internal>FTP</link:internal></bold><bold> - Uploading your website:</bold>
+_____________________________________________
+
+You can begin to upload files to your domain right now to the
+following IP address as the HostAddress in your <link:internal>FTP</link:internal> software:
+ 
+Host Address: 67.23.226.7 or <link:url>ftp.amjedonline.com</link:url> (after <link:internal>DNS</link:internal> propagates)
+
+Directory: /public_<link:internal>html</link:internal>/
+Username: amjedonl
+Password: YHEYUYLWzJ
+
+When you connect via <link:internal>FTP</link:internal> to the server make sure you
+place all files in the /public_<link:internal>html</link:internal>/ folder and make sure you
+have your homepage named index.<link:internal>html</link:internal> (all lower case).
+ 
+Once you have uploaded your files to our server you can view them
+using the IP address together with your username, for example:
+
+<link:url>http://67.23.226.7/~amjedonl/</link:url>
+You do need to put the ~
+
+
+<bold>4. Cpanel login information:</bold>
+_____________________________________________
+
+The Control Panel (cPanel) is used to configure the features of your
+HostSo account, to log into your cPanel you can use either the IP
+address or your domain name followed by :2082, for example:
+ 
+<link:url>http://67.23.226.7:2082</link:url> or <link:url>http://www.amjedonline.com:2082</link:url> (after <link:internal>DNS</link:internal> propagates)
+Username: amjedonl
+Password: YHEYUYLWzJ
+ 
+Use the IP address if your <link:internal>DNS</link:internal> has not resolved to this server yet.
+The http:// must be present in the address to access port :2082
+
+Not sure how to use your cPanel Control Panel?
+
+There is also detailed documentation at the cPanel official
+website here: <link:url>http://www.cpanel.net/docs/cpanel/</link:url>
+
+
+<bold>5. Online Site Builder:</bold>
+_____________________________________________
+
+You access the online site builder through the cPanel, see the
+icon 'Site Builder' under the software section.
+
+
+<bold>6. Email Account Settings:</bold>
+_____________________________________________
+
+Incoming Mail (POP3): mail.amjedonline.com
+Outgoing Mail *(<link:internal>SMTP</link:internal>): mail.amjedonline.com or the <link:internal>SMTP</link:internal> server of your ISP
+
+Account Name**: <link:url>name@amjedonline.com</link:url>
+Password**: mail password
+
+Ensure 'My server requires authentication' is checked and that
+you input your mail Account Name and Password.
+
+*We recommend using the <link:internal>SMTP</link:internal> of your ISP for best <link:internal>performance</link:internal>.
+
+**The mail Account Name and Password is set by you in the
+Email management section of the Control Panel.
+
+
+<bold>7. FrontPage Instructions (only if you use Microsoft FrontPage)</bold>
+_____________________________________________
+ 
+You may be able to publish right away to your server depending on
+what version of FrontPage you have.
+ 
+Before <link:internal>DNS</link:internal> propagates:
+ 
+<link:url>ftp://67.23.226.7/public_<link:internal>html</link:internal></link:url><link:url>/</link:url>
+
+After your <link:internal>DNS</link:internal> propagates you may publish to your domain name, for example:
+ 
+<link:url>http://www.amjedonline.com</link:url>
+
+Once you have uploaded your files to our server you can view them
+using the IP address together with your username, for example:
+ 
+<link:url>http://67.23.226.7/~amjedonl/</link:url>
+You do need to put the ~
+
+
+<bold>8. Support</bold>
+_____________________________________________
+
+In the first instance please open a ticket from here:
+<link:url>http://my.HostSo.com/submitticket.php</link:url>
+
+For live assistance we are available 24 hours a day, 7 days here:
+<link:url>http://www.HostSo.com/contact_hostso.php</link:url>
+
+-please have the Master Account information and ticket reference to hand
+
+
+wpuser
+simplyamjed
+simplyamjed
+</note-content></text>
+  <last-change-date>2011-02-10T23:12:42.7814180+05:30</last-change-date>
+  <last-metadata-change-date>2011-02-10T23:12:42.7814180+05:30</last-metadata-change-date>
+  <create-date>2010-08-15T12:24:51.7436369+05:30</create-date>
+  <cursor-position>482</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Hostso</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

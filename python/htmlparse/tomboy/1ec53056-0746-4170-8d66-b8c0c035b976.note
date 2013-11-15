@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Structured/Unstructured data</title>
+  <text xml:space="preserve"><note-content version="0.1">Structured/Unstructured data
+
+<bold>Taxonomies</bold>
+AI - Transformational
+BI - Repository oriented
+
+Shredding XML into sql</note-content></text>
+  <last-change-date>2010-06-05T09:32:34.2811610+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:02.9517400+05:30</last-metadata-change-date>
+  <create-date>2010-06-05T09:32:04.8663430+05:30</create-date>
+  <cursor-position>111</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Tech junks</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

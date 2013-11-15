@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>liferay book notes</title>
+  <text xml:space="preserve"><note-content version="0.1">liferay book notes
+
+
+tunnel-web - <link:internal>Web services</link:internal>
+root - liferay context
+
+
+Most of the config in portal.properties -&gt; portal-impl.jar
+TO override /add use portal-ext.properties under classes/
+
+
+
+Workflow engine - jBPM, Intalio
+Can integrate with any CMS:
+Liferay CMS, Alfresco, FatWire, Magnolia, Vignette
+
+Tunnel classes: XML-RPC,JSON, Hessian, Burlap
+
+
+
+
+Extensible:
+Plugin SDK Environment
+Extension Environment
+Liferay portal source code
+
+
+ServiceBuilder:
+Code generator uses an XML descriptor to generate models and Services.
+For a given service.xml, it generates SQL for creating table, Java Beans, Hibernate Configuration,  Spring configuration, Axis WebService and JSON JavaScript Interface and so on.
+
+Integrate web applications as web
+solr-web, jbpm-web, mule-web and servicemix-web.
+
+
+Plugins-SDK:
+Portlets, themes, hooks, webs.
+Can import classes from portal API - Portal-kernek and Portal-Service and not Portal-Impl.
+Does not even touch portal properties, language properties, and <link:internal>JSP</link:internal> files related to poral-impl.
+Fortunately, hooks provides capability to hookup to the above related to portal-impl.
+
+ESB:
+Central connection manager, allowing apps and service to be added to an enterprise infrastructure.
+When needed to be replace, an app/service can be disconnected at single point.
+
+
+
+Based on service interfaces(Spring Framework), Portal-Impl is implemented and is exposed only for the internal usage (EXT env example)
+
+Portal-kernel and Portal-Service for external usage (also internal)
+
+
+Single Sign-On:
+with Yale CAS, JAAS, <link:internal>LDAP</link:internal>, NTLM, Netegrity, Microsoft Exchange, and more. 
+Open ID, Yale CAS, Siteminder, and OpenSSO integration are offered out of the box.
+
+
+Deployment folders:
+/portlets
+/themes
+/layouttpl
+/webs
+/hooks</note-content></text>
+  <last-change-date>2011-07-07T17:15:54.9666990+05:30</last-change-date>
+  <last-metadata-change-date>2011-07-07T17:15:54.9666990+05:30</last-metadata-change-date>
+  <create-date>2011-02-02T19:02:55.5154270+05:30</create-date>
+  <cursor-position>820</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Portlets</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

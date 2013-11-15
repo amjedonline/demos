@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>JSP</title>
+  <text xml:space="preserve"><note-content version="0.1">JSP
+
+<bold>Cache Control</bold>
+
+&lt;%
+response.setHeader("Cache-Control","no-store"); //HTTP 1.1
+response.setHeader("Pragma","no-cache"); //HTTP 1.0
+response.setDateHeader ("Expires", 0); //prevents caching at the proxy server
+%&gt;</note-content></text>
+  <last-change-date>2010-11-25T15:34:07.6547619+05:30</last-change-date>
+  <last-metadata-change-date>2010-11-25T15:34:07.6547619+05:30</last-metadata-change-date>
+  <create-date>2010-11-25T15:33:56.8028149+05:30</create-date>
+  <cursor-position>20</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Java</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

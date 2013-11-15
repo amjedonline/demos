@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>proxy-portlet creds (alt)</title>
+  <text xml:space="preserve"><note-content version="0.1"><link:internal>proxy-portlet creds</link:internal> (alt)
+
+<bold><size:large>Newada:</size:large></bold>
+<bold>tfim:</bold><link:url>http://10.186.38.122:9080/sps/iportal/saml20/logininitial?RequestBinding=HTTPPost&amp;PartnerId=https://iportal-newada-dev.wob.vw.vwg/<link:internal>saml</link:internal></link:url><link:url>20</link:url>
+<bold>Application:</bold><link:url>http://newada-dev/newadaJ/SamlLogin</link:url>
+
+
+
+<bold>CRM</bold>
+<link:url>http://crm-global-dev.crm.cpn.vwg/sap/bc/bsp/sap/z_iportal/default.htm</link:url>
+<link:url>http://10.186.38.122:9080/sps/iportal/saml20/logininitial?RequestBinding=HTTPPost&amp;PartnerId=https://iportal-crm-dev.wob.vw.vwg/crm/saml20</link:url>
+
+
+
+<bold>ISA</bold>
+
+TFIM:
+<link:url>http://10.186.38.122:9080/sps/iportal/<link:internal>saml</link:internal></link:url><link:url>20/logininitial?RequestBinding=HTTPPost&amp;PartnerId=http://cpnwasqs73.cpn.vwg/hfslegacyapp/gwboerse.audi.cpn.vwg/cpnweb/isagw/controller.doact=search.<link:internal>html</link:internal></link:url>
+
+Application Url
+<link:url>http://cpnwasqs73.cpn.vwg/hfslegacyapp/gwboerse.audi.cpn.vwg/cpn/isagw/controller.doact=search.html</link:url>
+
+
+<bold>Demo HFS:</bold>
+TFIM:
+<link:url>http://10.186.38.122:9080/sps/iportal/<link:internal>saml</link:internal></link:url><link:url>20/logininitial?RequestBinding=HTTPPost&amp;PartnerId=http://cpnwasqs73.cpn.vwg/hfslegacyapp/legacyapp</link:url>
+
+Application Url
+<link:url>http://cpnwasqs73.cpn.vwg/hfslegacyapp/legacyapp</link:url>
+
+
+<bold><size:large>Dev server:</size:large></bold>
+<link:url>https://iportal-dev.wob.vw.vwg/start.html</link:url>
+
+
+<bold><size:large>Test server:</size:large></bold>
+<bold>username:</bold> test
+<bold>password: </bold>AppTree123
+
+
+<bold>Admin user:</bold>
+ipadmin
+ipadmin - <link:internal>ldap</link:internal> password
+AppTree123 - portal password
+
+
+
+<bold>Test TFIM:</bold>
+<link:url>https://10.186.112.99:9443/sps</link:url>
+
+QA machine
+<link:internal>sudo</link:internal> <link:url>/bin/su</link:url> - tcat083
+
+</note-content></text>
+  <last-change-date>2012-02-07T09:20:51.4947340+01:00</last-change-date>
+  <last-metadata-change-date>2012-04-14T22:03:41.8128000+02:00</last-metadata-change-date>
+  <create-date>2011-09-29T18:09:03.9025800+02:00</create-date>
+  <cursor-position>0</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>0</width>
+  <height>0</height>
+  <x>-1</x>
+  <y>-1</y>
+  <tags>
+    <tag>system:notebook:Hexad</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

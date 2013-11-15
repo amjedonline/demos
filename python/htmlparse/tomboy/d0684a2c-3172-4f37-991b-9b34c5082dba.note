@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>GWT - Semgel High level classes</title>
+  <text xml:space="preserve"><note-content version="0.1">GWT - Semgel High level classes
+
+<bold><size:large>Application aspects</size:large></bold>
+Application
+SemgelApplicationStatus - Messaging
+Poller
+ServerStatusNotifier
+HelpContentFactory
+HelpContentPublisher
+
+<bold><size:large>Communication Classes</size:large></bold>
+ServerProxy
+RequestHandlerAsync
+
+
+<bold><size:large>Service/Action Classes</size:large></bold>
+GrabService
+GridAction
+GrabOperationTracker
+
+
+<bold><size:large>Utilities classes</size:large></bold>
+JSONUtil
+ArgumentsUtil
+ClientConfig
+DelayedCallback
+
+<bold><size:large>Models</size:large></bold> <bold><size:large>and Parsers</size:large></bold>
+
+<bold><size:large>Layout Classes</size:large></bold>
+ApplicationFrame
+AbstractMainTab
+HomeTab
+ExplorerTab
+ReviewTab
+GatherView
+
+AbstractExplorerView
+SummaryView
+ListView
+TableView
+TimelineView
+
+
+
+<bold><size:large>Widget classes</size:large></bold>
+<bold>Widget <link:internal>types</link:internal></bold><bold>:</bold>
+	ComplexPanel - 	Abstract base class for panels that can contain multiple child widgets
+	Composite - 		UI Binder
+	Simple/FlowPanel
+	Widget - Table/<link:internal>Grid</link:internal>/Checkbox
+
+
+<bold>Widget state classes</bold>
+SearchState
+AdvanceSearchState
+ListState
+SummaryState
+TimelineViewState
+
+
+<bold>Widget context classes</bold>
+ExplorerContext
+ExplorerContextInfo
+
+<bold><size:large>Eventing</size:large></bold>
+<bold>Events</bold>
+AddFacetEvent.java
+ApplicationLock.java
+BlockingListener.java
+DelayedCallback.java
+FilterChangedEvent.java
+FilterSelectedEvent.java
+GridRowSelectedEvent.java
+HelpSwitchedEvent.java
+HelpSwitchedEventHandler.java
+ItemsAvailableEvent.java
+ItemsLoadConfig.java
+NavigateItemEvent.java
+NavigateTypeEvent.java
+NextPageEvent.java
+OnGridLoadEvent.java
+PageCountChangedEvent.java
+PageSelectedEvent.java
+PredicateSelectedEvent.java
+PreviousPageEvent.java
+ResetExploreViewEvent.java
+RootOnlyChangedEvent.java
+SortChangedEvent.java
+SpaceChangedEvent.java
+SpaceSelectedEvent.java
+SwitchToCustomViewEvent.java
+TypeChangedEvent.java
+TypeSelectedEvent.java
+UnfinishedTasksEvent.java
+UserContextChangedEvent.java
+UserLogoutEvent.java
+ViewSwitchedEvent.java
+
+<bold>Event Handlers</bold>
+AddFacetEventHandler.java
+FilterChangedEventHandler.java
+FilterSelectedEventHandler.java
+GridRowSelectedEventHandler.java
+ItemsAvailableEventHandler.java
+NavigateItemEventHandler.java
+NavigateTypeEventHandler.java
+NextPageEventHandler.java
+OnGridLoadEventHandler.java
+PageCountChangedEventHandler.java
+PageSelectedEventHandler.java
+PredicateSelectedEventHandler.java
+PreviousPageEventHandler.java
+ResetExploreViewEventHandler.java
+RootOnlyChangedEventHandler.java
+SortChangedEventHandler.java
+SpaceChangedEventHandler.java
+SpaceChangeEventHandler.java
+SpaceSelectedEventHandler.java
+SwitchToCustomViewEventHandler.java
+TypeChangedEventHandler.java
+TypeSelectedEventHandler.java
+UnfinishedTasksEventHandler.java
+UserContextChangedEventHandler.java
+UserLogoutEventHandler.java
+ViewSwitchedEventHandler.java
+
+
+
+
+<bold><size:large>Security Classes</size:large></bold>
+
+</note-content></text>
+  <last-change-date>2011-02-03T11:12:21.0210879+05:30</last-change-date>
+  <last-metadata-change-date>2011-02-03T11:12:21.0210879+05:30</last-metadata-change-date>
+  <create-date>2011-02-03T10:45:40.5381400+05:30</create-date>
+  <cursor-position>661</cursor-position>
+  <width>536</width>
+  <height>505</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:GXT</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

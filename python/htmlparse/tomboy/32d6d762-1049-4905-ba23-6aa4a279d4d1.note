@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Class loading</title>
+  <text xml:space="preserve"><note-content version="0.1">Class loading
+
+Two MyObject classes were loaded with different class loaders, the are regarded as different classes, even if they have the same fully qualified class name. Trying to cast an object of the one class to a reference of the other will result in a ClassCastException. </note-content></text>
+  <last-change-date>2010-08-23T23:56:47.5509580+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-23T23:56:47.5509580+05:30</last-metadata-change-date>
+  <create-date>2010-08-23T23:56:38.5440100+05:30</create-date>
+  <cursor-position>15</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Java</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

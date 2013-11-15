@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>liferay-ui:definedObjects - Implicit Objects:</title>
+  <text xml:space="preserve"><note-content version="0.1">liferay-ui:definedObjects - Implicit Objects:
+
+
+
+<bold><size:large>17 Objects </size:large></bold>
+
+<bold>themeDisplay</bold> 
+A runtime object which contains many useful items, such as the logged in user, the layout, logo information, paths, and much more.
+
+<bold>company</bold> The current company object. This represents the portal instance on which the user is currently navigating.
+
+<bold>account</bold> The user's account object. This object maps to the Account table in the Liferay database.
+
+<bold>user</bold> The User object representing the current user.
+
+<bold>realUser</bold> When an administrator is impersonating a user, this variable tracks the administrator's user object.
+
+<bold>contact</bold> The user's Contact object. This object maps to the Contacts table in the Liferay database.
+
+<bold>layout</bold> The set of pages to which the user has currently navigated. 
+Generally, communities and organizations have two: a public set and a private set.
+
+<bold>layouts</bold> The list of layouts that exist in the community or organization (i.e., a group in the code) to which the user has currently navigated.
+
+<bold>plid</bold> A Portal Layout ID. This is a unique identifier for any page that exists in the portal, across all portal instances.
+
+<bold>layoutTypePortlet</bold> This object can be used to programmatic-ally add or remove portlets from a page.
+
+<bold>scopeGroupId</bold> A unique scope identifier for custom scopes, such as the page scope which was introduced in Liferay Portal 5.2.
+
+<bold>permissionChecker</bold> An object which can determine given a particular resource whether or not the current user has a particular permission for that resource.
+
+<bold>locale</bold> The current user's locale, as defined by Java.
+
+<bold>timeZone</bold> The current user's time zone, as defined by Java.
+
+<bold>theme</bold> An object representing the current theme which is being rendered by the portal.
+
+<bold>colorScheme</bold> An object representing the current color scheme in the theme which is being rendered by the portal.
+
+<bold>portletDisplay</bold> An object which gives the programmer access to many attributes of the current portlet, 
+including the portlet name, the portlet mode, the ID of the column on the layout in which it resides, and more.
+</note-content></text>
+  <last-change-date>2011-03-21T16:14:48.9265870+01:00</last-change-date>
+  <last-metadata-change-date>2011-03-21T16:14:48.9265870+01:00</last-metadata-change-date>
+  <create-date>2011-03-21T16:08:48.8881000+01:00</create-date>
+  <cursor-position>421</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Liferay</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

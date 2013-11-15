@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>sudoers</title>
+  <text xml:space="preserve"><note-content version="0.1">sudoers
+
+<link:url>/etc/sudoers</link:url>
+
+
+<bold>Setting Default editor</bold>
+	export EDITOR="nano"
+
+<bold>Defining Aliases</bold>
+
+Syntax:
+%group_name	Ex: %admin
+user_name		Ex: tom, dick, harry
+!alias_name		Ex: !WEB_MASTERS
++net_group_name
+
+Alias Definition syntax:
+Alias_Type NAME=item,item2: Name2: item3, item4
+
+<bold>Alias_<link:internal>Types</link:internal></bold><bold>:</bold>
+<bold>1.User_Alias</bold>
+Used to specify groups of users.
+You can specify usernames, system groups (prefixed by a %) and netgroups (prefixed by a +) as follows: 
+Examples:
+User_Alias ADMINS=%admin
+User_Alias WEB_MASTERS=tom, dick, harry
+
+<bold>2. Runas_Alias</bold>
+Runas Aliases are almost the same as user aliases but you are allowed to specify users by uid's.
+Runas_Alias ROOT = #0
+Runas_Alias ADMINS = %admin root
+
+
+<bold>3.Host_Alias</bold>
+List of hostnames, IP address, networks and netgroups.
+Netmask of host ethernet is used if not specified.
+
+Example:
+Host_Alias SERVERS = 192.168.0.1, 192.168.0.2, server1
+
+Host_Alias WORKSTATIONS = NETWORK, !SERVER
+
+
+
+<bold>4.Cmnd_Alias</bold>
+Used to specify a group of commands and directories.
+In a directory it includes any file within but not in any subdirectories.
+
+Special command <italic>sudoedit</italic> allows users to run <link:internal>sudo</link:internal> with the -e flag or as the command sudoedit.
+
+Example:
+Cmnd_Alias  SHUTDOWN_CMDS = <link:url>/sbin/shutdown</link:url>, <link:url>/sbin/reboot</link:url>, <link:url>/sbin/halt</link:url>
+
+Cmnd_Alias ADMIN_CMDS = <link:url>/usr/sbit/passwd</link:url>, <link:url>/usr/sbin/useradd</link:url>, <link:url>/usr/sbin/userdel</link:url>, <link:url>/usr/sbin/usermod</link:url>, <link:url>/usr/sbin/visudo</link:url>
+
+Cmnd_Alias WEB_CMDS = <link:url>/etc/init.d/apache2</link:url>
+
+
+<bold>User Specifications</bold>
+Defines who can run as who.
+<italic>(A on B can run as C with D tag F commands)</italic> 
+
+&lt;user list&gt; &lt;host list&gt; = &lt;operator list&gt; &lt;tag list&gt; &lt;command list&gt;
+<italic>user list</italic>: List of users or "a" user alias
+<italic>host list</italic>: List of hosts or "a" host alias
+<italic>Operator list</italic>: List of users they must be running as or a runas alieas 
+<italic>Command List</italic>: List of commands or a cmnd alias
+tag list: Allows you set special things for each command
+	- PASSWD| NOPASSWD to specify whether user has to enter a password or not
+	- NOEXEC to prevent any programs launching shells themselves ( prevent <link:internal>sudo</link:internal> -i )
+
+
+<bold>Example:</bold>
+#Lets the webmasters run all the web commands on the machine "webserver" provided they give a password
+WEBMASTERS server= WEB_CMDS
+
+#Lets the admins run all the admin commands on the servers
+ADMINS SERVERS=ADMIN_CMDS
+
+#Lets all the users run admin commands on the workstations provided  they give the root password (if root is enabled) or and admin password (using <link:internal>sudo</link:internal> -u "username").  ( The idea is admin group ?)
+
+USERS WORKSTATIONS=(ADMINS) ADMIN_CMDS
+
+#Let harry shutdown his own machine without a password
+harry harrys-machine = NOPASSWD: SHTUDOWN_CMDS
+
+#Let everybody print without requiring a password
+ALL ALL = (ALL) NOPASSWD: PRINTING_CMDS
+</note-content></text>
+  <last-change-date>2010-10-03T08:57:19.0728390+02:00</last-change-date>
+  <last-metadata-change-date>2012-02-02T10:45:00.8097730+01:00</last-metadata-change-date>
+  <create-date>2010-01-03T06:58:19.5316419+01:00</create-date>
+  <cursor-position>54</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>818</width>
+  <height>310</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

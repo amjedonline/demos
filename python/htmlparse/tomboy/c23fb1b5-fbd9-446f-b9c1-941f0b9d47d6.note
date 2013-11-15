@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Presentation and Pitching Skills For Entrepreneurs</title>
+  <text xml:space="preserve"><note-content version="0.1">Presentation and Pitching Skills For Entrepreneurs
+
+One of the more undocumented benefits of Y Combinator is that <link:internal>Paul Graham</link:internal> is very good at advising YC companies on how to present and pitch their companies. I have watched YC companies transition their pitch from awful to awe inspiration.
+
+As an entrepreneur you are always ‘selling’ your idea. Half of your sell is obviously how good the business opportunity is. However the pitch and how it is delivered can change everything.
+
+I am on a fund raising panel in Y Combinator today and Jude and I had the pleasure of giving a talk at Seedcamp a couple of weeks ago. An <link:internal>important</link:internal> topic that I talk about is presentation skills. Here are some notes I made:
+
+<bold>Be Confident</bold>
+
+Confidence is probably more <link:internal>important</link:internal> than anything else. You should:
+
+<list><list-item dir="ltr">Talk loudly and clearly
+</list-item><list-item dir="ltr">Look straight at the audience, not at the slides or down
+</list-item><list-item dir="ltr">Be calm and relaxed, but at the same time convey your enthusiasm and excitement
+</list-item><list-item dir="ltr">Make a joke or two</list-item></list>
+
+A lack of confidence can really undermine a whole pitch. Entrepreneurs have to sell their business to clients, employees, acquirers, themselves etc. If there is a noticeable lack of confidence in the pitch it is assumed that would also carry through to other attributes of the business.
+
+
+<bold>Practice a Lot</bold>
+
+Practice goes hand in hand with confidence. By the time you get to an <link:internal>important</link:internal> presentation you should have every single line memorized. You should be able to deliver the presentation without looking at the slides or q-cards.
+Steps to practice.
+
+Practice to yourself at least 10 times and write down every single point you plan to convey
+Pitch in front of your co-founders/friends
+Pitch in front of people you respect, like other entrepreneurs and get their feedback
+Constantly iterate your slides, pitch based on feedback
+Know and Convey your Market
+
+How big is the market opportunity? Sometimes the answer to that question is obvious. Most of the time in early startups the market opportunity is not obvious. You should know what your market is and have at least one slide which clearly states your market opportunity/size with some justification.
+
+
+<bold>Do a Good Demo</bold>
+
+It is particularly annoying to me when someone goes up on stage and says they are building “a new way to discover and share content” or “a new enterprise productivity tool” and fail to give an actual product demo. There is nothing that can explain a web app better than the app itself. You should fire it up and step through a few screens showing your most exciting and differentiated features. Demos go a long way to showing that you can actually execute on your vision.
+
+
+<bold>Don’t say Anything Negative!</bold>
+
+Statements that should not be in your pitch
+
+<list><list-item dir="ltr">We are young and inexperienced
+</list-item><list-item dir="ltr">The market size is small
+</list-item><list-item dir="ltr">The product is still buggy
+</list-item><list-item dir="ltr">We are having a hard time raising any money.
+</list-item><list-item dir="ltr">A lot of people have failed in this space
+</list-item><list-item dir="ltr">We are going to give this idea 3 months to see if it sticks
+</list-item><list-item dir="ltr">Pitching is not the time to talk about negative things. If there is a big elephant in the room then talk directly about how you are going to solve it, or have it resolved before pitching. The pitch is not the place to be negative.</list-item></list>
+
+
+<bold>Address the Core points</bold>
+
+Venture Hacks has a good post about what should be talked about in a pitch: <link:url>http://venturehacks.com/articles/deck</link:url>. In a more public pitch you probably want to change the contents slightly, but don’t miss the core, obvious points. Make sure you cover your team, market, traction, technology and financing.
+
+
+<bold>Explicitly Talk About your Current Status</bold>
+
+Often after a presentation I have no idea whether the product has been launched or when it is going to launch. Sometimes the fact that the product is launched is mentioned very late into the pitch. Talking about your status early on puts the whole pitch in context. If your second sentence in your presentation is
+We launched last month and are already serving 20k people a month and growing 20% every week
+Then you already <link:internal>sound</link:internal> awesome and you haven’t even started your presentation.
+
+
+<bold>Show Graphs of Traction.</bold>
+
+If you have launched show graphs of some real numbers. People often have absolute numbers with no graphs, which always seems strange to me.
+
+
+<bold>Only One Person Should Speak</bold>
+
+The audience develops a relationship with the presenter and the presenter controls the story. Sometimes people switch the presenters half way through or even worse throughout the talk. This is hardly ever a good idea.
+
+
+<bold>Make Jokes and be Light-Hearted</bold>
+
+This goes along with the point about confidence. Have one or two lines lined up that are amusing, don’t take this too far but if you can say something funny to break up the presentation and be memorable then take the opportunity. If you seem friendly and funny people will know you are good to work with and confidant.
+
+
+<bold>Finally...</bold>
+
+Based on the situation how you pitch and what you say will change dramatically. There are specific bits of advice that I could talk about for sales pitches vs. 1-on-1 investor pitches. I might put those in a separate post or I am happy to answer <link:internal>questions</link:internal> on them.
+
+</note-content></text>
+  <last-change-date>2011-02-16T14:16:42.6717970+05:30</last-change-date>
+  <last-metadata-change-date>2011-02-16T14:16:42.6717970+05:30</last-metadata-change-date>
+  <create-date>2010-11-19T19:46:07.0327870+05:30</create-date>
+  <cursor-position>4959</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>24</y>
+  <tags>
+    <tag>system:notebook:Entrepreneurship</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

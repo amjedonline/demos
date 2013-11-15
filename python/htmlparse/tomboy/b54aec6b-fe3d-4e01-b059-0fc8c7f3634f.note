@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Web services</title>
+  <text xml:space="preserve"><note-content version="0.1">Web services
+
+The web service calls use one of two popular protocols 
+
+<bold>SOAP</bold> (once short for Simple Object Access Protocol, but now just a pseudo-acronym) and 
+<bold>REST</bold> (an assimilation of Representational State Transfer). 
+</note-content></text>
+  <last-change-date>2011-07-07T17:16:20.4495850+05:30</last-change-date>
+  <last-metadata-change-date>2011-07-07T17:16:20.4495850+05:30</last-metadata-change-date>
+  <create-date>2011-07-07T17:15:48.9179290+05:30</create-date>
+  <cursor-position>143</cursor-position>
+  <width>450</width>
+  <height>290</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Java</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

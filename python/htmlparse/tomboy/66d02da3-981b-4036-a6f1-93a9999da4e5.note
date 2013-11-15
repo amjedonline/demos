@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>mod_proxy</title>
+  <text xml:space="preserve"><note-content version="0.1">mod_proxy
+
+mod_proxy: The core module deals with proxy infrastructure and configuration and managing a proxy request.
+mod_proxy_http: This handles fetching documents with HTTP and HTTPS.
+mod_proxy_<link:internal>ftp</link:internal>: This handles fetching documents with <link:internal>FTP</link:internal>.
+mod_proxy_connect: This handles the CONNECT method for secure (SSL) tunneling.
+mod_proxy_ajp: This handles the AJP protocol for Tomcat and similar backend servers.
+mod_proxy_balancer implements <link:internal>clustering</link:internal> and load-balancing over multiple backends.
+mod_cache, mod_disk_cache, mod_mem_cache: These deal with managing a document cache. To enable caching requires mod_cache and one or both of disk_cache and mem_cache.
+mod_proxy_<link:internal>html</link:internal>: This rewrites <link:internal>HTML</link:internal> links into a proxy's address space.
+mod_xml2enc: This supports internationalisation (i18n) on behalf of mod_proxy_<link:internal>html</link:internal> and other markup-filtering modules. space.
+mod_headers: This modifies HTTP request and response headers.
+mod_deflate: Negotiates compression with clients and backends.
+
+
+</note-content></text>
+  <last-change-date>2011-07-24T20:16:56.6542330+05:30</last-change-date>
+  <last-metadata-change-date>2011-07-24T20:16:56.6542330+05:30</last-metadata-change-date>
+  <create-date>2011-07-24T20:16:46.0343020+05:30</create-date>
+  <cursor-position>41</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

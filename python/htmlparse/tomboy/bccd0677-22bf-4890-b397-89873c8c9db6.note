@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>From notes</title>
+  <text xml:space="preserve"><note-content version="0.1">From notes
+
+<italic>com.extjs.<link:internal>gxt</link:internal></italic><italic>.client.ui.widget</italic> is the base package where all the widgets reside.
+
+
+<bold>----------------Miscellanous</bold>
+<link:internal>Gxt</link:internal> Portal allows the iGoogle like panel portlets
+
+
+<bold>-----------Component-----</bold>
+All <link:internal>GXT</link:internal> widgets use Component as their base class and either extend Component directly or
+extend BoxComponent if they need support for sizing or positioning.
+
+Component itself extends the Widget class.
+
+Component supports all the events on a DOM, it has an EL element inside it.
+
+In <link:internal>GWT</link:internal>, element is added immediately after adding to the panel.
+
+In <link:internal>GXT</link:internal> container this occurs at layout (when the container.layout() method is called).
+
+Methods that require setting pre-render attributes are identified as having
+the pre-render keyword in their Javadocs.
+
+<italic>com.extjs.<link:internal>gxt</link:internal></italic><italic>.client.ui.event </italic>is the base package for all the events and listener <link:internal>Classes that could have JSON replacement impact</link:internal>.
+
+
+<bold>--------------Containers----</bold>
+<italic>Containers</italic> are widgets that contain child components. They handle size, positioning.
+Example:
+Buttonbar, HTMLContainer, Menu, Table, TabPanel, ToolBar, Tree.
+
+<italic>LayoutContainer- </italic>
+Base container, from which other containers extend for default layout size, positioning capabilities.
+Provides way to change layouts with LayoutManagers, default is FLowLayout with <link:internal>HTML</link:internal> like flow.
+
+<italic>HorizontalPanel and VerticalPanel</italic> are convenient <link:internal>Classes that could have JSON replacement impact</link:internal> extending LayoutContainer that renders child components in 
+TableRowLayout and TableLayout respectively.
+
+<italic>TableData</italic> is a class used to specify the formatting information of a cell in a table to Vertical/<link:internal>Horizontal panel</link:internal>.
+
+<italic>ContentPanel:</italic>
+<list><list-item dir="ltr">Has the functionality and structural components , perfect for application user interfaces.
+</list-item><list-item dir="ltr">Contains Button bar, <link:internal>top</link:internal>, bottom components, separate header, footer and body sections.
+</list-item><list-item dir="ltr">Header supports icon, text and buttons.
+</list-item><list-item dir="ltr">Body can be expanded and collapsed.
+</list-item><list-item dir="ltr"><bold>Need to specify size and layout unless its parent container has done so with an appropriate .</bold></list-item></list>
+
+<italic>ViewPort:</italic>
+A LayoutContainer that fills browser's window and monitor window resizing and executes its layout to resize its children.
+Need not call layout(), automatically renders.
+Used as topmost container in application adjusting to various window sizes.
+
+
+<italic>Window</italic>
+Extends ContentPanel.
+Call <italic>show()</italic> to render.
+It automatically adds itself to DOM, sets its Z-index to topmost and position in the center.
+
+<italic>Dialog</italic>
+Extends Window, adding support for buttons.
+setButtons(Dialog.YESNOCANCEL);
+
+<italic>MessageBox</italic>
+Like windo.alert() messagebox in Javascript, with an exception it doesnt halt the execution of javascript.
+
+
+<italic>TabPanel</italic>
+Add multiple tab items.
+
+<italic><link:internal>HTML</link:internal></italic><italic> and HTMLContainer</italic>
+<italic><link:internal>HTML</link:internal></italic> allows you to add a widget.
+
+<italic>HtmlContainer</italic> provides a widget for <link:internal>HTML</link:internal> fragments, but wraps this functionality in a
+container. Additionally, HtmlContainer supports loading <link:internal>HTML</link:internal> fragments from a URL or a
+<link:internal>GWT</link:internal> RequestBuilder, as well as a supplied String.
+setURL();
+add(widget);
+
+<bold>------------------------------------   Layouts -----------------------------</bold>
+
+Components in a Container is rendered when we attach it to the ContentPanel with 
+//This doesnt work
+RootPanel.get().add(container);
+container.add(button1);
+
+//Have to do this
+<bold>container.layout(); // Note: It is not button1.layout() !!</bold>
+
+<bold>---- Cascading Layout -- </bold>
+When a Container executes its layout, it checks to see if all its children containers are rendered.
+
+It also renders, when the container's size is changed, this default behavior can be changed.
+
+<bold>--------------Layout Managers------------------------</bold>
+<italic>TableLayout:</italic>
+By default it is  columns
+
+A container layout is executed, when its size is changed, this can be changed.
+There are 16 layout managers.
+
+<italic>Center Layout</italic> - Simply calls el.center() on the child element.
+
+<italic>Anchor and Absolute layouts </italic>
+Sizes the children but does not position them.
+
+<italic>ColumnLayout </italic>
+Adjusts width of the children based on the value of the ColumnData width.
+If ColumnData width is greated that 1.0, then it is set as width in px
+Else if it is <link:internal>less</link:internal> thatn 1.0 and greated thatn 0.0, it is set as the percentage of the remaining parent width.
+
+<italic>TableLayout </italic>
+Uses <link:internal>HTML</link:internal> table for layout.
+
+<italic>TableRowLayout</italic>
+Extends TableLayout, similar features.
+Offers only a single row.
+
+<italic>RowLayout, FillLayout</italic>
+Positions the children in a single vertical or horizontal row.
+Children may specify margin, size in px/% 
+FillLayout extends RowLayout, forces all the children to be of same size and fills the container.
+
+<italic>Accordian layout</italic> - Allows anchoring of the contained widgets relative to the container's dimension. for example 50% of the container width.
+Absolute layout - Using left and <link:internal>top</link:internal> properties, you can specify the widgets position.
+Border layout - multiple regions, center, south, east positions ..
+<link:internal>Card layout</link:internal> - Multiple widgets, each fit to the container, only one shown at a time.
+		Useful in wizard progress.
+<italic>Center layout</italic> - Center its widget within its container.
+Column layout - Structural layout for multi column.
+		Width can be specified in percentage or fixed width, height is allowed to expand to fit the contents.
+FillLayout - Forces its child components to fill in width and height being equal, extends Row layout
+FormLayout - 
+Only support form field widgets, clean renders them alon with a text field for each.
+FormLayout is a specialized layout manager for dealing with forms. Essentially, the layout
+builds the form vertically, adds labels, and provides a correct amount of padding and margin for
+each field.
+AdapterField (which extends Field) provides support for wrapping widget subclasses so you can
+add any widget to a container using FormLayout.
+
+
+HBOX layout
+RowLayout - Renders each component in a horizontal or vertical layout, fixed or % sizes.
+TableLayout - Based on the total no of columns, correctly places widgets into rows and column.
+TableRowLayout - Single row in the table.
+VBoxlayout
+FitLayout - Supports only single widget, sizes its child to fit the container.
+
+LayoutContainer is plain region, where you can add text and all stuff
+
+Use ContentPanel to have heading, buttons and all
+
+Use setFloatable() to have a float button with the ContentPanel.</note-content></text>
+  <last-change-date>2010-09-09T02:38:10.1632680+02:00</last-change-date>
+  <last-metadata-change-date>2010-09-09T02:38:10.1632680+02:00</last-metadata-change-date>
+  <create-date>2010-01-03T07:23:55.6594100+01:00</create-date>
+  <cursor-position>2624</cursor-position>
+  <selection-bound-position>2624</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:GXT</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

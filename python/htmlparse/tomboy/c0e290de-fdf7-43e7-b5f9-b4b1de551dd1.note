@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Colloquial</title>
+  <text xml:space="preserve"><note-content version="0.1">Colloquial
+
+es is - Es ist
+
+wir/sie sin, ham - wir/sie sind, haben,
+
+simmer, hammer - sind wir, haben wir.
+
+<bold>Conjugation of sein, haben, werden - </bold>Hammer, 268, 269;
+Very <link:internal>Important</link:internal>.
+
+
+</note-content></text>
+  <last-change-date>2011-10-31T21:06:22.4442920+01:00</last-change-date>
+  <last-metadata-change-date>2012-04-14T22:03:32.3472650+02:00</last-metadata-change-date>
+  <create-date>2011-10-31T20:27:27.4443150+01:00</create-date>
+  <cursor-position>119</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

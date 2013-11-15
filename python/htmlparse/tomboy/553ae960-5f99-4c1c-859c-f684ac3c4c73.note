@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Missed tasks in the task list</title>
+  <text xml:space="preserve"><note-content version="0.1">Missed tasks in the task list
+
+<bold>To add</bold>
+Reset password/Forgot password
+
+<bold>Edit page - main items:</bold>
+What is AJAX polling and Item navigation <bold>?</bold>
+	attribute(Click on the column cell, and go to that <link:internal>Types</link:internal>, that particular instance)
+
+<bold>Virtual properties ??</bold>
+Virtual properties comes as VP, orange in color.
+Onclick, make call to server to add it, then refresh the <link:internal>grid</link:internal>.
+
+<bold>Delete</bold>
+Delete rows from a <link:internal>grid</link:internal>
+From pages tab, select the <italic>greyed</italic> instances, and say Restore data.
+
+<bold>Icons - Product polish ???</bold>
+
+Instances of multiple <link:internal>types</link:internal> in the <link:internal>grid</link:internal> (Search result)?
+
+<bold>Progress bar</bold>
+AJAX Polling
+
+<bold>View modification</bold>
+Column order merging <link:internal>issues</link:internal> ( discussed with Harish)
+
+Time to accomodate the fixes for the <link:internal>issues</link:internal> identified during the testing ??
+
+Grabbing multiple pages - Column selection implementation
+
+
+
+
+<bold>From burndown chart:</bold>
+
+<bold>Provenance</bold>
+
+
+<bold>Merging</bold>
+	Merging items within a type
+	Merging items based on attribute values- Need to discuss
+
+<bold>Delete</bold>
+	Delete an item (row)
+
+<bold>Tag</bold>
+	Perform tag query
+	Show the tags in a tag widget
+	Show tags in the <link:internal>grid</link:internal>
+	Add a tag ?
+	Delete a tag ?
+	
+<bold>Incremental view generation</bold>
+	Comet study
+	Comet implementation
+	Show incremental changes
+
+<bold>Browsers:</bold>
+IE 6, 7, 8,  Firefox and Chrome</note-content></text>
+  <last-change-date>2010-04-12T09:44:12.4997530+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.4841680+05:30</last-metadata-change-date>
+  <create-date>2010-01-04T12:23:15.2023260+05:30</create-date>
+  <cursor-position>1182</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

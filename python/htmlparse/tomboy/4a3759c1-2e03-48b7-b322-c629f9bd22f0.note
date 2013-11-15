@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>SWT notes</title>
+  <text xml:space="preserve"><note-content version="0.1">SWT notes
+
+All kinds of methods for adding or removing event listeners are accessible only from the UI thread. 
+NonUI thread can use only Display.asyncExec, Display.syncExec, or Display.timerExec methods to delegate the operation to the UI thread.
+
+gridData.horizontalSpan -&gt; number of columns a control spans( more like colspan )
+gridData.verticalSpan -&gt; number of row cells a control spans ( more like rowspan )
+</note-content></text>
+  <last-change-date>2010-11-07T12:36:22.9393530+05:30</last-change-date>
+  <last-metadata-change-date>2010-11-07T12:36:22.9393530+05:30</last-metadata-change-date>
+  <create-date>2010-11-07T12:36:16.2775750+05:30</create-date>
+  <cursor-position>11</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Java</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

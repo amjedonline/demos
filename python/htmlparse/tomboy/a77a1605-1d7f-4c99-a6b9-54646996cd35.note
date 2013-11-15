@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Next steps</title>
+  <text xml:space="preserve"><note-content version="0.1">Next steps
+
+Change from BaseTreeModel to BaseModel
+Make headers of the <link:internal>grid</link:internal> bold
+Increase the font size by 2 pixels across the page
+Continous attributes completion
+Logout and login should work fine
+Bookmark should reflect current space
+Search box
+
+</note-content></text>
+  <last-change-date>2010-02-13T09:36:13.8095790+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.9675220+05:30</last-metadata-change-date>
+  <create-date>2009-12-16T14:06:37.9677290+05:30</create-date>
+  <cursor-position>98</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

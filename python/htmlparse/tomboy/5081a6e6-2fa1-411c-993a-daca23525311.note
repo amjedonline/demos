@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Redhat kickstart</title>
+  <text xml:space="preserve"><note-content version="0.1">Redhat kickstart
+
+Used primarily by Red hat to automatically perform unattended OS <link:internal>installation</link:internal> and configuration.
+Red hat publishes Cobbles as a tool to automate the kickstart configuration <link:internal>process</link:internal>.
+
+Used at sites with many Linux systems for easy and <italic>consistent</italic> installations of new systems.
+
+Configuratino can be built be hand or using the GUI ysystem0config-kuckstart tools.
+
+
+<bold>Jumpstart on solaris</bold></note-content></text>
+  <last-change-date>2010-11-02T19:25:58.2964589+05:30</last-change-date>
+  <last-metadata-change-date>2010-11-02T19:25:58.2964589+05:30</last-metadata-change-date>
+  <create-date>2010-11-02T19:22:56.8510000+05:30</create-date>
+  <cursor-position>400</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Tech junks</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

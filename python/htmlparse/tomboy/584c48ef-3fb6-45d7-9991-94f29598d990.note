@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Interview Questions - Team conenza</title>
+  <text xml:space="preserve"><note-content version="0.1"><link:internal>Interview Questions</link:internal> - Team conenza
+
+Ashish Mittal with Vikas and Joe
+
+
+* Give us background...
+* Role in project == Should start with most recent
+	- Emphasize on ARCHITECT &amp; DESIGN 
+
+* Current architecture: Service based, <link:internal>Servlets</link:internal>, XML is transfered...
+	- Life cycle of <link:internal>servlets</link:internal>
+	- Web based <link:internal>servlets</link:internal> : which method would be called...doGet
+	- Servlet context how to get it, whats it use
+	- Threading in servlet
+	- 
+
+* Transaction rollback 
+* servlet to servlet (both <link:internal>servlets</link:internal> are in different app servers) communication for payment txn. servlet doesnt gave any response back...first servlet need to show some message to user whether txn is successfull or not...how to handle this situation at design time...
+	* Store the Txn in Database
+
+Core Java <link:internal>questions</link:internal> :-
+	- How is Object passed? By reference or by value?
+
+JDBC :- 
+	- Steps to make a JDBC call...
+	- How to ensure that connection is closed
+	- <link:internal>Performance</link:internal> in JDBC calls
+
+XML
+	- SAX parser, DOM parser
+	- CData in XML
+	- Pass XML...objects &amp; back
+	- 
+
+* Open the input stream  to the URLConnection &amp; write to it...
+
+* what is content type...
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Shwetha Vasanth:
+
+* your background
+* Role in these projects
+* Tools used: JUnit / Cruise control, <link:internal>ANT</link:internal>, TDD
+* design : Singelton (how to implement)
+* if we need 3 object instance instead of one, how would you implement. Give an example: Connection pool
+
+Talk of jdk5 threading using executors etc if you remeber.....
+What are the different methods?:
+Yield, Sleep, 
+
+Servlet 1 makes freq calls on the token id for resp...couople of times.
+
+Across servers..network...
+
+* how to deploy application in tomcat in an outside folder: context.xml 
+
+* What is request.getInputStream(). can you use this along with request.getInputParameters()?
+
+	can be used when parsing XML and multi-part/formdata
+	input is consumed
+	bytes get read..hence annot be reread
+
+--------------------------------------------------
+Ashish Srivastava:
+
+* Current architecture: more in core Java, <link:internal>web services</link:internal>, <link:internal>servlets</link:internal>
+* how credit card txn is started and what are the various steps
+* Timeout scenario: Servlet to Servlet communication in XML
+* XML is used for communication
+* pros &amp; cons in SAX &amp; DOM
+* Too many open file exception in the web container (no file IO is done though): check open connections
+* What are two <link:internal>types</link:internal> of timeouts: Connection timeout &amp; Read timeout
+* Content type for XML communication from 
+* request.getParameters
+* 
+___________________________________________________
+
+* Current architecture
+* Hibernate
+* 
+
+__________________________________________
+Ilamparithi
+
+* Tell us about your current project...how much hands-on you are
+* Steps to make a JDBC calls
+* What different type of JDBC statements and there purpose?
+* SQL injection...think of security and then answer
+* What can be done to do improve <link:internal>performance</link:internal> of SQL?
+* Difference between vector and DQ
+* Which collections classes you have used? Examples where you have used Hashmaps
+* Parsers: why you choose SAX or DOM parser?
+* How to manipulate Heap size of JVM?
+* 
+
+* Servlet to servlet communication...which class to be used to make HTTP connection to <link:internal>another</link:internal> servlet
+* What are the two methods to set request type ...Get &amp; Post
+* What is servlet context used for?
+* What kind of connection pools you have used?
+* how to read data when <link:internal>another</link:internal> servlet invoke request to your servlet?
+* 
+* </note-content></text>
+  <last-change-date>2011-07-07T13:45:54.9724480+02:00</last-change-date>
+  <last-metadata-change-date>2012-04-14T22:03:31.5040650+02:00</last-metadata-change-date>
+  <create-date>2010-11-07T07:58:27.2790790+01:00</create-date>
+  <cursor-position>426</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Java</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

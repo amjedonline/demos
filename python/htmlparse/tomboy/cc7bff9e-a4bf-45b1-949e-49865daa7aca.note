@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Art of Estimation</title>
+  <text xml:space="preserve"><note-content version="0.1">Art of Estimation
+
+Break down works to do into Projects and tasks
+
+<bold>Projects</bold>
+Are hazy
+Too many <link:internal>unknowns</link:internal>
+Are bigger in size
+Over long period of time
+Comprises of tasks
+
+<bold>Tasks</bold>
+Are smaller
+Discrete in nature
+No <link:internal>unknowns</link:internal>
+Are specific
+Clear
+Do able
+time bound
+
+
+</note-content></text>
+  <last-change-date>2010-07-21T12:25:49.5431150+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T21:59:49.6440350+05:30</last-metadata-change-date>
+  <create-date>2010-07-21T12:24:03.4883860+05:30</create-date>
+  <cursor-position>184</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Personal</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

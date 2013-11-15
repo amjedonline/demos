@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Feature/Design/Task done/half done</title>
+  <text xml:space="preserve"><note-content version="0.1">Feature/Design/Task done/half done
+
+ere is a list of things that I was able to accumulate of things that are done/half done/not done, things we have considered etc. I intend to make this the single point of reference of all features/tasks for the product. We derive our tasks from these features. These features are used to implement specific scenarios. I am yet to clean it up and group them, so consider this as food for thought and not a final document:
+
+<bold>Features</bold>
+
+    * History
+    * Rules
+          o Listing all rules in a space to the user - things like merge 
+    * Sharing of views
+          o View restore mechanism
+          o create form to share a view with an emailid with access rights 
+    * Saving of views
+          o Save view control - dialog
+          o Saved views list dialog
+          o Delete/Open an existing view 
+    * Breadcrumbs
+    * Read only spaces
+          o Guest user 
+    * General UI actions
+          o Handling multiple rapid requests - blocking if required
+          o Response to click on refresh should be instant
+          o Hiding the progress bar and highlighting the refresh button should be in sync - is this done?
+          o Making page size configurable and storing it as a configuration for the user 
+    * Grabbing
+          o Bookmarklet - simplify and put everything as advanced options
+          o CSV to Rdf
+          o Bookmarklet support for csv, rdf
+          o RDFa support 
+    * Restore
+          o Showing items that have been deleted and can be restored 
+    * Data views
+          o Support to show views for a particular predicate
+          o Data view properties
+          o Tree view (synced)
+          o Map view
+          o Chart view
+          o Timeline view
+          o Graph view 
+    * Website content
+          o About
+          o Contact
+          o Privacy policy
+          o Terms of service
+          o Feedback/Contact page (could use UserVoice)
+          o Blogs/<link:internal>Twitter</link:internal>/PR?
+          o Should website have logout button? 
+    * User and account management
+          o Invite others to try Semgel
+          o Limitations imposed on free spaces and paid spaces
+          o Invite code UI
+          o Accounts page - user can set preferences for now password and email management 
+    * Expressions
+          o Edit/Delete an existing expression
+          o Dialog listing all the expressions in a type
+          o Listing all the expressions, editing/deleting them
+          o New expressions that we might need to add/Support for new operators 
+    * Virtual properties
+          o Dialog listing all virtual properties in a type
+          o List existing virtual properties in a type
+          o Create/Edit/Delete virtual properties 
+    * Tagging
+          o Tag control button and dialog
+          o Tag lists dialog
+          o create/edit/delete tag
+          o Navigate to all items belonging to a tag - need to take care of breadcrumbs 
+    * Labeling <link:internal>types</link:internal> and predicates
+    * <link:internal>Facets</link:internal>
+          o Order all facet values by count. higher to lower
+          o Add <link:internal>facets</link:internal> using column commands
+          o Need better range calculation algorithm for continuous attributes 
+    * <link:internal>Grid</link:internal> data
+          o For first col header, use Type Name instead of "Item" (eg Person instead of Item)
+          o Sort table by first column by default. ensure col header shows current sort
+          o Always open a page with root only
+          o Images in instance data
+          o Identifying grabbable items in the UI
+          o Way to refresh a single row in the <link:internal>grid</link:internal> after grabbing it
+          o Column reordering as drop down commands
+          o BUG: Item column resize applies the resize to all <link:internal>types</link:internal>
+          o On performing actions, like applying filters or rootonly, keep any original row/<link:internal>cell selection</link:internal> 
+    * Data formatting
+          o Ensure that the <link:internal>types</link:internal> (Strings, numbers, dates) are formatted appropriately
+          o Custom <link:internal>types</link:internal> (currency) formatting
+
+<bold>Implementation</bold>
+
+    * History
+          o Learn about <link:internal>GWT history</link:internal> management
+          o Implementing – User session support
+          o Implementing - Frames level history support
+          o Implementing - Panel level support
+          o Implementing – View states
+          o History handlers for each tab
+          o Update the existing navigation events to update the history
+          o history for the data navigation ? 
+    * Breadcrumbs
+          o Returning the breadcrumb state in getTypes and getInstancesOfType
+          o Event handlers for the breadcrumb navigation
+          o Server method for predicate navigation in QueryProcessor
+          o Add functionality for predicate level navigation in UI 
+    * Saving/cloning of views
+          o Save view call on the server 
+    * Sharing of views
+          o Server method to save view parameters 
+    * Virtual properties
+          o Server method to get all virtual properties
+          o Parser for the response 
+    * Expressions
+          o Server method to get all expressions for a type
+          o Parser for the response 
+    * Tagging
+          o Server method to tag an item 
+    * Task management
+          o how to group them
+          o how to get a better value for unfinished tasks 
+    * Data views
+          o Boxes - ability to add multiple views 
+    * Deployment
+          o Ability to deploy via jars from the deployment server - rather than do a complete checkout-compile-deploy cycle - need a smoke test that we can run to ensure that everything is fine on each newly deployed server 
+    * Read only spaces
+          o Implementation: Use the concept of policies that are enforced before the logic continues onto SpaceManager/SemgelSpace. Use the following tables:
+                + space_user - which stores the space to user permission info
+                + user_type - paid or free - helps in defining limitations imposed
+                + user_payment - any information about expiry etc
+                + There are classes like LimitConfig and PolicyEnforcer that enforces the policies and these are called before the action is performed 
+    * Connectors
+          o Cleanly categorize the <link:internal>JSP</link:internal>'s
+          o Validate what has been done (and write possible test cases)
+          o Associate connectors to roles
+          o Show a list of read-only spaces if the user belongs to a particular role
+          o Make sure the space can be navigated seamlessly
+          o Have a way to copy the data from the read-only space to a read-write space 
+    * Caching and invalidation
+          o Primary URIs are right now cached and we have an explicit call to invalidate it - which is called when things like merge happens. This may not be optimal.
+          o Labels are cached forever.
+          o Ensuring that labels are obtained via the primary URI so that they are always the same no matter which URI is used - this has a conceptual issue - what if labels are different for 2 URI's that are marked sameAs of each other. 
+    * Generated <link:internal>sequence</link:internal> numbers for blank node URIs in grabbed data - how do you ensure they are unique?
+    * Infrastructure
+          o <link:internal>Logging</link:internal> and <link:internal>exception handling</link:internal>
+                + <link:internal>Issues</link:internal> with <link:internal>logging</link:internal> levels
+                + Backing up old logs
+                + Error and <link:internal>exception handling</link:internal> between client and server - standardizing and clean propagation
+                + Error pages and messages
+                + Show messages in appropriate color (blue for in progress, green for complete, red for problem)
+                + Ensure that exception messages are appropriate and their levels are fine - come up with guidelines for exception message levels
+                + Cleaning up warnings
+                + Column reordering 
+          o Analytics
+                + Google Analytics integration with the app 
+          o <link:internal>Performance</link:internal>
+                + Look for the number of persist calls between grabs
+                + Extracted data caching - reducing load on sites like Crunchbase
+                      # Is there a way to <link:internal>find</link:internal> out on a daily basis what has changed or shall we do an entire cache refresh every few days? 
+                + Checking how many calls are made by each extractor and reducing them as appropriate (see how titles are extracted and if they can be created alternatively)
+                + Understanding how many calls are made from client to server for each action and looking for <link:internal>optimizations</link:internal>
+                + Running <link:internal>performance</link:internal> tests to come up with costing report 
+          o Robustness
+                + End to end smoke test of the UI of key scenarios after deployment
+                + <link:internal>Issues</link:internal> with network going down
+                + Browser check before starting application
+                + BUG: Task queue reset and sanity checking if the value goes negative (why is it going negative still?) 
+          o Monitoring
+                + Extractor monitoring 
+          o Testing
+                + Browser testing
+                + Unit testing for UI
+                + Integration testing
+                + Smoke testing 
+          o Dev and test server
+                + Security and firewalling - ensure that it is fine
+                + Consider https for <link:internal>svn</link:internal>
+                + Monitoring for attacks 
+    * Coding practices
+          o Copyright in all the files 
+    * Engineering design and architecture
+          o Consistency of architecture - verify loop holes or incorrect design
+                + Single CSS
+                + Single point of entry
+                + Consistent CSS classnames - no duplicates
+                + No 'presentation code' in Java code - whatever can get into the CSS, gets into the CSS
+                + Any "hacks/inconsistencies" made should be documented in a central location
+                + Rethinking what happens in SemgelSpace - reducing operations and the layering 
+          o Move high level design breakdown content to the new Engineering document
+          o Code cleanup
+                + Using Jackson for getInstancesOfType and cleaning up the code there 
+          o Making sure <link:internal>coding guidelines</link:internal> are in place
+          o Comments in code and complete architecture diagram
+          o Complete class and <link:internal>sequence</link:internal> diagrams for major components
+
+<bold>Conceptual design <link:internal>issues</link:internal></bold>
+
+    * Provenance in filters
+    * Being able to filter the <link:internal>facets</link:internal> after a round of facet application
+    * Incremental view generation
+          o Identifying changes in view – <link:internal>Model</link:internal> Change Listener
+          o Longest common subsequence
+          o Comet and its use to show incremental changes 
+    * Expressions - autosuggest
+    * Lists in cells and their <link:internal>issues</link:internal> with how we do expressions, sort etc
+    * Repository version controlling
+    * Rollback support in deployment
+    * Incremental deployment - consider how we can have minimum downtime
+    * Discovery page
+    * Deny hosts - Tomcat
+    * Payments
+    * Connectors
+    * Adapters
+    * Move to non-<link:internal>GWT</link:internal> UI
+          o First remove dependency on <link:internal>GXT</link:internal> - remove <link:internal>grid</link:internal> and tree widgets
+          o Then remove dependency on <link:internal>GWT</link:internal> for any widget - only use <link:internal>GWT</link:internal> for actions, events and server communication
+          o Finally move this to Javascript using a toolkit like jQuery 
+    * Ensuring that the whole deployment does not require <link:internal>sudo</link:internal>
+    * Extractors working as feeds
+    * Embedding a view
+    * Disambiguation
+    * In Type tree, do not show predicates such as name (if that is what is used as label)
+    * Undo feature
+    * Data editing
+          o search results disambiguation
+          o create resources from literals
+          o typing data
+          o creating, editing data 
+    * Importing
+          o XML 
+    * Ontology modification
+          o merge <link:internal>types</link:internal>, props
+          o specify labels
+          o specify inverses
+          o specify sub props/<link:internal>types</link:internal>
+          o ranges for props
+
+Engineering or things that are yet to be discussed/designed that are yet to solved TBD Features we already have
+
+    * Login and registration and <link:internal>user management</link:internal>
+          o Invite code
+          o Register
+          o Login
+          o Forgot password
+                + The mail that is sent 
+          o Change password
+                + The mail that is sent 
+          o Accounts 
+    * Column hiding
+    * Column resizing
+    * Properties of a single cell in a <link:internal>grid</link:internal>
+          o Simple text
+          o <link:internal>HTML</link:internal> text
+          o Links
+          o Images
+          o Resources
+          o Resources with URL 
+    * Cancelling long running requests
+    * Merging
+          o Type
+          o Based on items 
+    * Delete and restore
+    * Export and import
+          o Export CSV
+          o Export RDF
+          o Import CSV
+          o Import RDF 
+    * Expressions
+    * <link:internal>Facets</link:internal>
+          o Application of a single facet
+          o Application of multiple values in a single facet
+          o Application of multiple <link:internal>facets</link:internal> together
+          o Trying resource <link:internal>facets</link:internal>, literal <link:internal>facets</link:internal> and continuous attribute <link:internal>facets</link:internal> 
+    * Grab
+          o Single URL in a cell
+          o Multiple URLs in a single cell
+          o Multiple URLs in multiple cells
+          o A column
+          o An item (a row) 
+    * Eliding
+          o List eliding
+          o Text eliding 
+    * Item navigation
+          o Being able to navigate to an item
+          o Choosing the right target type
+          o Choosing the right target item and scrolling that item to view
+          o Similar behavior in all views - list/table etc 
+    * Formatting
+    * Pagination
+          o Item pagination
+          o List pagination
+          o Making sure item numbers are sequential across pages
+          o
+
+    * Type of data in cells
+          o Links
+          o Lists 
+    * Root items
+          o Showing only root items
+          o Showing all items
+          o Showing root items first everywhere applicable 
+    * <link:internal>Types</link:internal> tree
+          o Hidden properties in gray
+          o Being able to click on a property to scroll to it
+          o Being able to click on a property that was hidden to make it visible
+          o Subtypes
+                + Similar behavior as above with subtypes 
+    * Help page
+    * Video
+    * Keyboard based navigation of the <link:internal>grid</link:internal>
+    * Intimation of new data
+    * Search
+    * Bookmarklet authentication
+    * Making sure each popup text box is and 'esc' works and 'enter' works to submit
+    * Ordering of entities
+          o Pages in reverse chronological order</note-content></text>
+  <last-change-date>2011-03-09T19:21:54.4485080+01:00</last-change-date>
+  <last-metadata-change-date>2012-01-02T16:24:06.5190110+01:00</last-metadata-change-date>
+  <create-date>2010-08-10T08:17:17.9833120+02:00</create-date>
+  <cursor-position>1410</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Semgel</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

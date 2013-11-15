@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>aptitude - apt - repositories</title>
+  <text xml:space="preserve"><note-content version="0.1">aptitude - apt - repositories
+
+<bold><size:large>aptitude</size:large></bold>
+Works in pretty much the same way as <bold>apt-get</bold> with the exception that aptitude also includes any recommend-
+ed packages on <link:internal>top</link:internal> of the requested packages when installing or upgrading. 
+
+You can use aptitude exactly as you would use apt-get, so for instance you could issue the
+command aptitude update and it would update the repository information. 
+
+However,you can also issue just the command aptitude without any options, which brings up a
+text-based package manager.
+
+
+<bold><size:large>Repositories</size:large></bold>
+<bold>Main</bold> 		 - Officially supported software.
+<bold>Restricted</bold>	 - Supported software that is not available under a completely free license.
+<bold>Universe</bold>		 - Community maintained software, i.e. not officially supported software.
+<bold>Multiverse</bold> 	 - Software that is not free.
+
+
+<bold>A Quick, Tongue-in-cheek Description of the <link:internal>Ubuntu</link:internal></bold><bold> Repositories</bold>
+$release: Don’t touch it, I like consistency, even with my <link:internal>bugs</link:internal>.
+$release-security: I’ll accept patches to existing versions (and very rare version upgrades if absolutely necessary) in the <link:internal>process</link:internal> of keeping my system secure.
+$release-updates: Okay, some <link:internal>bugs</link:internal> are worth fixing, and I trust you this much (holds up two fingers like Maxwell Smart).
+$release-backports: I have something akin to technology ADHD, needing the latest of everything I can possibly get, but I can’t handle running the development branch.
+$devel: I can take it. Seriously. If you break my X, I shall become more powerful than you could possibly imagine. I’ll file and maybe even fix the <link:internal>bugs</link:internal> and I’ll do it even if power management is not so much ‘managed’ as vomited all over the wall. Come get some.
+Debian: We do the work so you don’t have to.
+
+
+
+<bold><size:large>apt</size:large></bold>
+<link:internal>Ubuntu</link:internal> uses apt for package management. Apt stores a list of repositories or software channels in the file.
+
+<link:url>/etc/apt/sources.list</link:url>
+
+
+By editing this file from the command line, we can add, remove, or temporarily disable software repositories.
+
+<italic><link:internal>sudo</link:internal></italic><italic> cp <link:url>/etc/apt/sources.list</link:url></italic><italic> <link:url>/etc/apt/sources.list.backup</link:url></italic>
+
+
+
+<bold><size:large>Explanation of the Repository Format</size:large></bold>
+All the lines beginning with one or two hashes (#) are comments and do not get read by apt or its front-ends apt-get, Synaptic, and Adept.
+The lines without hashes are apt repository lines. The first two apt lines in our example are
+deb <link:url>http://us.archive.<link:internal>ubuntu</link:internal></link:url><link:url>.com/<link:internal>ubuntu</link:internal></link:url><link:url>/</link:url> hardy main restricted
+deb-src <link:url>http://us.archive.<link:internal>ubuntu</link:internal></link:url><link:url>.com/<link:internal>ubuntu</link:internal></link:url><link:url>/</link:url> hardy main restricted
+Here's what they say:
+deb: These repositories contain binaries or precompiled packages. These repositories are required for most users.
+deb-src: These repositories contain the source code of the packages. Useful for developers.
+<link:url>http://archive.<link:internal>ubuntu</link:internal></link:url><link:url>.com/ubuntu</link:url>: The URI (Uniform Resource Identifier), in this case a location on the internet. See the official mirror list or the <link:internal>self</link:internal>-maintained mirror list to <link:internal>find</link:internal> other mirrors.
+hardy is the release name or version of your distribution.
+main &amp; restricted are the section names or components. There can be several section names, separated by spaces.
+
+
+
+<bold><size:large>Adding Multiverse and Universe repositories</size:large></bold>
+Additional software repositories such as Universe and Multiverse can be enabled by uncommenting the corresponding apt line (i.e. delete the '#' at the beginning of the line). In our example, we would uncomment the following lines for the Universe:
+
+deb <link:url>http://us.archive.<link:internal>ubuntu</link:internal></link:url><link:url>.com/<link:internal>ubuntu</link:internal></link:url><link:url>/</link:url> hardy universe
+deb-src <link:url>http://us.archive.<link:internal>ubuntu</link:internal></link:url><link:url>.com/<link:internal>ubuntu</link:internal></link:url><link:url>/</link:url> hardy universe
+deb <link:url>http://us.archive.<link:internal>ubuntu</link:internal></link:url><link:url>.com/<link:internal>ubuntu</link:internal></link:url><link:url>/</link:url> hardy-updates universe
+deb-src <link:url>http://us.archive.<link:internal>ubuntu</link:internal></link:url><link:url>.com/<link:internal>ubuntu</link:internal></link:url><link:url>/</link:url> hardy-updates universe
+For the Multiverse:
+
+deb <link:url>http://us.archive.<link:internal>ubuntu</link:internal></link:url><link:url>.com/<link:internal>ubuntu</link:internal></link:url><link:url>/</link:url> hardy multiverse
+deb-src <link:url>http://us.archive.<link:internal>ubuntu</link:internal></link:url><link:url>.com/<link:internal>ubuntu</link:internal></link:url><link:url>/</link:url> hardy multiverse
+deb <link:url>http://us.archive.<link:internal>ubuntu</link:internal></link:url><link:url>.com/<link:internal>ubuntu</link:internal></link:url><link:url>/</link:url> hardy-updates multiverse
+deb-src <link:url>http://us.archive.ubuntu.com/ubuntu/</link:url> hardy-updates multiverse
+
+
+<bold>autoremove</bold>
+<link:internal>sudo</link:internal> apt-get autoremove 
+
+To remove packages which are no longer required
+</note-content></text>
+  <last-change-date>2011-07-14T07:22:47.7090660+02:00</last-change-date>
+  <last-metadata-change-date>2011-07-14T07:22:47.7090660+02:00</last-metadata-change-date>
+  <create-date>2010-04-22T17:48:23.3258700+02:00</create-date>
+  <cursor-position>442</cursor-position>
+  <selection-bound-position>442</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

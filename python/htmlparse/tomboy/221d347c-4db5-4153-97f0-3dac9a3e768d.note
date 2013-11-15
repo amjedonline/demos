@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Tricks</title>
+  <text xml:space="preserve"><note-content version="0.1">Tricks
+
+Pressing <bold>Ctrl + Shift + F </bold> when in the tomboy note, takes you to the Tomboy main window</note-content></text>
+  <last-change-date>2010-03-31T12:12:54.8452960+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.6748520+05:30</last-metadata-change-date>
+  <create-date>2010-03-31T12:12:12.1046310+05:30</create-date>
+  <cursor-position>34</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

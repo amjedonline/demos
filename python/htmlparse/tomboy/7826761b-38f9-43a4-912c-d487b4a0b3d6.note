@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Azhar Calculation</title>
+  <text xml:space="preserve"><note-content version="0.1"><link:internal>Azhar</link:internal> Calculation
+
+<bold>Fields to include:</bold>
+
+Statement <link:internal>Date</link:internal>
+Payment Due <link:internal>Date</link:internal>
+
+Previous Balance
+Purchase and Other Charges
+
+Statement Period
+Minimum Amount Due
+
+Payments and other credits
+
+
+
+<bold><size:large>Oct 08</size:large></bold>
+Previous Balance 			 - 29500
+<bold>Purchase and Other Charges</bold> -  
+Interest						 -   2360	
+<bold>Total</bold>    					- 31860
+
+25000 + Agent charges + Withdrawal charges = 29500 
+Interest of 8% on 29500 = 2360
+
+
+<bold><size:large>Nov 08</size:large></bold>
+Previous Balance 			 - 31860
+
+<bold>Payments </bold>
+In Oct 							  - 0
+
+<bold>Purchase and Other Charges</bold> -  
+Money draw					 - 10000
+Interest 8% on 41860			 -    3348 
+Late payment Charges		 -      900
+<bold>Total</bold>    					- 46108
+
+
+<bold><size:large>Dec 08</size:large></bold>
+Previous Balance 			 - 46,108
+
+<bold>Payments</bold>
+By cash 25th Nov					 - 20,000
+
+<bold>Purchase and Other Charges</bold> -  
+Interest 8% on 26,108			 -    2,088 
+Late payment Charges		 -       0
+
+<bold>Total</bold>					  28,196
+
+
+<bold><size:large>Jan 09</size:large></bold>
+Previous Balance 			 - 28,196
+
+<bold>Payments</bold>
+Payment by cash				 - 0
+
+<bold>Purchase and Other Charges</bold> -  
+Interest 8% on 28,196			 -    2,255 
+Late payment Charges		 -       900
+
+<bold>Total</bold>					  31,351
+
+
+<bold><size:large>Feb 09</size:large></bold>
+Previous Balance 			 - 31,351
+
+<bold>Payments</bold>
+By cash				 			-   0
+
+<bold>Purchase and Other Charges</bold> -  
+Interest 8% on 31,351			 -    2,508
+Late payment Charges		 -        900
+
+<bold>Total</bold>					- 34,759	  
+
+
+<bold><size:large>Mar 09</size:large></bold>
+Previous Balance 			 - 34,759
+
+<bold>Payments</bold>
+By cash	Feb 18th 			-   2,000
+
+<bold>Purchase and Other Charges</bold> -  
+Interest 8% on 32,759			 -    2,620
+Late payment Charges		 -           0
+
+<bold>Total</bold>					- 35,379
+
+
+<bold><size:large>Apr 09</size:large></bold>
+Previous Balance 			 - 35,379
+
+<bold>Payments</bold>
+No				 			-   	    0
+
+<bold>Purchase and Other Charges</bold> -  
+Interest 8% on 35,379			 -    2,830
+Late payment Charges		 -       900
+
+<bold>Total</bold>					- 39,109
+	  
+
+
+<bold><size:large>May 09</size:large></bold>
+Previous Balance 			 - 39,109
+
+<bold>Payments</bold>
+No				 			-   	    0
+
+<bold>Purchase and Other Charges</bold> -  
+Interest 8% on 35,379			 -   3,128
+Late payment Charges		 -      900
+
+<bold>Total</bold>					- 43,137
+
+
+<bold><size:large>Jun 09</size:large></bold>
+Previous Balance 			 - 43,137
+
+<bold>Payments</bold>
+9th May				 		-    8,000
+
+<bold>Purchase and Other Charges</bold> -  
+Interest 8% on 35,379			 -   2,811
+Late payment Charges		 -          0
+
+<bold>Total</bold>					- 37,984
+
+
+<bold><size:large>Jul 09</size:large></bold>
+Previous Balance 			 - 37,984
+
+<bold>Payments</bold>
+2nd June   5000
+30th June  7000				 - 12,000
+
+<bold>Purchase and Other Charges</bold> -  
+Interest 8% on 35,379			 -   2,078
+Late payment Charges		 -          0
+
+<bold>Total</bold>					- 28,062
+
+
+<bold><size:large>Aug 09</size:large></bold>
+Previous Balance 			 - 28,062
+
+<bold>Payments</bold>
+None						 - 	    0
+
+<bold>Purchase and Other Charges</bold> -  
+Interest 8% on 28,062			 -   2,245
+Late payment Charges		 -      900
+
+<bold>Total</bold>					- 31,207
+
+
+
+<bold><size:large>Sep 09</size:large></bold>
+Previous Balance 			 - 31,207
+
+<bold>Payments</bold>
+None						 - 	    0
+
+<bold>Purchase and Other Charges</bold> -  
+Interest 8% on 28,062			 -   2,496
+Late payment Charges		 -      900
+
+<bold>Total</bold>					- 34,603
+
+
+<bold><size:large>Oct 09</size:large></bold>
+Previous Balance 			 - 34,603
+
+<bold>Payments</bold>
+None						 - 	    0
+
+<bold>Purchase and Other Charges</bold> -  
+Interest 8% on 28,062			 -   2,768
+Late payment Charges		 -      900
+
+<bold>Total</bold>					- 38,271
+
+
+<bold><size:large>Nov 09</size:large></bold>
+Previous Balance 			 - 38,271
+
+<bold>Payments</bold>
+None						 - 	    0
+
+<bold>Purchase and Other Charges</bold> -  
+Interest 8% on 28,062			 -   3,061
+Late payment Charges		 -      900
+
+<bold>Total</bold>					- 42,232
+
+
+
+<bold><size:large>Dec 09</size:large></bold>
+Previous Balance 			 - 42,232
+
+<bold>Payments</bold>
+None						 - 	    0
+
+<bold>Purchase and Other Charges</bold> -  
+Interest 8% on 28,062			 -   3,378
+Late payment Charges		 -      900
+
+<bold>Total</bold>					- 46,510
+
+
+
+<bold><size:large>Jan 10</size:large></bold>
+Previous Balance 			 - 46,510
+
+<bold>Payments</bold>
+None						 - 	    0
+
+<bold>Purchase and Other Charges</bold> -  
+Interest 8% on 28,062			 -   3,720
+Late payment Charges		 -      900
+
+<bold>Total</bold>					- 51,130
+
+
+
+<bold><size:large>Feb 10</size:large></bold>
+Previous Balance 			 - 51,130
+
+<bold>Payments</bold>
+None						 - 	    0
+
+<bold>Purchase and Other Charges</bold> -  
+Interest 8% on 28,062			 -   4090
+Late payment Charges		 -     900
+
+<bold>Total</bold>					- 56,120
+
+
+
+
+<bold><size:large>Mar 10</size:large></bold>
+Previous Balance 			 - 56,120
+
+<bold>Payments</bold>
+None						 - 	    0
+
+<bold>Purchase and Other Charges</bold> -  
+Interest 8% on 28,062			 -   4,489
+Late payment Charges		 -     900
+
+<bold>Total</bold>					- 61509</note-content></text>
+  <last-change-date>2010-10-17T12:31:47.4003189+02:00</last-change-date>
+  <last-metadata-change-date>2012-04-14T22:03:31.5432350+02:00</last-metadata-change-date>
+  <create-date>2010-01-23T10:22:33.2888390+01:00</create-date>
+  <cursor-position>5</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>1</y>
+  <tags>
+    <tag>system:notebook:Azhar</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

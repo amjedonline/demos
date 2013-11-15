@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>August 3rd</title>
+  <text xml:space="preserve"><note-content version="0.1"><link:internal>August</link:internal> 3rd
+
+Loading of space list it if taking time, due to the latency in getting pageCount for each space.
+
+
+<bold>Worked:</bold>
+Refresh button - 30 mins
+</note-content></text>
+  <last-change-date>2010-08-13T10:26:03.4857540+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-13T10:26:03.4857540+05:30</last-metadata-change-date>
+  <create-date>2010-08-03T09:40:24.0901470+05:30</create-date>
+  <cursor-position>118</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Daily</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

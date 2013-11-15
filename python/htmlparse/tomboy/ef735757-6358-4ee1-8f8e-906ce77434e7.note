@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Schema format, before and after lens application</title>
+  <text xml:space="preserve"><note-content version="0.1">Schema format, before and after lens application
+
+<bold>Before Lens application</bold>
+{
+	"schema":[
+	{"display":{"literal":"hasTitle"},"uri":"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/title"},{"display":{"literal":"ofPerson"},"uri":"http</link:url>://		s.opencalais.com/1/pred/person"},{"display":{"literal":"inOrganization"},"uri":"<link:url>http://s.opencalais.com/1/pred/position</link:url>"}
+	]
+}
+
+
+<bold>After Lens application:</bold>
+{"schema":[{"display":"hasTitle","uri":"<link:url>http://www.onebigweb.com/2008/ont/crunchbase/pred/title"},{"display":"ofPerson","uri":"http://s.opencalais.com/1/pred/person"},{"display":"inOrganization","uri":"http://s.opencalais.com/1/pred/position</link:url>"}]}
+
+
+</note-content></text>
+  <last-change-date>2010-04-21T12:12:33.2843499+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.4396010+05:30</last-metadata-change-date>
+  <create-date>2010-03-29T16:46:59.1149610+05:30</create-date>
+  <cursor-position>434</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:JSON schema</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

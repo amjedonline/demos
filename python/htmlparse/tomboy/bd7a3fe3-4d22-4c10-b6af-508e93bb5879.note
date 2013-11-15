@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Important resources of life</title>
+  <text xml:space="preserve"><note-content version="0.1"><link:internal>Important</link:internal> resources of life
+
+<bold>Health
+Mind
+Wealth
+Time
+Relations</bold>
+<bold>Knowledge</bold>
+
+
+
+<bold>Problems and solutions with resources</bold>
+<list><list-item dir="ltr">Health
+<list><list-item dir="ltr">Problems
+<list><list-item dir="ltr">Sin
+</list-item><list-item dir="ltr">PiE
+</list-item><list-item dir="ltr">MS
+</list-item><list-item dir="ltr">Drib
+</list-item></list></list-item><list-item dir="ltr">Solutions
+<list><list-item dir="ltr">Q M
+</list-item><list-item dir="ltr">Revive
+</list-item><list-item dir="ltr">Suppl</list-item></list></list-item></list></list-item></list>
+
+<list><list-item dir="ltr">Mind
+<list><list-item dir="ltr">Problems
+<list><list-item dir="ltr">Mode swings
+</list-item><list-item dir="ltr">X orientation
+</list-item><list-item dir="ltr">Span of attention
+</list-item><list-item dir="ltr">Concentration
+</list-item><list-item dir="ltr">Somnia
+</list-item></list></list-item><list-item dir="ltr">Solutions
+<list><list-item dir="ltr">Eyes
+</list-item><list-item dir="ltr">Grip on <link:internal>thoughts</link:internal>
+</list-item><list-item dir="ltr">Structure <link:internal>thoughts</link:internal>
+</list-item><list-item dir="ltr">Note making
+</list-item><list-item dir="ltr">Q.M
+</list-item><list-item dir="ltr">Revive
+</list-item><list-item dir="ltr">Suppl
+</list-item><list-item dir="ltr">Chrono Somnia</list-item></list></list-item></list></list-item></list>
+
+<list><list-item dir="ltr">Wealth
+<list><list-item dir="ltr">Problems
+<list><list-item dir="ltr">Wed
+</list-item><list-item dir="ltr">Ca
+</list-item><list-item dir="ltr">Abode
+</list-item><list-item dir="ltr">P
+</list-item><list-item dir="ltr">Cellular
+</list-item></list></list-item><list-item dir="ltr">Solutions
+<list><list-item dir="ltr">
+</list-item></list></list-item></list></list-item><list-item dir="ltr">Time
+<list><list-item dir="ltr">Problems
+<list><list-item dir="ltr">Time to read</list-item></list></list-item></list></list-item></list>
+
+<list><list-item dir="ltr">Relations</list-item></list>
+	
+Knowldege</note-content></text>
+  <last-change-date>2010-11-09T12:13:02.3731010+05:30</last-change-date>
+  <last-metadata-change-date>2010-11-09T12:13:02.3731010+05:30</last-metadata-change-date>
+  <create-date>2010-11-09T12:00:40.6843790+05:30</create-date>
+  <cursor-position>476</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Personal</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

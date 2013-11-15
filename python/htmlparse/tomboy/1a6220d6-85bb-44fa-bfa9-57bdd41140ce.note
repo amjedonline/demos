@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Unassorted</title>
+  <text xml:space="preserve"><note-content version="0.1">Unassorted
+
+if __name__ == "__main__"
+	"then we are in the same module"
+
+and-or trick:
+a="first"
+b="second"
+1 and a or b """returns first"""
+0 and a or b """returns second"""
+
+Workaround for the and-or-trick problem
+a=""
+b="second"
+(1 and [a] or[b])[0]
+
+A <link:internal>lambda</link:internal> function is a functin that takes any number of arguments  and retkurns the value of a single expression. Thery cannot contain more that one expression.They are matter of style, usually used to write onliner and non-reusable <link:internal>functions</link:internal>
+
+Take the list comprehension from the end and work backwards
+
+
+Python 2.0 has an additional form of garbage collection called “mark-and-sweep” which is smart enough to notice this virtual gridlock and clean up circular references correctly.
+PYthon does not support any sort of function overloading.
+
+When accessing data attributes within a class, you need to qualify the attribute name: <link:internal>self</link:internal>.attribute. When calling other methods within a class, you need to qualify the method name: <link:internal>self</link:internal>.method. In <link:internal>Javac</link:internal>, both static variables (called class attributes in Python) and instance variables (called data attributes in Python) are defined immediately after the class definition (one with the static keyword, one without). In Python, only class attributes can be defined here; data attributes are defined in the __init__ method.
+
+for item in list:
+	print item
+can be written as 
+
+[ print i for i in list ]
+"\n".join([i for i in list])
+
+multi variable assigment, list comprehension are the coolest features of python.
+
+Why does'nt [print i for i in ["1","2","3"]] work ?
+
+sys.modules is a dictionary containing keys of all the modules imported ever since python was started, and the module object as values.
+
+Regular expressins:
+\b --&gt; A word boundary must occur right here.
+
+***Dictionary-based string formatting***
+
+params = {"server":"mpilgrim", "database":"master", "uid":"sa", "pwd":"secret"}
+print "%(pwd)s" % params                                    1
+Output:'secret'
+
+Dictionary based string formatting promotes readability
+
+getattr will <link:internal>find</link:internal> methods defined in descendants of an object as well as the object itself. Here the object is <link:internal>self</link:internal>, the current instance.
+
+os.getcwd()
+os.path.exists(filename)
+os.path.abspath(filename)
+os.path.isdir(filename)
+os.path.isfile(filename)
+os.listdir(dirname) --&gt; returns a list of files in the directory
+os.path.join(dir,name) -&gt;returns an absolute path to a file, joining with apt separator
+IOError
+except: --&gt;failsafe catch block
+
+** Database**
+import anydbm
+db = anydbm.open(filename,mode)
+db['cleese.png']='Photo of John CLeese.'
+print db['cleese.png']
+for key in db:
+	print key
+Database could only be used with the string <link:internal>types</link:internal>
+
+**** Convert any object to its string representation ***
+import pickle
+t=[1,2,3]
+loadedStrings = pickle.dumps(t)
+t2 = pickle.loads(t)
+print 2 --&gt; [1,2,3]
+
+** Object comparison**
+Object1 == Object2 --&gt;Checks for equality and not for instance
+object1 is object2 --&gt; Checks for instance equality
+
+difference between re.search and re.match?
+re.match -&gt; Matcher the pattern only from the starting of the string
+re.search-&gt; substring anywhere in the string
+
+
+#!<link:url>/usr/bin/python</link:url>
+
+import sys
+import MySQLdb
+try:
+	conn = MySQLdb.connect(host="localhost",user="root",passwd="root",db="animal")
+except MySQLdb.Error, <link:internal>Schema and data</link:internal>:
+	print "Error %d: %s"%(<link:internal>Schema and data</link:internal>.args[0], <link:internal>Schema and data</link:internal>.args[1])
+	sys.exit(1)</note-content></text>
+  <last-change-date>2010-03-26T22:07:32.6308960+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.6962610+05:30</last-metadata-change-date>
+  <create-date>2010-01-03T12:00:24.8914280+05:30</create-date>
+  <cursor-position>0</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

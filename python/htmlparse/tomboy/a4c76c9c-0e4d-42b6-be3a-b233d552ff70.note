@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>sedan v/s coupe</title>
+  <text xml:space="preserve"><note-content version="0.1">sedan v/s coupe
+
+<bold>Coupe</bold>
+<list><list-item dir="ltr">Closed-body style, <bold>2-door </bold>car, often sporty in nature. 
+</list-item><list-item dir="ltr">Generally has either <bold>2 seats</bold>, or<bold> 4 seats placed in a 2+2</bold> configuration, meaning that there are only 2 seats in the rear (as opposed to the standard 3,) and those seats are smaller than average.
+</list-item><list-item dir="ltr"> To comfortable sit in a 2+2-style rear seat, you must either be a small child, or an adult who happens to be missing your legs.</list-item></list>
+
+<bold>Sedan</bold>
+<list><list-item dir="ltr">Sedans are larger, <bold>4-door</bold>, closed-roof cars that can comfortably sit 4 or 5.
+</list-item><list-item dir="ltr">A good way to recognize a sedan is by its fixed B-pillar between the front and rear windows.</list-item></list></note-content></text>
+  <last-change-date>2010-12-29T18:23:17.3419900+05:30</last-change-date>
+  <last-metadata-change-date>2010-12-29T18:23:17.3419900+05:30</last-metadata-change-date>
+  <create-date>2010-12-29T18:19:05.8885900+05:30</create-date>
+  <cursor-position>51</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Cars</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Subway</title>
+  <text xml:space="preserve"><note-content version="0.1">Subway
+
+
+Soße:
+Sweet onion
+Honey Mustard
+Asiago Caesar-Soße
+Hot Sause
+BBQ-Soße
+Joghurt Soße
+Lite Mayonnaise
+
+Veg Patty
+
+Raisen ceks
+Dunkel ceks
+
+
+</note-content></text>
+  <last-change-date>2012-01-03T14:07:30.4789530+01:00</last-change-date>
+  <last-metadata-change-date>2012-01-03T14:07:30.4828480+01:00</last-metadata-change-date>
+  <create-date>2011-12-14T13:00:20.4497990+01:00</create-date>
+  <cursor-position>120</cursor-position>
+  <selection-bound-position>120</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>2183</x>
+  <y>197</y>
+  <open-on-startup>False</open-on-startup>
+</note>

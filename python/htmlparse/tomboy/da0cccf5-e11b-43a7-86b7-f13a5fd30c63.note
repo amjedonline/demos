@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Online article submission</title>
+  <text xml:space="preserve"><note-content version="0.1">Online article submission
+
+As a user I want to submit article/contents and organize them the way I want.
+
+At any point I should also be able to search/query on them.
+
+I also want to share the articles I read with my friends.
+
+Tag, group, index, sort, label , delete articles</note-content></text>
+  <last-change-date>2010-04-25T01:54:07.3563940+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.3308560+05:30</last-metadata-change-date>
+  <create-date>2010-04-25T01:51:20.2526280+05:30</create-date>
+  <cursor-position>274</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Ideas</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

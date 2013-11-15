@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Estimates for the new UI</title>
+  <text xml:space="preserve"><note-content version="0.1">Estimates for the new UI
+
+<bold><size:large><link:internal>July 21</link:internal></size:large></bold><bold><size:large>st</size:large></bold>
+<bold>Home page:</bold> 3<bold>hr</bold>
+<list><list-item dir="ltr">To space information data structure, add on the server and the client - 1hr
+<list><list-item dir="ltr">Number of pages and triples and number of 
+</list-item><list-item dir="ltr">Page titles information 
+</list-item><list-item dir="ltr">Image for the space
+</list-item><list-item dir="ltr">Create the image for the space and save it on the server. - NA
+</list-item></list></list-item><list-item dir="ltr">Modify the parser to parse this information - 
+</list-item><list-item dir="ltr">Create the new Home tab
+</list-item><list-item dir="ltr">Modify the UI binder in the space Widget - 1 hr
+</list-item><list-item dir="ltr">Modify the Page layout - 1 hr</list-item></list>
+
+<bold>Add the head band - 2 hr</bold>
+<list><list-item><list><list-item dir="ltr">Create UI binder xml
+</list-item><list-item dir="ltr">Create widget class with methods to add the contents in real estates</list-item></list></list-item></list>
+
+<bold>Explorer View tabs - 3hr</bold>
+<list><list-item dir="ltr">Refactor the newtabbar, tabpanel and tab container 1
+</list-item><list-item dir="ltr">Create tabbar for the explorer tabs 1 
+</list-item><list-item dir="ltr">Create the Explorer tab for the main container 1</list-item></list>
+
+
+
+<bold><size:large>July 22nd</size:large></bold>
+
+<bold>Gather(solutions) widget</bold> 
+<list><list-item dir="ltr">Create data structure for domain. 1 hr
+</list-item><list-item dir="ltr">Create UI binder 
+</list-item><list-item dir="ltr">Create widget class 1hr
+</list-item><list-item dir="ltr">Take care of the events</list-item></list>
+
+<bold>Gather(source)</bold> 15 mins
+<list><list-item dir="ltr">Create data structure for source</list-item></list>
+
+<bold>Server side</bold>
+	Create data structures for domain and source
+	
+<bold>Gather tab</bold> 1
+Create a new Tab
+	- Add header to it
+	- 
+<bold>ListContainer Header</bold>
+
+<bold><link:internal>Learning</link:internal></bold>
+Data structures, need to think end to end, spent time fixing things in server side ( thought we have no site ds), forgot to copy the sites.json to /store, name from sources to "site", and other small things
+
+<bold>Risk</bold>
+Slipping because the for the list container we need a different call, as the existing call returns items only for one type.
+Due to the usage of &lt;table&gt; tag, we had to use tr and td Elements, this being the reason, not able to add ClickHandlers to the Anchor elements. 
+<list><list-item dir="ltr">spent 3 hrs trying to come up with a workaround</list-item></list>
+
+Did not estimate for the selection element in the Home view.
+
+
+
+<bold><size:large>July 23rd</size:large></bold>
+
+<bold><link:internal>SVN</link:internal></bold><bold> work</bold> 				- 1/2 hr
+reate a branch 
+switch to the branch
+Checkin the code
+
+
+<bold>Explore view - List view</bold>					  - 2 1/2 hrs
+Modify data structures 						- 1/2 hr
+	From type summary to NewTypeSummary
+Create the Type summary widget with UI binder 	- 2hr
+Create and integrate the Explore list view tab 	- 1 hr 
+	
+<bold>Notes</bold>
+<list><list-item dir="ltr">Ran into <link:internal>eclipse</link:internal> crashing issue, and duplicate mail.jar file in build path and cant build issue.
+</list-item><list-item dir="ltr">Not taking eventing into consideration for now
+</list-item><list-item dir="ltr">Forgot to add estimation for parsing</list-item></list>
+
+
+<bold>July 26th</bold>
+
+<bold>Explorer Table list</bold>
+ExploreTable View
+
+Gridpanel intregration
+<link:internal>Types</link:internal> tree creation
+
+Integration  with NewExploreTab
+Connecting the events together
+
+Spent time with Prasad G 
+
+<bold>July 27th</bold>
+</note-content></text>
+  <last-change-date>2011-02-02T14:25:57.1615170+01:00</last-change-date>
+  <last-metadata-change-date>2012-01-25T11:50:43.6645110+01:00</last-metadata-change-date>
+  <create-date>2010-07-21T09:25:04.4569290+02:00</create-date>
+  <cursor-position>867</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Semgel</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

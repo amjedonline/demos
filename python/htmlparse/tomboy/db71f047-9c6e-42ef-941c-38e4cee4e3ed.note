@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>CSS Tips</title>
+  <text xml:space="preserve"><note-content version="0.1">CSS Tips
+
+position:relative
+width:auto
+- Takes full size, while with position:absolute shrink-wraps
+
+
+Positioning models also use additional properties in ways that are unique to the <link:internal>model</link:internal>. 
+Absolute and fixed positioning use left, right, <link:internal>top</link:internal>, bottom, and z-index to control the alignment of the absolute box. 
+Relative positioning uses left, <link:internal>top</link:internal>, and z-index to control the offset of the box. Float positioning uses float and clear.
+
+
+------ Extents ---------
+1.sized
+2.shrinkwrapped, and 
+3.stretched
+
+
+<bold>------ <link:internal>Box models</link:internal></bold><bold> ------</bold>
+1.inline, 
+2.inline-block, 
+3.block, 
+4.table, 
+5.absolute, and 
+6.float
+
+------ Margins   -------
+1.indented, 
+2.offset, and 
+3.aligned
+
+
+
+padding: <link:internal>top</link:internal> right bottom left;
+padding: topbottom leftright;
+
+
+<bold>While scrutinizing/critiquing </bold>the UI, pay attention to:
+Scroll bars - horizontal and vertical
+Consistent margin and padding around each box
+Resize browser and text should wrap, divs should shrink, and on undo, they should regain there sizes
+Hide/close should not take up spaces
+Related commands should stay together
+Uniformity in fonts, styles
+Identify subtle elements in the system, and each should have unambigous design style and color to differnetiaet itself,
+This style should be used in every page.
+
+Flow should be left to right or <link:internal>top</link:internal> to bottom
+</note-content></text>
+  <last-change-date>2010-09-24T12:09:07.8368980+05:30</last-change-date>
+  <last-metadata-change-date>2010-09-24T12:09:07.8368980+05:30</last-metadata-change-date>
+  <create-date>2010-05-18T12:36:48.7120330+05:30</create-date>
+  <cursor-position>505</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Web page development</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

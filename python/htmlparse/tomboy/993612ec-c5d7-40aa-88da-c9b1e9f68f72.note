@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Sigma</title>
+  <text xml:space="preserve"><note-content version="0.1">Sigma
+
+<link:url>http://Sig.ma</link:url> is a tool to explore and leverage the Web of Data.
+Uses Sindice for indexed sources.
+15-20 minute interval cache.
+
+Sigma and sindice are built at deri
+DERI - Digital entreprise research institute, ireland.
+
+Sindice- 
+Search
+Submit - Anyone can submit an RDFa, RDF page url.
+Inspect
+Also exposes web service to query data.
+JS widget to include in the site.
+</note-content></text>
+  <last-change-date>2010-01-03T11:43:07.9975200+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:05.3207210+05:30</last-metadata-change-date>
+  <create-date>2010-01-03T11:43:01.0239079+05:30</create-date>
+  <cursor-position>7</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Competitors</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

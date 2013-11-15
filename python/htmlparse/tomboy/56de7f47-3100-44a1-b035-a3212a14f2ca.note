@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Cleantech</title>
+  <text xml:space="preserve"><note-content version="0.1">Cleantech
+
+Clean technology includes the renewable energy (wind power, solar power, biomass, hydropower, biofuels), information technology, green transportation, electric motors, green chemistry, lighting, and many other appliances that are now more energy efficient. It is a means to create electricity and fuels with a smaller environmental footprint. And it is the need to make green buildings both more energy efficient and environmentally benign. </note-content></text>
+  <last-change-date>2011-01-13T16:59:45.9783840+05:30</last-change-date>
+  <last-metadata-change-date>2011-01-13T17:00:03.6278059+05:30</last-metadata-change-date>
+  <create-date>2011-01-11T17:07:12.9164130+05:30</create-date>
+  <cursor-position>10</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:misc</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

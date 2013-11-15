@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Write Blog</title>
+  <text xml:space="preserve"><note-content version="0.1">Write Blog
+
+1. About creating a bookmark from javascript
+2. Using the TreePanel
+3. JSNI
+4. <link:internal>GWT</link:internal> RPC 
+5. Attachment of widgets into DOM in <link:internal>GWT</link:internal> and <link:internal>GXT</link:internal> - Page 52
+6. EventBus
+7. EventHandlers and Listeners
+8. Blueprint css framework
+9. Product features set (minimal/optimal, maximum) or simplicity/Usablity
+10. <link:internal>SVN</link:internal> commands
+11. Setting the check/uncheck in the treePanel during the load time
+12. SelectionEvent&lt;I object&gt;
+13. Delayed task
+14. ps
+15. Getting things done review
+16. python minidom - gmail xml download example
+17. mixed working copy - <link:internal>svn</link:internal> switch command
+<strikethrough>18. <link:internal>twitter OAuth</link:internal></strikethrough>
+19. Write book</note-content></text>
+  <last-change-date>2010-08-15T12:39:24.1828660+05:30</last-change-date>
+  <last-metadata-change-date>2011-01-17T23:34:52.3952100+05:30</last-metadata-change-date>
+  <create-date>2009-11-18T14:36:10.0261149+05:30</create-date>
+  <cursor-position>596</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:blog</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

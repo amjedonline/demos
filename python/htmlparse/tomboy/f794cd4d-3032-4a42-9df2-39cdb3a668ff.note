@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Unassorted notes</title>
+  <text xml:space="preserve"><note-content version="0.1">Unassorted notes
+
+in-page overlay
+
+while defining routes be careful to use /index , here pagination might not work .
+
+when using the visibility attribute the content is hidden but still takes up the space in the <link:internal>HTML</link:internal> document. 
+On the other hand display:none completely removes the content from the DOM and gives us exactly what we are after
+
+Jakarta is the sub-heading for all the Java projects
+	
+Use overflow:hidden to hide the overflowin contents of the div.
+
+overflow:auto to create cursor across the div
+
+Follow Guy Kawasaki on <link:internal>twitter</link:internal>... in every sense follow what he does.. just make use of <link:internal>twitter</link:internal>, <link:internal>facebook</link:internal>, orkut to spam inbox, msg, scrap, twit to get public to your site.
+
+mvn <link:internal>eclipse</link:internal>:<link:internal>eclipse</link:internal> -Declipse.downloadSources=true
+
+Decorator acts as a transparent enclosure.
+
+Calendar cal = new GregorianCalendar(user.getTimeZone());
+
+VOs are actually a J2EE pattern. It can easily be implemented in PHP. 
+A value object corresponds directly to a C struct. It's a class that contains only member variables and no methods other than convenience methods (usually none). 
+A VO corresponds to a business object. A VO typically corresponds directly to a database table.
+
+try {
+	java.rmi.registry.LocateRegistry.createRegistry(1099);
+	System.out.println("RMI registry ready.");
+} catch (Exception e) {
+	System.out.println("Exception starting RMI registry:");
+	e.printStackTrace();
+}
+
+Scanner scanner = new Scanner(System.in);
+String name = scanner.nextInt();</note-content></text>
+  <last-change-date>2011-07-11T06:38:22.4372450+02:00</last-change-date>
+  <last-metadata-change-date>2012-01-02T16:24:06.4729750+01:00</last-metadata-change-date>
+  <create-date>2010-11-07T08:09:32.8281350+01:00</create-date>
+  <cursor-position>393</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Tech junks</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

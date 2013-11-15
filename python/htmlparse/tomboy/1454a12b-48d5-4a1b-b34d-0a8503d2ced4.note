@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>GEO-Tagging</title>
+  <text xml:space="preserve"><note-content version="0.1">GEO-Tagging
+
+
+Trendsmap  took <link:internal>Twitter</link:internal>’s geoAPI and built a huge aggregation of trending topics on a map. Google Maps accepts <link:internal>Twitter</link:internal>’s endpoints as a search query and plots all tweets on the map.
+
+
+Finally, there is a “geo-place” API. You can attach a name and a location of a place instead of attaching a latitude and longitude support. Sounds like <link:internal>Twitter</link:internal> is trying to rewrite the Geonames project. This gives more context than just <link:internal>random</link:internal> number coordinates.
+
+
+Raffi explained project Rock Dove, which kind of went over my head. It’s basically their backend system to <link:internal>process</link:internal> geodata at “tweetspeed”. It reminds me of Google’s horizontal backend servers that make the service so speedy. </note-content></text>
+  <last-change-date>2010-09-02T06:05:14.5941899+05:30</last-change-date>
+  <last-metadata-change-date>2010-09-02T06:05:14.5941899+05:30</last-metadata-change-date>
+  <create-date>2010-09-02T05:56:11.4529700+05:30</create-date>
+  <cursor-position>343</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Kill</title>
+  <text xml:space="preserve"><note-content version="0.1">Kill
+
+Sends a signal to the <link:internal>process</link:internal>
+
+kill 105 # kill -s TERM 105
+kill 121 122 123 125 144
+
+kill -s KILL 121 #is same as next command
+kill -9 121
+
+kill -s KILL 0 #kills all processes including the login shell
+
+SIGINT 	-&gt;  2
+SIGKILL	-&gt;  9
+SIGTERM-&gt; 15
+
+<bold>General:</bold>
+1. Use ps to <link:internal>find</link:internal> out the <link:internal>process</link:internal> id and then use kill to terminate the <link:internal>process</link:internal>.
+2. Cant kill <link:internal>process</link:internal> of other users, and system processes having the PIDs 0, 1, 2, 3 and 4 with kill.
+3. $! -&gt; PID of the last background <link:internal>job</link:internal>
+4. $$ -&gt; stores PID of the current shell</note-content></text>
+  <last-change-date>2009-12-20T19:08:49.2434560+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:05.4016350+05:30</last-metadata-change-date>
+  <create-date>2009-12-20T19:00:36.5454290+05:30</create-date>
+  <cursor-position>443</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>August 13</title>
+  <text xml:space="preserve"><note-content version="0.1">August 13
+
+<bold>Home tab</bold>
+<strikethrough>Padding for the check box</strikethrough>
+<strikethrough>Removing left padding for the title</strikethrough>
+<strikethrough>After help hide, show empty spacing (margin)</strikethrough>
+<strikethrough>Padding to the search box</strikethrough>
+<strikethrough>Change widget title color (search)</strikethrough>
+<strikethrough>Order of the links: name, quick help, help, account, logout</strikethrough>
+
+<bold>Gather</bold>
+
+
+<bold>Review tab</bold>
+<strikethrough>Pagination should be fixed</strikethrough>
+
+<strikethrough>When new pages are grabbed, show numbers in the review tab title</strikethrough>
+<strikethrough>After deleting page still remains in the Review tab, this needs to be fixed - </strikethrough>
+
+
+<bold>Table view</bold>
+<strikethrough>Primary nodes options should be in the same line</strikethrough>
+<strikethrough>Increase app header height to show <link:internal>status message</link:internal></strikethrough>
+<strikethrough>Verify that refresh is works consistently</strikethrough>
+
+
+
+<bold>Known <link:internal>Issues</link:internal></bold>
+<strikethrough>Labels not appearing in Review</strikethrough>
+<strikethrough><link:internal>Grid</link:internal></strikethrough><strikethrough> panel should take full size</strikethrough>
+<bold><strikethrough>Refresh button should be highlighted after grabbing page</strikethrough></bold>
+
+
+<bold>Remaining:</bold>
+Design for Review tab hide pages.
+Update the explore tabs, after grabbing pages in <italic>empty space</italic>
+While empty (no pages), show the page header
+Fix the delete pages functionality
+Images should be of same size
+Bookmarklet to be shown in the page header
+Put a signup link in the login page of page grab.
+</note-content></text>
+  <last-change-date>2010-08-18T12:00:29.8302210+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-18T12:00:29.8302210+05:30</last-metadata-change-date>
+  <create-date>2010-08-13T10:25:57.9947270+05:30</create-date>
+  <cursor-position>993</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>1</y>
+  <tags>
+    <tag>system:notebook:Daily</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

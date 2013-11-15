@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Spring integration with web frameworks</title>
+  <text xml:space="preserve"><note-content version="0.1">Spring integration with web frameworks
+
+
+<bold>Configuring a Spring container</bold> (a WebApplicationContext) that contains all of the 'business beans'.
+
+<list><list-item dir="ltr">Declare a <bold>ContextLoaderListener</bold> in the standard J2EE servlet web.xml file of one's web application, 
+</list-item><list-item dir="ltr">and add a <bold>contextConfigLocation</bold> &lt;context-param/&gt; section (in the same file) that defines which set of Spring XML cpnfiguration files to load.
+</list-item><list-item dir="ltr">in a Servlet 2.2 container, you can use the <bold>ContextLoaderServlet</bold></list-item></list>
+
+<link:internal>Find</link:internal> below the &lt;listener/&gt; configuration:
+
+&lt;listener&gt;
+    &lt;listener-class&gt;org.springframework.web.context.ContextLoaderListener&lt;/listener-class&gt;
+&lt;/listener&gt; 
+
+&lt;context-param&gt;
+    &lt;param-name&gt;contextConfigLocation&lt;/param-name&gt;
+    &lt;param-value&gt;/WEB-INF/applicationContext*.xml&lt;/param-value&gt;
+&lt;/context-param&gt;
+	
+default is <link:url>/WEB-INF/applicationContext.xml</link:url>  
+
+
+<bold>To get a handle of business context</bold>
+WebApplicationContext ctx = WebApplicationContextUtils.getWebApplicationContext(servletContext);
+
+<bold><size:large><link:internal>Struts</link:internal></size:large></bold><bold><size:large> Integration</size:large></bold>
+<list><list-item dir="ltr">Manage Actions as beans, using the <bold>ContextLoaderPlugin</bold>, and set their dependencies in a Spring context file.
+</list-item><list-item dir="ltr"><bold>subclass Spring's ActionSupport</bold> classes and grab your Spring-managed beans using getWebApplicationContext() method.</list-item></list>
+
+
+
+<bold>ContextLoaderPlugin</bold> (Plugin as in <link:internal>struts</link:internal> plugin):
+
+<list><list-item dir="ltr">This context refers to WebApplicationContext (loaded by ContextLoaderListener) as its parent.
+</list-item><list-item dir="ltr"> Default context file in mapped servlet, plus -servlet.xml (action-servlet.xml)</list-item></list>
+
+&lt;plug-in className="org.springframework.web.<link:internal>struts</link:internal>.ContextLoaderPlugIn"&gt;
+  &lt;set-property property="contextConfigLocation"
+      value="/WEB-INF/action-servlet.xml,/WEB-INF/applicationContext.xml"/&gt;
+&lt;/plug-in&gt;
+
+StrutsTestCase's MockStrutsTestCase won't initialize Listeners on startup so putting all your context files in the plugin is a workaround.
+
+
+<bold>Configure Action to be managed by spring.</bold>
+<list><list-item dir="ltr">Override <link:internal>struts</link:internal>' default RequestProcessor with Spring's DelegatingRequestProcessor
+</list-item><list-item dir="ltr">Use the DelegatingActionProxy class in the type attribute of &lt;action-mapping/&gt;</list-item></list>
+
+
+
+
+
+Summary::::::::::::::::::::::::::::::::
+<bold>Ways to integrate <link:internal>struts</link:internal></bold><bold>:</bold>
+<list><list-item dir="ltr"><bold>ContextLoaderPlugin</bold>
+<list><list-item dir="ltr">Override RequestProcessor with DelegatingRequestProcessor
+<list><list-item dir="ltr">&lt;controller&gt; &lt;set-property/&gt;&lt;/controller&gt;
+</list-item></list></list-item><list-item dir="ltr">DelegatingActionProxy in type of &lt;action-mappping&gt;
+</list-item></list></list-item><list-item dir="ltr"><bold>ActionSupport subclassing</bold>
+<list><list-item dir="ltr">getWebApplicationContext();</list-item></list></list-item></list>
+</note-content></text>
+  <last-change-date>2010-12-17T23:45:19.6845190+05:30</last-change-date>
+  <last-metadata-change-date>2010-12-17T23:45:19.6845190+05:30</last-metadata-change-date>
+  <create-date>2010-12-14T21:16:08.2972860+05:30</create-date>
+  <cursor-position>456</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Spring</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

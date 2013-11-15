@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Elements of life</title>
+  <text xml:space="preserve"><note-content version="0.1">Elements of life
+
+<bold>Aspects</bold>
+
+<list><list-item dir="ltr"><bold>Spiritual</bold>
+<list><list-item dir="ltr">Fazr
+</list-item><list-item dir="ltr">3 times of congregation
+</list-item><list-item dir="ltr">15 minutes of Meditation
+</list-item><list-item dir="ltr">Keep the eyes, foot, hands and body away from sins</list-item></list></list-item></list>
+
+<list><list-item dir="ltr"><bold>Mental</bold>
+<list><list-item dir="ltr">10 mins Vocab
+</list-item><list-item dir="ltr">Sleep early, wake up early
+</list-item><list-item dir="ltr">Learn at least 1 new topic everyday
+</list-item><list-item dir="ltr">Keep up with tech
+</list-item><list-item dir="ltr">Read blogs</list-item></list></list-item></list><bold>
+
+</bold><list><list-item dir="ltr"><bold>Physical</bold>
+<list><list-item dir="ltr">Exercise atleast 5 days a week
+</list-item><list-item dir="ltr">Eat on time
+</list-item><list-item dir="ltr">Work from 10 to 7
+</list-item><list-item dir="ltr">Drink lots of water</list-item></list></list-item></list>
+<bold>
+</bold><list><list-item dir="ltr"><bold>Social</bold>
+<list><list-item dir="ltr">Visit atleast 1 friend in the weekend
+</list-item><list-item dir="ltr">Wish on Bday and Wedding
+</list-item><list-item dir="ltr"><link:internal>Write Blog</link:internal>
+</list-item><list-item dir="ltr">Update FB, <link:internal>Twitter</link:internal>
+</list-item><list-item dir="ltr">Watch at least 1 movie in a week</list-item></list></list-item></list>
+<bold>
+</bold><list><list-item dir="ltr"><bold>Emotional</bold>
+<list><list-item dir="ltr">Talk to family daily
+</list-item><list-item dir="ltr">Once in 2 days to friends
+</list-item><list-item dir="ltr">Watch at least 1 movie in a week</list-item></list></list-item></list>
+</note-content></text>
+  <last-change-date>2010-11-09T12:14:20.2079270+05:30</last-change-date>
+  <last-metadata-change-date>2010-11-09T12:14:20.2079270+05:30</last-metadata-change-date>
+  <create-date>2010-10-29T10:43:05.3347990+05:30</create-date>
+  <cursor-position>591</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Personal</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

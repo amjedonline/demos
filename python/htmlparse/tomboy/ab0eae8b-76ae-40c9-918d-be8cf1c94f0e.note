@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Proxyportlet css work</title>
+  <text xml:space="preserve"><note-content version="0.1">Proxyportlet css work
+
+
+<bold><size:large>ISA</size:large></bold>
+Kopierent die absolute positioning css class nahmed und hat
+position: relative !<link:internal>important</link:internal>
+
+hinzufuge 
+als Advance styling im die portlet look und feel preferences eigenschaft.
+
+
+noch<bold> 2 </bold>Probleme:
+1. Inappropriate position of the elements with overridden styles
+2. Conflicting styles, zum beispiel:
+<list><list-item dir="ltr">style mit gemeinsam nahme naemlich body, text, h1 u.s.w
+</list-item><list-item dir="ltr">style mit gemeinsam identifikation b.s: navigation, header, footer u.s.w</list-item></list>
+
+
+also, loeschung fuer zweiten Problem konnte sein.
+
+Stellen ein neue class im die eltern element von alles portlet inhalten.
+zu aendern alle stylesheet selector mit dir oben beschriebt class nahme.
+
+ 
+
+</note-content></text>
+  <last-change-date>2011-10-19T10:51:42.1081140+02:00</last-change-date>
+  <last-metadata-change-date>2012-04-14T22:03:46.2836500+02:00</last-metadata-change-date>
+  <create-date>2011-10-19T10:42:36.9642080+02:00</create-date>
+  <cursor-position>0</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>0</width>
+  <height>0</height>
+  <x>-1</x>
+  <y>-1</y>
+  <tags>
+    <tag>system:notebook:Hexad</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

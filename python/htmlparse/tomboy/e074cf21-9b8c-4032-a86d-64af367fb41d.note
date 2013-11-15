@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Rsync</title>
+  <text xml:space="preserve"><note-content version="0.1">Rsync
+
+Local/remote Copy tool
+Known for delta copy algorithm
+Used in backups and mirroring
+Rsynch daemon or remote shell
+
+
+rsync  options src dest
+
+src/dest:
+Using rsh,ssh:
+user@host:/path/to/files
+
+Using rsync
+user@host::/path/to/files
+
+
+Options:
+-r recursive
+-n dry run
+-v verbose
+-a archive mode ( preserves permission, symbolic links, attributes, ownership)
+-z Compress while transfer
+
+
+
+
+different behavior on remote and local systems ?
+</note-content></text>
+  <last-change-date>2010-09-09T05:39:34.8618150+02:00</last-change-date>
+  <last-metadata-change-date>2011-01-17T19:04:02.8139450+01:00</last-metadata-change-date>
+  <create-date>2009-12-01T10:17:48.4319080+01:00</create-date>
+  <cursor-position>30</cursor-position>
+  <selection-bound-position>30</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

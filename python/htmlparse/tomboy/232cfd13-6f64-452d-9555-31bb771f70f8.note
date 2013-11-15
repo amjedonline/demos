@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Clustering</title>
+  <text xml:space="preserve"><note-content version="0.1">Clustering
+
+Clustering offers a solution to the same problems that SLB addresses, namely 
+High availability and 
+Scalability, 
+
+Clustering is a highly involved software protocol (proprietary to each vendor) running on several
+servers that concentrate on <bold>taking and sharing the load</bold> (see Figure 1-6). 
+
+<bold>Rather than sitting in front</bold> of several servers and manipulating network packets like a net-
+work device.
+
+Clustering involves a group of servers that accept traffic and <bold>divide
+tasks amongst themselves</bold>. This involves a fairly tight integration of server soft-
+ware
+</note-content></text>
+  <last-change-date>2010-06-26T17:46:48.9137410+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T21:59:49.9439440+05:30</last-metadata-change-date>
+  <create-date>2010-06-26T17:45:45.8236250+05:30</create-date>
+  <cursor-position>408</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

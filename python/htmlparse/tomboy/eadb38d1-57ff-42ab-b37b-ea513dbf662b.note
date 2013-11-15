@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>27/12/2010 - Monday</title>
+  <text xml:space="preserve"><note-content version="0.1">27/12/2010 - Monday
+
+<strikethrough>Goto Gym</strikethrough>
+<strikethrough>Goto Doc</strikethrough>
+<strikethrough>Read up GTD, Linux</strikethrough>
+Book the tickets
+Check out mom's mobile <link:internal>model</link:internal><strikethrough>
+</strikethrough>Backup mobile
+
+<bold>Other</bold>:
+Work on strategy for whitemail
+Try python and all
+Plan on <link:internal>Evangelism</link:internal>
+Contact saifi of Twincling
+
+Car buying
+
+Driving classes
+
+<link:internal>Look into</link:internal> <link:internal>Business intelligence</link:internal> and Data mining concepts, statistics, charts, graph and other visual representations of the data.
+
+Get a CD/DVD container and few  good quality empty DVDs
+Backup <link:internal>important</link:internal> material from Compaq<strikethrough>
+</strikethrough>Install <link:internal>Ubuntu</link:internal>
+
+<link:internal>Look into</link:internal> Google refine
+Freebase Query editor
+TaskWarrior - Command line GTD tool</note-content></text>
+  <last-change-date>2011-01-04T14:30:43.5198890+05:30</last-change-date>
+  <last-metadata-change-date>2011-01-04T14:30:43.5198890+05:30</last-metadata-change-date>
+  <create-date>2010-12-27T12:38:03.5609610+05:30</create-date>
+  <cursor-position>58</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Daily todo</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

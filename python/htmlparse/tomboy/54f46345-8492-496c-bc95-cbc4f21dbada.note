@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Maven</title>
+  <text xml:space="preserve"><note-content version="0.1">Maven
+
+mvn archetype:generate \
+   -DarchetypeGroupId=org.codehaus.mojo \
+   -DarchetypeArtifactId=<link:internal>gwt</link:internal>-maven-plugin \
+   -DarchetypeVersion=1.1 \
+   -DgroupId=com.<link:broken>semgel</link:broken>.web \
+   -DartifactId=<link:broken>semgel</link:broken>-web
+
+
+mvn install:install-file -DgroupId=com.google.<link:internal>gwt</link:internal> -DartifactId=<link:internal>gwt</link:internal>-user -Dversion=2.0.1 -Dfile=jta-1.0.1B.jar -DgeneratePom=true  -Dpackaging=jar
+
+
+<bold>Downloading sources</bold>
+ mvn -DdownloadSources=true <link:internal>eclipse</link:internal>:<link:internal>eclipse</link:internal> </note-content></text>
+  <last-change-date>2010-07-21T12:54:50.5098530+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T21:59:49.5015050+05:30</last-metadata-change-date>
+  <create-date>2010-01-03T11:16:35.3478700+05:30</create-date>
+  <cursor-position>7</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:maven</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

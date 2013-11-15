@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>disk and space management</title>
+  <text xml:space="preserve"><note-content version="0.1">disk and space management
+
+<bold>df</bold> - Disk space usage
+
+-a Including dummy file systems
+-h human readable
+
+<bold>fsck</bold> - Check and repair linux file system
+
+
+<link:url>/dev/sda6</link:url>  is being used in my system</note-content></text>
+  <last-change-date>2010-06-30T19:33:18.1037370+02:00</last-change-date>
+  <last-metadata-change-date>2012-02-03T09:42:48.2791990+01:00</last-metadata-change-date>
+  <create-date>2010-06-30T19:23:38.1629549+02:00</create-date>
+  <cursor-position>182</cursor-position>
+  <selection-bound-position>182</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

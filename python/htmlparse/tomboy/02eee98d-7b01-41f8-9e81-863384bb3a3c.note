@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>liferay properties</title>
+  <text xml:space="preserve"><note-content version="0.1">liferay properties
+
+disable the checking for authentication token for specific portlets via the init parameter "check-auth-token" in portlet.xml (not used, seen in portal.properties)
+
+In LR 6 EE SP1 you can put the following property into portal-ext.properties:
+
+
+auth.token.ignore.portlets=portlet_name</note-content></text>
+  <last-change-date>2011-07-22T17:55:33.7639590+05:30</last-change-date>
+  <last-metadata-change-date>2011-07-22T17:55:33.7639590+05:30</last-metadata-change-date>
+  <create-date>2011-07-22T17:55:10.1452990+05:30</create-date>
+  <cursor-position>20</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Liferay</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

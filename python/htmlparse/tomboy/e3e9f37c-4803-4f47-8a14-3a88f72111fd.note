@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>tar - tape archive</title>
+  <text xml:space="preserve"><note-content version="0.1">tar - tape archive
+
+tar   dirname.tgz dirname [, dirname] - Create the archive
+
+<bold>Options:</bold>
+ v	Verbose
+ t 	Table Contents of the tar
+ x	Extract the archive
+ z	Zip
+ c	Create the archive
+ r	Append the files at the end of the archive
+ u	Same as r, except that it appends file only if the files are newer.
+--newer copy files newer than the <link:internal>date</link:internal>.
+-C ? 
+b <italic>n</italic> 	Use 512 * n bytes per record
+
+<bold>Example:</bold>
+tar cvzf mylb.tar.gz mylb/ 
+
+tar xvzf mylb.tar.gz   - Creates the directory root dir name as well
+
+
+<bold><link:internal>Important</link:internal></bold><bold> notes:</bold>
+Blocking factor
+Multiple volumes
+Extracts to the same directory structure, be careful.
+Copy permissions ?
+Restore modified time or change it to extraction time ?
+Selective extraction (Extract only the needed file/dir)
+Make tar from which dir ? Because zipped files doesnt have a leading "/". So do cd to the dir first
+
+
+
+
+
+<bold>Extracting Specific Files</bold>
+
+Extract a file called etc/default/sysstat from config.tar.gz tarball:
+$ tar -ztvf config.tar.gz
+$ tar -zxvf config.tar.gz etc/default/sysstat
+$ tar -xvf {tarball.tar} {path/to/file}
+
+Some people prefers following syntax:
+tar --extract --file={tarball.tar} {file}
+
+Extract a directory called css from cbz.tar:
+$ tar --extract --file=cbz.tar css
+
+<bold>Wildcard based extracting</bold>
+
+You can also extract those files that match a specific globbing pattern (wildcards). For example, to extract from cbz.tar all files that begin with pic, no matter their directory prefix, you could type:
+$ tar -xf cbz.tar --wildcards --no-anchored 'pic*'
+
+To extract all php files, enter:
+$ tar -xf cbz.tar --wildcards --no-anchored '*.php'
+
+Where,
+
+-x: instructs tar to extract files.
+-f: specifies filename / tarball name.
+-v: Verbose (show progress while extracting files).
+-j : filter archive through bzip2, use to decompress .bz2 files.
+-z: filter archive through gzip, use to decompress .gz files.
+--wildcards: instructs tar to treat command line arguments as globbing patterns.
+--no-anchored: informs it that the patterns apply to member names after any / delimiter</note-content></text>
+  <last-change-date>2011-07-05T07:57:28.8674050+02:00</last-change-date>
+  <last-metadata-change-date>2012-02-02T10:45:00.6343610+01:00</last-metadata-change-date>
+  <create-date>2010-04-23T19:57:37.0252187+02:00</create-date>
+  <cursor-position>1201</cursor-position>
+  <selection-bound-position>-1</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Linux</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

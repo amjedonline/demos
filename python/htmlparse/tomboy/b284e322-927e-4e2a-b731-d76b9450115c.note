@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>startup affair</title>
+  <text xml:space="preserve"><note-content version="0.1">startup affair
+
+Founder need to be a <bold>visionary</bold>.
+
+But visionary should not be confused with <bold>control freak</bold>. 
+He should learn to <bold>delegate work</bold> and empower employees in their field of expertise.
+
+<bold>Identify the users of the product</bold>, who is going to use it ?
+Whether user will pass the monkey off their heads ( System Admin to Network Admin -&gt; Hardware -&gt; Security)?
+What you might think of a product may actually turn out to be a tool that does things efficiently!
+So, when there are no buyers,  it will become a service business.
+Need to be very clear about <bold>who the users are.</bold>
+
+</note-content></text>
+  <last-change-date>2010-12-25T20:11:20.1968970+05:30</last-change-date>
+  <last-metadata-change-date>2010-12-25T20:11:20.1968970+05:30</last-metadata-change-date>
+  <create-date>2010-06-23T10:11:36.1639908+05:30</create-date>
+  <cursor-position>570</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Train of Thoughts</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>yahoo map - marking</title>
+  <text xml:space="preserve"><note-content version="0.1">yahoo map - marking
+
+1.Create a YGeoPoint object at the location you want to place the marker on the map
+2.Place the marker on map using addMarker method
+3. A SmartWindow marker req creation of YMarker(could set custom markup) and add overlay method of YMap.
+</note-content></text>
+  <last-change-date>2010-07-23T18:17:47.3000370+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T21:59:47.8936720+05:30</last-metadata-change-date>
+  <create-date>2010-07-23T18:16:18.7112429+05:30</create-date>
+  <cursor-position>170</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Tech junks</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Feedback from kulki</title>
+  <text xml:space="preserve"><note-content version="0.1">Feedback from kulki
+
+    * Problems with video - was too slow
+    * Demo and Home page link are different
+          o Suggested using Google Videos 
+    * http does not work - got stuck here
+    * Read the help in home page
+    * Created new space
+    * Saw the main content - didn't read the help in gather view
+    * Clicked on a link - didn't know that it opened a new window (was wondering why back button is not working)
+    * Links in the Gather page are confusing - clicked on acquisitions, then on IBM - where are the acqusitions here?
+    * Completely missed the bookmarklet dialog
+    * Didn't know whether to do install the bookmarklet once or multiple times
+          o Suggested - Install the bookmarklet should be like a setup step
+          o Suggested - If you are lost, watch this video - in Gather tab 
+    * Didn't know where the bookmarklet button was
+          o Suggested - adding a Favicon
+          o Suggested - adding Some description of the page in the popup of the grab 
+    * Review tab was not showing (1) when a page was grabbed
+    * Didn't know how to open the space - tried clicking on review after reload from the 'Spaces' page
+    * Clicked on IBM - came to the page containing IBM listed as one of the organizations
+    * Why is BEA, Dell, HP listed and why is the data not coming up?
+          o Suggested - Item does not make sense, use type name there
+          o Suggested - Default should be primary
+          o Suggested - Column names are confusing, tooltips might make sense
+          o Suggested - Serial no is better, Acquisition 1 does not make sense
+          o Suggested - Source - could be renamed to Information Sources or References or "more information" 
+    * History (clicked on back button)
+    * Suggesetd - Templates
+    * Suggested - Grab selectively
+    * Suggested - Google Answers - consultants who can get information
+          o Highlighted in the site</note-content></text>
+  <last-change-date>2011-02-16T14:16:42.6699740+05:30</last-change-date>
+  <last-metadata-change-date>2011-02-16T14:16:42.6699740+05:30</last-metadata-change-date>
+  <create-date>2010-11-02T11:24:51.8281090+05:30</create-date>
+  <cursor-position>21</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Usability</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

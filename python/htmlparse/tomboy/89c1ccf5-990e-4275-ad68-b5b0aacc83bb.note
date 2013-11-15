@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Hooks in Liferay</title>
+  <text xml:space="preserve"><note-content version="0.1">Hooks in Liferay
+
+Hooks can be used for :
+<list><list-item dir="ltr">Overriding with custom JSPs
+</list-item><list-item dir="ltr">Modify portal properties
+</list-item><list-item dir="ltr">Services - Pre and port events/actions - Login, startup | Services - Extending UserLocalServiceWrapper
+</list-item><list-item dir="ltr">Language properties</list-item></list>
+
+liferay-hook.xml
+
+<bold><size:large>Overriding a <link:internal>JSP</link:internal></size:large></bold><bold /><bold><size:huge>:</size:huge></bold>
+<list><list-item dir="ltr">Create WEB-INF/liferay-hook.xml.
+</list-item><list-item dir="ltr">Create META-INF/custom_jsps/.
+</list-item><list-item dir="ltr">In liferay-hook.xml,  add between &lt;hook&gt;&lt;/hook&gt;</list-item></list>
+	&lt;custom-<link:internal>jsp</link:internal>-dir&gt;/<bold>META-INF</bold>/custom_jsps&lt;/custom-<link:internal>jsp</link:internal>-dir&gt;
+<list><list-item dir="ltr">Copy from tomcat/webapps/ROOT/<link:internal>html</link:internal>/portal/terms_of_use.<link:internal>jsp</link:internal>
+</list-item><list-item dir="ltr">Modify the contents</list-item></list>
+
+
+<bold><size:large>Performing a Custom Action</size:large></bold>
+package com.sample.hook;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import com.liferay.portal.kernel.events.Action;
+public class LoginAction extends Action {
+    public void run(HttpServletRequest req, HttpServletResponse res) {
+        System.out.println("## My custom login action");
+    }
+}
+
+Actions to be performed on each even are defined in <bold>portal.properties</bold>
+
+In docroot/WEB-INF/src/com/sample/hook LoginAction.java 
+
+with contents class LoginAction extends com.liferay.portal.kernel.events.Action{
+}
+
+In portal.properties, add
+login.events.pre=com.sample.hook.LoginAction
+
+
+In liferay-hook.xml, add
+&lt;portal-properties&gt;portal.properties.&lt;/portal-properties&gt;
+
+Sometimes com.liferay.portal.<link:internal>struts</link:internal>.SimpleAction must need to be extended
+
+<bold><size:large>Overriding a service</size:large></bold>
+
+
+
+<bold><size:large>liferay-portal.properties:</size:large></bold>
+Elements appear in this order:
+&lt;portal-properties/&gt;
+&lt;language-properties/&gt;
+&lt;custom-<link:internal>jsp</link:internal>-dir/&gt;
+&lt;custom-<link:internal>jsp</link:internal>-global/&gt;
+&lt;service&gt;
+	&lt;service-type&gt;interface&lt;/service-type&gt;
+	&lt;service-impl&gt;impl class&lt;/service-imp&gt;
+&lt;/service&gt;
+
+<bold><size:large>Advantages</size:large></bold>
+Are hot deployable
+Ext plugins are not
+More forward compatible
+
+</note-content></text>
+  <last-change-date>2011-02-23T12:35:37.6100310+01:00</last-change-date>
+  <last-metadata-change-date>2011-02-23T12:35:37.6100310+01:00</last-metadata-change-date>
+  <create-date>2011-02-23T12:18:12.2246380+01:00</create-date>
+  <cursor-position>1464</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Portlets</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

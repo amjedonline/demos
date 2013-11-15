@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>storage notes:</title>
+  <text xml:space="preserve"><note-content version="0.1">storage notes:
+
+<bold><size:large><link:url>/mnt/c</link:url></size:large></bold><bold><size:large>  235 GB</size:large></bold>
+Files which are not particularly <link:internal>important</link:internal>.
+Movies
+Songs
+<link:internal>Softwares</link:internal>
+
+
+<bold><size:large><link:url>/mnt/d</link:url></size:large></bold><bold><size:large> - 30 GB</size:large></bold>
+The personal files
+Documents
+Ebooks
+Browsed
+Images
+Personal
+
+Use <link:internal>less</link:internal> space, store <link:internal>important</link:internal> data, make it recoverable
+
+
+<bold><size:large>/</size:large></bold>
+Put all that goes and comes with the OS
+</note-content></text>
+  <last-change-date>2011-07-21T20:18:22.8164660+05:30</last-change-date>
+  <last-metadata-change-date>2011-07-21T20:18:22.8164660+05:30</last-metadata-change-date>
+  <create-date>2011-07-21T20:16:33.4315520+05:30</create-date>
+  <cursor-position>237</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Personal</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

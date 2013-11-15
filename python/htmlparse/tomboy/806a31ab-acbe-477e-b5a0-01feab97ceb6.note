@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>passive voice</title>
+  <text xml:space="preserve"><note-content version="0.1">passive voice
+
+
+Use , when Agent ist. 
+<bold>von -</bold> when person
+Der Brief wird vin mir gerschrieben
+
+<bold>durch -</bold> not a person
+Das Haus ist durch den Sturm zerstört worden.
+
+
+<bold>reissen - </bold>tear - aurfreissen - aufgerissen
+Man reisst die Strassen auf.
+Die Strassen werden aufgerissen
+
+<bold>A: </bold>Man kann es beweisen
+<bold>P: </bold>Es kann beweisen werden
+
+<bold>A:</bold>
+Man erklärt mir gar nichts
+Mir erklärt man gar nichts
+<bold>P:</bold>
+Gar nichts wurde mir erklärt
+Es wurde mir gar nichts erklärt
+Mir wurde gar nichts erklärt
+
+
+</note-content></text>
+  <last-change-date>2012-01-29T13:13:51.7920110+01:00</last-change-date>
+  <last-metadata-change-date>2012-01-29T13:13:51.7933840+01:00</last-metadata-change-date>
+  <create-date>2012-01-28T18:17:25.8604250+01:00</create-date>
+  <cursor-position>290</cursor-position>
+  <selection-bound-position>290</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:German</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

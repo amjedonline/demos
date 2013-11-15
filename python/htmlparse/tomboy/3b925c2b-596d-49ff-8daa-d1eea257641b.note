@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>TODO for IA Portal</title>
+  <text xml:space="preserve"><note-content version="0.1">TODO for IA Portal
+
+
+<link:internal>Read up on</link:internal> the material on IA Ralf gave.
+Comment on the mindmap and reply it.
+Prepare some documentation
+May be start a wiki page
+<link:internal>read up on</link:internal> technical aspects of 
+<list><list-item dir="ltr">Jackrabbit content import 
+</list-item><list-item dir="ltr"><link:internal>LDAP</link:internal> integration
+</list-item><list-item dir="ltr">SSO integration
+</list-item><list-item dir="ltr">Domains in IA</list-item></list>
+
+
+
+
+
+<bold><size:large>Infrastructure</size:large></bold>
+<list><list-item dir="ltr">Come up with a build plan
+</list-item><list-item dir="ltr">Release plan
+<list><list-item dir="ltr">packaging
+</list-item></list></list-item><list-item dir="ltr">Deployment plan</list-item></list>
+
+
+<bold><size:large>Collaboration tools</size:large></bold>
+<list><list-item dir="ltr">Setup Wiki</list-item></list>
+
+
+
+</note-content></text>
+  <last-change-date>2011-04-07T18:38:25.5350990+02:00</last-change-date>
+  <last-metadata-change-date>2011-04-07T18:38:25.5350990+02:00</last-metadata-change-date>
+  <create-date>2011-04-03T22:21:55.0329530+02:00</create-date>
+  <cursor-position>393</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:IA Portal</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

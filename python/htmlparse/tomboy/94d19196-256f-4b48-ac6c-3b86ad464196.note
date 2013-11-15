@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Look into this</title>
+  <text xml:space="preserve"><note-content version="0.1">Look into this
+
+streamer=rtmp:<link:url>//oxy.videolectures.net/video&amp;file=2007/sekt/iswc07_busan/funk_adam/iswc07_funk_obie_01.flv</link:url>
+
+Antileeching technology</note-content></text>
+  <last-change-date>2009-12-18T15:58:17.0700300+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:05.4051970+05:30</last-metadata-change-date>
+  <create-date>2009-12-08T14:14:24.8074330+05:30</create-date>
+  <cursor-position>11</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

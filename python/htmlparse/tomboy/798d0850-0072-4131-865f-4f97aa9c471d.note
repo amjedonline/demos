@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>TODO on Nov 2011</title>
+  <text xml:space="preserve"><note-content version="0.1">TODO on Nov 2011
+
+23 Noc 2011
+
+#2011
+
+<list><list-item dir="ltr">Talk to Henning and sort out the <link:internal>ant</link:internal>/<link:internal>maven</link:internal> issue
+</list-item><list-item dir="ltr">Complete the document on <link:broken>Proxy portlet</link:broken>
+</list-item><list-item dir="ltr">Get KT from Srikanth
+</list-item><list-item dir="ltr"><link:internal>Look into</link:internal> layout, themes and hooks. Liferay readup
+</list-item><list-item dir="ltr">Post/Pre pond the Termin mit Arzt</list-item></list>
+
+
+
+Personal
+<list><list-item dir="ltr">Get the zimmer
+</list-item><list-item dir="ltr">Buy pull over, jacket, shoe
+</list-item><list-item dir="ltr">Backup and return the laptop
+</list-item><list-item dir="ltr">Buy a mobile</list-item></list>
+</note-content></text>
+  <last-change-date>2011-11-23T14:27:11.4474040+01:00</last-change-date>
+  <last-metadata-change-date>2012-03-12T09:18:56.1551550+01:00</last-metadata-change-date>
+  <create-date>2011-11-23T14:21:32.6993470+01:00</create-date>
+  <cursor-position>253</cursor-position>
+  <selection-bound-position>253</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Hexad</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

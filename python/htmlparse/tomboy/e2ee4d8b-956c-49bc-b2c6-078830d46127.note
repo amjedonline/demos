@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>OpenSocial</title>
+  <text xml:space="preserve"><note-content version="0.1">OpenSocial
+
+IBM <bold>Lotus connection</bold> - profiles, bookmarks, activities, wikis, files, communities, blogs
+
+<bold>IBM Mashup center</bold> - enterprise <link:internal>mashups</link:internal>
+Create feeds, from sharepoint, MQ, filenet, desktop apps, spreadsheets
+drag, drop widgets onto page
+publish, <link:internal>mashups</link:internal>, feeds and widgets in community catalog
+mix and transform feeds into <link:internal>mashups</link:internal>
+
+eXo </note-content></text>
+  <last-change-date>2010-01-03T12:01:51.6218700+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:05.3060060+05:30</last-metadata-change-date>
+  <create-date>2009-12-27T06:15:26.1377910+05:30</create-date>
+  <cursor-position>297</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:misc</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

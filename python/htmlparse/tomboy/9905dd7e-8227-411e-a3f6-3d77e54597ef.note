@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Relationships</title>
+  <text xml:space="preserve"><note-content version="0.1">Relationships
+
+One-to-one
+A. hasOne		Ex: In Author
+B. belongsTo		Ex: In Book
+
+One-to-many
+A. hasMany		Ex:In Author
+B. belongsTo		Ex:In Book
+
+Many-to-many
+A. hasAndBelongsToMany	Ex:In Author
+b. hasAndBelongsToMany 	Ex:In Book
+
+In case of HABTM, to populate the select(multiple) box, name the input field as Author, unlike author_id in case of hasMany
+
+<bold>Cascading</bold>
+dependent = true  to set the cascade effect
+and set the cascade to true to delete the associated <link:internal>model</link:internal> on the fly
+
+Relationship tables should be named with plural <link:internal>model</link:internal> names, underscore separated and in alphabetical order <link:internal>model</link:internal> names.
+
+In case of many-to-many relation, the HABTM association logically does not have any
+such key/value pair to turn on/off the cascade delete. It is quite rational as in case of
+HABTM association, we will not like to delete a book if any of its related authors is
+deleted. Rather, we will want to delete the author and the records in the join table that
+relates some books with that author. We don't even have to think about that, Cake
+will automatically delete all such join table entries in delete() operations.
+</note-content></text>
+  <last-change-date>2010-03-10T23:34:04.9484590+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.8078230+05:30</last-metadata-change-date>
+  <create-date>2010-03-10T23:28:12.0376080+05:30</create-date>
+  <cursor-position>1108</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:CakePHP</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

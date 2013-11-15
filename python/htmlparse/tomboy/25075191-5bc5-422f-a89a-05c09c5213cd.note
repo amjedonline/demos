@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Tips to increase productivity</title>
+  <text xml:space="preserve"><note-content version="0.1">Tips to increase productivity
+
+
+<list><list-item dir="ltr">Measure time spent on each activity
+<list><list-item dir="ltr">See if time consuming activity can be rescheduled
+</list-item><list-item dir="ltr">Remove the unnecessary activities
+</list-item><list-item dir="ltr">Make activity efficient
+</list-item><list-item dir="ltr">Plan
+</list-item></list></list-item><list-item dir="ltr">Prioritize activity
+<list><list-item dir="ltr">Keep miscellanous activities aside ( do for 30 mins after lunch ? )
+</list-item></list></list-item><list-item dir="ltr">Measure productivity
+<list><list-item dir="ltr">Count tasks done
+</list-item><list-item dir="ltr">Time sheet
+</list-item><list-item dir="ltr">Tally with TODO
+</list-item></list></list-item><list-item dir="ltr">Maintain long term time sheet
+<list><list-item dir="ltr">Like Weekly tasks done
+</list-item><list-item dir="ltr">Monthly tasks
+</list-item><list-item dir="ltr">Iteration
+</list-item></list></list-item><list-item dir="ltr">Be physically and mentally present
+<list><list-item dir="ltr">Dont be distracted
+</list-item><list-item dir="ltr">Dont let anything distract
+<list><list-item dir="ltr">News, Web contents, Advert, Figure, FB
+</list-item></list></list-item><list-item dir="ltr">Splash some water on face when dull
+</list-item><list-item dir="ltr">Eat small lunch
+</list-item></list></list-item><list-item dir="ltr">Break up the task
+<list><list-item dir="ltr">Get a clean picture of what lies ahead
+</list-item><list-item dir="ltr">Into big projects
+</list-item><list-item dir="ltr">Into tasks
+</list-item><list-item dir="ltr">Into trivial and atomic sub tasks
+</list-item></list></list-item><list-item dir="ltr">Maintain TODO 
+<list><list-item dir="ltr">for work
+</list-item><list-item dir="ltr">for life
+</list-item><list-item dir="ltr">as a reminder, and shrug off all worries of remembering that appointment.</list-item></list></list-item></list>
+</note-content></text>
+  <last-change-date>2012-01-24T12:32:15.4996490+01:00</last-change-date>
+  <last-metadata-change-date>2012-01-24T12:32:15.5049720+01:00</last-metadata-change-date>
+  <create-date>2010-12-03T07:29:28.2934120+01:00</create-date>
+  <cursor-position>564</cursor-position>
+  <selection-bound-position>564</selection-bound-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Productivity</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

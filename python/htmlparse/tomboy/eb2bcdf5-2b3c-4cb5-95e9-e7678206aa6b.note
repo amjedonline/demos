@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Meaure everything - Entrepreneurship</title>
+  <text xml:space="preserve"><note-content version="0.1">Meaure everything - Entrepreneurship
+
+Viral Growth Factor  = X * Y * Z
+
+X = % of users who invite other people
+Y = average # of people that they invited
+Z = % of users who accepted an invitation
+
+
+
+</note-content></text>
+  <last-change-date>2010-12-10T19:58:48.4132170+05:30</last-change-date>
+  <last-metadata-change-date>2010-12-10T19:58:48.4132170+05:30</last-metadata-change-date>
+  <create-date>2010-12-10T19:57:45.8799020+05:30</create-date>
+  <cursor-position>70</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Entrepreneurship</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

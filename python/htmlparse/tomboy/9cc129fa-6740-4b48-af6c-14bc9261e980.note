@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>sudo</title>
+  <text xml:space="preserve"><note-content version="0.1">sudo
+
+# To work with a classic root prompt instead of having to type sudo in front of every command
+    sudo -i
+This starts root environment, runs login scripts !
+#All of the default graphical configuration tools in <link:internal>Ubuntu</link:internal> already use sudo, so they will prompt you for your password if needed.
+
+sudo -l
+#Lists all the commands this user can run (Pulls info form the <link:internal>sudoers</link:internal> file)
+
+sudo <link:internal>su</link:internal> 
+Starts the root console but keeps the current environment.
+
+<link:url>/var/log/auth.log</link:url>
+
+
+<bold>sudo and <link:internal>su</link:internal></bold>
+
+<bold>sudo</bold> provides some features which encourage different work habits, which can positively impact the security of the system. 
+sudo is commonly used to execute only a single command.
+
+<bold><link:internal>su</link:internal></bold> is generally used to open a shell and execute <italic>multiple commands</italic>.
+
+sulogin program <bold>???</bold>
+
+
+<bold>sudo <link:internal>su</link:internal></bold><bold> -</bold> 
+Start a new/empty session as root
+
+<bold>sudo -s</bold>
+Makes you root while preserving some of the session variables from the last user session.
+
+
+
+
+<bold>Graphical Sudo</bold>
+Do not use sudo to start graphical applications.
+This makes files in you home directory become owned by root.
+
+gksudo and kdesudo sets HOME=~root and copies .Xauthority to a tmp directory.
+to prevent this.
+
+gksudo gedit <link:url>/etc/fstab</link:url>
+
+
+<bold>Install new kernel</bold>
+apt-get dist-upgrade
+
+</note-content></text>
+  <last-change-date>2011-06-12T19:22:16.5371510+05:30</last-change-date>
+  <last-metadata-change-date>2011-06-12T19:22:16.5371510+05:30</last-metadata-change-date>
+  <create-date>2010-04-22T21:16:47.6261370+05:30</create-date>
+  <cursor-position>1151</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>

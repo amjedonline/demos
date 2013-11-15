@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Notes i liked</title>
+  <text xml:space="preserve"><note-content version="0.1">Notes i liked
+
+<link:internal>Functions</link:internal> can be thought of as a question and answer <link:internal>process</link:internal> when you write them. When they are
+invoked, a question is often being asked of them: “how many,” “what time,” “does this exist?” “can this
+be changed?” and more. In response, <link:internal>functions</link:internal> will often return an answer — a value that will contain
+an answer, such as True, a <link:internal>sequence</link:internal>, a dictionary, or <link:internal>another</link:internal> type of data. 
+</note-content></text>
+  <last-change-date>2010-03-26T22:07:32.7396990+05:30</last-change-date>
+  <last-metadata-change-date>2010-08-11T22:00:03.6906740+05:30</last-metadata-change-date>
+  <create-date>2010-03-26T21:59:43.8040469+05:30</create-date>
+  <cursor-position>15</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <tags>
+    <tag>system:notebook:Talks</tag>
+  </tags>
+  <open-on-startup>False</open-on-startup>
+</note>

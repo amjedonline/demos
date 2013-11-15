@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy">
+  <title>Technical lead</title>
+  <text xml:space="preserve"><note-content version="0.1">Technical lead
+
+We are growing at a very fast pace, and we need people with ability to take responsibilities and carry out the business. 
+
+This role involves translating the customer requirements into architectural design and feature specifications.
+Work with team members to code and develop the feature specifications which is reliable, maintainable, <link:internal>performance</link:internal> optimized and secure.
+
+
+<bold>Skills:</bold>
+
+Required relevant experience in managing small to medium size team.
+Have worked on onsite/offshor delivery <link:internal>model</link:internal> of engineering.
+Java , J2EE  <link:internal>frameworks</link:internal> like Spring, <link:internal>Struts</link:internal>, Hibernate.
+Have worked on Portal servers like Liferay, IBM Websphere.
+Good understanding of design and architecture.
+Understanding of any DBMS like <link:internal>MySQL</link:internal>, Oracle or SQL Server.
+Javascript, Ajax, UI toolkits like Jquery / YUI / Dojo
+
+
+
+
+<bold>Responsibilities:</bold>
+
+Understand customer requirements, design software features to meet those requirements and estimate schedules with minimal to no supervision
+
+Assess risks and mitigate them for predictable outcomes of deliverables.
+
+Work closely with and integrate components from other development and QA teams.
+
+Ensure proper execution at each stage of the project life cycle.
+
+Responsibly deliver the code, unit test, documentation, fixes and enhancements.
+
+
+
+<bold>Experience</bold>
+3-7 years
+
+
+</note-content></text>
+  <last-change-date>2011-03-31T18:21:19.7775710+02:00</last-change-date>
+  <last-metadata-change-date>2011-03-31T18:21:19.7775710+02:00</last-metadata-change-date>
+  <create-date>2011-03-31T18:06:13.9478210+02:00</create-date>
+  <cursor-position>1295</cursor-position>
+  <width>450</width>
+  <height>360</height>
+  <x>0</x>
+  <y>0</y>
+  <open-on-startup>False</open-on-startup>
+</note>
