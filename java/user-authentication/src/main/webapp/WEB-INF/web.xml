@@ -19,7 +19,7 @@
 		<auth-method>FORM</auth-method>
 		<form-login-config>
 			<form-login-page>/public/login.jsp</form-login-page>
-			<form-error-page>/public/login_error.jsp</form-error-page>
+			<form-error-page>/public/login.jsp?message=Please verify your Email and password.</form-error-page>
 		</form-login-config>
 	</login-config>
 

@@ -7,6 +7,19 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>user-authentication Maven Webapp</name>
 	<url>http://maven.apache.org</url>
+	<repositories>
+		<repository>
+			<id>sonatype-oss-repository</id>
+			<url>https://oss.sonatype.org/content/groups/public/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -38,6 +51,39 @@
 				<configuration>
 					<source>1.7</source>
 					<target>1.7</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>com.googlecode.t7mp</groupId>
+				<artifactId>maven-t7-plugin</artifactId>
+				<version>0.9.6</version>
+
+				<configuration>
+					<tomcatHttpPort>8080</tomcatHttpPort>
+					<tomcatShutdownPort>8005</tomcatShutdownPort>
+					<tomcatShutdownCommand>SHUTDOWN</tomcatShutdownCommand>
+					<tomcatVersion>7.0.6</tomcatVersion>
+					<tomcatSetAwait>true</tomcatSetAwait>
+					<tomcatConfigDirectory>${basedir}/src/main/tomcat</tomcatConfigDirectory>
+					<lookInside>false</lookInside>
+					<systemProperties>
+						<systemProperty>
+							<key>XXXXX</key>
+							<value>${basedir}</value>
+						</systemProperty>
+					</systemProperties>
+					<libs>
+						<jarArtifact>
+							<groupId>mysql</groupId>
+							<artifactId>mysql-connector-java</artifactId>
+							<version>5.1.13</version>
+						</jarArtifact>
+						<jarArtifact>
+							<groupId>commons-logging</groupId>
+							<artifactId>commons-logging</artifactId>
+							<version>1.1.1</version>
+						</jarArtifact>
+					</libs>
 				</configuration>
 			</plugin>
 		</plugins>

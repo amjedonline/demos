@@ -11,6 +11,7 @@
 	Hello
 	<%= request.getUserPrincipal().getName().toString() %>
 	You are able to view this page because you are authenticated user.
-
+<br/>
+You can logout by click <a href="<%=request.getContextPath()%>/protected/logout.jsp">here</a>here
 </body>
 </html>

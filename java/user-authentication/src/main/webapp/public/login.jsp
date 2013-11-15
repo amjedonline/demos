@@ -9,6 +9,11 @@
 <body>
 
 	<form method=post action="j_security_check">
+		<%if(request.getParameter("message")!=null){ %>
+		<p>
+			<span style="color: red"><%=request.getParameter("message").toString()%></span>
+		</p>
+		<%} %>
 		<p>
 			<span>Username:</span> <br /> <input type="text" name="j_username">
 		</p>
