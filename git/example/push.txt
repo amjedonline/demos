@@ -1,0 +1,7 @@
+Counting objects: 97, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (64/64), done.
+Writing objects: 100% (77/77), 15.70 KiB, done.
+Total 77 (delta 22), reused 0 (delta 0)
+To https://github.com/amjedonline/demos
+   f63589d..4032b22  master -> master
