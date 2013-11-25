@@ -15,7 +15,7 @@ class Config(dict):
 zonfig = Config()
 zonfig.dbhost = 'shop.integration.db.zalando' 	
 zonfig.user = 'mchand'
-zonfig.password = 'Rbdc9Prvmg'
+zonfig.password = ''
 zonfig.sharddb = 'integration_customeridx_db' 
 zonfig.port = 5432
 zonfig.customerDbPattern = "integration_customer%s_db"
