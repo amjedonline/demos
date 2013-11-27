@@ -2,6 +2,7 @@ import psycopg2
 import sys
 import pprint
 
+import traceback
 
 class Config(dict):
 
@@ -46,7 +47,7 @@ class OrderAutomation:
 	def execute(self, statement):
 		cursor = self.connection.cursor()
 		cursor.execute(statement)
-
+		self.connection.commit()
 
 
 
@@ -76,11 +77,14 @@ def completeOrder(customerEmail, orderId):
 	automation = OrderAutomation(zonfig.dbhost, customerDb, zonfig.user, zonfig.password, zonfig.port)
 	#order = automation.fetchall("select * from zc_data.order where o_order_number = '%s'" %(orderId))
 	try:
-			automation.execute("UPDATE zc_data.order SET o_shipping_status = 'COMPLETED', o_is_return_label_attached = false WHERE o_order_number = '%s'" %(orderId))
-	except:
+		automation.execute("UPDATE zc_data.order SET o_shipping_status = 'COMPLETED', o_is_return_label_attached = false WHERE o_order_number = '%s'" %(orderId))
+		print 'Updated the order'
+		order = automation.fetchall("select * from zc_data.order where o_order_number = '%s'" %(orderId))
+		pprint.pprint(order)
+	except Exception, e:
 		print 'Not able to update the Order to complete'
-	print 'Updated the order'
-	
+		print traceback.format_exc()
+
 if __name__ == "__main__":
 	#getCustomerShard('italy')
-	completeOrder('italy@amjed.com', '10401012723031')
+	completeOrder('italy@amjed.com', '10501010539424')
