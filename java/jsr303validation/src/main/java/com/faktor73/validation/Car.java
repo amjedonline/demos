@@ -3,6 +3,7 @@ package com.faktor73.validation;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
+import com.faktor73.validation.custom.SelectiveValidLength;
 import com.faktor73.validation.custom.UpperCase;
 
 class Car {
@@ -10,7 +11,9 @@ class Car {
     @NotNull
     private String manufacturer;
 
-    @Size(min = 2, max = 14)
+    @SelectiveValidLength(sizes = {
+            @Size(min = 2, max = 14, groups = { ValidationClasses.Celeritas.class }),
+            @Size(min = 3, max = 60, groups = { ValidationClasses.Hermes.class }) })
     @UpperCase
     private String licensePlate;
 
@@ -36,4 +39,15 @@ class Car {
         this.licensePlate = licensePlate;
     }
 
+}
+
+class ValidationClasses {
+    interface UPS {
+    }
+
+    interface Hermes {
+    }
+
+    interface Celeritas {
+    }
 }
