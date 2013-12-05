@@ -1,0 +1,18 @@
+<!doctype html>
+<html ng-app="my-module">
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"> </script>
+		<script>
+			var myModule = angular.module("my-module",[]);
+
+			myModule.controller('mController', function mController($scope){
+				$scope.double = function(value){ return value*2; };
+			});
+
+		</script>
+	<head>
+	<body>
+			<div ng-controller="mController">
+				Two times <input ng-model="num"> equals {{double(num)}}.
+			</div>
+	</body>
