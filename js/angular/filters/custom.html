@@ -1,0 +1,16 @@
+<!doctype html>
+<html ng-app="MyReverseModule">
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.js"> </script>
+		<script src="custom.js"></script>
+	<head>
+	<body>
+	
+		<div ng-controller="Ctrl">
+			<input ng-model="greeting" type="greeting"><br>
+			No Filter: {{greeting}}<br>
+			Reverse: {{greeting | reverse}}<br>
+			Reverse + Uppercase: {{greeting | reverse:true}}
+		</div>
+	</body>
+</html>
