@@ -1,0 +1,22 @@
+<!doctype html>
+<html ng-app="FilterInControllerModule">
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.js"> </script>
+		<script src="incontroller.js"></script>
+	<head>
+	<body>
+	
+		<div ng-controller="sample as s">
+			<span ng-repeat="m in s.filteredArray">{{m.name}} </span>
+		</div>
+		<div ng-controller="FilterController as ctrl">
+			<div>
+				<span ng-repeat="entry in ctrl.array">{{entry.name}} </span>
+			</div>
+			<div>
+				Entries that contain an "a":
+				<span ng-repeat="entry in ctrl.filteredArray">{{entry.name}} </span>
+			</div>
+		</div>
+	</body>
+</html>
