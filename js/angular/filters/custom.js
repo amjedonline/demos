@@ -14,5 +14,5 @@ angular.module('MyReverseModule',[]).
 	});
 
 function Ctrl($scope){
-	$scope.greeting = 'Hello';
+	$scope.greeting = 'Buenos dias';
 }
