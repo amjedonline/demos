@@ -1,0 +1,26 @@
+<!doctype html>
+<html ng-app>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"> </script>
+		<script src="script.js"> </script>
+	<head>
+	<body>
+			<div ng-controller="Controller">
+				<form novalidate class="simple-form">
+					<label>Name:</label>
+					<input type="text" ng-model="user.name" placeholder="Enter your name here"><br/>
+
+					<label>Email:</label>
+					<input type="text" ng-model="user.email" placeholder="and your email here"><br/>
+
+					<label>Gender:</label>
+					<input type="radio" ng-model="user.gender" value="male">
+					<input type="radio" ng-model="user.gender" value="female"><br/>
+					<button ng-click="update(user)" >Update</button>
+					<button ng-click="reset()" />Reset</button>
+				</form>
+				<pre> form = {{user | json }} </pre>
+				<pre> master = {{master | json }} </pre>
+			</div>
+	</body>
+</html>
