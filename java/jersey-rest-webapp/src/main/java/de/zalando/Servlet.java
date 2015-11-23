@@ -1,4 +1,4 @@
-package com.faktor73;
+package de.zalando;
 
 import java.io.IOException;
 

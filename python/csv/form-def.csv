@@ -1,0 +1,27 @@
+,x,,,,,,,,,,,,
+,,,Field Constraints,,,,,,,,,,
+,,,Reason,,General,,,,Order,,Payment,Voucher,Text
+Reason category Zara Key/Value,Reason Description,Reason zatra key,Contact reason category,Contact Reason,Name,Customer number,Email address,Phone,Order number,Article number,Payment Method,Voucher number,Comment
+ContactSubjectSalesforce.SUBJECT_PRODUCT,Information about a product,ContactSubjectSalesforce.SUBJECT_PRODUCT,Required,hidden,Required,Optional,Required,Optional,Optional,Optional,hidden,hidden,Required
+ContactSubjectSalesforce.SUBJECT_CUSTOMER_ACCOUNT,I am unable to access my account,ContactSubjectSalesforce.SUBJECT_CUSTOMER_ACCOUNT_NOACCESS,Required,Required,Required,Optional,Required,Optional,hidden,hidden,hidden,hidden,Required
+ContactSubjectSalesforce.SUBJECT_CUSTOMER_ACCOUNT,I do not have an account,ContactSubjectSalesforce.SUBJECT_CUSTOMER_ACCOUNT_NOACCOUNT,Required,Required,Required,Optional,Required,Optional,hidden,hidden,hidden,hidden,Required
+ContactSubjectSalesforce.SUBJECT_CUSTOMER_ACCOUNT,I do have an account,ContactSubjectSalesforce.SUBJECT_CUSTOMER_ACCOUNT_ACCOUNT,Required,Required,Required,Optional,Required,Optional,hidden,hidden,hidden,hidden,Required
+ContactSubjectSalesforce.SUBJECT_ORDERS,I have not yet placed an order,ContactSubjectSalesforce.SUBJECT_ORDERS_NOORDER,Required,Required,Required,Optional,Required,Optional,hidden,hidden,Optional,Optional,Required
+ContactSubjectSalesforce.SUBJECT_ORDERS,I have placed an order,ContactSubjectSalesforce.SUBJECT_ORDERS_ORDER,Required,Required,Required,Optional,Required,Optional,Required,Optional,hidden,Optional,Required
+ContactSubjectSalesforce.SUBJECT_DELIVERY,I have not yet placed an order,ContactSubjectSalesforce.SUBJECT_DELIVERY_NOORDER,Required,Required,Required,Optional,Required,Optional,hidden,hidden,hidden,hidden,Required
+ContactSubjectSalesforce.SUBJECT_DELIVERY,I have not received my order yet,ContactSubjectSalesforce.SUBJECT_DELIVERY_NOTRECEIVED,Required,Required,Required,Optional,Required,Optional,Required,hidden,hidden,hidden,Required
+ContactSubjectSalesforce.SUBJECT_DELIVERY,I have received my order,ContactSubjectSalesforce.SUBJECT_DELIVERY_RECEIVED,Required,Required,Required,Optional,Required,Optional,Required,Optional,hidden,hidden,Required
+ContactSubjectSalesforce.SUBJECT_RETOUR,I have not yet made a return,ContactSubjectSalesforce.SUBJECT_RETOUR_NOTRETURNED,Required,Required,Required,Optional,Required,Optional,Optional,Optional,hidden,hidden,Required
+ContactSubjectSalesforce.SUBJECT_RETOUR,I have returned my item,ContactSubjectSalesforce.SUBJECT_RETOUR_RETURNED,Required,Required,Required,Optional,Required,Optional,Required,Optional,hidden,Optional,Required
+ContactSubjectSalesforce.SUBJECT_RETOUR,The courier did not come for the scheduled pick-up,ContactSubjectSalesforce.SUBJECT_RETOUR_COURIER,Required,Required,Required,Optional,Required,Optional,Required,hidden,hidden,hidden,Required
+ContactSubjectSalesforce.SUBJECT_RETOUR,Other,ContactSubjectSalesforce.SUBJECT_RETOUR_OTHER,Required,Required,Required,Optional,Required,Optional,Optional,hidden,hidden,hidden,Required
+ContactSubjectSalesforce.SUBJECT_PAYMENT,I have not yet placed an order,ContactSubjectSalesforce.SUBJECT_PAYMENT_NOORDER,Required,Required,Required,Optional,Required,Optional,hidden,hidden,Optional,Optional,Required
+ContactSubjectSalesforce.SUBJECT_PAYMENT,I have placed an order,ContactSubjectSalesforce.SUBJECT_PAYMENT_ORDER,Required,Required,Required,Optional,Required,Optional,Required,Optional,hidden,Optional,Required
+ContactSubjectSalesforce.SUBJECT_VOUCHERS,I have not yet placed an order,ContactSubjectSalesforce.SUBJECT_VOUCHERS_NOORDER,Required,Required,Required,Optional,Required,Optional,hidden,hidden,hidden,Required,Required
+ContactSubjectSalesforce.SUBJECT_VOUCHERS,I have placed an order,ContactSubjectSalesforce.SUBJECT_VOUCHERS_ORDER,Required,Required,Required,Optional,Required,Optional,Required,hidden,hidden,Required,Required
+ContactSubjectSalesforce.SUBJECT_RECLAMATION,Received product within X days,ContactSubjectSalesforce.SUBJECT_RECLAMATION_WITHINXDAYS,Required,Required,Required,Optional,Required,Optional,Required,Required,hidden,hidden,Required
+ContactSubjectSalesforce.SUBJECT_RECLAMATION,I received the product more than X days ago,ContactSubjectSalesforce.SUBJECT_RECLAMATION_MORETHANXDAYS,Required,Required,Required,Optional,Required,Optional,Required,Required,hidden,hidden,Required
+ContactSubjectSalesforce.SUBJECT_OTHER,I would like to leave feedback,ContactSubjectSalesforce.SUBJECT_OTHER_FEEDBACK,Required,Required,Required,Optional,Required,Optional,Optional,Optional,hidden,hidden,Required
+ContactSubjectSalesforce.SUBJECT_OTHER,Request about marketing / purchasing,ContactSubjectSalesforce.SUBJECT_OTHER_MARKETING,Required,Required,Required,Optional,Required,Optional,hidden,hidden,hidden,hidden,Required
+ContactSubjectSalesforce.SUBJECT_OTHER,Other,ContactSubjectSalesforce.SUBJECT_OTHER_OTHER,Required,Required,Required,Optional,Required,Optional,Optional,hidden,hidden,hidden,Required
+,,,,,,,,,,,,,

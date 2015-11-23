@@ -6,7 +6,7 @@
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
 	  <servlet-name>cookieCreator</servlet-name>
-	  <servlet-class>com.faktor73.sample.servlet.CookieCreator</servlet>
+	  <servlet-class>de.zalando.sample.CookieCreator</servlet-class>
   </servlet>
   <servlet-mapping>
 	  <servlet-name>cookieCreator</servlet-name>
