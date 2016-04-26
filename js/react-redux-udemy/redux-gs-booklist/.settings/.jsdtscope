@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="node_modules/lodash/function/|src/actions/|node_modules/prr/|node_modules/fsevents/node_modules/aws4/node_modules/lru-cache/node_modules/pseudomap/test/|node_modules/deep-is/example/|node_modules/babel-register/node_modules/core-js/library/fn/system/|node_modules/serve-index/node_modules/negotiator/|node_modules/fsevents/node_modules/rc/test/|node_modules/babel-helpers/lib/|node_modules/object.omit/|node_modules/react-dom/dist/|node_modules/number-is-nan/|node_modules/fbjs/lib/|node_modules/babel-register/node_modules/core-js/library/fn/reflect/|node_modules/is-my-json-valid/|node_modules/faye-websocket/examples/|node_modules/deep-equal/lib/|node_modules/sockjs-client/node_modules/faye-websocket/lib/faye/websocket/api/|node_modules/sntp/examples/|node_modules/enhanced-resolve/node_modules/memory-fs/lib/|node_modules/jquery/src/attributes/|node_modules/clone/|node_modules/fsevents/node_modules/node-pre-gyp/node_modules/nopt/node_modules/abbrev/|node_modules/fsevents/node_modules/debug/|node_modules/browserify-zlib/test/|node_modules/babel-plugin-syntax-decorators/lib/|node_modules/ms/|node_modules/object-assign/|node_modules/fsevents/node_modules/node-uuid/|node_modules/stream-browserify/node_modules/readable-stream/lib/|node_modules/loader-utils/node_modules/json5/lib/|node_modules/crypto-browserify/example/|node_modules/fsevents/node_modules/tar/|node_modules/estraverse/|node_modules/fsevents/node_modules/jodid25519/lib/|node_modules/aws4/|node_modules/proxy-addr/|node_modules/chai/lib/chai/|node_modules/babel-runtime/core-js/reflect/|node_modules/fsevents/node_modules/semver/test/|node_modules/babel-runtime/core-js/system/|node_modules/debug/|node_modules/core-js/library/core/|node_modules/fsevents/node_modules/ms/|node_modules/array-flatten/|node_modules/micromatch/lib/|node_modules/fsevents/node_modules/aws4/|node_modules/emojis-list/|node_modules/fsevents/node_modules/commander/|node_modules/fsevents/node_modules/qs/lib/|node_modules/parse5/lib/serialization/|node_modules/babel-plugin-transform-react-display-name/lib/|node_modules/enhanced-resolve/node_modules/graceful-fs/|node_modules/promise/lib/|node_modules/symbol-tree/lib/|node_modules/readdirp/node_modules/graceful-fs/|node_modules/babel-plugin-transform-es2015-template-literals/lib/|node_modules/dashdash/node_modules/assert-plus/|node_modules/yargs/lib/|node_modules/jsdom/lib/jsdom/level2/|node_modules/memory-fs/test/|node_modules/stream-browserify/node_modules/readable-stream/|node_modules/fill-range/|node_modules/core-js/library/|node_modules/methods/|node_modules/deep-is/|node_modules/getpass/lib/|node_modules/fsevents/node_modules/block-stream/|node_modules/babel-core/lib/transformation/file/options/|node_modules/qs/dist/|node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/|node_modules/webpack/lib/dependencies/|node_modules/babel-generator/lib/|node_modules/acorn/src/|node_modules/fsevents/node_modules/xtend/|node_modules/babel-traverse/lib/|node_modules/babel-generator/lib/node/|node_modules/jsdom/lib/jsdom/level3/|node_modules/escodegen/node_modules/esprima/bin/|node_modules/core-js/build/|node_modules/babel-plugin-syntax-trailing-function-commas/lib/|node_modules/to-fast-properties/|node_modules/babel-generator/lib/generators/|node_modules/webpack-core/lib/|node_modules/node-uuid/|node_modules/accepts/|node_modules/babel-core/|test/components/|node_modules/big.js/|node_modules/fsevents/node_modules/tough-cookie/lib/|node_modules/chai-jquery/|node_modules/balanced-match/test/|node_modules/react-redux/src/components/|node_modules/glob/node_modules/minimatch/|node_modules/fsevents/node_modules/is-my-json-valid/|node_modules/jade/|node_modules/escape-html/|node_modules/sha.js/|node_modules/readdirp/|node_modules/fsevents/node_modules/tar/examples/|node_modules/enhanced-resolve/lib/|node_modules/babel-register/node_modules/core-js/fn/date/|node_modules/webpack-dev-server/bin/|node_modules/babel-plugin-transform-es2015-object-super/lib/|node_modules/fsevents/node_modules/sntp/examples/|node_modules/fsevents/node_modules/node-pre-gyp/node_modules/nopt/examples/|node_modules/jquery/src/var/|node_modules/babel-register/node_modules/core-js/library/fn/dom-collections/|node_modules/ecc-jsbn/lib/|node_modules/babel-plugin-transform-es2015-classes/lib/lib/|node_modules/sockjs-client/lib/transport/lib/|node_modules/babel-plugin-transform-es2015-literals/lib/|node_modules/fsevents/node_modules/ansi/examples/progress/|node_modules/uglify-js/node_modules/async/lib/|node_modules/mkdirp/test/|node_modules/babel-helper-function-name/lib/|node_modules/uglify-js/lib/|node_modules/websocket-driver/lib/websocket/driver/hybi/|node_modules/fsevents/node_modules/cryptiles/lib/|node_modules/jsdom/lib/jsdom/living/attributes/|node_modules/deep-eql/lib/|node_modules/camelcase/|node_modules/fsevents/node_modules/delegates/|node_modules/finalhandler/|node_modules/babel-plugin-transform-es2015-shorthand-properties/lib/|node_modules/fsevents/node_modules/lodash.tostring/|node_modules/fsevents/node_modules/lodash.repeat/|node_modules/fsevents/node_modules/asn1/lib/|node_modules/react-redux/lib/|node_modules/eventsource/lib/|node_modules/babel-plugin-transform-async-to-generator/lib/|node_modules/fsevents/node_modules/fstream/lib/|node_modules/history/es6/|node_modules/fsevents/node_modules/is-property/|node_modules/babel-plugin-transform-react-jsx/lib/|node_modules/wordwrap/|node_modules/fsevents/node_modules/ansi/examples/beep/|node_modules/fsevents/node_modules/chalk/|node_modules/enhanced-resolve/node_modules/memory-fs/test/|node_modules/babel-plugin-transform-es2015-parameters/lib/|node_modules/expand-brackets/|node_modules/node-libs-browser/node_modules/readable-stream/lib/|node_modules/graceful-fs/|node_modules/jquery/src/effects/|node_modules/is-typedarray/|node_modules/websocket-driver/examples/|node_modules/fsevents/node_modules/rc/node_modules/minimist/test/|node_modules/type-detect/|node_modules/abab/lib/|node_modules/optimist/example/|node_modules/pseudomap/|node_modules/crypto-browserify/test/|node_modules/browserify-zlib/test/ignored/|node_modules/deep-equal/test/|node_modules/babel-plugin-syntax-trailing-function-commas/test/fixtures/trailing-function-commas/declaration/|node_modules/parse-glob/|node_modules/jodid25519/lib/|node_modules/bytes/|node_modules/fbjs/lib/__mocks__/|node_modules/warning/|node_modules/fsevents/node_modules/ansi/lib/|node_modules/memory-fs/lib/|node_modules/growl/|node_modules/asn1/lib/ber/|test/|node_modules/fsevents/node_modules/har-validator/lib/|node_modules/yallist/|node_modules/babel-register/node_modules/core-js/library/fn/string/|node_modules/lru-cache/lib/|node_modules/fsevents/node_modules/qs/test/|node_modules/range-parser/|node_modules/jquery/src/exports/|node_modules/compressible/|node_modules/optimist/node_modules/minimist/example/|node_modules/optionator/lib/|node_modules/escodegen/|node_modules/decamelize/|node_modules/glob/node_modules/lru-cache/lib/|node_modules/date-now/test/|node_modules/stream-cache/test/|node_modules/babel-register/node_modules/core-js/library/fn/object/|node_modules/babel-register/node_modules/core-js/fn/string/|node_modules/glob-parent/|node_modules/fsevents/node_modules/are-we-there-yet/test/|node_modules/webpack/buildin/|node_modules/fsevents/node_modules/rimraf/|node_modules/chokidar/lib/|node_modules/websocket-extensions/lib/|node_modules/fsevents/node_modules/mkdirp/test/|node_modules/original/|node_modules/jsdom/lib/jsdom/|node_modules/url/node_modules/punycode/|node_modules/pako/lib/zlib/|node_modules/through/|node_modules/align-text/|node_modules/timers-browserify/|node_modules/lodash/lang/|node_modules/cryptiles/lib/|node_modules/babel-register/node_modules/core-js/library/fn/|node_modules/fsevents/node_modules/pinkie-promise/|node_modules/fsevents/node_modules/isstream/|node_modules/babel-register/node_modules/core-js/library/fn/error/|node_modules/stream-browserify/node_modules/isarray/|node_modules/esprima-fb/bin/|node_modules/core-js/library/fn/string/|node_modules/babel-core/lib/transformation/internal-plugins/|node_modules/fsevents/node_modules/json-stringify-safe/test/|node_modules/babel-register/node_modules/core-js/fn/|node_modules/fsevents/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/test/|node_modules/sigmund/test/|node_modules/arr-flatten/|node_modules/react-router/es6/|node_modules/caseless/|node_modules/tapable/test/|node_modules/esprima-fb/|node_modules/jsesc/|node_modules/webpack/web_modules/|node_modules/babel-loader/lib/|node_modules/babel-helper-regex/lib/|node_modules/webpack/hot/|node_modules/source-map/build/|node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/minimatch/|node_modules/sockjs-client/node_modules/faye-websocket/examples/|node_modules/stream-browserify/node_modules/isarray/build/|node_modules/minimist/example/|node_modules/core-js/fn/number/|node_modules/pbkdf2-compat/|node_modules/string_decoder/|node_modules/is-extglob/|node_modules/babel-generator/node_modules/source-map/dist/|node_modules/fsevents/node_modules/asn1/lib/ber/|node_modules/sockjs/examples/hapi/|node_modules/qs/lib/|node_modules/http-browserify/lib/|node_modules/sockjs/|node_modules/websocket-driver/lib/websocket/|node_modules/babel-loader/lib/helpers/|node_modules/base62/|node_modules/asap/|node_modules/mocha/bin/|node_modules/jquery/src/ajax/|node_modules/webpack/lib/web/|node_modules/querystring/test/|node_modules/express/lib/|node_modules/jsdom/lib/jsdom/living/events/|node_modules/babel-helper-builder-binary-assignment-operator-visitor/lib/|node_modules/fsevents/node_modules/minimist/|node_modules/babel-plugin-transform-strict-mode/lib/|node_modules/core-js/library/fn/reflect/|node_modules/os-tmpdir/|node_modules/is-glob/|node_modules/fsevents/node_modules/strip-ansi/|node_modules/watchpack/test/helpers/|node_modules/fsevents/node_modules/qs/dist/|node_modules/sockjs/examples/koa/|node_modules/react-redux/src/|node_modules/aws-sign2/|node_modules/babylon/|node_modules/ua-parser-js/src/|node_modules/jquery/sizzle/dist/|node_modules/babel-plugin-transform-es2015-sticky-regex/lib/|node_modules/jstransform/polyfill/|node_modules/fsevents/node_modules/core-util-is/|node_modules/node-libs-browser/node_modules/isarray/build/|node_modules/timers-browserify/example/enroll/js/|node_modules/webpack-dev-middleware/|node_modules/fsevents/node_modules/hawk/test/|node_modules/json5/test/parse-cases/arrays/|node_modules/babel-register/node_modules/core-js/library/fn/typed/|node_modules/babel-core/lib/transformation/|node_modules/optimist/node_modules/minimist/test/|node_modules/cliui/node_modules/wordwrap/test/|node_modules/babel-register/node_modules/core-js/library/fn/math/|node_modules/core-js/library/fn/array/|node_modules/fsevents/node_modules/hoek/lib/|node_modules/content-disposition/|node_modules/babel-register/node_modules/core-js/fn/dom-collections/|node_modules/parse5/lib/common/|node_modules/fsevents/node_modules/sntp/|node_modules/console-browserify/test/static/|node_modules/fsevents/node_modules/har-validator/lib/schemas/|node_modules/redux/es/utils/|node_modules/babel-runtime/core-js/regexp/|node_modules/sha.js/test/|node_modules/concat-map/example/|node_modules/core-js/fn/regexp/|node_modules/arr-diff/|node_modules/chalk/|node_modules/ua-parser-js/test/|node_modules/type-is/|node_modules/stream-browserify/|node_modules/buffer/bin/|node_modules/fsevents/node_modules/ini/|node_modules/fbjs/flow/lib/|node_modules/hawk/example/|node_modules/babel-traverse/lib/path/inference/|node_modules/node-uuid/benchmark/|node_modules/generate-object-property/|node_modules/babel-plugin-transform-regenerator/.test/|node_modules/jade/node_modules/commander/|node_modules/hoek/test/|node_modules/randomatic/|node_modules/babel-plugin-transform-regenerator/lib/|node_modules/arrify/|node_modules/sockjs/examples/express/|node_modules/readable-stream/|node_modules/regex-cache/|node_modules/webpack-core/node_modules/source-map/lib/source-map/|node_modules/babel-register/node_modules/core-js/library/fn/array/|node_modules/slash/|node_modules/is-extendable/|node_modules/mocha/lib/reporters/|node_modules/fsevents/node_modules/minimist/example/|node_modules/negotiator/lib/|node_modules/core-js/fn/math/|node_modules/fsevents/node_modules/npmlog/test/|node_modules/fsevents/node_modules/assert-plus/|node_modules/webpack/node_modules/acorn/bin/|node_modules/is-integer/|node_modules/deep-equal/example/|node_modules/faye-websocket/lib/faye/|node_modules/babel-runtime/regenerator/|node_modules/webpack-dev-server/node_modules/supports-color/|node_modules/cssstyle/scripts/|node_modules/stream-cache/lib/|node_modules/date-now/|node_modules/babylon/bin/|node_modules/react-dom/|node_modules/yargs/|node_modules/querystringify/|node_modules/watchpack/playground/|node_modules/core-js/library/fn/html-collection/|node_modules/buffer/test/node/|node_modules/redux/node_modules/lodash/|node_modules/loader-utils/|node_modules/jsdom/lib/jsdom/living/helpers/|node_modules/yallist/test/|node_modules/jquery/dist/|node_modules/fsevents/node_modules/node-pre-gyp/node_modules/nopt/bin/|node_modules/babel-runtime/core-js/json/|node_modules/babel-plugin-transform-exponentiation-operator/lib/|node_modules/fsevents/node_modules/minimist/test/|node_modules/webpack-dev-server/client/web_modules/jquery/|node_modules/process/|node_modules/center-align/|node_modules/lodash/internal/|node_modules/util/test/node/|node_modules/babel-register/node_modules/core-js/fn/function/virtual/|node_modules/verror/lib/|node_modules/extsprintf/examples/|node_modules/escodegen/node_modules/source-map/lib/source-map/|node_modules/ua-parser-js/dist/|node_modules/source-map-support/browser-test/|node_modules/redux/src/utils/|node_modules/jsprim/lib/|node_modules/is-my-json-valid/test/|node_modules/babel-template/lib/|node_modules/sockjs-client/lib/event/|node_modules/core-js/fn/object/|node_modules/fsevents/node_modules/fstream-ignore/node_modules/minimatch/|node_modules/fsevents/node_modules/stringstream/|node_modules/serve-index/node_modules/negotiator/lib/|node_modules/fsevents/node_modules/verror/lib/|node_modules/is-property/|node_modules/core-js/client/|node_modules/balanced-match/|node_modules/babel-helper-define-map/lib/|node_modules/mocha/|node_modules/react/|node_modules/fsevents/node_modules/fstream/|node_modules/fsevents/node_modules/lodash.padstart/|node_modules/brace-expansion/|node_modules/right-align/|node_modules/promise/|node_modules/babel-traverse/lib/path/|node_modules/mocha/node_modules/commander/|node_modules/fast-levenshtein/|node_modules/eventsource/|node_modules/history/modules/|node_modules/redux/node_modules/lodash/fp/|node_modules/jade/testing/|node_modules/convert-source-map/example/|node_modules/webpack/node_modules/acorn/dist/|node_modules/jstransform/|node_modules/jquery/src/data/var/|node_modules/core-util-is/|node_modules/fsevents/node_modules/dashdash/node_modules/assert-plus/|node_modules/invariant/|node_modules/fsevents/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/|node_modules/json3/lib/|node_modules/unpipe/|node_modules/hawk/test/|node_modules/stream-cache/|node_modules/redux/dist/|node_modules/fsevents/node_modules/fstream-ignore/|node_modules/fsevents/node_modules/has-ansi/|node_modules/escodegen/node_modules/source-map/lib/|node_modules/regjsparser/|node_modules/react-addons-test-utils/|node_modules/babel-plugin-transform-object-rest-spread/lib/|node_modules/fsevents/node_modules/caseless/|node_modules/commander/|node_modules/babel-helper-optimise-call-expression/lib/|node_modules/glob/test/|node_modules/fsevents/node_modules/hoek/test/|node_modules/sockjs-client/lib/transport/receiver/|node_modules/watchpack/node_modules/graceful-fs/|node_modules/tr46/|node_modules/chai/lib/chai/interface/|node_modules/history/lib/|node_modules/isstream/|node_modules/fsevents/node_modules/pinkie/|node_modules/core-js/library/fn/number/|node_modules/verror/tests/|node_modules/babel-register/node_modules/core-js/library/fn/json/|node_modules/babel-runtime/|node_modules/node-libs-browser/node_modules/isarray/|node_modules/regexpu-core/|node_modules/babel-register/node_modules/core-js/library/|node_modules/filename-regex/|node_modules/chai-jquery/test/|node_modules/statuses/|node_modules/core-js/library/modules/|node_modules/babel-helper-explode-assignable-expression/lib/|node_modules/optimist/node_modules/minimist/|node_modules/source-map-support/header-test/|node_modules/sockjs/tests/test_server/|node_modules/babel-register/node_modules/core-js/fn/error/|node_modules/babel-core/lib/helpers/|node_modules/pako/lib/|node_modules/react-redux/dist/|node_modules/serve-index/node_modules/accepts/|node_modules/source-map-support/node_modules/source-map/lib/source-map/|node_modules/send/|node_modules/babel-plugin-transform-es2015-spread/lib/|node_modules/webpack/lib/optimize/|node_modules/deep-equal/|node_modules/sockjs-client/lib/utils/|node_modules/fsevents/node_modules/hawk/lib/|node_modules/core-js/fn/|node_modules/fsevents/node_modules/readable-stream/|node_modules/uglify-to-browserify/test/|node_modules/glob/examples/|node_modules/merge-descriptors/|node_modules/console-browserify/test/|node_modules/lodash/collection/|node_modules/webpack/node_modules/acorn/src/|node_modules/babel-core/lib/tools/|node_modules/tweetnacl/|node_modules/babel-generator/node_modules/source-map/lib/|node_modules/compression/|node_modules/jquery/src/deferred/|node_modules/uglify-to-browserify/|node_modules/fsevents/node_modules/tar-pack/test/|node_modules/fsevents/node_modules/ecc-jsbn/lib/|node_modules/request/|node_modules/sshpk/lib/formats/|node_modules/react-redux/src/utils/|node_modules/optimist/test/|node_modules/minimist/test/|node_modules/fsevents/node_modules/jodid25519/|node_modules/babel-plugin-transform-es2015-destructuring/lib/|node_modules/fsevents/node_modules/jsprim/lib/|node_modules/jsdom/lib/jsdom/web-idl/|node_modules/babel-runtime/core-js/math/|node_modules/on-headers/|node_modules/private/test/|node_modules/jquery/src/queue/|node_modules/getpass/node_modules/assert-plus/|node_modules/private/|node_modules/webpack/node_modules/supports-color/|node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/|node_modules/home-or-tmp/|node_modules/async/dist/|node_modules/fsevents/node_modules/hawk/example/|node_modules/babel-plugin-transform-export-extensions/lib/|node_modules/core-js/library/fn/|node_modules/babel-register/node_modules/core-js/fn/symbol/|node_modules/redux/src/|node_modules/acorn/bin/|node_modules/websocket-extensions/lib/pipeline/|node_modules/lodash/date/|node_modules/core-js/library/fn/symbol/|node_modules/babel-helper-bindify-decorators/lib/|node_modules/express/node_modules/qs/test/|node_modules/babel-runtime/core-js/object/|node_modules/original/node_modules/url-parse/|node_modules/prelude-ls/lib/|node_modules/batch/|node_modules/babel-register/node_modules/core-js/stage/|node_modules/deep-is/test/|node_modules/babel-plugin-transform-flow-strip-types/lib/|node_modules/stream-browserify/test/|node_modules/is-buffer/|node_modules/destroy/|node_modules/fsevents/node_modules/graceful-fs/|node_modules/minimist/|node_modules/path-is-absolute/|node_modules/fsevents/node_modules/extsprintf/lib/|node_modules/tough-cookie/lib/|node_modules/core-js/modules/|node_modules/readdirp/examples/|node_modules/babel-plugin-transform-es2015-unicode-regex/lib/|node_modules/readdirp/test/|node_modules/fsevents/node_modules/aws4/node_modules/lru-cache/lib/|node_modules/fsevents/node_modules/mime-db/|node_modules/js-tokens/|node_modules/fsevents/node_modules/ecc-jsbn/|node_modules/core-js/fn/reflect/|node_modules/query-string/|node_modules/negotiator/|node_modules/source-map-support/node_modules/source-map/test/|node_modules/lodash/array/|node_modules/fsevents/node_modules/mime-types/|node_modules/glob/node_modules/minimatch/test/|node_modules/boom/lib/|node_modules/lodash/string/|node_modules/jquery/src/ajax/var/|node_modules/har-validator/lib/|node_modules/pbkdf2-compat/test/|node_modules/fsevents/node_modules/rc/node_modules/minimist/|node_modules/webpack/lib/|node_modules/is-equal-shallow/|node_modules/jsdom/lib/jsdom/living/traversal/|node_modules/eventsource/test/|node_modules/core-js/fn/function/|node_modules/depd/lib/browser/|node_modules/core-js/library/fn/function/|node_modules/fsevents/node_modules/core-util-is/lib/|node_modules/babel-helper-builder-react-jsx/lib/|node_modules/mime-types/|node_modules/fsevents/node_modules/verror/examples/|node_modules/express/node_modules/vary/|node_modules/babel-traverse/lib/path/lib/|node_modules/watchpack/node_modules/async/support/|node_modules/vm-browserify/|node_modules/core-js/library/fn/node-list/|node_modules/json-schema/lib/|node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/inflight/|node_modules/browserify-zlib/src/|node_modules/fsevents/node_modules/jsonpointer/|node_modules/http-browserify/example/get/|node_modules/babel-preset-react/|node_modules/fsevents/node_modules/delayed-stream/lib/|node_modules/express/lib/middleware/|node_modules/array-unique/|node_modules/emojis-list/dist/|node_modules/babel-runtime/core-js/|node_modules/fsevents/node_modules/gauge/test/|node_modules/babel-plugin-transform-es2015-classes/lib/|node_modules/ipaddr.js/|node_modules/babel-register/node_modules/core-js/library/web/|node_modules/whatwg-url/lib/|node_modules/fsevents/node_modules/asn1/tst/ber/|node_modules/user-home/|node_modules/fsevents/node_modules/sshpk/lib/|node_modules/fsevents/node_modules/fstream-ignore/example/|node_modules/type-check/lib/|node_modules/cssstyle/lib/properties/|node_modules/express/node_modules/qs/lib/|node_modules/punycode/|node_modules/source-list-map/test/fixtures/from-to-tests/|node_modules/node-uuid/test/|node_modules/jodid25519/|node_modules/react-redux/lib/utils/|node_modules/https-browserify/|node_modules/http-proxy/lib/|node_modules/fsevents/node_modules/combined-stream/lib/|node_modules/optimist/node_modules/wordwrap/example/|node_modules/async-each/|node_modules/isarray/|node_modules/fsevents/node_modules/jsbn/|node_modules/webpack/lib/webworker/|node_modules/sigmund/|node_modules/hoek/test/modules/|node_modules/webpack-core/node_modules/source-map/lib/|node_modules/babel-plugin-transform-es2015-computed-properties/lib/|node_modules/source-map/lib/source-map/|node_modules/jquery/src/manipulation/var/|node_modules/babel-register/node_modules/core-js/library/fn/function/|node_modules/jquery/src/traversing/var/|node_modules/escodegen/node_modules/source-map/test/source-map/|node_modules/jquery/src/traversing/|node_modules/babel-register/node_modules/core-js/fn/number/|node_modules/react/dist/|node_modules/cssom/lib/|node_modules/source-map/lib/|node_modules/pseudomap/test/|node_modules/babel-helper-hoist-variables/lib/|node_modules/json5/test/|node_modules/cookie/|node_modules/esprima-fb/test/|node_modules/hawk/dist/|node_modules/amdefine/|src/components/|node_modules/request/lib/|node_modules/crypto-browserify/|node_modules/babel-types/lib/definitions/|node_modules/ua-parser-js/|node_modules/node-libs-browser/|node_modules/babel-types/lib/|node_modules/express/node_modules/negotiator/|node_modules/content-type/|node_modules/escodegen/node_modules/esprima/|node_modules/strict-uri-encode/|node_modules/media-typer/|node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/path-is-absolute/|node_modules/fsevents/node_modules/tunnel-agent/|node_modules/fsevents/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/test/|node_modules/babel-runtime/core-js/function/|node_modules/fsevents/node_modules/graceful-readlink/|node_modules/fsevents/node_modules/ansi/examples/|node_modules/chai/|node_modules/babel-core/lib/|node_modules/util/test/browser/|node_modules/babel-plugin-syntax-exponentiation-operator/lib/|node_modules/webpack/node_modules/acorn/src/loose/|node_modules/base64-js/lib/|node_modules/tunnel-agent/|node_modules/sockjs-client/node_modules/faye-websocket/lib/faye/|node_modules/babel-register/node_modules/core-js/library/fn/function/virtual/|node_modules/json5/test/parse-cases/numbers/|node_modules/sockjs/examples/multiplex/|node_modules/babel-plugin-transform-es2015-arrow-functions/lib/|node_modules/babel-register/lib/|node_modules/redux/lib/|node_modules/growl/lib/|node_modules/readable-stream/lib/|node_modules/fsevents/node_modules/sntp/test/|node_modules/errno/|node_modules/buffer/test/|node_modules/redux/lib/utils/|node_modules/babel-helper-remap-async-to-generator/lib/|node_modules/babel-plugin-transform-class-constructor-call/lib/|node_modules/domain-browser/|node_modules/convert-source-map/test/|node_modules/escodegen/node_modules/source-map/|node_modules/faye-websocket/lib/faye/websocket/|node_modules/core-js/core/|node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/once/|node_modules/jstransform/visitors/__tests__/gen/|node_modules/babel-register/node_modules/core-js/library/modules/|node_modules/babel-register/node_modules/core-js/fn/array/virtual/|node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/test/|node_modules/babel-runtime/core-js/date/|node_modules/webpack-dev-server/lib/|node_modules/fsevents/node_modules/process-nextick-args/|node_modules/sockjs/lib/|node_modules/fsevents/node_modules/node-pre-gyp/node_modules/nopt/test/|node_modules/fsevents/node_modules/rc/|node_modules/babel-plugin-transform-es2015-for-of/lib/|node_modules/sockjs/examples/express-3.x/|node_modules/http-proxy/|node_modules/mkdirp/node_modules/minimist/|node_modules/babel-plugin-syntax-trailing-function-commas/test/fixtures/trailing-function-commas/arrow-function/|node_modules/babel-traverse/lib/scope/|node_modules/mocha/lib/interfaces/|node_modules/is-my-json-valid/test/fixtures/|node_modules/fsevents/node_modules/async/dist/|node_modules/uglify-js/bin/|node_modules/sockjs-client/lib/transport/driver/|node_modules/forwarded/|node_modules/process-nextick-args/|node_modules/os-browserify/|node_modules/babel-register/node_modules/core-js/modules/|node_modules/is-buffer/test/|node_modules/babel-plugin-syntax-class-constructor-call/lib/|node_modules/base64-js/bench/|node_modules/delayed-stream/lib/|node_modules/babel-plugin-transform-react-jsx-source/lib/|node_modules/isobject/|node_modules/babel-register/node_modules/core-js/library/fn/symbol/|node_modules/babel-helper-replace-supers/lib/|node_modules/fsevents/node_modules/mkdirp/|node_modules/core-js/fn/node-list/|node_modules/jsdom/lib/|node_modules/is-binary-path/|node_modules/core-js/web/|node_modules/mkdirp/examples/|node_modules/fsevents/node_modules/tar/test/|node_modules/esutils/lib/|node_modules/through/test/|node_modules/fsevents/node_modules/mkdirp/examples/|node_modules/fsevents/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/example/|node_modules/core-js/|node_modules/sshpk/lib/|node_modules/parse5/lib/tree_adapters/|node_modules/hoek/lib/|node_modules/webpack/lib/node/|node_modules/optimist/test/_/|node_modules/combined-stream/lib/|node_modules/fsevents/node_modules/async/lib/|node_modules/babel-plugin-check-es2015-constants/lib/|node_modules/acorn/src/loose/|node_modules/fsevents/node_modules/uid-number/|node_modules/fsevents/node_modules/boom/lib/|node_modules/babel-preset-stage-1/|node_modules/fsevents/node_modules/node-uuid/test/|node_modules/envify/|node_modules/mime/build/|node_modules/fsevents/node_modules/sntp/lib/|node_modules/babel-plugin-transform-es2015-typeof-symbol/lib/|node_modules/graceful-readlink/|node_modules/interpret/|node_modules/core-util-is/lib/|node_modules/verror/examples/|node_modules/babel-plugin-transform-es2015-function-name/lib/|node_modules/babel-register/node_modules/core-js/fn/reflect/|node_modules/querystring-es3/test/|node_modules/deep-eql/node_modules/type-detect/|node_modules/fsevents/node_modules/request/|node_modules/trim-right/|node_modules/source-list-map/lib/|node_modules/extsprintf/lib/|node_modules/json5/lib/|node_modules/json-schema/test/|node_modules/depd/lib/compat/|node_modules/mime-db/|node_modules/for-in/|node_modules/whatwg-fetch/|node_modules/har-validator/lib/schemas/|node_modules/glob/|node_modules/parseurl/|node_modules/babel-preset-es2015/|node_modules/querystring-es3/|node_modules/path-exists/|node_modules/cookie-signature/|node_modules/concat-map/|node_modules/chai/lib/|node_modules/mocha/node_modules/supports-color/|node_modules/fsevents/node_modules/aws4/node_modules/lru-cache/node_modules/pseudomap/|node_modules/fsevents/node_modules/node-pre-gyp/lib/|node_modules/babel-plugin-syntax-flow/lib/|node_modules/promise/src/|node_modules/redux/es/|node_modules/mkdirp/node_modules/minimist/test/|node_modules/url-parse/|node_modules/indexof/|node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/once/node_modules/wrappy/test/|node_modules/babel-helper-call-delegate/lib/|node_modules/jquery/src/event/|node_modules/babel-generator/node_modules/source-map/|node_modules/babel-plugin-syntax-trailing-function-commas/test/fixtures/trailing-function-commas/new-expression/|node_modules/fsevents/node_modules/fstream-ignore/test/|node_modules/nan/|node_modules/babel-preset-stage-3/|node_modules/vm-browserify/test/|node_modules/optimist/node_modules/wordwrap/|node_modules/fsevents/node_modules/strip-json-comments/|node_modules/babel-register/node_modules/core-js/fn/typed/|node_modules/babel-preset-stage-2/|node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/|node_modules/eventemitter3/|node_modules/babel-register/node_modules/core-js/fn/array/|node_modules/babel-runtime/helpers/|node_modules/util/support/|node_modules/events/|node_modules/fsevents/node_modules/json-schema/lib/|node_modules/core-js/fn/json/|node_modules/is-dotfile/|node_modules/http-browserify/example/streaming/|node_modules/repeat-element/|node_modules/fsevents/node_modules/extend/|node_modules/fresh/|node_modules/chai/lib/chai/utils/|node_modules/type-detect/lib/|node_modules/babel-code-frame/lib/|node_modules/react-router/umd/|node_modules/babel-plugin-syntax-trailing-function-commas/test/fixtures/trailing-function-commas/call/|node_modules/loose-envify/|node_modules/babel-plugin-syntax-jsx/lib/|node_modules/babel-register/node_modules/core-js/library/fn/regexp/|node_modules/babel-register/node_modules/core-js/library/es5/|node_modules/fsevents/node_modules/bl/|node_modules/fsevents/node_modules/ansi-regex/|node_modules/fsevents/node_modules/extsprintf/examples/|node_modules/window-size/|node_modules/graceful-fs/test/|node_modules/fsevents/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/|node_modules/babel-core/node_modules/source-map/dist/|node_modules/babel-register/node_modules/core-js/library/fn/date/|node_modules/mocha/lib/|node_modules/escape-string-regexp/|node_modules/babel-register/node_modules/core-js/library/es7/|node_modules/fsevents/node_modules/wrappy/|node_modules/for-own/|node_modules/uglify-js/tools/|node_modules/jquery/src/data/|node_modules/babel-register/node_modules/core-js/library/es6/|node_modules/babel-register/node_modules/core-js/es7/|node_modules/jsbn/|node_modules/express/lib/router/|node_modules/react-redux/node_modules/lodash/|node_modules/webpack-dev-server/client/|node_modules/Base64/|node_modules/babel-register/node_modules/core-js/es6/|node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/example/|node_modules/core-js/modules/library/|node_modules/babel-register/node_modules/core-js/es5/|node_modules/babel-plugin-transform-es2015-block-scoping/lib/|node_modules/core-js/fn/symbol/|node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/inflight/node_modules/wrappy/test/|node_modules/sntp/test/|node_modules/fsevents/node_modules/oauth-sign/|src/|node_modules/ee-first/|node_modules/babel-register/node_modules/core-js/web/|node_modules/source-map-support/|node_modules/ecc-jsbn/|node_modules/babel-plugin-syntax-export-extensions/lib/|src/reducers/|node_modules/fsevents/node_modules/ansi-styles/|node_modules/minimatch/|node_modules/parse5/|node_modules/escodegen/node_modules/source-map/test/|node_modules/json-stringify-safe/|node_modules/watchpack/node_modules/async/lib/|node_modules/hawk/lib/|node_modules/connect-history-api-fallback/test/|node_modules/micromatch/|node_modules/sshpk/node_modules/assert-plus/|node_modules/lodash/number/|node_modules/events/tests/|node_modules/fsevents/node_modules/readable-stream/lib/|node_modules/jsdom/lib/jsdom/living/generated/|node_modules/source-map-support/node_modules/source-map/build/|node_modules/jquery/src/|node_modules/dashdash/lib/|node_modules/react/lib/|node_modules/fsevents/node_modules/are-we-there-yet/|node_modules/acorn/dist/|node_modules/babel-core/lib/transformation/file/|node_modules/fsevents/node_modules/util-deprecate/|node_modules/source-map-support/node_modules/source-map/lib/|node_modules/parse5/lib/simple_api/|node_modules/expand-range/|node_modules/shebang-regex/|node_modules/fsevents/node_modules/gauge/|node_modules/faye-websocket/lib/faye/websocket/api/|node_modules/pako/dist/|node_modules/fsevents/node_modules/hawk/dist/|node_modules/babel-plugin-syntax-class-properties/lib/|node_modules/jsonpointer/|node_modules/jquery/src/core/|node_modules/babel-register/node_modules/core-js/core/|node_modules/history/umd/|node_modules/boom/test/|node_modules/uglify-js/node_modules/source-map/dist/|node_modules/babel-register/node_modules/core-js/library/core/|node_modules/watchpack/lib/|node_modules/react-redux/node_modules/lodash/fp/|node_modules/jstransform/visitors/|node_modules/fsevents/node_modules/verror/tests/|node_modules/babel-plugin-transform-decorators/lib/|node_modules/fsevents/node_modules/json-schema/test/|node_modules/timers-browserify/example/enroll/|node_modules/promise/setimmediate/|node_modules/babel-plugin-transform-class-properties/lib/|node_modules/glob/node_modules/lru-cache/test/|node_modules/fsevents/node_modules/tweetnacl/|node_modules/extend/|node_modules/fsevents/node_modules/delegates/test/|node_modules/sax/lib/|node_modules/extglob/|node_modules/babel-runtime/core-js/error/|node_modules/babel-plugin-syntax-object-rest-spread/lib/|node_modules/async/lib/|node_modules/escodegen/bin/|node_modules/babel-register/node_modules/core-js/library/fn/array/virtual/|node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/inflight/node_modules/wrappy/|node_modules/parse5/lib/tree_construction/|node_modules/babel-helper-explode-class/lib/|node_modules/generate-function/|node_modules/pinkie-promise/|node_modules/querystring/|node_modules/fsevents/node_modules/supports-color/|node_modules/sntp/lib/|node_modules/chokidar/|node_modules/babel-plugin-transform-es2015-duplicate-keys/lib/|node_modules/fsevents/node_modules/lodash.pad/|node_modules/assertion-error/|node_modules/http-browserify/example/headers/|node_modules/fsevents/node_modules/inherits/|node_modules/fsevents/node_modules/http-signature/lib/|node_modules/fsevents/node_modules/aws4/node_modules/lru-cache/node_modules/yallist/test/|node_modules/vm-browserify/example/run/|node_modules/babel-plugin-syntax-trailing-function-commas/test/|node_modules/path-browserify/|node_modules/ieee754/test/|node_modules/fsevents/node_modules/has-unicode/test/|node_modules/fsevents/node_modules/aws4/node_modules/lru-cache/node_modules/yallist/|node_modules/regjsgen/|node_modules/stringstream/|node_modules/form-data/lib/|node_modules/core-js/library/fn/object/|node_modules/buffer/|node_modules/babel-plugin-transform-es2015-block-scoped-functions/lib/|node_modules/webpack-core/node_modules/source-map/build/|node_modules/source-map-support/node_modules/source-map/|node_modules/sockjs/examples/echo/|node_modules/fsevents/node_modules/boom/test/|node_modules/etag/|node_modules/lodash-es/|node_modules/core-js/library/fn/math/|node_modules/lazy-cache/|node_modules/babel-runtime/core-js/string/|node_modules/fsevents/node_modules/ansi/examples/clear/|node_modules/deep-eql/|node_modules/lodash/utility/|node_modules/bl/test/|node_modules/babel-runtime/core-js/array/|node_modules/fsevents/node_modules/forever-agent/|node_modules/uglify-js/node_modules/source-map/lib/|node_modules/babel-register/node_modules/core-js/client/|node_modules/source-map/test/source-map/|node_modules/jsdom/lib/jsdom/living/nodes/|node_modules/convert-source-map/|node_modules/anymatch/|node_modules/is-primitive/|node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/once/node_modules/wrappy/|node_modules/fsevents/node_modules/is-my-json-valid/test/|node_modules/lodash/|node_modules/http-proxy/lib/http-proxy/passes/|node_modules/tty-browserify/|node_modules/nwmatcher/src/modules/|node_modules/babel-core/lib/api/|node_modules/jstransform/src/|node_modules/assert-plus/|node_modules/core-js/fn/html-collection/|node_modules/fsevents/node_modules/generate-function/|node_modules/base62/test/|node_modules/fsevents/node_modules/sshpk/lib/formats/|node_modules/fsevents/node_modules/rc/node_modules/minimist/example/|node_modules/http-proxy/lib/http-proxy/|node_modules/fsevents/node_modules/semver/|node_modules/cliui/node_modules/wordwrap/example/|node_modules/fsevents/node_modules/node-pre-gyp/node_modules/nopt/lib/|node_modules/json-stringify-safe/test/|node_modules/lodash/math/|node_modules/websocket-driver/lib/websocket/driver/|node_modules/vary/|node_modules/fsevents/node_modules/node-uuid/benchmark/|node_modules/babel-register/node_modules/core-js/fn/number/virtual/|node_modules/wordwrap/example/|node_modules/mime/|node_modules/globals/|node_modules/hoist-non-react-statics/|node_modules/react-redux/lib/components/|node_modules/source-list-map/test/|node_modules/fsevents/node_modules/tar-pack/|node_modules/serve-index/|node_modules/babel-loader/|node_modules/jsdom/lib/jsdom/living/window/|node_modules/cssstyle/tests/|node_modules/jade/node_modules/mkdirp/|node_modules/core-js/library/fn/regexp/|node_modules/fsevents/node_modules/request/lib/|node_modules/babel-register/node_modules/core-js/fn/regexp/|node_modules/chai/lib/chai/core/|node_modules/express/|node_modules/sockjs-client/lib/transport/|node_modules/mkdirp/bin/|node_modules/fbjs/|node_modules/base64-js/test/|node_modules/preserve/|node_modules/pinkie/|node_modules/node-libs-browser/mock/|node_modules/diff/|node_modules/wordwrap/test/|node_modules/lodash/object/|node_modules/sha.js/test/prepare/|node_modules/fsevents/node_modules/rc/lib/|node_modules/is-finite/|node_modules/fsevents/node_modules/node-pre-gyp/lib/util/|node_modules/asn1/lib/|node_modules/has-ansi/|node_modules/xml-name-validator/lib/|node_modules/jade/lib/|node_modules/babel-register/node_modules/core-js/fn/json/|node_modules/babel-messages/lib/|node_modules/fsevents/node_modules/rimraf/node_modules/glob/|node_modules/jsdom/lib/jsdom/living/|node_modules/fsevents/node_modules/cryptiles/test/|node_modules/fsevents/node_modules/tar/lib/|node_modules/fsevents/node_modules/once/|node_modules/abab/|node_modules/xtend/|node_modules/babel-plugin-syntax-async-functions/lib/|node_modules/webidl-conversions/lib/|node_modules/url/|node_modules/node-libs-browser/node_modules/readable-stream/|node_modules/express/node_modules/negotiator/lib/|node_modules/buffer/test/node-es6/|node_modules/cliui/|node_modules/sockjs-client/lib/transport/browser/|node_modules/path-to-regexp/|node_modules/nwmatcher/src/|node_modules/fsevents/test/|node_modules/express/node_modules/accepts/|node_modules/fsevents/node_modules/bl/test/|node_modules/core-js/es5/|node_modules/http-errors/|node_modules/jade/node_modules/commander/lib/|node_modules/kind-of/|node_modules/babel-register/node_modules/core-js/library/stage/|node_modules/regenerate/|node_modules/mocha/lib/browser/|node_modules/core-js/es6/|node_modules/mkdirp/|node_modules/http-browserify/test/|node_modules/ansi-styles/|node_modules/parse5/lib/jsdom/|node_modules/is-posix-bracket/|node_modules/http-browserify/|node_modules/util/|node_modules/core-js/es7/|node_modules/http-signature/lib/|node_modules/fsevents/node_modules/has-unicode/|node_modules/cliui/node_modules/wordwrap/|node_modules/bl/|node_modules/fsevents/node_modules/generate-object-property/|node_modules/cssstyle/lib/|node_modules/babel-traverse/lib/scope/lib/|node_modules/asn1/tst/ber/|node_modules/detect-indent/|node_modules/fsevents/node_modules/dashdash/lib/|node_modules/core-js/library/web/|node_modules/jstransform/src/__tests__/|node_modules/webpack/node_modules/acorn/src/bin/|node_modules/get-stdin/|node_modules/nan/tools/|node_modules/on-finished/|node_modules/babel-register/node_modules/core-js/library/fn/number/virtual/|node_modules/babel-helper-get-function-arity/lib/|node_modules/babel-plugin-transform-regenerator/src/|node_modules/repeat-string/|node_modules/babel-runtime/core-js/number/|node_modules/jade/node_modules/mkdirp/examples/|node_modules/fsevents/node_modules/fstream/examples/|node_modules/forever-agent/|node_modules/babel-register/node_modules/core-js/|node_modules/oauth-sign/|node_modules/supports-color/|node_modules/core-js/js/|node_modules/depd/|node_modules/optimist/|node_modules/babel-register/node_modules/core-js/fn/system/|node_modules/cryptiles/test/|node_modules/glob-base/|node_modules/cliui/test/|node_modules/jade/node_modules/mkdirp/test/|node_modules/symbol-observable/|node_modules/fsevents/node_modules/isarray/|node_modules/jsdom/lib/jsdom/browser/|node_modules/mocha/node_modules/escape-string-regexp/|node_modules/jquery/src/css/var/|node_modules/regexpu-core/data/|node_modules/inherits/|node_modules/jade/lib/nodes/|node_modules/deep-eql/node_modules/type-detect/lib/|node_modules/parse5/lib/tokenization/|node_modules/ipaddr.js/lib/|node_modules/http-browserify/example/post/|node_modules/jquery/src/manipulation/|node_modules/fsevents/node_modules/mkdirp/bin/|node_modules/utils-merge/|node_modules/symbol-tree/test/|node_modules/ieee754/|node_modules/sockjs-client/node_modules/faye-websocket/lib/faye/websocket/|node_modules/optimist/node_modules/wordwrap/test/|node_modules/sockjs-client/lib/transport/sender/|node_modules/core-js/library/fn/json/|node_modules/webpack/node_modules/acorn/src/walk/|node_modules/fsevents/node_modules/is-my-json-valid/test/fixtures/|node_modules/source-map-support/node_modules/source-map/test/source-map/|node_modules/babel-register/node_modules/core-js/fn/function/|node_modules/babel-register/node_modules/core-js/library/fn/number/|node_modules/sockjs-client/lib/|node_modules/normalize-path/|node_modules/console-browserify/|node_modules/concat-map/test/|node_modules/webpack/bin/|node_modules/fsevents/node_modules/is-typedarray/|node_modules/core-js/library/es5/|node_modules/promise/domains/|node_modules/strip-ansi/|node_modules/sntp/|node_modules/has-flag/|node_modules/acorn/src/bin/|node_modules/core-js/library/es6/|node_modules/longest/|node_modules/fsevents/node_modules/are-we-there-yet/test/lib/|node_modules/jstransform/visitors/__tests__/|node_modules/fsevents/node_modules/deep-extend/lib/|node_modules/connect-history-api-fallback/lib/|node_modules/core-js/library/es7/|node_modules/babel-register/node_modules/core-js/library/fn/string/virtual/|node_modules/source-map/|node_modules/core-js/library/js/|node_modules/fsevents/node_modules/npmlog/|node_modules/fsevents/node_modules/aws-sign2/|node_modules/babel-register/node_modules/core-js/modules/library/|node_modules/is-number/|node_modules/uglify-js/node_modules/source-map/|node_modules/acorn-globals/|node_modules/qs/test/|node_modules/fsevents/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/|node_modules/source-map/test/|node_modules/escodegen/node_modules/source-map/build/|node_modules/tapable/lib/|node_modules/pako/|node_modules/mkdirp/node_modules/minimist/example/|node_modules/babel-plugin-transform-es2015-modules-commonjs/lib/|node_modules/react-router/lib/|node_modules/array-equal/|node_modules/jquery/src/css/|node_modules/babel-register/node_modules/core-js/fn/object/|node_modules/jquery/src/core/var/|node_modules/util-deprecate/|node_modules/repeating/|node_modules/pako/lib/utils/|node_modules/fsevents/node_modules/hoek/test/modules/|node_modules/babel-runtime/core-js/symbol/|node_modules/assert/|node_modules/fsevents/node_modules/deep-extend/|node_modules/acorn/src/walk/|node_modules/fsevents/node_modules/wrappy/test/|node_modules/requires-port/|node_modules/babel-core/node_modules/source-map/|node_modules/babel-register/node_modules/core-js/build/|node_modules/babel-core/node_modules/source-map/lib/|node_modules/core-js/fn/array/|node_modules/ripemd160/lib/|node_modules/fsevents/node_modules/block-stream/bench/|node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/test/|node_modules/lodash/chain/|node_modules/fsevents/node_modules/lodash.padend/|node_modules/fsevents/node_modules/json-stringify-safe/|node_modules/babel-register/node_modules/core-js/fn/math/|node_modules/ansi-regex/|node_modules/core-js/fn/string/|node_modules/watchpack/test/|node_modules/fsevents/node_modules/string_decoder/|node_modules/fsevents/|node_modules/source-map-support/amd-test/|node_modules/braces/|node_modules/levn/lib/|node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/inherits/|node_modules/fsevents/node_modules/escape-string-regexp/|node_modules/babel-register/node_modules/core-js/fn/string/virtual/|node_modules/serve-static/|node_modules/fsevents/node_modules/form-data/lib/|node_modules/fsevents/node_modules/block-stream/test/" kind="src" path=""/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/abab"/>
+	<classpathentry kind="src" path="node_modules/abab/lib"/>
+	<classpathentry kind="src" path="node_modules/accepts"/>
+	<classpathentry kind="src" path="node_modules/acorn-globals"/>
+	<classpathentry kind="src" path="node_modules/acorn/bin"/>
+	<classpathentry kind="src" path="node_modules/acorn/dist"/>
+	<classpathentry excluding="loose/|bin/|walk/" kind="src" path="node_modules/acorn/src"/>
+	<classpathentry kind="src" path="node_modules/acorn/src/bin"/>
+	<classpathentry kind="src" path="node_modules/acorn/src/loose"/>
+	<classpathentry kind="src" path="node_modules/acorn/src/walk"/>
+	<classpathentry kind="src" path="node_modules/align-text"/>
+	<classpathentry kind="src" path="node_modules/amdefine"/>
+	<classpathentry kind="src" path="node_modules/ansi-regex"/>
+	<classpathentry kind="src" path="node_modules/ansi-styles"/>
+	<classpathentry kind="src" path="node_modules/anymatch"/>
+	<classpathentry kind="src" path="node_modules/arr-diff"/>
+	<classpathentry kind="src" path="node_modules/arr-flatten"/>
+	<classpathentry kind="src" path="node_modules/array-equal"/>
+	<classpathentry kind="src" path="node_modules/array-flatten"/>
+	<classpathentry kind="src" path="node_modules/array-unique"/>
+	<classpathentry kind="src" path="node_modules/arrify"/>
+	<classpathentry kind="src" path="node_modules/asap"/>
+	<classpathentry excluding="ber/" kind="src" path="node_modules/asn1/lib"/>
+	<classpathentry kind="src" path="node_modules/asn1/lib/ber"/>
+	<classpathentry kind="src" path="node_modules/asn1/tst/ber"/>
+	<classpathentry kind="src" path="node_modules/assert"/>
+	<classpathentry kind="src" path="node_modules/assert-plus"/>
+	<classpathentry kind="src" path="node_modules/assertion-error"/>
+	<classpathentry kind="src" path="node_modules/async-each"/>
+	<classpathentry kind="src" path="node_modules/async/dist"/>
+	<classpathentry kind="src" path="node_modules/async/lib"/>
+	<classpathentry kind="src" path="node_modules/aws-sign2"/>
+	<classpathentry kind="src" path="node_modules/aws4"/>
+	<classpathentry kind="src" path="node_modules/babel-code-frame/lib"/>
+	<classpathentry excluding="lib/transformation/file/options/|lib/transformation/internal-plugins/|lib/transformation/|lib/helpers/|lib/tools/|lib/|node_modules/source-map/dist/|lib/transformation/file/|lib/api/|node_modules/source-map/|node_modules/source-map/lib/" kind="src" path="node_modules/babel-core"/>
+	<classpathentry excluding="transformation/file/options/|transformation/internal-plugins/|transformation/|helpers/|tools/|transformation/file/|api/" kind="src" path="node_modules/babel-core/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-core/lib/api"/>
+	<classpathentry kind="src" path="node_modules/babel-core/lib/helpers"/>
+	<classpathentry kind="src" path="node_modules/babel-core/lib/tools"/>
+	<classpathentry excluding="file/options/|internal-plugins/|file/" kind="src" path="node_modules/babel-core/lib/transformation"/>
+	<classpathentry excluding="options/" kind="src" path="node_modules/babel-core/lib/transformation/file"/>
+	<classpathentry kind="src" path="node_modules/babel-core/lib/transformation/file/options"/>
+	<classpathentry kind="src" path="node_modules/babel-core/lib/transformation/internal-plugins"/>
+	<classpathentry excluding="dist/|lib/" kind="src" path="node_modules/babel-core/node_modules/source-map"/>
+	<classpathentry kind="src" path="node_modules/babel-core/node_modules/source-map/dist"/>
+	<classpathentry kind="src" path="node_modules/babel-core/node_modules/source-map/lib"/>
+	<classpathentry excluding="node/|generators/" kind="src" path="node_modules/babel-generator/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-generator/lib/generators"/>
+	<classpathentry kind="src" path="node_modules/babel-generator/lib/node"/>
+	<classpathentry excluding="dist/|lib/" kind="src" path="node_modules/babel-generator/node_modules/source-map"/>
+	<classpathentry kind="src" path="node_modules/babel-generator/node_modules/source-map/dist"/>
+	<classpathentry kind="src" path="node_modules/babel-generator/node_modules/source-map/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-helper-bindify-decorators/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-helper-builder-binary-assignment-operator-visitor/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-helper-builder-react-jsx/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-helper-call-delegate/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-helper-define-map/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-helper-explode-assignable-expression/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-helper-explode-class/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-helper-function-name/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-helper-get-function-arity/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-helper-hoist-variables/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-helper-optimise-call-expression/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-helper-regex/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-helper-remap-async-to-generator/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-helper-replace-supers/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-helpers/lib"/>
+	<classpathentry excluding="lib/|lib/helpers/" kind="src" path="node_modules/babel-loader"/>
+	<classpathentry excluding="helpers/" kind="src" path="node_modules/babel-loader/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-loader/lib/helpers"/>
+	<classpathentry kind="src" path="node_modules/babel-messages/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-check-es2015-constants/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-syntax-async-functions/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-syntax-class-constructor-call/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-syntax-class-properties/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-syntax-decorators/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-syntax-exponentiation-operator/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-syntax-export-extensions/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-syntax-flow/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-syntax-jsx/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-syntax-object-rest-spread/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-syntax-trailing-function-commas/lib"/>
+	<classpathentry excluding="fixtures/trailing-function-commas/declaration/|fixtures/trailing-function-commas/arrow-function/|fixtures/trailing-function-commas/new-expression/|fixtures/trailing-function-commas/call/" kind="src" path="node_modules/babel-plugin-syntax-trailing-function-commas/test"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-syntax-trailing-function-commas/test/fixtures/trailing-function-commas/arrow-function"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-syntax-trailing-function-commas/test/fixtures/trailing-function-commas/call"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-syntax-trailing-function-commas/test/fixtures/trailing-function-commas/declaration"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-syntax-trailing-function-commas/test/fixtures/trailing-function-commas/new-expression"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-async-to-generator/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-class-constructor-call/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-class-properties/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-decorators/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-es2015-arrow-functions/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-es2015-block-scoped-functions/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-es2015-block-scoping/lib"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/babel-plugin-transform-es2015-classes/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-es2015-classes/lib/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-es2015-computed-properties/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-es2015-destructuring/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-es2015-duplicate-keys/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-es2015-for-of/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-es2015-function-name/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-es2015-literals/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-es2015-modules-commonjs/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-es2015-object-super/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-es2015-parameters/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-es2015-shorthand-properties/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-es2015-spread/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-es2015-sticky-regex/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-es2015-template-literals/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-es2015-typeof-symbol/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-es2015-unicode-regex/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-exponentiation-operator/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-export-extensions/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-flow-strip-types/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-object-rest-spread/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-react-display-name/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-react-jsx-source/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-react-jsx/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-regenerator/.test"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-regenerator/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-regenerator/src"/>
+	<classpathentry kind="src" path="node_modules/babel-plugin-transform-strict-mode/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-preset-es2015"/>
+	<classpathentry kind="src" path="node_modules/babel-preset-react"/>
+	<classpathentry kind="src" path="node_modules/babel-preset-stage-1"/>
+	<classpathentry kind="src" path="node_modules/babel-preset-stage-2"/>
+	<classpathentry kind="src" path="node_modules/babel-preset-stage-3"/>
+	<classpathentry kind="src" path="node_modules/babel-register/lib"/>
+	<classpathentry excluding="library/fn/system/|library/fn/reflect/|fn/date/|library/fn/dom-collections/|library/fn/string/|library/fn/object/|fn/string/|library/fn/|library/fn/error/|fn/|library/fn/typed/|library/fn/math/|fn/dom-collections/|library/fn/array/|fn/function/virtual/|library/fn/json/|library/|fn/error/|fn/symbol/|stage/|library/web/|library/fn/function/|fn/number/|library/fn/function/virtual/|library/modules/|fn/array/virtual/|modules/|library/fn/symbol/|fn/reflect/|fn/typed/|fn/array/|library/fn/regexp/|library/es5/|library/fn/date/|library/es7/|library/es6/|es7/|es6/|es5/|web/|core/|library/core/|library/fn/array/virtual/|client/|fn/number/virtual/|fn/regexp/|fn/json/|library/stage/|library/fn/number/virtual/|fn/system/|fn/function/|library/fn/number/|library/fn/string/virtual/|modules/library/|fn/object/|build/|fn/math/|fn/string/virtual/" kind="src" path="node_modules/babel-register/node_modules/core-js"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/build"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/client"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/core"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/es5"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/es6"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/es7"/>
+	<classpathentry excluding="date/|string/|dom-collections/|function/virtual/|error/|symbol/|number/|array/virtual/|reflect/|typed/|array/|number/virtual/|regexp/|json/|system/|function/|object/|math/|string/virtual/" kind="src" path="node_modules/babel-register/node_modules/core-js/fn"/>
+	<classpathentry excluding="virtual/" kind="src" path="node_modules/babel-register/node_modules/core-js/fn/array"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/fn/array/virtual"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/fn/date"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/fn/dom-collections"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/fn/error"/>
+	<classpathentry excluding="virtual/" kind="src" path="node_modules/babel-register/node_modules/core-js/fn/function"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/fn/function/virtual"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/fn/json"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/fn/math"/>
+	<classpathentry excluding="virtual/" kind="src" path="node_modules/babel-register/node_modules/core-js/fn/number"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/fn/number/virtual"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/fn/object"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/fn/reflect"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/fn/regexp"/>
+	<classpathentry excluding="virtual/" kind="src" path="node_modules/babel-register/node_modules/core-js/fn/string"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/fn/string/virtual"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/fn/symbol"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/fn/system"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/fn/typed"/>
+	<classpathentry excluding="fn/system/|fn/reflect/|fn/dom-collections/|fn/string/|fn/object/|fn/|fn/error/|fn/typed/|fn/math/|fn/array/|fn/json/|web/|fn/function/|fn/function/virtual/|modules/|fn/symbol/|fn/regexp/|es5/|fn/date/|es7/|es6/|core/|fn/array/virtual/|stage/|fn/number/virtual/|fn/number/|fn/string/virtual/" kind="src" path="node_modules/babel-register/node_modules/core-js/library"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/library/core"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/library/es5"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/library/es6"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/library/es7"/>
+	<classpathentry excluding="system/|reflect/|dom-collections/|string/|object/|error/|typed/|math/|array/|json/|function/|function/virtual/|symbol/|regexp/|date/|array/virtual/|number/virtual/|number/|string/virtual/" kind="src" path="node_modules/babel-register/node_modules/core-js/library/fn"/>
+	<classpathentry excluding="virtual/" kind="src" path="node_modules/babel-register/node_modules/core-js/library/fn/array"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/library/fn/array/virtual"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/library/fn/date"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/library/fn/dom-collections"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/library/fn/error"/>
+	<classpathentry excluding="virtual/" kind="src" path="node_modules/babel-register/node_modules/core-js/library/fn/function"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/library/fn/function/virtual"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/library/fn/json"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/library/fn/math"/>
+	<classpathentry excluding="virtual/" kind="src" path="node_modules/babel-register/node_modules/core-js/library/fn/number"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/library/fn/number/virtual"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/library/fn/object"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/library/fn/reflect"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/library/fn/regexp"/>
+	<classpathentry excluding="virtual/" kind="src" path="node_modules/babel-register/node_modules/core-js/library/fn/string"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/library/fn/string/virtual"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/library/fn/symbol"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/library/fn/system"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/library/fn/typed"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/library/modules"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/library/stage"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/library/web"/>
+	<classpathentry excluding="library/" kind="src" path="node_modules/babel-register/node_modules/core-js/modules"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/modules/library"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/stage"/>
+	<classpathentry kind="src" path="node_modules/babel-register/node_modules/core-js/web"/>
+	<classpathentry excluding="core-js/reflect/|core-js/system/|core-js/regexp/|regenerator/|core-js/json/|core-js/math/|core-js/object/|core-js/|core-js/function/|core-js/date/|helpers/|core-js/error/|core-js/string/|core-js/array/|core-js/number/|core-js/symbol/" kind="src" path="node_modules/babel-runtime"/>
+	<classpathentry excluding="reflect/|system/|regexp/|json/|math/|object/|function/|date/|error/|string/|array/|number/|symbol/" kind="src" path="node_modules/babel-runtime/core-js"/>
+	<classpathentry kind="src" path="node_modules/babel-runtime/core-js/array"/>
+	<classpathentry kind="src" path="node_modules/babel-runtime/core-js/date"/>
+	<classpathentry kind="src" path="node_modules/babel-runtime/core-js/error"/>
+	<classpathentry kind="src" path="node_modules/babel-runtime/core-js/function"/>
+	<classpathentry kind="src" path="node_modules/babel-runtime/core-js/json"/>
+	<classpathentry kind="src" path="node_modules/babel-runtime/core-js/math"/>
+	<classpathentry kind="src" path="node_modules/babel-runtime/core-js/number"/>
+	<classpathentry kind="src" path="node_modules/babel-runtime/core-js/object"/>
+	<classpathentry kind="src" path="node_modules/babel-runtime/core-js/reflect"/>
+	<classpathentry kind="src" path="node_modules/babel-runtime/core-js/regexp"/>
+	<classpathentry kind="src" path="node_modules/babel-runtime/core-js/string"/>
+	<classpathentry kind="src" path="node_modules/babel-runtime/core-js/symbol"/>
+	<classpathentry kind="src" path="node_modules/babel-runtime/core-js/system"/>
+	<classpathentry kind="src" path="node_modules/babel-runtime/helpers"/>
+	<classpathentry kind="src" path="node_modules/babel-runtime/regenerator"/>
+	<classpathentry kind="src" path="node_modules/babel-template/lib"/>
+	<classpathentry excluding="path/inference/|path/|path/lib/|scope/|scope/lib/" kind="src" path="node_modules/babel-traverse/lib"/>
+	<classpathentry excluding="inference/|lib/" kind="src" path="node_modules/babel-traverse/lib/path"/>
+	<classpathentry kind="src" path="node_modules/babel-traverse/lib/path/inference"/>
+	<classpathentry kind="src" path="node_modules/babel-traverse/lib/path/lib"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/babel-traverse/lib/scope"/>
+	<classpathentry kind="src" path="node_modules/babel-traverse/lib/scope/lib"/>
+	<classpathentry excluding="definitions/" kind="src" path="node_modules/babel-types/lib"/>
+	<classpathentry kind="src" path="node_modules/babel-types/lib/definitions"/>
+	<classpathentry excluding="bin/" kind="src" path="node_modules/babylon"/>
+	<classpathentry kind="src" path="node_modules/babylon/bin"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/balanced-match"/>
+	<classpathentry kind="src" path="node_modules/balanced-match/test"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/base62"/>
+	<classpathentry kind="src" path="node_modules/base62/test"/>
+	<classpathentry kind="src" path="node_modules/Base64"/>
+	<classpathentry kind="src" path="node_modules/base64-js/bench"/>
+	<classpathentry kind="src" path="node_modules/base64-js/lib"/>
+	<classpathentry kind="src" path="node_modules/base64-js/test"/>
+	<classpathentry kind="src" path="node_modules/batch"/>
+	<classpathentry kind="src" path="node_modules/big.js"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/bl"/>
+	<classpathentry kind="src" path="node_modules/bl/test"/>
+	<classpathentry kind="src" path="node_modules/boom/lib"/>
+	<classpathentry kind="src" path="node_modules/boom/test"/>
+	<classpathentry kind="src" path="node_modules/brace-expansion"/>
+	<classpathentry kind="src" path="node_modules/braces"/>
+	<classpathentry kind="src" path="node_modules/browserify-zlib/src"/>
+	<classpathentry excluding="ignored/" kind="src" path="node_modules/browserify-zlib/test"/>
+	<classpathentry kind="src" path="node_modules/browserify-zlib/test/ignored"/>
+	<classpathentry excluding="bin/|test/node/|test/|test/node-es6/" kind="src" path="node_modules/buffer"/>
+	<classpathentry kind="src" path="node_modules/buffer/bin"/>
+	<classpathentry excluding="node/|node-es6/" kind="src" path="node_modules/buffer/test"/>
+	<classpathentry kind="src" path="node_modules/buffer/test/node"/>
+	<classpathentry kind="src" path="node_modules/buffer/test/node-es6"/>
+	<classpathentry kind="src" path="node_modules/bytes"/>
+	<classpathentry kind="src" path="node_modules/camelcase"/>
+	<classpathentry kind="src" path="node_modules/caseless"/>
+	<classpathentry kind="src" path="node_modules/center-align"/>
+	<classpathentry excluding="lib/chai/|lib/chai/interface/|lib/|lib/chai/utils/|lib/chai/core/" kind="src" path="node_modules/chai"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/chai-jquery"/>
+	<classpathentry kind="src" path="node_modules/chai-jquery/test"/>
+	<classpathentry excluding="chai/|chai/interface/|chai/utils/|chai/core/" kind="src" path="node_modules/chai/lib"/>
+	<classpathentry excluding="interface/|utils/|core/" kind="src" path="node_modules/chai/lib/chai"/>
+	<classpathentry kind="src" path="node_modules/chai/lib/chai/core"/>
+	<classpathentry kind="src" path="node_modules/chai/lib/chai/interface"/>
+	<classpathentry kind="src" path="node_modules/chai/lib/chai/utils"/>
+	<classpathentry kind="src" path="node_modules/chalk"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/chokidar"/>
+	<classpathentry kind="src" path="node_modules/chokidar/lib"/>
+	<classpathentry excluding="node_modules/wordwrap/test/|node_modules/wordwrap/example/|node_modules/wordwrap/|test/" kind="src" path="node_modules/cliui"/>
+	<classpathentry excluding="test/|example/" kind="src" path="node_modules/cliui/node_modules/wordwrap"/>
+	<classpathentry kind="src" path="node_modules/cliui/node_modules/wordwrap/example"/>
+	<classpathentry kind="src" path="node_modules/cliui/node_modules/wordwrap/test"/>
+	<classpathentry kind="src" path="node_modules/cliui/test"/>
+	<classpathentry kind="src" path="node_modules/clone"/>
+	<classpathentry kind="src" path="node_modules/combined-stream/lib"/>
+	<classpathentry kind="src" path="node_modules/commander"/>
+	<classpathentry kind="src" path="node_modules/compressible"/>
+	<classpathentry kind="src" path="node_modules/compression"/>
+	<classpathentry excluding="example/|test/" kind="src" path="node_modules/concat-map"/>
+	<classpathentry kind="src" path="node_modules/concat-map/example"/>
+	<classpathentry kind="src" path="node_modules/concat-map/test"/>
+	<classpathentry kind="src" path="node_modules/connect-history-api-fallback/lib"/>
+	<classpathentry kind="src" path="node_modules/connect-history-api-fallback/test"/>
+	<classpathentry excluding="test/static/|test/" kind="src" path="node_modules/console-browserify"/>
+	<classpathentry excluding="static/" kind="src" path="node_modules/console-browserify/test"/>
+	<classpathentry kind="src" path="node_modules/console-browserify/test/static"/>
+	<classpathentry kind="src" path="node_modules/content-disposition"/>
+	<classpathentry kind="src" path="node_modules/content-type"/>
+	<classpathentry excluding="example/|test/" kind="src" path="node_modules/convert-source-map"/>
+	<classpathentry kind="src" path="node_modules/convert-source-map/example"/>
+	<classpathentry kind="src" path="node_modules/convert-source-map/test"/>
+	<classpathentry kind="src" path="node_modules/cookie"/>
+	<classpathentry kind="src" path="node_modules/cookie-signature"/>
+	<classpathentry excluding="library/core/|library/|build/|library/fn/string/|fn/number/|library/fn/reflect/|library/fn/array/|fn/regexp/|fn/math/|library/fn/html-collection/|fn/object/|client/|library/fn/number/|library/modules/|fn/|library/fn/|library/fn/symbol/|modules/|fn/reflect/|fn/function/|library/fn/function/|library/fn/node-list/|core/|fn/node-list/|web/|fn/json/|modules/library/|fn/symbol/|library/fn/object/|library/fn/math/|fn/html-collection/|library/fn/regexp/|es5/|es6/|es7/|library/web/|js/|library/fn/json/|library/es5/|library/es6/|library/es7/|library/js/|fn/array/|fn/string/" kind="src" path="node_modules/core-js"/>
+	<classpathentry kind="src" path="node_modules/core-js/build"/>
+	<classpathentry kind="src" path="node_modules/core-js/client"/>
+	<classpathentry kind="src" path="node_modules/core-js/core"/>
+	<classpathentry kind="src" path="node_modules/core-js/es5"/>
+	<classpathentry kind="src" path="node_modules/core-js/es6"/>
+	<classpathentry kind="src" path="node_modules/core-js/es7"/>
+	<classpathentry excluding="number/|regexp/|math/|object/|reflect/|function/|node-list/|json/|symbol/|html-collection/|array/|string/" kind="src" path="node_modules/core-js/fn"/>
+	<classpathentry kind="src" path="node_modules/core-js/fn/array"/>
+	<classpathentry kind="src" path="node_modules/core-js/fn/function"/>
+	<classpathentry kind="src" path="node_modules/core-js/fn/html-collection"/>
+	<classpathentry kind="src" path="node_modules/core-js/fn/json"/>
+	<classpathentry kind="src" path="node_modules/core-js/fn/math"/>
+	<classpathentry kind="src" path="node_modules/core-js/fn/node-list"/>
+	<classpathentry kind="src" path="node_modules/core-js/fn/number"/>
+	<classpathentry kind="src" path="node_modules/core-js/fn/object"/>
+	<classpathentry kind="src" path="node_modules/core-js/fn/reflect"/>
+	<classpathentry kind="src" path="node_modules/core-js/fn/regexp"/>
+	<classpathentry kind="src" path="node_modules/core-js/fn/string"/>
+	<classpathentry kind="src" path="node_modules/core-js/fn/symbol"/>
+	<classpathentry kind="src" path="node_modules/core-js/js"/>
+	<classpathentry excluding="core/|fn/string/|fn/reflect/|fn/array/|fn/html-collection/|fn/number/|modules/|fn/|fn/symbol/|fn/function/|fn/node-list/|fn/object/|fn/math/|fn/regexp/|web/|fn/json/|es5/|es6/|es7/|js/" kind="src" path="node_modules/core-js/library"/>
+	<classpathentry kind="src" path="node_modules/core-js/library/core"/>
+	<classpathentry kind="src" path="node_modules/core-js/library/es5"/>
+	<classpathentry kind="src" path="node_modules/core-js/library/es6"/>
+	<classpathentry kind="src" path="node_modules/core-js/library/es7"/>
+	<classpathentry excluding="string/|reflect/|array/|html-collection/|number/|symbol/|function/|node-list/|object/|math/|regexp/|json/" kind="src" path="node_modules/core-js/library/fn"/>
+	<classpathentry kind="src" path="node_modules/core-js/library/fn/array"/>
+	<classpathentry kind="src" path="node_modules/core-js/library/fn/function"/>
+	<classpathentry kind="src" path="node_modules/core-js/library/fn/html-collection"/>
+	<classpathentry kind="src" path="node_modules/core-js/library/fn/json"/>
+	<classpathentry kind="src" path="node_modules/core-js/library/fn/math"/>
+	<classpathentry kind="src" path="node_modules/core-js/library/fn/node-list"/>
+	<classpathentry kind="src" path="node_modules/core-js/library/fn/number"/>
+	<classpathentry kind="src" path="node_modules/core-js/library/fn/object"/>
+	<classpathentry kind="src" path="node_modules/core-js/library/fn/reflect"/>
+	<classpathentry kind="src" path="node_modules/core-js/library/fn/regexp"/>
+	<classpathentry kind="src" path="node_modules/core-js/library/fn/string"/>
+	<classpathentry kind="src" path="node_modules/core-js/library/fn/symbol"/>
+	<classpathentry kind="src" path="node_modules/core-js/library/js"/>
+	<classpathentry kind="src" path="node_modules/core-js/library/modules"/>
+	<classpathentry kind="src" path="node_modules/core-js/library/web"/>
+	<classpathentry excluding="library/" kind="src" path="node_modules/core-js/modules"/>
+	<classpathentry kind="src" path="node_modules/core-js/modules/library"/>
+	<classpathentry kind="src" path="node_modules/core-js/web"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/core-util-is"/>
+	<classpathentry kind="src" path="node_modules/core-util-is/lib"/>
+	<classpathentry kind="src" path="node_modules/cryptiles/lib"/>
+	<classpathentry kind="src" path="node_modules/cryptiles/test"/>
+	<classpathentry excluding="example/|test/" kind="src" path="node_modules/crypto-browserify"/>
+	<classpathentry kind="src" path="node_modules/crypto-browserify/example"/>
+	<classpathentry kind="src" path="node_modules/crypto-browserify/test"/>
+	<classpathentry kind="src" path="node_modules/cssom/lib"/>
+	<classpathentry excluding="properties/" kind="src" path="node_modules/cssstyle/lib"/>
+	<classpathentry kind="src" path="node_modules/cssstyle/lib/properties"/>
+	<classpathentry kind="src" path="node_modules/cssstyle/scripts"/>
+	<classpathentry kind="src" path="node_modules/cssstyle/tests"/>
+	<classpathentry kind="src" path="node_modules/dashdash/lib"/>
+	<classpathentry kind="src" path="node_modules/dashdash/node_modules/assert-plus"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/date-now"/>
+	<classpathentry kind="src" path="node_modules/date-now/test"/>
+	<classpathentry kind="src" path="node_modules/debug"/>
+	<classpathentry kind="src" path="node_modules/decamelize"/>
+	<classpathentry excluding="lib/|node_modules/type-detect/|node_modules/type-detect/lib/" kind="src" path="node_modules/deep-eql"/>
+	<classpathentry kind="src" path="node_modules/deep-eql/lib"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/deep-eql/node_modules/type-detect"/>
+	<classpathentry kind="src" path="node_modules/deep-eql/node_modules/type-detect/lib"/>
+	<classpathentry excluding="lib/|test/|example/" kind="src" path="node_modules/deep-equal"/>
+	<classpathentry kind="src" path="node_modules/deep-equal/example"/>
+	<classpathentry kind="src" path="node_modules/deep-equal/lib"/>
+	<classpathentry kind="src" path="node_modules/deep-equal/test"/>
+	<classpathentry excluding="example/|test/" kind="src" path="node_modules/deep-is"/>
+	<classpathentry kind="src" path="node_modules/deep-is/example"/>
+	<classpathentry kind="src" path="node_modules/deep-is/test"/>
+	<classpathentry kind="src" path="node_modules/delayed-stream/lib"/>
+	<classpathentry excluding="lib/browser/|lib/compat/" kind="src" path="node_modules/depd"/>
+	<classpathentry kind="src" path="node_modules/depd/lib/browser"/>
+	<classpathentry kind="src" path="node_modules/depd/lib/compat"/>
+	<classpathentry kind="src" path="node_modules/destroy"/>
+	<classpathentry kind="src" path="node_modules/detect-indent"/>
+	<classpathentry kind="src" path="node_modules/diff"/>
+	<classpathentry kind="src" path="node_modules/domain-browser"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/ecc-jsbn"/>
+	<classpathentry kind="src" path="node_modules/ecc-jsbn/lib"/>
+	<classpathentry kind="src" path="node_modules/ee-first"/>
+	<classpathentry excluding="dist/" kind="src" path="node_modules/emojis-list"/>
+	<classpathentry kind="src" path="node_modules/emojis-list/dist"/>
+	<classpathentry kind="src" path="node_modules/enhanced-resolve/lib"/>
+	<classpathentry kind="src" path="node_modules/enhanced-resolve/node_modules/graceful-fs"/>
+	<classpathentry kind="src" path="node_modules/enhanced-resolve/node_modules/memory-fs/lib"/>
+	<classpathentry kind="src" path="node_modules/enhanced-resolve/node_modules/memory-fs/test"/>
+	<classpathentry kind="src" path="node_modules/envify"/>
+	<classpathentry kind="src" path="node_modules/errno"/>
+	<classpathentry kind="src" path="node_modules/escape-html"/>
+	<classpathentry kind="src" path="node_modules/escape-string-regexp"/>
+	<classpathentry excluding="node_modules/esprima/bin/|node_modules/source-map/lib/source-map/|node_modules/source-map/lib/|node_modules/source-map/test/source-map/|node_modules/esprima/|node_modules/source-map/|node_modules/source-map/test/|bin/|node_modules/source-map/build/" kind="src" path="node_modules/escodegen"/>
+	<classpathentry kind="src" path="node_modules/escodegen/bin"/>
+	<classpathentry excluding="bin/" kind="src" path="node_modules/escodegen/node_modules/esprima"/>
+	<classpathentry kind="src" path="node_modules/escodegen/node_modules/esprima/bin"/>
+	<classpathentry excluding="lib/source-map/|lib/|test/source-map/|test/|build/" kind="src" path="node_modules/escodegen/node_modules/source-map"/>
+	<classpathentry kind="src" path="node_modules/escodegen/node_modules/source-map/build"/>
+	<classpathentry excluding="source-map/" kind="src" path="node_modules/escodegen/node_modules/source-map/lib"/>
+	<classpathentry kind="src" path="node_modules/escodegen/node_modules/source-map/lib/source-map"/>
+	<classpathentry excluding="source-map/" kind="src" path="node_modules/escodegen/node_modules/source-map/test"/>
+	<classpathentry kind="src" path="node_modules/escodegen/node_modules/source-map/test/source-map"/>
+	<classpathentry excluding="bin/|test/" kind="src" path="node_modules/esprima-fb"/>
+	<classpathentry kind="src" path="node_modules/esprima-fb/bin"/>
+	<classpathentry kind="src" path="node_modules/esprima-fb/test"/>
+	<classpathentry kind="src" path="node_modules/estraverse"/>
+	<classpathentry kind="src" path="node_modules/esutils/lib"/>
+	<classpathentry kind="src" path="node_modules/etag"/>
+	<classpathentry kind="src" path="node_modules/eventemitter3"/>
+	<classpathentry excluding="tests/" kind="src" path="node_modules/events"/>
+	<classpathentry kind="src" path="node_modules/events/tests"/>
+	<classpathentry excluding="lib/|test/" kind="src" path="node_modules/eventsource"/>
+	<classpathentry kind="src" path="node_modules/eventsource/lib"/>
+	<classpathentry kind="src" path="node_modules/eventsource/test"/>
+	<classpathentry kind="src" path="node_modules/expand-brackets"/>
+	<classpathentry kind="src" path="node_modules/expand-range"/>
+	<classpathentry excluding="lib/|node_modules/qs/test/|node_modules/vary/|lib/middleware/|node_modules/qs/lib/|node_modules/negotiator/|lib/router/|node_modules/negotiator/lib/|node_modules/accepts/" kind="src" path="node_modules/express"/>
+	<classpathentry excluding="middleware/|router/" kind="src" path="node_modules/express/lib"/>
+	<classpathentry kind="src" path="node_modules/express/lib/middleware"/>
+	<classpathentry kind="src" path="node_modules/express/lib/router"/>
+	<classpathentry kind="src" path="node_modules/express/node_modules/accepts"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/express/node_modules/negotiator"/>
+	<classpathentry kind="src" path="node_modules/express/node_modules/negotiator/lib"/>
+	<classpathentry kind="src" path="node_modules/express/node_modules/qs/lib"/>
+	<classpathentry kind="src" path="node_modules/express/node_modules/qs/test"/>
+	<classpathentry kind="src" path="node_modules/express/node_modules/vary"/>
+	<classpathentry kind="src" path="node_modules/extend"/>
+	<classpathentry kind="src" path="node_modules/extglob"/>
+	<classpathentry kind="src" path="node_modules/extsprintf/examples"/>
+	<classpathentry kind="src" path="node_modules/extsprintf/lib"/>
+	<classpathentry kind="src" path="node_modules/fast-levenshtein"/>
+	<classpathentry kind="src" path="node_modules/faye-websocket/examples"/>
+	<classpathentry excluding="websocket/|websocket/api/" kind="src" path="node_modules/faye-websocket/lib/faye"/>
+	<classpathentry excluding="api/" kind="src" path="node_modules/faye-websocket/lib/faye/websocket"/>
+	<classpathentry kind="src" path="node_modules/faye-websocket/lib/faye/websocket/api"/>
+	<classpathentry excluding="lib/|lib/__mocks__/|flow/lib/" kind="src" path="node_modules/fbjs"/>
+	<classpathentry kind="src" path="node_modules/fbjs/flow/lib"/>
+	<classpathentry excluding="__mocks__/" kind="src" path="node_modules/fbjs/lib"/>
+	<classpathentry kind="src" path="node_modules/fbjs/lib/__mocks__"/>
+	<classpathentry kind="src" path="node_modules/filename-regex"/>
+	<classpathentry kind="src" path="node_modules/fill-range"/>
+	<classpathentry kind="src" path="node_modules/finalhandler"/>
+	<classpathentry kind="src" path="node_modules/for-in"/>
+	<classpathentry kind="src" path="node_modules/for-own"/>
+	<classpathentry kind="src" path="node_modules/forever-agent"/>
+	<classpathentry kind="src" path="node_modules/form-data/lib"/>
+	<classpathentry kind="src" path="node_modules/forwarded"/>
+	<classpathentry kind="src" path="node_modules/fresh"/>
+	<classpathentry excluding="node_modules/aws4/node_modules/lru-cache/node_modules/pseudomap/test/|node_modules/rc/test/|node_modules/node-pre-gyp/node_modules/nopt/node_modules/abbrev/|node_modules/debug/|node_modules/node-uuid/|node_modules/tar/|node_modules/jodid25519/lib/|node_modules/semver/test/|node_modules/ms/|node_modules/aws4/|node_modules/commander/|node_modules/qs/lib/|node_modules/block-stream/|node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/|node_modules/xtend/|node_modules/tough-cookie/lib/|node_modules/is-my-json-valid/|node_modules/tar/examples/|node_modules/sntp/examples/|node_modules/node-pre-gyp/node_modules/nopt/examples/|node_modules/ansi/examples/progress/|node_modules/cryptiles/lib/|node_modules/delegates/|node_modules/lodash.tostring/|node_modules/lodash.repeat/|node_modules/asn1/lib/|node_modules/fstream/lib/|node_modules/is-property/|node_modules/ansi/examples/beep/|node_modules/chalk/|node_modules/rc/node_modules/minimist/test/|node_modules/ansi/lib/|node_modules/har-validator/lib/|node_modules/qs/test/|node_modules/are-we-there-yet/test/|node_modules/rimraf/|node_modules/mkdirp/test/|node_modules/pinkie-promise/|node_modules/isstream/|node_modules/json-stringify-safe/test/|node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/test/|node_modules/rimraf/node_modules/glob/node_modules/minimatch/|node_modules/asn1/lib/ber/|node_modules/minimist/|node_modules/strip-ansi/|node_modules/qs/dist/|node_modules/core-util-is/|node_modules/hawk/test/|node_modules/hoek/lib/|node_modules/sntp/|node_modules/har-validator/lib/schemas/|node_modules/ini/|node_modules/minimist/example/|node_modules/npmlog/test/|node_modules/assert-plus/|node_modules/node-pre-gyp/node_modules/nopt/bin/|node_modules/minimist/test/|node_modules/fstream-ignore/node_modules/minimatch/|node_modules/stringstream/|node_modules/verror/lib/|node_modules/fstream/|node_modules/lodash.padstart/|node_modules/dashdash/node_modules/assert-plus/|node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/|node_modules/fstream-ignore/|node_modules/has-ansi/|node_modules/caseless/|node_modules/hoek/test/|node_modules/pinkie/|node_modules/hawk/lib/|node_modules/readable-stream/|node_modules/tar-pack/test/|node_modules/ecc-jsbn/lib/|node_modules/jodid25519/|node_modules/jsprim/lib/|node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/|node_modules/hawk/example/|node_modules/graceful-fs/|node_modules/extsprintf/lib/|node_modules/aws4/node_modules/lru-cache/lib/|node_modules/mime-db/|node_modules/ecc-jsbn/|node_modules/mime-types/|node_modules/rc/node_modules/minimist/|node_modules/core-util-is/lib/|node_modules/verror/examples/|node_modules/rimraf/node_modules/glob/node_modules/inflight/|node_modules/jsonpointer/|node_modules/delayed-stream/lib/|node_modules/gauge/test/|node_modules/asn1/tst/ber/|node_modules/sshpk/lib/|node_modules/fstream-ignore/example/|node_modules/combined-stream/lib/|node_modules/jsbn/|node_modules/rimraf/node_modules/glob/node_modules/path-is-absolute/|node_modules/tunnel-agent/|node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/test/|node_modules/graceful-readlink/|node_modules/ansi/examples/|node_modules/sntp/test/|node_modules/rimraf/node_modules/glob/node_modules/once/|node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/test/|node_modules/process-nextick-args/|node_modules/node-pre-gyp/node_modules/nopt/test/|node_modules/rc/|node_modules/async/dist/|node_modules/mkdirp/|node_modules/tar/test/|node_modules/mkdirp/examples/|node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/example/|node_modules/async/lib/|node_modules/uid-number/|node_modules/boom/lib/|node_modules/node-uuid/test/|node_modules/sntp/lib/|node_modules/request/|node_modules/aws4/node_modules/lru-cache/node_modules/pseudomap/|node_modules/node-pre-gyp/lib/|node_modules/rimraf/node_modules/glob/node_modules/once/node_modules/wrappy/test/|node_modules/fstream-ignore/test/|node_modules/strip-json-comments/|node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/|node_modules/json-schema/lib/|node_modules/extend/|node_modules/bl/|node_modules/ansi-regex/|node_modules/extsprintf/examples/|node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/|node_modules/wrappy/|node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/example/|node_modules/rimraf/node_modules/glob/node_modules/inflight/node_modules/wrappy/test/|node_modules/oauth-sign/|node_modules/ansi-styles/|node_modules/readable-stream/lib/|node_modules/are-we-there-yet/|node_modules/util-deprecate/|node_modules/gauge/|node_modules/hawk/dist/|node_modules/verror/tests/|node_modules/json-schema/test/|node_modules/tweetnacl/|node_modules/delegates/test/|node_modules/rimraf/node_modules/glob/node_modules/inflight/node_modules/wrappy/|node_modules/supports-color/|node_modules/lodash.pad/|node_modules/inherits/|node_modules/http-signature/lib/|node_modules/aws4/node_modules/lru-cache/node_modules/yallist/test/|node_modules/has-unicode/test/|node_modules/aws4/node_modules/lru-cache/node_modules/yallist/|node_modules/boom/test/|node_modules/ansi/examples/clear/|node_modules/forever-agent/|node_modules/rimraf/node_modules/glob/node_modules/once/node_modules/wrappy/|node_modules/is-my-json-valid/test/|node_modules/generate-function/|node_modules/sshpk/lib/formats/|node_modules/rc/node_modules/minimist/example/|node_modules/semver/|node_modules/node-pre-gyp/node_modules/nopt/lib/|node_modules/node-uuid/benchmark/|node_modules/tar-pack/|node_modules/request/lib/|node_modules/rc/lib/|node_modules/node-pre-gyp/lib/util/|node_modules/rimraf/node_modules/glob/|node_modules/cryptiles/test/|node_modules/tar/lib/|node_modules/once/|test/|node_modules/bl/test/|node_modules/has-unicode/|node_modules/generate-object-property/|node_modules/dashdash/lib/|node_modules/fstream/examples/|node_modules/isarray/|node_modules/mkdirp/bin/|node_modules/is-my-json-valid/test/fixtures/|node_modules/is-typedarray/|node_modules/are-we-there-yet/test/lib/|node_modules/deep-extend/lib/|node_modules/npmlog/|node_modules/aws-sign2/|node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/|node_modules/hoek/test/modules/|node_modules/deep-extend/|node_modules/wrappy/test/|node_modules/block-stream/bench/|node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/test/|node_modules/lodash.padend/|node_modules/json-stringify-safe/|node_modules/string_decoder/|node_modules/rimraf/node_modules/glob/node_modules/inherits/|node_modules/escape-string-regexp/|node_modules/form-data/lib/|node_modules/block-stream/test/" kind="src" path="node_modules/fsevents"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/ansi-regex"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/ansi-styles"/>
+	<classpathentry excluding="progress/|beep/|clear/" kind="src" path="node_modules/fsevents/node_modules/ansi/examples"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/ansi/examples/beep"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/ansi/examples/clear"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/ansi/examples/progress"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/ansi/lib"/>
+	<classpathentry excluding="test/|test/lib/" kind="src" path="node_modules/fsevents/node_modules/are-we-there-yet"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/fsevents/node_modules/are-we-there-yet/test"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/are-we-there-yet/test/lib"/>
+	<classpathentry excluding="ber/" kind="src" path="node_modules/fsevents/node_modules/asn1/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/asn1/lib/ber"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/asn1/tst/ber"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/assert-plus"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/async/dist"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/async/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/aws-sign2"/>
+	<classpathentry excluding="node_modules/lru-cache/node_modules/pseudomap/test/|node_modules/lru-cache/lib/|node_modules/lru-cache/node_modules/pseudomap/|node_modules/lru-cache/node_modules/yallist/test/|node_modules/lru-cache/node_modules/yallist/" kind="src" path="node_modules/fsevents/node_modules/aws4"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/aws4/node_modules/lru-cache/lib"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/fsevents/node_modules/aws4/node_modules/lru-cache/node_modules/pseudomap"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/aws4/node_modules/lru-cache/node_modules/pseudomap/test"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/fsevents/node_modules/aws4/node_modules/lru-cache/node_modules/yallist"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/aws4/node_modules/lru-cache/node_modules/yallist/test"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/fsevents/node_modules/bl"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/bl/test"/>
+	<classpathentry excluding="bench/|test/" kind="src" path="node_modules/fsevents/node_modules/block-stream"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/block-stream/bench"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/block-stream/test"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/boom/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/boom/test"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/caseless"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/chalk"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/combined-stream/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/commander"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/fsevents/node_modules/core-util-is"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/core-util-is/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/cryptiles/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/cryptiles/test"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/dashdash/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/dashdash/node_modules/assert-plus"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/debug"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/fsevents/node_modules/deep-extend"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/deep-extend/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/delayed-stream/lib"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/fsevents/node_modules/delegates"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/delegates/test"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/fsevents/node_modules/ecc-jsbn"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/ecc-jsbn/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/escape-string-regexp"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/extend"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/extsprintf/examples"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/extsprintf/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/forever-agent"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/form-data/lib"/>
+	<classpathentry excluding="lib/|examples/" kind="src" path="node_modules/fsevents/node_modules/fstream"/>
+	<classpathentry excluding="node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/test/|node_modules/minimatch/|node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/|example/|node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/test/|node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/example/|test/|node_modules/minimatch/node_modules/brace-expansion/|node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/" kind="src" path="node_modules/fsevents/node_modules/fstream-ignore"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/fstream-ignore/example"/>
+	<classpathentry excluding="node_modules/brace-expansion/node_modules/balanced-match/test/|node_modules/brace-expansion/node_modules/concat-map/|node_modules/brace-expansion/node_modules/concat-map/test/|node_modules/brace-expansion/node_modules/concat-map/example/|node_modules/brace-expansion/|node_modules/brace-expansion/node_modules/balanced-match/" kind="src" path="node_modules/fsevents/node_modules/fstream-ignore/node_modules/minimatch"/>
+	<classpathentry excluding="node_modules/balanced-match/test/|node_modules/concat-map/|node_modules/concat-map/test/|node_modules/concat-map/example/|node_modules/balanced-match/" kind="src" path="node_modules/fsevents/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/fsevents/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/test"/>
+	<classpathentry excluding="test/|example/" kind="src" path="node_modules/fsevents/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/example"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/fstream-ignore/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/test"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/fstream-ignore/test"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/fstream/examples"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/fstream/lib"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/fsevents/node_modules/gauge"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/gauge/test"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/generate-function"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/generate-object-property"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/graceful-fs"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/graceful-readlink"/>
+	<classpathentry excluding="schemas/" kind="src" path="node_modules/fsevents/node_modules/har-validator/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/har-validator/lib/schemas"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/has-ansi"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/fsevents/node_modules/has-unicode"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/has-unicode/test"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/hawk/dist"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/hawk/example"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/hawk/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/hawk/test"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/hoek/lib"/>
+	<classpathentry excluding="modules/" kind="src" path="node_modules/fsevents/node_modules/hoek/test"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/hoek/test/modules"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/http-signature/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/inherits"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/ini"/>
+	<classpathentry excluding="test/|test/fixtures/" kind="src" path="node_modules/fsevents/node_modules/is-my-json-valid"/>
+	<classpathentry excluding="fixtures/" kind="src" path="node_modules/fsevents/node_modules/is-my-json-valid/test"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/is-my-json-valid/test/fixtures"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/is-property"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/is-typedarray"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/isarray"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/isstream"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/fsevents/node_modules/jodid25519"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/jodid25519/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/jsbn"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/json-schema/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/json-schema/test"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/fsevents/node_modules/json-stringify-safe"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/json-stringify-safe/test"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/jsonpointer"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/jsprim/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/lodash.pad"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/lodash.padend"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/lodash.padstart"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/lodash.repeat"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/lodash.tostring"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/mime-db"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/mime-types"/>
+	<classpathentry excluding="example/|test/" kind="src" path="node_modules/fsevents/node_modules/minimist"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/minimist/example"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/minimist/test"/>
+	<classpathentry excluding="test/|examples/|bin/" kind="src" path="node_modules/fsevents/node_modules/mkdirp"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/mkdirp/bin"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/mkdirp/examples"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/mkdirp/test"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/ms"/>
+	<classpathentry excluding="util/" kind="src" path="node_modules/fsevents/node_modules/node-pre-gyp/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/node-pre-gyp/lib/util"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/node-pre-gyp/node_modules/nopt/bin"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/node-pre-gyp/node_modules/nopt/examples"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/node-pre-gyp/node_modules/nopt/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/node-pre-gyp/node_modules/nopt/node_modules/abbrev"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/node-pre-gyp/node_modules/nopt/test"/>
+	<classpathentry excluding="test/|benchmark/" kind="src" path="node_modules/fsevents/node_modules/node-uuid"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/node-uuid/benchmark"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/node-uuid/test"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/fsevents/node_modules/npmlog"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/npmlog/test"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/oauth-sign"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/once"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/pinkie"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/pinkie-promise"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/process-nextick-args"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/qs/dist"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/qs/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/qs/test"/>
+	<classpathentry excluding="test/|node_modules/minimist/test/|node_modules/minimist/|node_modules/minimist/example/|lib/" kind="src" path="node_modules/fsevents/node_modules/rc"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/rc/lib"/>
+	<classpathentry excluding="test/|example/" kind="src" path="node_modules/fsevents/node_modules/rc/node_modules/minimist"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/rc/node_modules/minimist/example"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/rc/node_modules/minimist/test"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/rc/test"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/fsevents/node_modules/readable-stream"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/readable-stream/lib"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/fsevents/node_modules/request"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/request/lib"/>
+	<classpathentry excluding="node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/|node_modules/glob/node_modules/minimatch/|node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/|node_modules/glob/node_modules/inflight/|node_modules/glob/node_modules/path-is-absolute/|node_modules/glob/node_modules/once/|node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/test/|node_modules/glob/node_modules/once/node_modules/wrappy/test/|node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/|node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/example/|node_modules/glob/node_modules/inflight/node_modules/wrappy/test/|node_modules/glob/node_modules/inflight/node_modules/wrappy/|node_modules/glob/node_modules/once/node_modules/wrappy/|node_modules/glob/|node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/test/|node_modules/glob/node_modules/inherits/" kind="src" path="node_modules/fsevents/node_modules/rimraf"/>
+	<classpathentry excluding="node_modules/minimatch/node_modules/brace-expansion/|node_modules/minimatch/|node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/|node_modules/inflight/|node_modules/path-is-absolute/|node_modules/once/|node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/test/|node_modules/once/node_modules/wrappy/test/|node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/|node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/example/|node_modules/inflight/node_modules/wrappy/test/|node_modules/inflight/node_modules/wrappy/|node_modules/once/node_modules/wrappy/|node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/test/|node_modules/inherits/" kind="src" path="node_modules/fsevents/node_modules/rimraf/node_modules/glob"/>
+	<classpathentry excluding="node_modules/wrappy/test/|node_modules/wrappy/" kind="src" path="node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/inflight"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/inflight/node_modules/wrappy"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/inflight/node_modules/wrappy/test"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/inherits"/>
+	<classpathentry excluding="node_modules/brace-expansion/|node_modules/brace-expansion/node_modules/balanced-match/|node_modules/brace-expansion/node_modules/balanced-match/test/|node_modules/brace-expansion/node_modules/concat-map/|node_modules/brace-expansion/node_modules/concat-map/example/|node_modules/brace-expansion/node_modules/concat-map/test/" kind="src" path="node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/minimatch"/>
+	<classpathentry excluding="node_modules/balanced-match/|node_modules/balanced-match/test/|node_modules/concat-map/|node_modules/concat-map/example/|node_modules/concat-map/test/" kind="src" path="node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/test"/>
+	<classpathentry excluding="example/|test/" kind="src" path="node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/example"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/test"/>
+	<classpathentry excluding="node_modules/wrappy/test/|node_modules/wrappy/" kind="src" path="node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/once"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/once/node_modules/wrappy"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/once/node_modules/wrappy/test"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/rimraf/node_modules/glob/node_modules/path-is-absolute"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/fsevents/node_modules/semver"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/semver/test"/>
+	<classpathentry excluding="examples/|test/|lib/" kind="src" path="node_modules/fsevents/node_modules/sntp"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/sntp/examples"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/sntp/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/sntp/test"/>
+	<classpathentry excluding="formats/" kind="src" path="node_modules/fsevents/node_modules/sshpk/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/sshpk/lib/formats"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/string_decoder"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/stringstream"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/strip-ansi"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/strip-json-comments"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/supports-color"/>
+	<classpathentry excluding="examples/|test/|lib/" kind="src" path="node_modules/fsevents/node_modules/tar"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/fsevents/node_modules/tar-pack"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/tar-pack/test"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/tar/examples"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/tar/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/tar/test"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/tough-cookie/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/tunnel-agent"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/tweetnacl"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/uid-number"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/util-deprecate"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/verror/examples"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/verror/lib"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/verror/tests"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/fsevents/node_modules/wrappy"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/wrappy/test"/>
+	<classpathentry kind="src" path="node_modules/fsevents/node_modules/xtend"/>
+	<classpathentry kind="src" path="node_modules/fsevents/test"/>
+	<classpathentry kind="src" path="node_modules/generate-function"/>
+	<classpathentry kind="src" path="node_modules/generate-object-property"/>
+	<classpathentry kind="src" path="node_modules/get-stdin"/>
+	<classpathentry kind="src" path="node_modules/getpass/lib"/>
+	<classpathentry kind="src" path="node_modules/getpass/node_modules/assert-plus"/>
+	<classpathentry excluding="node_modules/minimatch/|node_modules/lru-cache/lib/|test/|examples/|node_modules/minimatch/test/|node_modules/lru-cache/test/" kind="src" path="node_modules/glob"/>
+	<classpathentry kind="src" path="node_modules/glob-base"/>
+	<classpathentry kind="src" path="node_modules/glob-parent"/>
+	<classpathentry kind="src" path="node_modules/glob/examples"/>
+	<classpathentry kind="src" path="node_modules/glob/node_modules/lru-cache/lib"/>
+	<classpathentry kind="src" path="node_modules/glob/node_modules/lru-cache/test"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/glob/node_modules/minimatch"/>
+	<classpathentry kind="src" path="node_modules/glob/node_modules/minimatch/test"/>
+	<classpathentry kind="src" path="node_modules/glob/test"/>
+	<classpathentry kind="src" path="node_modules/globals"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/graceful-fs"/>
+	<classpathentry kind="src" path="node_modules/graceful-fs/test"/>
+	<classpathentry kind="src" path="node_modules/graceful-readlink"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/growl"/>
+	<classpathentry kind="src" path="node_modules/growl/lib"/>
+	<classpathentry excluding="schemas/" kind="src" path="node_modules/har-validator/lib"/>
+	<classpathentry kind="src" path="node_modules/har-validator/lib/schemas"/>
+	<classpathentry kind="src" path="node_modules/has-ansi"/>
+	<classpathentry kind="src" path="node_modules/has-flag"/>
+	<classpathentry kind="src" path="node_modules/hawk/dist"/>
+	<classpathentry kind="src" path="node_modules/hawk/example"/>
+	<classpathentry kind="src" path="node_modules/hawk/lib"/>
+	<classpathentry kind="src" path="node_modules/hawk/test"/>
+	<classpathentry kind="src" path="node_modules/history/es6"/>
+	<classpathentry kind="src" path="node_modules/history/lib"/>
+	<classpathentry kind="src" path="node_modules/history/modules"/>
+	<classpathentry kind="src" path="node_modules/history/umd"/>
+	<classpathentry kind="src" path="node_modules/hoek/lib"/>
+	<classpathentry excluding="modules/" kind="src" path="node_modules/hoek/test"/>
+	<classpathentry kind="src" path="node_modules/hoek/test/modules"/>
+	<classpathentry kind="src" path="node_modules/hoist-non-react-statics"/>
+	<classpathentry kind="src" path="node_modules/home-or-tmp"/>
+	<classpathentry excluding="lib/|example/get/|example/streaming/|example/headers/|test/|example/post/" kind="src" path="node_modules/http-browserify"/>
+	<classpathentry kind="src" path="node_modules/http-browserify/example/get"/>
+	<classpathentry kind="src" path="node_modules/http-browserify/example/headers"/>
+	<classpathentry kind="src" path="node_modules/http-browserify/example/post"/>
+	<classpathentry kind="src" path="node_modules/http-browserify/example/streaming"/>
+	<classpathentry kind="src" path="node_modules/http-browserify/lib"/>
+	<classpathentry kind="src" path="node_modules/http-browserify/test"/>
+	<classpathentry kind="src" path="node_modules/http-errors"/>
+	<classpathentry excluding="lib/|lib/http-proxy/passes/|lib/http-proxy/" kind="src" path="node_modules/http-proxy"/>
+	<classpathentry excluding="http-proxy/passes/|http-proxy/" kind="src" path="node_modules/http-proxy/lib"/>
+	<classpathentry excluding="passes/" kind="src" path="node_modules/http-proxy/lib/http-proxy"/>
+	<classpathentry kind="src" path="node_modules/http-proxy/lib/http-proxy/passes"/>
+	<classpathentry kind="src" path="node_modules/http-signature/lib"/>
+	<classpathentry kind="src" path="node_modules/https-browserify"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/ieee754"/>
+	<classpathentry kind="src" path="node_modules/ieee754/test"/>
+	<classpathentry kind="src" path="node_modules/indexof"/>
+	<classpathentry kind="src" path="node_modules/inherits"/>
+	<classpathentry kind="src" path="node_modules/interpret"/>
+	<classpathentry kind="src" path="node_modules/invariant"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/ipaddr.js"/>
+	<classpathentry kind="src" path="node_modules/ipaddr.js/lib"/>
+	<classpathentry kind="src" path="node_modules/is-binary-path"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/is-buffer"/>
+	<classpathentry kind="src" path="node_modules/is-buffer/test"/>
+	<classpathentry kind="src" path="node_modules/is-dotfile"/>
+	<classpathentry kind="src" path="node_modules/is-equal-shallow"/>
+	<classpathentry kind="src" path="node_modules/is-extendable"/>
+	<classpathentry kind="src" path="node_modules/is-extglob"/>
+	<classpathentry kind="src" path="node_modules/is-finite"/>
+	<classpathentry kind="src" path="node_modules/is-glob"/>
+	<classpathentry kind="src" path="node_modules/is-integer"/>
+	<classpathentry excluding="test/|test/fixtures/" kind="src" path="node_modules/is-my-json-valid"/>
+	<classpathentry excluding="fixtures/" kind="src" path="node_modules/is-my-json-valid/test"/>
+	<classpathentry kind="src" path="node_modules/is-my-json-valid/test/fixtures"/>
+	<classpathentry kind="src" path="node_modules/is-number"/>
+	<classpathentry kind="src" path="node_modules/is-posix-bracket"/>
+	<classpathentry kind="src" path="node_modules/is-primitive"/>
+	<classpathentry kind="src" path="node_modules/is-property"/>
+	<classpathentry kind="src" path="node_modules/is-typedarray"/>
+	<classpathentry kind="src" path="node_modules/isarray"/>
+	<classpathentry kind="src" path="node_modules/isobject"/>
+	<classpathentry kind="src" path="node_modules/isstream"/>
+	<classpathentry excluding="node_modules/commander/|testing/|node_modules/mkdirp/|lib/|node_modules/commander/lib/|node_modules/mkdirp/examples/|node_modules/mkdirp/test/|lib/nodes/" kind="src" path="node_modules/jade"/>
+	<classpathentry excluding="nodes/" kind="src" path="node_modules/jade/lib"/>
+	<classpathentry kind="src" path="node_modules/jade/lib/nodes"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/jade/node_modules/commander"/>
+	<classpathentry kind="src" path="node_modules/jade/node_modules/commander/lib"/>
+	<classpathentry excluding="examples/|test/" kind="src" path="node_modules/jade/node_modules/mkdirp"/>
+	<classpathentry kind="src" path="node_modules/jade/node_modules/mkdirp/examples"/>
+	<classpathentry kind="src" path="node_modules/jade/node_modules/mkdirp/test"/>
+	<classpathentry kind="src" path="node_modules/jade/testing"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/jodid25519"/>
+	<classpathentry kind="src" path="node_modules/jodid25519/lib"/>
+	<classpathentry kind="src" path="node_modules/jquery/dist"/>
+	<classpathentry kind="src" path="node_modules/jquery/sizzle/dist"/>
+	<classpathentry excluding="attributes/|var/|effects/|exports/|ajax/|data/var/|deferred/|queue/|ajax/var/|manipulation/var/|traversing/var/|traversing/|event/|data/|core/|css/var/|manipulation/|css/|core/var/" kind="src" path="node_modules/jquery/src"/>
+	<classpathentry excluding="var/" kind="src" path="node_modules/jquery/src/ajax"/>
+	<classpathentry kind="src" path="node_modules/jquery/src/ajax/var"/>
+	<classpathentry kind="src" path="node_modules/jquery/src/attributes"/>
+	<classpathentry excluding="var/" kind="src" path="node_modules/jquery/src/core"/>
+	<classpathentry kind="src" path="node_modules/jquery/src/core/var"/>
+	<classpathentry excluding="var/" kind="src" path="node_modules/jquery/src/css"/>
+	<classpathentry kind="src" path="node_modules/jquery/src/css/var"/>
+	<classpathentry excluding="var/" kind="src" path="node_modules/jquery/src/data"/>
+	<classpathentry kind="src" path="node_modules/jquery/src/data/var"/>
+	<classpathentry kind="src" path="node_modules/jquery/src/deferred"/>
+	<classpathentry kind="src" path="node_modules/jquery/src/effects"/>
+	<classpathentry kind="src" path="node_modules/jquery/src/event"/>
+	<classpathentry kind="src" path="node_modules/jquery/src/exports"/>
+	<classpathentry excluding="var/" kind="src" path="node_modules/jquery/src/manipulation"/>
+	<classpathentry kind="src" path="node_modules/jquery/src/manipulation/var"/>
+	<classpathentry kind="src" path="node_modules/jquery/src/queue"/>
+	<classpathentry excluding="var/" kind="src" path="node_modules/jquery/src/traversing"/>
+	<classpathentry kind="src" path="node_modules/jquery/src/traversing/var"/>
+	<classpathentry kind="src" path="node_modules/jquery/src/var"/>
+	<classpathentry kind="src" path="node_modules/js-tokens"/>
+	<classpathentry kind="src" path="node_modules/jsbn"/>
+	<classpathentry excluding="jsdom/level2/|jsdom/level3/|jsdom/living/attributes/|jsdom/|jsdom/living/events/|jsdom/living/helpers/|jsdom/web-idl/|jsdom/living/traversal/|jsdom/living/generated/|jsdom/living/nodes/|jsdom/living/window/|jsdom/living/|jsdom/browser/" kind="src" path="node_modules/jsdom/lib"/>
+	<classpathentry excluding="level2/|level3/|living/attributes/|living/events/|living/helpers/|web-idl/|living/traversal/|living/generated/|living/nodes/|living/window/|living/|browser/" kind="src" path="node_modules/jsdom/lib/jsdom"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/browser"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/level2"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/level3"/>
+	<classpathentry excluding="attributes/|events/|helpers/|traversal/|generated/|nodes/|window/" kind="src" path="node_modules/jsdom/lib/jsdom/living"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/attributes"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/events"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/generated"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/helpers"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/nodes"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/traversal"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/living/window"/>
+	<classpathentry kind="src" path="node_modules/jsdom/lib/jsdom/web-idl"/>
+	<classpathentry kind="src" path="node_modules/jsesc"/>
+	<classpathentry kind="src" path="node_modules/json-schema/lib"/>
+	<classpathentry kind="src" path="node_modules/json-schema/test"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/json-stringify-safe"/>
+	<classpathentry kind="src" path="node_modules/json-stringify-safe/test"/>
+	<classpathentry kind="src" path="node_modules/json3/lib"/>
+	<classpathentry kind="src" path="node_modules/json5/lib"/>
+	<classpathentry excluding="parse-cases/arrays/|parse-cases/numbers/" kind="src" path="node_modules/json5/test"/>
+	<classpathentry kind="src" path="node_modules/json5/test/parse-cases/arrays"/>
+	<classpathentry kind="src" path="node_modules/json5/test/parse-cases/numbers"/>
+	<classpathentry kind="src" path="node_modules/jsonpointer"/>
+	<classpathentry kind="src" path="node_modules/jsprim/lib"/>
+	<classpathentry excluding="polyfill/|visitors/__tests__/gen/|visitors/|src/|src/__tests__/|visitors/__tests__/" kind="src" path="node_modules/jstransform"/>
+	<classpathentry kind="src" path="node_modules/jstransform/polyfill"/>
+	<classpathentry excluding="__tests__/" kind="src" path="node_modules/jstransform/src"/>
+	<classpathentry kind="src" path="node_modules/jstransform/src/__tests__"/>
+	<classpathentry excluding="__tests__/gen/|__tests__/" kind="src" path="node_modules/jstransform/visitors"/>
+	<classpathentry excluding="gen/" kind="src" path="node_modules/jstransform/visitors/__tests__"/>
+	<classpathentry kind="src" path="node_modules/jstransform/visitors/__tests__/gen"/>
+	<classpathentry kind="src" path="node_modules/kind-of"/>
+	<classpathentry kind="src" path="node_modules/lazy-cache"/>
+	<classpathentry kind="src" path="node_modules/levn/lib"/>
+	<classpathentry excluding="node_modules/json5/lib/" kind="src" path="node_modules/loader-utils"/>
+	<classpathentry kind="src" path="node_modules/loader-utils/node_modules/json5/lib"/>
+	<classpathentry excluding="function/|lang/|internal/|collection/|date/|array/|string/|number/|utility/|math/|object/|chain/" kind="src" path="node_modules/lodash"/>
+	<classpathentry kind="src" path="node_modules/lodash-es"/>
+	<classpathentry kind="src" path="node_modules/lodash/array"/>
+	<classpathentry kind="src" path="node_modules/lodash/chain"/>
+	<classpathentry kind="src" path="node_modules/lodash/collection"/>
+	<classpathentry kind="src" path="node_modules/lodash/date"/>
+	<classpathentry kind="src" path="node_modules/lodash/function"/>
+	<classpathentry kind="src" path="node_modules/lodash/internal"/>
+	<classpathentry kind="src" path="node_modules/lodash/lang"/>
+	<classpathentry kind="src" path="node_modules/lodash/math"/>
+	<classpathentry kind="src" path="node_modules/lodash/number"/>
+	<classpathentry kind="src" path="node_modules/lodash/object"/>
+	<classpathentry kind="src" path="node_modules/lodash/string"/>
+	<classpathentry kind="src" path="node_modules/lodash/utility"/>
+	<classpathentry kind="src" path="node_modules/longest"/>
+	<classpathentry kind="src" path="node_modules/loose-envify"/>
+	<classpathentry kind="src" path="node_modules/lru-cache/lib"/>
+	<classpathentry kind="src" path="node_modules/media-typer"/>
+	<classpathentry kind="src" path="node_modules/memory-fs/lib"/>
+	<classpathentry kind="src" path="node_modules/memory-fs/test"/>
+	<classpathentry kind="src" path="node_modules/merge-descriptors"/>
+	<classpathentry kind="src" path="node_modules/methods"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/micromatch"/>
+	<classpathentry kind="src" path="node_modules/micromatch/lib"/>
+	<classpathentry excluding="build/" kind="src" path="node_modules/mime"/>
+	<classpathentry kind="src" path="node_modules/mime-db"/>
+	<classpathentry kind="src" path="node_modules/mime-types"/>
+	<classpathentry kind="src" path="node_modules/mime/build"/>
+	<classpathentry kind="src" path="node_modules/minimatch"/>
+	<classpathentry excluding="example/|test/" kind="src" path="node_modules/minimist"/>
+	<classpathentry kind="src" path="node_modules/minimist/example"/>
+	<classpathentry kind="src" path="node_modules/minimist/test"/>
+	<classpathentry excluding="test/|node_modules/minimist/|examples/|node_modules/minimist/test/|bin/|node_modules/minimist/example/" kind="src" path="node_modules/mkdirp"/>
+	<classpathentry kind="src" path="node_modules/mkdirp/bin"/>
+	<classpathentry kind="src" path="node_modules/mkdirp/examples"/>
+	<classpathentry excluding="test/|example/" kind="src" path="node_modules/mkdirp/node_modules/minimist"/>
+	<classpathentry kind="src" path="node_modules/mkdirp/node_modules/minimist/example"/>
+	<classpathentry kind="src" path="node_modules/mkdirp/node_modules/minimist/test"/>
+	<classpathentry kind="src" path="node_modules/mkdirp/test"/>
+	<classpathentry excluding="bin/|lib/reporters/|node_modules/commander/|lib/interfaces/|node_modules/supports-color/|lib/|lib/browser/|node_modules/escape-string-regexp/" kind="src" path="node_modules/mocha"/>
+	<classpathentry kind="src" path="node_modules/mocha/bin"/>
+	<classpathentry excluding="reporters/|interfaces/|browser/" kind="src" path="node_modules/mocha/lib"/>
+	<classpathentry kind="src" path="node_modules/mocha/lib/browser"/>
+	<classpathentry kind="src" path="node_modules/mocha/lib/interfaces"/>
+	<classpathentry kind="src" path="node_modules/mocha/lib/reporters"/>
+	<classpathentry kind="src" path="node_modules/mocha/node_modules/commander"/>
+	<classpathentry kind="src" path="node_modules/mocha/node_modules/escape-string-regexp"/>
+	<classpathentry kind="src" path="node_modules/mocha/node_modules/supports-color"/>
+	<classpathentry kind="src" path="node_modules/ms"/>
+	<classpathentry excluding="tools/" kind="src" path="node_modules/nan"/>
+	<classpathentry kind="src" path="node_modules/nan/tools"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/negotiator"/>
+	<classpathentry kind="src" path="node_modules/negotiator/lib"/>
+	<classpathentry excluding="node_modules/readable-stream/lib/|node_modules/isarray/build/|node_modules/isarray/|mock/|node_modules/readable-stream/" kind="src" path="node_modules/node-libs-browser"/>
+	<classpathentry kind="src" path="node_modules/node-libs-browser/mock"/>
+	<classpathentry excluding="build/" kind="src" path="node_modules/node-libs-browser/node_modules/isarray"/>
+	<classpathentry kind="src" path="node_modules/node-libs-browser/node_modules/isarray/build"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/node-libs-browser/node_modules/readable-stream"/>
+	<classpathentry kind="src" path="node_modules/node-libs-browser/node_modules/readable-stream/lib"/>
+	<classpathentry excluding="benchmark/|test/" kind="src" path="node_modules/node-uuid"/>
+	<classpathentry kind="src" path="node_modules/node-uuid/benchmark"/>
+	<classpathentry kind="src" path="node_modules/node-uuid/test"/>
+	<classpathentry kind="src" path="node_modules/normalize-path"/>
+	<classpathentry kind="src" path="node_modules/number-is-nan"/>
+	<classpathentry excluding="modules/" kind="src" path="node_modules/nwmatcher/src"/>
+	<classpathentry kind="src" path="node_modules/nwmatcher/src/modules"/>
+	<classpathentry kind="src" path="node_modules/oauth-sign"/>
+	<classpathentry kind="src" path="node_modules/object-assign"/>
+	<classpathentry kind="src" path="node_modules/object.omit"/>
+	<classpathentry kind="src" path="node_modules/on-finished"/>
+	<classpathentry kind="src" path="node_modules/on-headers"/>
+	<classpathentry excluding="example/|node_modules/minimist/example/|node_modules/minimist/test/|node_modules/minimist/|test/|node_modules/wordwrap/example/|test/_/|node_modules/wordwrap/|node_modules/wordwrap/test/" kind="src" path="node_modules/optimist"/>
+	<classpathentry kind="src" path="node_modules/optimist/example"/>
+	<classpathentry excluding="example/|test/" kind="src" path="node_modules/optimist/node_modules/minimist"/>
+	<classpathentry kind="src" path="node_modules/optimist/node_modules/minimist/example"/>
+	<classpathentry kind="src" path="node_modules/optimist/node_modules/minimist/test"/>
+	<classpathentry excluding="example/|test/" kind="src" path="node_modules/optimist/node_modules/wordwrap"/>
+	<classpathentry kind="src" path="node_modules/optimist/node_modules/wordwrap/example"/>
+	<classpathentry kind="src" path="node_modules/optimist/node_modules/wordwrap/test"/>
+	<classpathentry excluding="_/" kind="src" path="node_modules/optimist/test"/>
+	<classpathentry kind="src" path="node_modules/optimist/test/_"/>
+	<classpathentry kind="src" path="node_modules/optionator/lib"/>
+	<classpathentry excluding="node_modules/url-parse/" kind="src" path="node_modules/original"/>
+	<classpathentry kind="src" path="node_modules/original/node_modules/url-parse"/>
+	<classpathentry kind="src" path="node_modules/os-browserify"/>
+	<classpathentry kind="src" path="node_modules/os-tmpdir"/>
+	<classpathentry excluding="lib/zlib/|lib/|dist/|lib/utils/" kind="src" path="node_modules/pako"/>
+	<classpathentry kind="src" path="node_modules/pako/dist"/>
+	<classpathentry excluding="zlib/|utils/" kind="src" path="node_modules/pako/lib"/>
+	<classpathentry kind="src" path="node_modules/pako/lib/utils"/>
+	<classpathentry kind="src" path="node_modules/pako/lib/zlib"/>
+	<classpathentry kind="src" path="node_modules/parse-glob"/>
+	<classpathentry excluding="lib/serialization/|lib/common/|lib/tree_adapters/|lib/simple_api/|lib/tree_construction/|lib/jsdom/|lib/tokenization/" kind="src" path="node_modules/parse5"/>
+	<classpathentry kind="src" path="node_modules/parse5/lib/common"/>
+	<classpathentry kind="src" path="node_modules/parse5/lib/jsdom"/>
+	<classpathentry kind="src" path="node_modules/parse5/lib/serialization"/>
+	<classpathentry kind="src" path="node_modules/parse5/lib/simple_api"/>
+	<classpathentry kind="src" path="node_modules/parse5/lib/tokenization"/>
+	<classpathentry kind="src" path="node_modules/parse5/lib/tree_adapters"/>
+	<classpathentry kind="src" path="node_modules/parse5/lib/tree_construction"/>
+	<classpathentry kind="src" path="node_modules/parseurl"/>
+	<classpathentry kind="src" path="node_modules/path-browserify"/>
+	<classpathentry kind="src" path="node_modules/path-exists"/>
+	<classpathentry kind="src" path="node_modules/path-is-absolute"/>
+	<classpathentry kind="src" path="node_modules/path-to-regexp"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/pbkdf2-compat"/>
+	<classpathentry kind="src" path="node_modules/pbkdf2-compat/test"/>
+	<classpathentry kind="src" path="node_modules/pinkie"/>
+	<classpathentry kind="src" path="node_modules/pinkie-promise"/>
+	<classpathentry kind="src" path="node_modules/prelude-ls/lib"/>
+	<classpathentry kind="src" path="node_modules/preserve"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/private"/>
+	<classpathentry kind="src" path="node_modules/private/test"/>
+	<classpathentry kind="src" path="node_modules/process"/>
+	<classpathentry kind="src" path="node_modules/process-nextick-args"/>
+	<classpathentry excluding="lib/|src/|setimmediate/|domains/" kind="src" path="node_modules/promise"/>
+	<classpathentry kind="src" path="node_modules/promise/domains"/>
+	<classpathentry kind="src" path="node_modules/promise/lib"/>
+	<classpathentry kind="src" path="node_modules/promise/setimmediate"/>
+	<classpathentry kind="src" path="node_modules/promise/src"/>
+	<classpathentry kind="src" path="node_modules/proxy-addr"/>
+	<classpathentry kind="src" path="node_modules/prr"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/pseudomap"/>
+	<classpathentry kind="src" path="node_modules/pseudomap/test"/>
+	<classpathentry kind="src" path="node_modules/punycode"/>
+	<classpathentry kind="src" path="node_modules/qs/dist"/>
+	<classpathentry kind="src" path="node_modules/qs/lib"/>
+	<classpathentry kind="src" path="node_modules/qs/test"/>
+	<classpathentry kind="src" path="node_modules/query-string"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/querystring"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/querystring-es3"/>
+	<classpathentry kind="src" path="node_modules/querystring-es3/test"/>
+	<classpathentry kind="src" path="node_modules/querystring/test"/>
+	<classpathentry kind="src" path="node_modules/querystringify"/>
+	<classpathentry kind="src" path="node_modules/randomatic"/>
+	<classpathentry kind="src" path="node_modules/range-parser"/>
+	<classpathentry excluding="dist/|lib/" kind="src" path="node_modules/react"/>
+	<classpathentry kind="src" path="node_modules/react-addons-test-utils"/>
+	<classpathentry excluding="dist/" kind="src" path="node_modules/react-dom"/>
+	<classpathentry kind="src" path="node_modules/react-dom/dist"/>
+	<classpathentry kind="src" path="node_modules/react-redux/dist"/>
+	<classpathentry excluding="utils/|components/" kind="src" path="node_modules/react-redux/lib"/>
+	<classpathentry kind="src" path="node_modules/react-redux/lib/components"/>
+	<classpathentry kind="src" path="node_modules/react-redux/lib/utils"/>
+	<classpathentry excluding="fp/" kind="src" path="node_modules/react-redux/node_modules/lodash"/>
+	<classpathentry kind="src" path="node_modules/react-redux/node_modules/lodash/fp"/>
+	<classpathentry excluding="components/|utils/" kind="src" path="node_modules/react-redux/src"/>
+	<classpathentry kind="src" path="node_modules/react-redux/src/components"/>
+	<classpathentry kind="src" path="node_modules/react-redux/src/utils"/>
+	<classpathentry kind="src" path="node_modules/react-router/es6"/>
+	<classpathentry kind="src" path="node_modules/react-router/lib"/>
+	<classpathentry kind="src" path="node_modules/react-router/umd"/>
+	<classpathentry kind="src" path="node_modules/react/dist"/>
+	<classpathentry kind="src" path="node_modules/react/lib"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/readable-stream"/>
+	<classpathentry kind="src" path="node_modules/readable-stream/lib"/>
+	<classpathentry excluding="node_modules/graceful-fs/|examples/|test/" kind="src" path="node_modules/readdirp"/>
+	<classpathentry kind="src" path="node_modules/readdirp/examples"/>
+	<classpathentry kind="src" path="node_modules/readdirp/node_modules/graceful-fs"/>
+	<classpathentry kind="src" path="node_modules/readdirp/test"/>
+	<classpathentry kind="src" path="node_modules/redux/dist"/>
+	<classpathentry excluding="utils/" kind="src" path="node_modules/redux/es"/>
+	<classpathentry kind="src" path="node_modules/redux/es/utils"/>
+	<classpathentry excluding="utils/" kind="src" path="node_modules/redux/lib"/>
+	<classpathentry kind="src" path="node_modules/redux/lib/utils"/>
+	<classpathentry excluding="fp/" kind="src" path="node_modules/redux/node_modules/lodash"/>
+	<classpathentry kind="src" path="node_modules/redux/node_modules/lodash/fp"/>
+	<classpathentry excluding="utils/" kind="src" path="node_modules/redux/src"/>
+	<classpathentry kind="src" path="node_modules/redux/src/utils"/>
+	<classpathentry kind="src" path="node_modules/regenerate"/>
+	<classpathentry kind="src" path="node_modules/regex-cache"/>
+	<classpathentry excluding="data/" kind="src" path="node_modules/regexpu-core"/>
+	<classpathentry kind="src" path="node_modules/regexpu-core/data"/>
+	<classpathentry kind="src" path="node_modules/regjsgen"/>
+	<classpathentry kind="src" path="node_modules/regjsparser"/>
+	<classpathentry kind="src" path="node_modules/repeat-element"/>
+	<classpathentry kind="src" path="node_modules/repeat-string"/>
+	<classpathentry kind="src" path="node_modules/repeating"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/request"/>
+	<classpathentry kind="src" path="node_modules/request/lib"/>
+	<classpathentry kind="src" path="node_modules/requires-port"/>
+	<classpathentry kind="src" path="node_modules/right-align"/>
+	<classpathentry kind="src" path="node_modules/ripemd160/lib"/>
+	<classpathentry kind="src" path="node_modules/sax/lib"/>
+	<classpathentry kind="src" path="node_modules/send"/>
+	<classpathentry excluding="node_modules/negotiator/|node_modules/negotiator/lib/|node_modules/accepts/" kind="src" path="node_modules/serve-index"/>
+	<classpathentry kind="src" path="node_modules/serve-index/node_modules/accepts"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/serve-index/node_modules/negotiator"/>
+	<classpathentry kind="src" path="node_modules/serve-index/node_modules/negotiator/lib"/>
+	<classpathentry kind="src" path="node_modules/serve-static"/>
+	<classpathentry excluding="test/|test/prepare/" kind="src" path="node_modules/sha.js"/>
+	<classpathentry excluding="prepare/" kind="src" path="node_modules/sha.js/test"/>
+	<classpathentry kind="src" path="node_modules/sha.js/test/prepare"/>
+	<classpathentry kind="src" path="node_modules/shebang-regex"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/sigmund"/>
+	<classpathentry kind="src" path="node_modules/sigmund/test"/>
+	<classpathentry kind="src" path="node_modules/slash"/>
+	<classpathentry excluding="examples/|test/|lib/" kind="src" path="node_modules/sntp"/>
+	<classpathentry kind="src" path="node_modules/sntp/examples"/>
+	<classpathentry kind="src" path="node_modules/sntp/lib"/>
+	<classpathentry kind="src" path="node_modules/sntp/test"/>
+	<classpathentry excluding="examples/hapi/|examples/koa/|examples/express/|tests/test_server/|examples/multiplex/|lib/|examples/express-3.x/|examples/echo/" kind="src" path="node_modules/sockjs"/>
+	<classpathentry excluding="transport/lib/|event/|transport/receiver/|utils/|transport/driver/|transport/|transport/browser/|transport/sender/" kind="src" path="node_modules/sockjs-client/lib"/>
+	<classpathentry kind="src" path="node_modules/sockjs-client/lib/event"/>
+	<classpathentry excluding="lib/|receiver/|driver/|browser/|sender/" kind="src" path="node_modules/sockjs-client/lib/transport"/>
+	<classpathentry kind="src" path="node_modules/sockjs-client/lib/transport/browser"/>
+	<classpathentry kind="src" path="node_modules/sockjs-client/lib/transport/driver"/>
+	<classpathentry kind="src" path="node_modules/sockjs-client/lib/transport/lib"/>
+	<classpathentry kind="src" path="node_modules/sockjs-client/lib/transport/receiver"/>
+	<classpathentry kind="src" path="node_modules/sockjs-client/lib/transport/sender"/>
+	<classpathentry kind="src" path="node_modules/sockjs-client/lib/utils"/>
+	<classpathentry kind="src" path="node_modules/sockjs-client/node_modules/faye-websocket/examples"/>
+	<classpathentry excluding="websocket/api/|websocket/" kind="src" path="node_modules/sockjs-client/node_modules/faye-websocket/lib/faye"/>
+	<classpathentry excluding="api/" kind="src" path="node_modules/sockjs-client/node_modules/faye-websocket/lib/faye/websocket"/>
+	<classpathentry kind="src" path="node_modules/sockjs-client/node_modules/faye-websocket/lib/faye/websocket/api"/>
+	<classpathentry kind="src" path="node_modules/sockjs/examples/echo"/>
+	<classpathentry kind="src" path="node_modules/sockjs/examples/express"/>
+	<classpathentry kind="src" path="node_modules/sockjs/examples/express-3.x"/>
+	<classpathentry kind="src" path="node_modules/sockjs/examples/hapi"/>
+	<classpathentry kind="src" path="node_modules/sockjs/examples/koa"/>
+	<classpathentry kind="src" path="node_modules/sockjs/examples/multiplex"/>
+	<classpathentry kind="src" path="node_modules/sockjs/lib"/>
+	<classpathentry kind="src" path="node_modules/sockjs/tests/test_server"/>
+	<classpathentry kind="src" path="node_modules/source-list-map/lib"/>
+	<classpathentry excluding="fixtures/from-to-tests/" kind="src" path="node_modules/source-list-map/test"/>
+	<classpathentry kind="src" path="node_modules/source-list-map/test/fixtures/from-to-tests"/>
+	<classpathentry excluding="build/|lib/source-map/|lib/|test/source-map/|test/" kind="src" path="node_modules/source-map"/>
+	<classpathentry excluding="browser-test/|header-test/|node_modules/source-map/lib/source-map/|node_modules/source-map/test/|node_modules/source-map/build/|node_modules/source-map/lib/|node_modules/source-map/|node_modules/source-map/test/source-map/|amd-test/" kind="src" path="node_modules/source-map-support"/>
+	<classpathentry kind="src" path="node_modules/source-map-support/amd-test"/>
+	<classpathentry kind="src" path="node_modules/source-map-support/browser-test"/>
+	<classpathentry kind="src" path="node_modules/source-map-support/header-test"/>
+	<classpathentry excluding="lib/source-map/|test/|build/|lib/|test/source-map/" kind="src" path="node_modules/source-map-support/node_modules/source-map"/>
+	<classpathentry kind="src" path="node_modules/source-map-support/node_modules/source-map/build"/>
+	<classpathentry excluding="source-map/" kind="src" path="node_modules/source-map-support/node_modules/source-map/lib"/>
+	<classpathentry kind="src" path="node_modules/source-map-support/node_modules/source-map/lib/source-map"/>
+	<classpathentry excluding="source-map/" kind="src" path="node_modules/source-map-support/node_modules/source-map/test"/>
+	<classpathentry kind="src" path="node_modules/source-map-support/node_modules/source-map/test/source-map"/>
+	<classpathentry kind="src" path="node_modules/source-map/build"/>
+	<classpathentry excluding="source-map/" kind="src" path="node_modules/source-map/lib"/>
+	<classpathentry kind="src" path="node_modules/source-map/lib/source-map"/>
+	<classpathentry excluding="source-map/" kind="src" path="node_modules/source-map/test"/>
+	<classpathentry kind="src" path="node_modules/source-map/test/source-map"/>
+	<classpathentry excluding="formats/" kind="src" path="node_modules/sshpk/lib"/>
+	<classpathentry kind="src" path="node_modules/sshpk/lib/formats"/>
+	<classpathentry kind="src" path="node_modules/sshpk/node_modules/assert-plus"/>
+	<classpathentry kind="src" path="node_modules/statuses"/>
+	<classpathentry excluding="node_modules/readable-stream/lib/|node_modules/readable-stream/|node_modules/isarray/|node_modules/isarray/build/|test/" kind="src" path="node_modules/stream-browserify"/>
+	<classpathentry excluding="build/" kind="src" path="node_modules/stream-browserify/node_modules/isarray"/>
+	<classpathentry kind="src" path="node_modules/stream-browserify/node_modules/isarray/build"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/stream-browserify/node_modules/readable-stream"/>
+	<classpathentry kind="src" path="node_modules/stream-browserify/node_modules/readable-stream/lib"/>
+	<classpathentry kind="src" path="node_modules/stream-browserify/test"/>
+	<classpathentry excluding="test/|lib/" kind="src" path="node_modules/stream-cache"/>
+	<classpathentry kind="src" path="node_modules/stream-cache/lib"/>
+	<classpathentry kind="src" path="node_modules/stream-cache/test"/>
+	<classpathentry kind="src" path="node_modules/strict-uri-encode"/>
+	<classpathentry kind="src" path="node_modules/string_decoder"/>
+	<classpathentry kind="src" path="node_modules/stringstream"/>
+	<classpathentry kind="src" path="node_modules/strip-ansi"/>
+	<classpathentry kind="src" path="node_modules/supports-color"/>
+	<classpathentry kind="src" path="node_modules/symbol-observable"/>
+	<classpathentry kind="src" path="node_modules/symbol-tree/lib"/>
+	<classpathentry kind="src" path="node_modules/symbol-tree/test"/>
+	<classpathentry kind="src" path="node_modules/tapable/lib"/>
+	<classpathentry kind="src" path="node_modules/tapable/test"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/through"/>
+	<classpathentry kind="src" path="node_modules/through/test"/>
+	<classpathentry excluding="example/enroll/js/|example/enroll/" kind="src" path="node_modules/timers-browserify"/>
+	<classpathentry excluding="js/" kind="src" path="node_modules/timers-browserify/example/enroll"/>
+	<classpathentry kind="src" path="node_modules/timers-browserify/example/enroll/js"/>
+	<classpathentry kind="src" path="node_modules/to-fast-properties"/>
+	<classpathentry kind="src" path="node_modules/tough-cookie/lib"/>
+	<classpathentry kind="src" path="node_modules/tr46"/>
+	<classpathentry kind="src" path="node_modules/trim-right"/>
+	<classpathentry kind="src" path="node_modules/tty-browserify"/>
+	<classpathentry kind="src" path="node_modules/tunnel-agent"/>
+	<classpathentry kind="src" path="node_modules/tweetnacl"/>
+	<classpathentry kind="src" path="node_modules/type-check/lib"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/type-detect"/>
+	<classpathentry kind="src" path="node_modules/type-detect/lib"/>
+	<classpathentry kind="src" path="node_modules/type-is"/>
+	<classpathentry excluding="src/|test/|dist/" kind="src" path="node_modules/ua-parser-js"/>
+	<classpathentry kind="src" path="node_modules/ua-parser-js/dist"/>
+	<classpathentry kind="src" path="node_modules/ua-parser-js/src"/>
+	<classpathentry kind="src" path="node_modules/ua-parser-js/test"/>
+	<classpathentry kind="src" path="node_modules/uglify-js/bin"/>
+	<classpathentry kind="src" path="node_modules/uglify-js/lib"/>
+	<classpathentry kind="src" path="node_modules/uglify-js/node_modules/async/lib"/>
+	<classpathentry excluding="dist/|lib/" kind="src" path="node_modules/uglify-js/node_modules/source-map"/>
+	<classpathentry kind="src" path="node_modules/uglify-js/node_modules/source-map/dist"/>
+	<classpathentry kind="src" path="node_modules/uglify-js/node_modules/source-map/lib"/>
+	<classpathentry kind="src" path="node_modules/uglify-js/tools"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/uglify-to-browserify"/>
+	<classpathentry kind="src" path="node_modules/uglify-to-browserify/test"/>
+	<classpathentry kind="src" path="node_modules/unpipe"/>
+	<classpathentry excluding="node_modules/punycode/" kind="src" path="node_modules/url"/>
+	<classpathentry kind="src" path="node_modules/url-parse"/>
+	<classpathentry kind="src" path="node_modules/url/node_modules/punycode"/>
+	<classpathentry kind="src" path="node_modules/user-home"/>
+	<classpathentry excluding="test/node/|test/browser/|support/" kind="src" path="node_modules/util"/>
+	<classpathentry kind="src" path="node_modules/util-deprecate"/>
+	<classpathentry kind="src" path="node_modules/util/support"/>
+	<classpathentry kind="src" path="node_modules/util/test/browser"/>
+	<classpathentry kind="src" path="node_modules/util/test/node"/>
+	<classpathentry kind="src" path="node_modules/utils-merge"/>
+	<classpathentry kind="src" path="node_modules/vary"/>
+	<classpathentry kind="src" path="node_modules/verror/examples"/>
+	<classpathentry kind="src" path="node_modules/verror/lib"/>
+	<classpathentry kind="src" path="node_modules/verror/tests"/>
+	<classpathentry excluding="test/|example/run/" kind="src" path="node_modules/vm-browserify"/>
+	<classpathentry kind="src" path="node_modules/vm-browserify/example/run"/>
+	<classpathentry kind="src" path="node_modules/vm-browserify/test"/>
+	<classpathentry kind="src" path="node_modules/warning"/>
+	<classpathentry kind="src" path="node_modules/watchpack/lib"/>
+	<classpathentry kind="src" path="node_modules/watchpack/node_modules/async/lib"/>
+	<classpathentry kind="src" path="node_modules/watchpack/node_modules/async/support"/>
+	<classpathentry kind="src" path="node_modules/watchpack/node_modules/graceful-fs"/>
+	<classpathentry kind="src" path="node_modules/watchpack/playground"/>
+	<classpathentry excluding="helpers/" kind="src" path="node_modules/watchpack/test"/>
+	<classpathentry kind="src" path="node_modules/watchpack/test/helpers"/>
+	<classpathentry kind="src" path="node_modules/webidl-conversions/lib"/>
+	<classpathentry kind="src" path="node_modules/webpack-core/lib"/>
+	<classpathentry kind="src" path="node_modules/webpack-core/node_modules/source-map/build"/>
+	<classpathentry excluding="source-map/" kind="src" path="node_modules/webpack-core/node_modules/source-map/lib"/>
+	<classpathentry kind="src" path="node_modules/webpack-core/node_modules/source-map/lib/source-map"/>
+	<classpathentry kind="src" path="node_modules/webpack-dev-middleware"/>
+	<classpathentry kind="src" path="node_modules/webpack-dev-server/bin"/>
+	<classpathentry excluding="web_modules/jquery/" kind="src" path="node_modules/webpack-dev-server/client"/>
+	<classpathentry kind="src" path="node_modules/webpack-dev-server/client/web_modules/jquery"/>
+	<classpathentry kind="src" path="node_modules/webpack-dev-server/lib"/>
+	<classpathentry kind="src" path="node_modules/webpack-dev-server/node_modules/supports-color"/>
+	<classpathentry kind="src" path="node_modules/webpack/bin"/>
+	<classpathentry kind="src" path="node_modules/webpack/buildin"/>
+	<classpathentry kind="src" path="node_modules/webpack/hot"/>
+	<classpathentry excluding="dependencies/|web/|optimize/|webworker/|node/" kind="src" path="node_modules/webpack/lib"/>
+	<classpathentry kind="src" path="node_modules/webpack/lib/dependencies"/>
+	<classpathentry kind="src" path="node_modules/webpack/lib/node"/>
+	<classpathentry kind="src" path="node_modules/webpack/lib/optimize"/>
+	<classpathentry kind="src" path="node_modules/webpack/lib/web"/>
+	<classpathentry kind="src" path="node_modules/webpack/lib/webworker"/>
+	<classpathentry kind="src" path="node_modules/webpack/node_modules/acorn/bin"/>
+	<classpathentry kind="src" path="node_modules/webpack/node_modules/acorn/dist"/>
+	<classpathentry excluding="loose/|bin/|walk/" kind="src" path="node_modules/webpack/node_modules/acorn/src"/>
+	<classpathentry kind="src" path="node_modules/webpack/node_modules/acorn/src/bin"/>
+	<classpathentry kind="src" path="node_modules/webpack/node_modules/acorn/src/loose"/>
+	<classpathentry kind="src" path="node_modules/webpack/node_modules/acorn/src/walk"/>
+	<classpathentry kind="src" path="node_modules/webpack/node_modules/supports-color"/>
+	<classpathentry kind="src" path="node_modules/webpack/web_modules"/>
+	<classpathentry kind="src" path="node_modules/websocket-driver/examples"/>
+	<classpathentry excluding="driver/hybi/|driver/" kind="src" path="node_modules/websocket-driver/lib/websocket"/>
+	<classpathentry excluding="hybi/" kind="src" path="node_modules/websocket-driver/lib/websocket/driver"/>
+	<classpathentry kind="src" path="node_modules/websocket-driver/lib/websocket/driver/hybi"/>
+	<classpathentry excluding="pipeline/" kind="src" path="node_modules/websocket-extensions/lib"/>
+	<classpathentry kind="src" path="node_modules/websocket-extensions/lib/pipeline"/>
+	<classpathentry kind="src" path="node_modules/whatwg-fetch"/>
+	<classpathentry kind="src" path="node_modules/whatwg-url/lib"/>
+	<classpathentry kind="src" path="node_modules/window-size"/>
+	<classpathentry excluding="example/|test/" kind="src" path="node_modules/wordwrap"/>
+	<classpathentry kind="src" path="node_modules/wordwrap/example"/>
+	<classpathentry kind="src" path="node_modules/wordwrap/test"/>
+	<classpathentry kind="src" path="node_modules/xml-name-validator/lib"/>
+	<classpathentry kind="src" path="node_modules/xtend"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/yallist"/>
+	<classpathentry kind="src" path="node_modules/yallist/test"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/yargs"/>
+	<classpathentry kind="src" path="node_modules/yargs/lib"/>
+	<classpathentry excluding="actions/|components/|reducers/" kind="src" path="src"/>
+	<classpathentry kind="src" path="src/actions"/>
+	<classpathentry kind="src" path="src/components"/>
+	<classpathentry kind="src" path="src/reducers"/>
+	<classpathentry excluding="components/" kind="src" path="test"/>
+	<classpathentry kind="src" path="test/components"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
