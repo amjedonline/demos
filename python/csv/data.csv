@@ -1,0 +1,28 @@
+
+Information about a product,Information zu einem Produkt,ContactSubjectSalesforce.SUBJECT_PRODUCT,-,-,Enquiry about product,Product availability,,,,,,,,,,,,,,,
+Account,Kundenkonto,ContactSubjectSalesforce.SUBJECT_CUSTOMER_ACCOUNT,I am unable to access my account,ContactSubjectSalesforce.SUBJECT_CUSTOMER_ACCOUNT_NOACCESS,Account,Technical problems,Unable to login,,,,,,,,,,,,,,
+,,,I do not have an account,ContactSubjectSalesforce.SUBJECT_CUSTOMER_ACCOUNT_NOACCOUNT,Account,General,Help creating an account,,,,,,,,,,,,,,
+,,,I do have an account,ContactSubjectSalesforce.SUBJECT_CUSTOMER_ACCOUNT_ACCOUNT,Account,Change of customer data,,,,,,,,,,,,,,,
+Order process,Bestellprozess,ContactSubjectSalesforce.SUBJECT_ORDERS,I have not yet placed an order,ContactSubjectSalesforce.SUBJECT_ORDERS_NOORDER,Order process,Complaint favourite payment method not offered,,,,,,,,,,,,,,,
+,,,I have placed an order,ContactSubjectSalesforce.SUBJECT_ORDERS_ORDER,Order process,Change of order,,,,,,,,,,,,,,,
+Delivery process,Lieferung,ContactSubjectSalesforce.SUBJECT_DELIVERY,I have not yet placed an order,ContactSubjectSalesforce.SUBJECT_DELIVERY_NOORDER,Order process,General information,General information about delivery conditions,,,,,,,,,,,,,,
+,,,I have not received my order yet,ContactSubjectSalesforce.SUBJECT_DELIVERY_NOTRECEIVED,Status of delivery,Completely missing delivery,,,,,,,,,,,,,,,
+,,,I have received my order,ContactSubjectSalesforce.SUBJECT_DELIVERY_RECEIVED,Status of delivery,Partly missing delivery,Missing article,,,,,,,,,,,,,,
+Return process,Retouren,ContactSubjectSalesforce.SUBJECT_RETOUR,I have not yet made a return,ContactSubjectSalesforce.SUBJECT_RETOUR_NOTRETURNED,Return process,Return label requested,via email,,,,,,,,,,,,,,
+,,,I have returned my item,ContactSubjectSalesforce.SUBJECT_RETOUR_RETURNED,Refunds,Missing refund,,,,,,,,,,,,,,,
+,,,The courier did not come for the scheduled pick-up,ContactSubjectSalesforce.SUBJECT_RETOUR_COURIER,Return process,Announcement of return (withdrawal),Customer complains about a failed parcel pick-up,,,,,,,,,,,,,,
+,,,Other,ContactSubjectSalesforce.SUBJECT_RETOUR_OTHER,Return process,Announcement of return (withdrawal),Explanation of returns process and handling,,,,,,,,,,,,,,
+Payment / Refund process,Bezahlung,ContactSubjectSalesforce.SUBJECT_PAYMENT,I have not yet placed an order,ContactSubjectSalesforce.SUBJECT_PAYMENT_NOORDER,Order process,General information,General information about payment methods,,,,,,,,,,,,,,
+,,,I have placed an order,ContactSubjectSalesforce.SUBJECT_PAYMENT_ORDER,Dunning,,,,,,,,,,,,,,,,
+Vouchers,Gutscheine,ContactSubjectSalesforce.SUBJECT_VOUCHERS,I have not yet placed an order,ContactSubjectSalesforce.SUBJECT_VOUCHERS_NOORDER,Vouchers,Promotional voucher,Problems during redeem of coupon code,,,,,,,,,,,,,,
+,,,I have placed an order,ContactSubjectSalesforce.SUBJECT_VOUCHERS_ORDER,Vouchers,Promotional voucher,Retroactively applying the coupon to the order,,,,,,,,,,,,,,
+Article complaint,Artikel Reklamation,ContactSubjectSalesforce.SUBJECT_RECLAMATION,Received product within X days,ContactSubjectSalesforce.SUBJECT_RECLAMATION_WITHINXDAYS,Wrong delivery,Incorrect article sent,,,,,,,,,,,,,,,
+,,,I received the product more than X days ago,ContactSubjectSalesforce.SUBJECT_RECLAMATION_MORETHANXDAYS,Reclamation,Article reclamation,,,,,,,,,,,,,,,
+Other,Alles andere,ContactSubjectSalesforce.SUBJECT_OTHER,I would like to leave feedback,ContactSubjectSalesforce.SUBJECT_OTHER_FEEDBACK,Others,Feedback to service,,,,,,,,,,,,,,,
+,,,Request about marketing / purchasing,ContactSubjectSalesforce.SUBJECT_OTHER_MARKETING,Others,Marketing,Request about marketing / purchasing / sponsoring,,,,,,,,,,,,,,
+,,,Other,ContactSubjectSalesforce.SUBJECT_OTHER_OTHER,Others,Other,,,,,,,,,,,,,,,
+
+
+
+
+

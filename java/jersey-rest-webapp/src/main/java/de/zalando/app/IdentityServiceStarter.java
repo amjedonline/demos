@@ -1,4 +1,4 @@
-package com.faktor73.app;
+package de.zalando.app;
 
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;

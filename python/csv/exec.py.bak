@@ -1,0 +1,36 @@
+import csv
+statement = '$REASON$("$CATEGORY$", "$DESC$", FieldConstraint.$ORDERNO_FIELD$, FieldConstraint.$ARTICLENO_FIELD$,\
+		        FieldConstraint.$PAYMENTMETHOD_FIELD$, FieldConstraint.$VOUCHERNO_FIELD$),'
+
+def substitute(string, valuedict):
+	for key in valuedict:
+		string = string.replace(key, valuedict[key])
+	return string
+
+with open('contact-form-definition.csv', 'rb') as f:
+	reader = csv.reader(f)
+	rownum = 1
+	for row in reader:
+		valuedict={'$REASON$':'','$ORDER$':str(rownum), '$CATEGORY$': '', '$DESC$':'', '$ORDERNO_FIELD$':'OPTIONAL', \
+				'$ARTICLENO_FIELD$':'OPTIONAL', '$PAYMENTMETHOD_FIELD$':'OPTIONAL', '$VOUCHERNO_FIELD$':'OPTIONAL'}
+		colnum = 0
+		for col in row:
+			if colnum == 0:
+				valuedict['$CATEGORY$'] = col
+			if colnum == 1:
+				valuedict['$REASON$'] = col
+			elif colnum == 3:
+				valuedict['$DESC$'] = row[colnum]
+			elif colnum == 10:
+				valuedict['$ORDERNO_FIELD$'] = row[colnum].upper()
+			elif colnum == 11:
+				valuedict['$ARTICLENO_FIELD$'] = row[colnum].upper()
+			elif colnum == 12:
+				valuedict['$PAYMENTMETHOD_FIELD$'] = row[colnum].upper()
+			elif colnum == 13:
+				valuedict['$VOUCHERNO_FIELD$'] = row[colnum].upper()
+			colnum += 1
+		rownum += 1
+		print substitute(statement, valuedict)
+
+		#print statement.replace("$ORDER$", str(rownum)).replace("$ST$", st).replace("$TYPE$", typ).replace("$ST_DESC$", st_desc) 

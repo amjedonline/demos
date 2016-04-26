@@ -1,11 +1,11 @@
-package com.faktor73.app;
+package de.zalando.app;
 
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
 import org.glassfish.jersey.servlet.ServletContainer;
 
-import com.faktor73.Servlet;
+import de.zalando.Servlet;
 
 public class Starter {
 	public static void main(String[] args) throws Exception {
