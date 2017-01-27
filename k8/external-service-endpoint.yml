@@ -1,0 +1,11 @@
+kind: Endpoints
+apiVersion: v1
+metadata:
+    name: couchdb
+    namespace: default
+subsets:
+  - addresses:
+    - ip: 52.29.13.34
+    ports:
+    - name: couch
+      port: 8080

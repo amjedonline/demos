@@ -1,0 +1,25 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+    name: service73-nginx
+    namespace: crm-preprod
+spec:
+    replicas: 2
+    selector:
+        matchLabels:
+            app: service73-nginx-app
+    template:
+        metadata:
+            name: service73-nginx
+            labels:
+                app: service73-nginx-app
+                version: "1"
+        spec:
+            containers:
+                - name: super73-nginx-container
+                  image: nginx
+                  imagePullPolicy: Always
+                  ports:
+                    - containerPort: 80
+                      hostPort: 80
+

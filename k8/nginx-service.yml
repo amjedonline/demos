@@ -1,0 +1,13 @@
+apiVerions: v1
+kind: Service
+metadata:
+    name: super73-nginx-service
+    namespace: crm-preprod
+spec:
+    type: LoadBalancer
+    selector:
+        app: super73-nginx-ser
+    ports:
+        - protocol: TCP
+          port: 80
+          targetPort: 80
